@@ -28,9 +28,9 @@ public class LegoDatabase {
 			this.connection = DriverManager.getConnection(conStr);
 			return true;
 	        }
-	        // Handle any errors that may have occurred.
 	        catch (SQLException e) {
-	            e.printStackTrace();
+	        	System.out.println(e);
+	         //   e.printStackTrace();
 	        }
 		return false;
 	}
