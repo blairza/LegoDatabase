@@ -14,7 +14,9 @@ public class Main {
 		String userInput = "";
 		boolean loggedIn = false;
 		while(!loggedIn) {
-			System.out.println("Welcome to LEGO Databaase. What would you like to do");
+			System.out.println("Welcome to LEGO Databaase.");
+			System.out.println("This is a temporary user interface to show basic functionality");
+			System.out.println("Choose from the list below");
 			System.out.println("1. Login with existing user");
 			System.out.println("2. Register a new user");
 			userInput = scan.nextLine();
@@ -41,6 +43,7 @@ public class Main {
 			System.out.println("4. Add Set to collection");
 			System.out.println("5. View owned Sets");
 			System.out.println("6. View owned parts");
+			System.out.println("7. Exit");
 			System.out.print("Selection: ");
 			userInput = scan.nextLine();
 			if(userInput.equals("1")) {
@@ -63,6 +66,9 @@ public class Main {
 				ld.viewOwnedSets(username);
 			} else if(userInput.equals("6")) {
 				ld.viewOwnedParts(username);
+			} else if(userInput.equals("7")) {
+				exit = true;
+				System.out.println("Exiting program");
 			} else {
 				System.out.println("Invalid selection");
 			}
