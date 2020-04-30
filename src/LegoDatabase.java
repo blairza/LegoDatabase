@@ -47,4 +47,34 @@ public class LegoDatabase {
 			e.printStackTrace();
 		}
 	}
+
+	public void viewParts() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void viewSets() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addPartToCollection(String username, String partNum, String color, String quantity) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void addSetToCollection(String username, String setNum) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void viewOwnedSets(String username) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public void viewOwnedParts(String username) {
+		// TODO Auto-generated method stub
+		
+	}
 }
