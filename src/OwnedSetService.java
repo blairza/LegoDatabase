@@ -11,12 +11,12 @@ public class OwnedSetService {
 		this.c = c;
 	}
 	
-	public boolean addSet(int setNum,String username) {
+	public boolean addSet(String setNum,String username) {
 		CallableStatement stmt = null;
 		try {
 			stmt = c.prepareCall("{call addSetToCollection(?,?)}");
 			stmt.setString(1, username);
-			stmt.setInt(2, setNum);
+			stmt.setString(2, setNum);
 		}catch(SQLException e){
 			System.out.println("Error Setting up statement: "+e);
 			return false;
@@ -32,7 +32,7 @@ public class OwnedSetService {
 	
 	public ResultSet getOwnedSets(String username){
 		ResultSet s = null;
-		String query = "Select SetName from LEGO_Sets Join OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
+		String query = "Select SetNumber, SetName from LEGO_Sets Join OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
 		CallableStatement stmt;
 		try {
 			stmt = c.prepareCall(query);

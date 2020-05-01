@@ -16,14 +16,14 @@ public class OwnedPieceService {
 		this.c = c;
 	}
 	
-	public boolean addPiece(String username, String color, String partNum, int quantity) {
+	public boolean addPiece(String username, String color, String partNum, String quantity) {
 		CallableStatement stmt = null;
 		try {
 			stmt = c.prepareCall("{call AddPieceToCollection(?,?,?,?)}");
 			stmt.setString(1, username);
 			stmt.setString(2, color);
 			stmt.setString(3, partNum);
-			stmt.setInt(4, quantity);
+			stmt.setString(4, quantity);
 		}catch(SQLException e){
 			e.printStackTrace();
 		}

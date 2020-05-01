@@ -9,16 +9,16 @@ import javax.swing.JOptionPane;
 
 public class AllPieceService {
 
-	private LegoDatabase legodb = null;
+	private Connection c;
 	
-	public AllPieceService(LegoDatabase db) {
-		legodb = db;
+	public AllPieceService(Connection c) {
+		this.c = c;
 	}
 	
 	public boolean addPiece(String partNum,String partName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = legodb.getConnection().prepareCall("{call NewPiece(?,?)}");
+			stmt = c.prepareCall("{call NewPiece(?,?)}");
 			stmt.setString(1, partNum);
 			stmt.setString(2, partName);
 		}catch(SQLException e){
@@ -36,7 +36,6 @@ public class AllPieceService {
 	public ResultSet showAllPieces(){
 		ResultSet s = null;
 		HashMap<String,String> pieces = new HashMap<String,String>();
-		Connection c = legodb.getConnection();
 		String query = "Select PartNumber, PartName from Pieces";
 		Statement stmt;
 		try {

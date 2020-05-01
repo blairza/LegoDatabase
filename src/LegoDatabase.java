@@ -3,6 +3,7 @@
 
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 
 public class LegoDatabase {
@@ -12,10 +13,15 @@ public class LegoDatabase {
 
 	private String databaseName;
 	private String serverName;
+	private AllPieceService allPieces;
+	private AllSetService allSets;
+	private OwnedPieceService ownedPieces;
+	private OwnedSetService ownedSets;
 
 	public LegoDatabase(String serverName, String databaseName) {
 		this.serverName = serverName;
 		this.databaseName = databaseName;
+		
 	}
 
 	public boolean connect(String user, String pass) {
@@ -26,13 +32,17 @@ public class LegoDatabase {
 		conStr = conStr.replace("${pass}", pass);
 		try{
 			this.connection = DriverManager.getConnection(conStr);
-			return true;
+			
 	        }
 	        catch (SQLException e) {
 	        	System.out.println(e);
-	         //   e.printStackTrace();
+	        	return false;
 	        }
-		return false;
+		allPieces = new AllPieceService(connection);
+		allSets = new AllSetService(connection);
+		ownedPieces = new OwnedPieceService(connection);
+		ownedSets = new OwnedSetService(connection);
+		return true;
 	}
 	
 
@@ -49,31 +59,77 @@ public class LegoDatabase {
 	}
 
 	public void viewParts() {
-		// TODO Auto-generated method stub
-		
+		ResultSet s  = allPieces.showAllPieces();
+		System.out.println("Part Number \t Part Name");
+		try {
+			while(s.next()) {
+				String partNum = s.getString(1);
+				String partName = s.getString(2);
+				System.out.println(partNum+"\t"+partName);
+			}
+		} catch(SQLException e) {
+			System.out.println(e);
+		}
 	}
 
 	public void viewSets() {
-		// TODO Auto-generated method stub
-		
+		ResultSet s = allSets.getSets();
+		System.out.println("Set Number \t Set Name");
+		try {
+			while(s.next()) {
+				String setNum = s.getString(1);
+				String setName = s.getString(2);
+				System.out.println(setNum+"\t"+setName);
+			}
+		} catch(SQLException e) {
+			System.out.println(e);
+		}
 	}
 
 	public void addPartToCollection(String username, String partNum, String color, String quantity) {
-		// TODO Auto-generated method stub
-		
+		boolean added = ownedPieces.addPiece(username, color, partNum, quantity);
+		if(added) {
+			System.out.println("Part added");
+		} else {
+			System.out.println("Unable to add part");
+		}
 	}
 
 	public void addSetToCollection(String username, String setNum) {
-		// TODO Auto-generated method stub
-		
+		boolean added = ownedSets.addSet(setNum, username);
+		if(added) {
+			System.out.println("Set Addd");
+		} else {
+			System.out.println("Unable to add set");
+		}
 	}
 
 	public void viewOwnedSets(String username) {
-		
+		ResultSet s = ownedSets.getOwnedSets(username);
+		System.out.println("Set Number \t Set Name");
+		try {
+			while(s.next()) {
+				String setNum = s.getString(1);
+				String setName = s.getString(2);
+				System.out.println(setNum+"\t"+setName);
+			}
+		} catch(SQLException e) {
+			System.out.println(e);
+		}
 	}
 
 	public void viewOwnedParts(String username) {
-		// TODO Auto-generated method stub
+		ResultSet s = ownedPieces.getOwnedPieces(username);
+		System.out.println("Part Number \t Part Name");
+		try {
+			while(s.next()) {
+				String partNum = s.getString(1);
+				String partName = s.getString(2);
+				System.out.println(partNum+"\t"+partName);
+			}
+		} catch(SQLException e) {
+			System.out.println(e);
+		}
 		
 	}
 }
