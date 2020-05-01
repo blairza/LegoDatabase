@@ -69,7 +69,6 @@ public class LegoDatabase {
 	}
 
 	public void viewOwnedSets(String username) {
-		// TODO Auto-generated method stub
 		
 	}
 
