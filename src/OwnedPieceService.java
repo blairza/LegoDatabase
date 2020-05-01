@@ -5,23 +5,26 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import javax.swing.JOptionPane;
 
-public class AddSet {
-	
+public class OwnedPieceService {
+
 	private LegoDatabase legodb = null;
 	
-	public AddSet(LegoDatabase db) {
+	public OwnedPieceService(LegoDatabase db) {
 		legodb = db;
 	}
 	
-	public boolean add(int setNum,String username) {
+	public boolean addPiece(String username, String color, String partNum, int quantity) {
 		CallableStatement stmt = null;
 		try {
-			stmt = legodb.getConnection().prepareCall("{call addSetToCollection(?,?)}");
+			stmt = legodb.getConnection().prepareCall("{call AddPieceToCollection(?,?,?,?)}");
 			stmt.setString(1, username);
-			stmt.setInt(2, setNum);
+			stmt.setString(2, color);
+			stmt.setString(3, partNum);
+			stmt.setInt(4, quantity);
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
@@ -29,16 +32,16 @@ public class AddSet {
 			stmt.executeQuery();
 			return true;
 		} catch (SQLException e) {
-			JOptionPane.showMessageDialog(null, "Add Set not implemented.");
+			JOptionPane.showMessageDialog(null, "Add Piece not implemented.");
 			return false;
 		}
 	}
 	
-	public ArrayList<String> getOwnedSets(){
+	public HashMap<String,Integer> getOwnedPieces(){
 		ResultSet s = null;
-		ArrayList<String> sets = new ArrayList<String>();
+		HashMap<String,Integer> pieces = new HashMap<String,Integer>();
 		Connection c = legodb.getConnection();
-		String query = "Select SetName from LEGO_Sets Where OwnsSet.SetNumber = LEGO_Sets.SetNumber";
+		String query = "Select PartNumber, Quantity from OwnsPiece";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();
@@ -50,7 +53,7 @@ public class AddSet {
 		try {
 			while (s.next()) {
 				try {
-					sets.add(s.getString("SetName"));
+					pieces.put(s.getString("PartNumber"),s.getInt("Quantity"));
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}
@@ -58,6 +61,6 @@ public class AddSet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return sets;
+		return pieces;
 	}
 }
