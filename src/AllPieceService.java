@@ -18,7 +18,7 @@ public class AllPieceService {
 	public boolean addPiece(String partNum,String partName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call NewPiece(?,?)}");
+			stmt = c.prepareCall("{call brunera1.NewPiece(?,?)}");
 			stmt.setString(1, partNum);
 			stmt.setString(2, partName);
 		}catch(SQLException e){
@@ -36,7 +36,7 @@ public class AllPieceService {
 	public ResultSet showAllPieces(){
 		ResultSet s = null;
 		HashMap<String,String> pieces = new HashMap<String,String>();
-		String query = "Select PartNumber, PartName from Pieces";
+		String query = "Select PartNumber, Part_Name from brunera1.Pieces";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();

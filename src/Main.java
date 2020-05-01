@@ -4,8 +4,10 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-		LegoDatabase ld = new LegoDatabase("golem.csse.rose-hulman.edu","LegoDatabase");
-		ld.connect("appUser", "rkQLjQ"); //Cannot connect yet, need appUser created in SQL
+		LegoDatabase ld = new LegoDatabase("golem.csse.rose-hulman.edu","Lego_Database");
+		boolean connected = ld.connect("appUserLego", "rkQLjQ1");
+		if(!connected)
+			return;
 		Connection dbConnection = ld.getConnection();
 		UserLogin login = new UserLogin(dbConnection);
 		String username = "";
@@ -53,7 +55,7 @@ public class Main {
 			} else if(userInput.equals("3")) {
 				System.out.print("Part Number: ");
 				String partNum = scan.nextLine();
-				System.out.println("Color name: ");
+				System.out.print("Color name: ");
 				String color = scan.nextLine();
 				System.out.println("Quantity: ");
 				String quantity = scan.nextLine();
@@ -72,9 +74,7 @@ public class Main {
 			} else {
 				System.out.println("Invalid selection");
 			}
-			for(int i = 0;i<25;i++) {
-				System.out.println();
-			}
+			System.out.println();
 		}
 	}
 

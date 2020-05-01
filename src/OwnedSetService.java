@@ -2,6 +2,7 @@ import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.sql.Types;
 
 public class OwnedSetService {
 	
@@ -14,25 +15,31 @@ public class OwnedSetService {
 	public boolean addSet(String setNum,String username) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call addSetToCollection(?,?)}");
-			stmt.setString(1, username);
-			stmt.setString(2, setNum);
+			stmt = c.prepareCall("{?=call brunera1.addSetToCollection(?,?)}");
+			stmt.registerOutParameter(1, Types.INTEGER);
+			stmt.setString(2, username);
+			stmt.setString(3, setNum);
 		}catch(SQLException e){
-			System.out.println("Error Setting up statement: "+e);
+			//System.out.println("Error Setting up statement: "+e);
 			return false;
 		}
 		try {
 			stmt.execute();
-			return true;
+			int errorCode = stmt.getInt(1);
+			if(errorCode==0)
+				return true;
+			if(errorCode==2)
+				System.out.println("That set does not exist");
+			return errorCode==0;
 		} catch (SQLException e) {
-			System.out.println("Error executing statement: "+e);
+			//System.out.println("Error executing statement: "+e);
 			return false;
 		}
 	}
 	
 	public ResultSet getOwnedSets(String username){
 		ResultSet s = null;
-		String query = "Select SetNumber, SetName from LEGO_Sets Join OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
+		String query = "Select brunera1.LEGO_Sets.SetNumber, SetName from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
 		CallableStatement stmt;
 		try {
 			stmt = c.prepareCall(query);

@@ -8,7 +8,6 @@ import java.sql.SQLException;
 
 public class LegoDatabase {
 	private final String SampleURL = "jdbc:sqlserver://${dbServer};databaseName=${dbName};user=${user};password={${pass}}";
-
 	private Connection connection = null;
 
 	private String databaseName;
@@ -25,19 +24,19 @@ public class LegoDatabase {
 	}
 
 	public boolean connect(String user, String pass) {
-		String conStr = SampleURL;
-		conStr = conStr.replace("${dbServer}", this.serverName);
-		conStr = conStr.replace("${dbName}", this.databaseName);
-		conStr = conStr.replace("${user}", user);
-		conStr = conStr.replace("${pass}", pass);
-		try{
-			this.connection = DriverManager.getConnection(conStr);
-			
-	        }
-	        catch (SQLException e) {
-	        	System.out.println(e);
-	        	return false;
-	        }
+		String connectrionUrl = SampleURL;
+		connectrionUrl = connectrionUrl.replace("${dbServer}", this.serverName);
+		connectrionUrl = connectrionUrl.replace("${dbName}",this.databaseName);
+		connectrionUrl = connectrionUrl.replace("${user}",user);
+		connectrionUrl = connectrionUrl.replace("${pass}",pass);
+		System.out.println(connectrionUrl);
+		try {
+			this.connection = DriverManager.getConnection(connectrionUrl);
+        }
+	    catch (SQLException e) {
+	       	e.printStackTrace();
+	       	return false;
+	    }
 		allPieces = new AllPieceService(connection);
 		allSets = new AllSetService(connection);
 		ownedPieces = new OwnedPieceService(connection);
@@ -65,7 +64,7 @@ public class LegoDatabase {
 			while(s.next()) {
 				String partNum = s.getString(1);
 				String partName = s.getString(2);
-				System.out.println(partNum+"\t"+partName);
+				System.out.println(partNum+"\t\t"+partName);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
@@ -79,7 +78,7 @@ public class LegoDatabase {
 			while(s.next()) {
 				String setNum = s.getString(1);
 				String setName = s.getString(2);
-				System.out.println(setNum+"\t"+setName);
+				System.out.println(setNum+"\t\t"+setName);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
@@ -120,12 +119,14 @@ public class LegoDatabase {
 
 	public void viewOwnedParts(String username) {
 		ResultSet s = ownedPieces.getOwnedPieces(username);
-		System.out.println("Part Number \t Part Name");
+		System.out.println("Part Number\tQuantity\tColor\t\tPart Name");
 		try {
 			while(s.next()) {
 				String partNum = s.getString(1);
-				String partName = s.getString(2);
-				System.out.println(partNum+"\t"+partName);
+				String quantity = s.getString(2);
+				String partName = s.getString(3);
+				String color = s.getString(4);
+				System.out.println(partNum+"\t\t"+quantity+"\t\t"+color+"\t\t"+partName);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
