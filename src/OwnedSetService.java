@@ -29,7 +29,7 @@ public class OwnedSetService {
 			stmt.executeQuery();
 			return true;
 		} catch (SQLException e) {
-			JOptionPane.showMessageDialog(null, "Add Set not implemented.");
+			JOptionPane.showMessageDialog(null, "AddSet not implemented.");
 			return false;
 		}
 	}
