@@ -57,7 +57,7 @@ public class Main {
 				String partNum = scan.nextLine();
 				System.out.print("Color name: ");
 				String color = scan.nextLine();
-				System.out.println("Quantity: ");
+				System.out.print("Quantity: ");
 				String quantity = scan.nextLine();
 				ld.addPartToCollection(username,partNum,color,quantity);
 			} else if(userInput.equals("4")) {

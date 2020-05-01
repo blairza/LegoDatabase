@@ -29,7 +29,6 @@ public class LegoDatabase {
 		connectrionUrl = connectrionUrl.replace("${dbName}",this.databaseName);
 		connectrionUrl = connectrionUrl.replace("${user}",user);
 		connectrionUrl = connectrionUrl.replace("${pass}",pass);
-		System.out.println(connectrionUrl);
 		try {
 			this.connection = DriverManager.getConnection(connectrionUrl);
         }

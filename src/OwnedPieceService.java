@@ -32,13 +32,12 @@ public class OwnedPieceService {
 		try {
 			stmt.execute();
 			int errorCode = stmt.getInt(1);
-			if(errorCode==0) return true;
 			if(errorCode==1) System.out.println("That piece does not exist");
 			if(errorCode==3) System.out.println("Quantity cannot be negative");
 			if(errorCode==4) System.out.println("That color does not exist");
-			return true;
+			return errorCode==0;
 		} catch (SQLException e) {
-			System.out.println("Error executing statement: "+e);
+			//System.out.println("Error executing statement: "+e);
 			return false;
 		}
 	}

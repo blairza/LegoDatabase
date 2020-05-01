@@ -25,7 +25,7 @@ public class OwnedSetService {
 		}
 		try {
 			stmt.execute();
-			int errorCode = stmt.getInt(1);
+			int errorCode = stmt.getInt(1);;
 			if(errorCode==0)
 				return true;
 			if(errorCode==2)
