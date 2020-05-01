@@ -37,11 +37,11 @@ public class AllSetService {
 		}
 	}
 	
-	public ArrayList<String> getSets(){
+	public ResultSet getSets(){
 		ResultSet s = null;
 		ArrayList<String> sets = new ArrayList<String>();
 		Connection c = legodb.getConnection();
-		String query = "Select SetName from LEGO_Sets";
+		String query = "Select * from LEGO_Sets";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();
@@ -50,17 +50,6 @@ public class AllSetService {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		try {
-			while (s.next()) {
-				try {
-					sets.add(s.getString("SetName"));
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return sets;
+		return s;
 	}
 }

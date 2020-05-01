@@ -33,7 +33,7 @@ public class AllPieceService {
 		}
 	}
 	
-	public HashMap<String,String> getOwnedPieces(){
+	public ResultSet showAllPieces(){
 		ResultSet s = null;
 		HashMap<String,String> pieces = new HashMap<String,String>();
 		Connection c = legodb.getConnection();
@@ -46,17 +46,6 @@ public class AllPieceService {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		try {
-			while (s.next()) {
-				try {
-					pieces.put(s.getString("PartNumber"),s.getString("PartName"));
-				} catch (SQLException e) {
-					e.printStackTrace();
-				}
-			}
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		return pieces;
+		return s;
 	}
 }
