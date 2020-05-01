@@ -5,23 +5,24 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import javax.swing.JOptionPane;
 
-public class AddSet {
-	
+public class AllPieceService {
+
 	private LegoDatabase legodb = null;
 	
-	public AddSet(LegoDatabase db) {
+	public AllPieceService(LegoDatabase db) {
 		legodb = db;
 	}
 	
-	public boolean add(int setNum,String username) {
+	public boolean addPiece(String partNum,String partName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = legodb.getConnection().prepareCall("{call addSetToCollection(?,?)}");
-			stmt.setString(1, username);
-			stmt.setInt(2, setNum);
+			stmt = legodb.getConnection().prepareCall("{call NewPiece(?,?)}");
+			stmt.setString(1, partNum);
+			stmt.setString(2, partName);
 		}catch(SQLException e){
 			e.printStackTrace();
 		}
@@ -29,16 +30,16 @@ public class AddSet {
 			stmt.executeQuery();
 			return true;
 		} catch (SQLException e) {
-			JOptionPane.showMessageDialog(null, "Add Set not implemented.");
+			JOptionPane.showMessageDialog(null, "Add Piece not implemented.");
 			return false;
 		}
 	}
 	
-	public ArrayList<String> getOwnedSets(){
+	public HashMap<String,String> getOwnedPieces(){
 		ResultSet s = null;
-		ArrayList<String> sets = new ArrayList<String>();
+		HashMap<String,String> pieces = new HashMap<String,String>();
 		Connection c = legodb.getConnection();
-		String query = "Select SetName from LEGO_Sets Where OwnsSet.SetNumber = LEGO_Sets.SetNumber";
+		String query = "Select PartNumber, PartName from Pieces";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();
@@ -50,7 +51,7 @@ public class AddSet {
 		try {
 			while (s.next()) {
 				try {
-					sets.add(s.getString("SetName"));
+					pieces.put(s.getString("PartNumber"),s.getString("PartName"));
 				} catch (SQLException e) {
 					e.printStackTrace();
 				}
@@ -58,6 +59,6 @@ public class AddSet {
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return sets;
+		return pieces;
 	}
 }
