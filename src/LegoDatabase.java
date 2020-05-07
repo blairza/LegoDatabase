@@ -5,6 +5,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 
 public class LegoDatabase {
 	private final String SampleURL = "jdbc:sqlserver://${dbServer};databaseName=${dbName};user=${user};password={${pass}}";
@@ -16,6 +17,7 @@ public class LegoDatabase {
 	private AllSetService allSets;
 	private OwnedPieceService ownedPieces;
 	private OwnedSetService ownedSets;
+	private UserLogin login;
 
 	public LegoDatabase(String serverName, String databaseName) {
 		this.serverName = serverName;
@@ -40,6 +42,7 @@ public class LegoDatabase {
 		allSets = new AllSetService(connection);
 		ownedPieces = new OwnedPieceService(connection);
 		ownedSets = new OwnedSetService(connection);
+		login = new UserLogin(connection);
 		return true;
 	}
 	
@@ -56,80 +59,89 @@ public class LegoDatabase {
 		}
 	}
 
-	public void viewParts() {
+	public ArrayList<String[]> getParts() {
 		ResultSet s  = allPieces.showAllPieces();
-		System.out.println("Part Number \t Part Name");
+		ArrayList<String[]> temp = new ArrayList<String[]>();
 		try {
 			while(s.next()) {
-				String partNum = s.getString(1);
-				String partName = s.getString(2);
-				System.out.println(partNum+"\t\t"+partName);
+				String[] tempArr = new String[2];
+				tempArr[0] = s.getString(1);
+				tempArr[1] = s.getString(2);
+				temp.add(tempArr);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
 		}
+		return temp;
 	}
 
-	public void viewSets() {
+	public ArrayList<String[]> getSets() {
 		ResultSet s = allSets.getSets();
-		System.out.println("Set Number \t Set Name");
+		ArrayList<String[]> temp = new ArrayList<String[]>();
 		try {
 			while(s.next()) {
-				String setNum = s.getString(1);
-				String setName = s.getString(2);
-				System.out.println(setNum+"\t\t"+setName);
+				String[] tempArr = new String[2];
+				tempArr[0] = s.getString(1);
+				tempArr[1] = s.getString(2);
+				temp.add(tempArr);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
 		}
+		return temp;
 	}
 
-	public void addPartToCollection(String username, String partNum, String color, String quantity) {
+	public boolean addPartToCollection(String username, String partNum, String color, String quantity) {
 		boolean added = ownedPieces.addPiece(username, color, partNum, quantity);
-		if(added) {
-			System.out.println("Part added");
-		} else {
-			System.out.println("Unable to add part");
-		}
+		return added;
 	}
 
-	public void addSetToCollection(String username, String setNum) {
+	public boolean addSetToCollection(String username, String setNum) {
 		boolean added = ownedSets.addSet(setNum, username);
-		if(added) {
-			System.out.println("Set Addd");
-		} else {
-			System.out.println("Unable to add set");
-		}
+		return added;
 	}
 
-	public void viewOwnedSets(String username) {
+	public ArrayList<String[]> getOwnedSets(String username) {
 		ResultSet s = ownedSets.getOwnedSets(username);
-		System.out.println("Set Number \t Set Name");
+		ArrayList<String[]> temp = new ArrayList<String[]>();
 		try {
 			while(s.next()) {
-				String setNum = s.getString(1);
-				String setName = s.getString(2);
-				System.out.println(setNum+"\t"+setName);
+				String[] tempArr = new String[2];
+				tempArr[0]=s.getString(1);
+				tempArr[1] = s.getString(2);
+				for(int i = 0; i<s.getInt(3);i++) {
+					temp.add(tempArr);
+				}
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
 		}
+		return temp;
 	}
 
-	public void viewOwnedParts(String username) {
+	public ArrayList<String[]> getOwnedParts(String username) {
 		ResultSet s = ownedPieces.getOwnedPieces(username);
-		System.out.println("Part Number\tQuantity\tColor\t\tPart Name");
+		ArrayList<String[]> temp = new ArrayList<String[]>();
 		try {
 			while(s.next()) {
-				String partNum = s.getString(1);
-				String quantity = s.getString(2);
-				String partName = s.getString(3);
-				String color = s.getString(4);
-				System.out.println(partNum+"\t\t"+quantity+"\t\t"+color+"\t\t"+partName);
+				String[] tempArr = new String[4];
+				tempArr[0] = s.getString(1);
+				tempArr[1] = s.getString(2);
+				tempArr[2] = s.getString(3);
+				tempArr[3] = s.getString(4);
+				temp.add(tempArr);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);
 		}
-		
+		return temp;
 	}
+	
+	public boolean login(String username, String password) {
+		return this.login.login(username, password);
+	}
+	public boolean register(String username, String password) {
+		return this.login.register(username, password);
+	}
+	
 }

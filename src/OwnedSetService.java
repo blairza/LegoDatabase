@@ -39,7 +39,7 @@ public class OwnedSetService {
 	
 	public ResultSet getOwnedSets(String username){
 		ResultSet s = null;
-		String query = "Select brunera1.LEGO_Sets.SetNumber, SetName from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
+		String query = "Select brunera1.LEGO_Sets.SetNumber, SetName,Quantity from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
 		CallableStatement stmt;
 		try {
 			stmt = c.prepareCall(query);
