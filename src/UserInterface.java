@@ -184,6 +184,17 @@ public class UserInterface {
 	
 	private void setUpWishListScreen() {
 		wishlistScreen = new JFrame();
+		JPanel top = new JPanel();
+		top.add(new JLabel("My Wishlist"));
+		JButton back = new JButton("Back");
+		back.addActionListener(new BackButton());
+		top.add(back);
+		wishlistScreen.add(top,BorderLayout.NORTH);
+		JPanel mid = new JPanel();
+		mid.add(new JLabel("Wishlist not Implemented"));
+		wishlistScreen.add(mid);
+		wishlistScreen.pack();
+		wishlistScreen.setVisible(true);
 	}
 
 	private void setUpMainScreen() {
