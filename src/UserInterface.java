@@ -173,8 +173,19 @@ public class UserInterface {
 					openErrorMessage("No Set Selected");
 					return;
 				}
-				System.out.println(sets.getValueAt(sets.getSelectedRow(), 1));
 				ld.addSetToCollection(user, (String)sets.getValueAt(sets.getSelectedRow(), 0));
+			}
+			
+		});
+		addToWishList.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				if(sets.getSelectedRow()==-1) {
+					openErrorMessage("No Set Selected");
+					return;
+				}
+				ld.addToWishList(user, (String)sets.getValueAt(sets.getSelectedRow(), 0));
 			}
 			
 		});
@@ -191,7 +202,11 @@ public class UserInterface {
 		top.add(back);
 		wishlistScreen.add(top,BorderLayout.NORTH);
 		JPanel mid = new JPanel();
-		mid.add(new JLabel("Wishlist not Implemented"));
+		String[] columns = {"Set Number","Set Name"};
+		String[][] data = moveToArr(ld.getWishlistedSets(user));
+		JTable sets = new JTable(data,columns);
+		JScrollPane scroll = new JScrollPane(sets);
+		mid.add(scroll);
 		wishlistScreen.add(mid);
 		wishlistScreen.pack();
 		wishlistScreen.setVisible(true);
@@ -288,9 +303,7 @@ public class UserInterface {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(ld.login(username.getText(), password.getText())) {
-					System.out.println("Login success");
 					user = username.getText();
-					System.out.println(user);
 					SetUpScreens();
 					loginScreen.setVisible(false);
 					mainScreen.setVisible(true);
@@ -305,7 +318,6 @@ public class UserInterface {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(ld.register(username.getText(), password.getText())) {
-					System.out.println("Register success");
 					user = username.getText();
 					SetUpScreens();
 					loginScreen.setVisible(false);

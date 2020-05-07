@@ -18,6 +18,7 @@ public class LegoDatabase {
 	private OwnedPieceService ownedPieces;
 	private OwnedSetService ownedSets;
 	private UserLogin login;
+	private WishListService wishList; 
 
 	public LegoDatabase(String serverName, String databaseName) {
 		this.serverName = serverName;
@@ -43,6 +44,7 @@ public class LegoDatabase {
 		ownedPieces = new OwnedPieceService(connection);
 		ownedSets = new OwnedSetService(connection);
 		login = new UserLogin(connection);
+		wishList = new WishListService(connection);
 		return true;
 	}
 	
@@ -144,4 +146,23 @@ public class LegoDatabase {
 		return this.login.register(username, password);
 	}
 	
+	public ArrayList<String[]> getWishlistedSets(String username) {
+		ResultSet s = wishList.GetWishListedSets(username);
+		ArrayList<String[]> temp = new ArrayList<String[]>();
+		try {
+			while(s.next()) {
+				String[] tempArr = new String[2];
+				tempArr[0] = s.getString(1);
+				tempArr[1] = s.getString(2);
+				temp.add(tempArr);
+			}
+		} catch(SQLException e) {
+			System.out.println(e);
+		}
+		return temp;
+	}
+	
+	public boolean addToWishList(String username, String setNumber) {
+		return wishList.addToWishList(username, setNumber);
+	}
 }
