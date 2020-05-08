@@ -35,12 +35,10 @@ public class AllPieceService {
 	
 	public ResultSet showAllPieces(){
 		ResultSet s = null;
-		HashMap<String,String> pieces = new HashMap<String,String>();
-		String query = "Select PartNumber, Part_Name from brunera1.Pieces";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();
-			stmt.execute(query);
+			stmt.execute("{call ShowAllPieces()}");
 			s = stmt.getResultSet();
 		} catch (SQLException e) {
 			e.printStackTrace();

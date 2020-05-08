@@ -15,7 +15,7 @@ public class OwnedSetService {
 	public boolean addSet(String setNum,String username) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.addSetToCollection(?,?)}");
+			stmt = c.prepareCall("{call brunera1.addSetToCollection(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, username);
 			stmt.setString(3, setNum);
@@ -39,17 +39,16 @@ public class OwnedSetService {
 	
 	public ResultSet getOwnedSets(String username){
 		ResultSet s = null;
-		String query = "Select brunera1.LEGO_Sets.SetNumber, SetName,Quantity from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = ?";
 		CallableStatement stmt;
 		try {
-			stmt = c.prepareCall(query);
+			stmt = c.prepareCall("{call GetOwnedSets(?)}");
 			stmt.setString(1,username);
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 			return null;
 		}
 		try {
-			s = stmt.executeQuery();
+			s =stmt.executeQuery();
 		} catch(SQLException e) {
 			System.out.println("Error executing statement: "+e);
 			return null;

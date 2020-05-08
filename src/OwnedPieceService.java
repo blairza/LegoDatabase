@@ -41,13 +41,12 @@ public class OwnedPieceService {
 			return false;
 		}
 	}
-	
+
 	public ResultSet getOwnedPieces(String username){
 		ResultSet s = null;
-		String query = "Select PartNumber, Quantity, Part_Name, Color from brunera1.AllOwned Where Username=?";
 		CallableStatement stmt;
 		try {
-			stmt = c.prepareCall(query);
+			stmt = c.prepareCall("{call GetOwnedPieces(?)}");
 			stmt.setString(1, username);
 			stmt.execute();
 			s = stmt.getResultSet();

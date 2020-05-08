@@ -39,12 +39,10 @@ public class AllSetService {
 	
 	public ResultSet getSets(){
 		ResultSet s = null;
-		ArrayList<String> sets = new ArrayList<String>();
-		String query = "Select SetNumber, SetName, cost, Theme from brunera1.LEGO_Sets";
 		Statement stmt;
 		try {
 			stmt = c.createStatement();
-			stmt.execute(query);
+			stmt.execute("{call GetAllSets()}");
 			s = stmt.getResultSet();
 		} catch (SQLException e) {
 			//e.printStackTrace();

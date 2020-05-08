@@ -17,11 +17,9 @@ public class WishListService {
 	//Should Run a query that returns in the form SetNumber, SetName (Will have to do some SQL stuff
 	public ResultSet GetWishListedSets(String username) {
 		ResultSet s = null;
-		HashMap<String,String> pieces = new HashMap<String,String>();
-		String query = "Select SetNumber from brunera1.WishListedSets where Username=?";
 		CallableStatement stmt;
 		try {
-			stmt = c.prepareCall(query);
+			stmt = c.prepareCall("{call GetWishlist(?)}");
 			stmt.setString(1, username);
 			stmt.execute();
 			s = stmt.getResultSet();
