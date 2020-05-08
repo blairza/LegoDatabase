@@ -14,7 +14,6 @@ public class WishListService {
 		this.c = connection;
 	}
 	
-	//Should Run a query that returns in the form SetNumber, SetName (Will have to do some SQL stuff
 	public ResultSet GetWishListedSets(String username) {
 		ResultSet s = null;
 		CallableStatement stmt;
@@ -42,10 +41,11 @@ public class WishListService {
 			e.printStackTrace();
 		}
 		try {
-			stmt.executeQuery();
+			stmt.execute();
 			return true;
 		} catch (SQLException e) {
 			JOptionPane.showMessageDialog(null, "Add To Wishlist not implemented.");
+			e.printStackTrace();
 			return false;
 		}
 	}

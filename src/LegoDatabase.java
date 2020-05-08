@@ -157,7 +157,7 @@ public class LegoDatabase {
 				temp.add(tempArr);
 			}
 		} catch(SQLException e) {
-			System.out.println(e);
+			e.printStackTrace();
 		}
 		return temp;
 	}

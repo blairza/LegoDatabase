@@ -32,7 +32,7 @@ public class AllSetService {
 			stmt.executeQuery();
 			return true;
 		} catch (SQLException e) {
-			//System.out.println("Error executing Query");
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -45,7 +45,7 @@ public class AllSetService {
 			stmt.execute("{call GetAllSets()}");
 			s = stmt.getResultSet();
 		} catch (SQLException e) {
-			//e.printStackTrace();
+			e.printStackTrace();
 		}
 		return s;
 	}

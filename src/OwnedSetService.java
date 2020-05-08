@@ -15,12 +15,12 @@ public class OwnedSetService {
 	public boolean addSet(String setNum,String username) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call brunera1.addSetToCollection(?,?)}");
+			stmt = c.prepareCall("{?=call brunera1.addSetToCollection(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, username);
 			stmt.setString(3, setNum);
 		}catch(SQLException e){
-			//System.out.println("Error Setting up statement: "+e);
+			e.printStackTrace();
 			return false;
 		}
 		try {
@@ -32,7 +32,7 @@ public class OwnedSetService {
 				System.out.println("That set does not exist");
 			return errorCode==0;
 		} catch (SQLException e) {
-			//System.out.println("Error executing statement: "+e);
+			e.printStackTrace();
 			return false;
 		}
 	}
@@ -50,7 +50,7 @@ public class OwnedSetService {
 		try {
 			s =stmt.executeQuery();
 		} catch(SQLException e) {
-			System.out.println("Error executing statement: "+e);
+			e.printStackTrace();
 			return null;
 		}
 		return s;
