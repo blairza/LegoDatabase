@@ -108,12 +108,11 @@ public class LegoDatabase {
 		ArrayList<String[]> temp = new ArrayList<String[]>();
 		try {
 			while(s.next()) {
-				String[] tempArr = new String[2];
+				String[] tempArr = new String[3];
 				tempArr[0]=s.getString(1);
 				tempArr[1] = s.getString(2);
-				for(int i = 0; i<s.getInt(3);i++) {
-					temp.add(tempArr);
-				}
+				tempArr[2] = ""+s.getInt(3);
+				temp.add(tempArr);
 			}
 		} catch(SQLException e) {
 			System.out.println(e);

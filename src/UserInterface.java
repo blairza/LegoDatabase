@@ -50,7 +50,7 @@ public class UserInterface {
 		mySetScreen = new JFrame();
 		mySetScreen.setTitle("My Sets");
 		String[][] data = moveToArr(ld.getOwnedSets(user));
-		String[] columns = {"Set Number","Set Name"};
+		String[] columns = {"Set Number","Set Name","Quantity"};
 		JTable mySets = new JTable(data,columns);
 		JScrollPane scroll = new JScrollPane(mySets);
 		JPanel top = new JPanel();
