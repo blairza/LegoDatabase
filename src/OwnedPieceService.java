@@ -17,7 +17,7 @@ public class OwnedPieceService {
 		this.c = c;
 	}
 	
-	public boolean addPiece(String username, String color, String partNum, String quantity) {
+	public int addPiece(String username, String color, String partNum, String quantity) {
 		CallableStatement stmt = null;
 		try {
 			stmt = c.prepareCall("{?=call brunera1.AddPieceToCollection(?,?,?,?)}");
@@ -27,18 +27,15 @@ public class OwnedPieceService {
 			stmt.setString(4, partNum);
 			stmt.setString(5, quantity);
 		}catch(SQLException e){
-			//e.printStackTrace();
+			e.printStackTrace();
 		}
 		try {
 			stmt.execute();
 			int errorCode = stmt.getInt(1);
-			if(errorCode==1) System.out.println("That piece does not exist");
-			if(errorCode==3) System.out.println("Quantity cannot be negative");
-			if(errorCode==4) System.out.println("That color does not exist");
-			return errorCode==0;
+			return errorCode;
 		} catch (SQLException e) {
-			//System.out.println("Error executing statement: "+e);
-			return false;
+			e.printStackTrace();
+			return -1;
 		}
 	}
 

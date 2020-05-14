@@ -93,13 +93,14 @@ public class LegoDatabase {
 		return temp;
 	}
 
-	public boolean addPartToCollection(String username, String partNum, String color, String quantity) {
-		boolean added = ownedPieces.addPiece(username, color, partNum, quantity);
+	public int addPartToCollection(String username, String partNum, String color, String quantity) {
+		int added = ownedPieces.addPiece(username, color, partNum, quantity);
+		System.out.println(added);
 		return added;
 	}
 
-	public boolean addSetToCollection(String username, String setNum) {
-		boolean added = ownedSets.addSet(setNum, username);
+	public int addSetToCollection(String username, String setNum) {
+		int added = ownedSets.addSet(setNum, username);
 		return added;
 	}
 
@@ -161,7 +162,15 @@ public class LegoDatabase {
 		return temp;
 	}
 	
-	public boolean addToWishList(String username, String setNumber) {
+	public int addToWishList(String username, String setNumber) {
 		return wishList.addToWishList(username, setNumber);
+	}
+
+	public int removeFromWishlist(String user, String setNumber) {
+		return wishList.removeSet(user,setNumber);
+	}
+
+	public int removeSetFromCollection(String user, String valueAt) {
+		return ownedSets.removeSet(user,valueAt);
 	}
 }

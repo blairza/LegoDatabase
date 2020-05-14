@@ -9,6 +9,7 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JList;
+import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTable;
@@ -60,6 +61,22 @@ public class UserInterface {
 		top.add(back);
 		mySetScreen.add(top,BorderLayout.NORTH);
 		mySetScreen.add(scroll);
+		JButton removeSetFromCollection = new JButton("Remove 1");
+		JPanel bottom = new JPanel();
+		bottom.add(removeSetFromCollection);
+		removeSetFromCollection.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				ld.removeSetFromCollection(user,(String)mySets.getValueAt(mySets.getSelectedRow(), 0));
+				mySetScreen.setVisible(false);
+				setUpMySetsScreen();
+				openMessage("1 of Set "+(String)mySets.getValueAt(mySets.getSelectedRow(),0)+" Removed From collection");
+			}
+			
+		});
+		bottom.add(removeSetFromCollection);
+		mySetScreen.add(bottom,BorderLayout.SOUTH);
 		mySetScreen.pack();
 		mySetScreen.setVisible(true);
 	}
@@ -78,6 +95,7 @@ public class UserInterface {
 		top.add(back);
 		myPartScreen.add(top,BorderLayout.NORTH);
 		myPartScreen.add(scroll);
+		
 		myPartScreen.pack();
 		myPartScreen.setVisible(true);
 	}
@@ -101,11 +119,25 @@ public class UserInterface {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				if(ld.addPartToCollection(user, partName, color.getText(), number.getText())) {
-					openErrorMessage("Part Added");
-					addPartScreen.setVisible(false);
-				} else {
-					openErrorMessage("Unable to add part");
+				boolean isValidNum = true;
+				try {
+					Integer.parseInt(number.getText());
+				} catch(Exception exception) {
+					openMessage("Invalid Number selection");
+					isValidNum=false;
+				}
+				if(isValidNum) {
+					int errorCode = ld.addPartToCollection(user, partName, color.getText(), number.getText());
+					if(errorCode==0) {
+						openMessage("Part Added");
+						addPartScreen.setVisible(false);
+					} else if(errorCode==3) {
+						openMessage("Quantity cannot be negative");
+					}else if(errorCode==4) {
+						openMessage("Color does not exist");
+					} else {
+						openMessage("Unable to add part");
+					}
 				}
 			}
 			
@@ -170,10 +202,11 @@ public class UserInterface {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				if(sets.getSelectedRow()==-1) {
-					openErrorMessage("No Set Selected");
+					openMessage("No Set Selected");
 					return;
 				}
 				ld.addSetToCollection(user, (String)sets.getValueAt(sets.getSelectedRow(), 0));
+				openMessage("Set Added To Collection");
 			}
 			
 		});
@@ -182,10 +215,15 @@ public class UserInterface {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				if(sets.getSelectedRow()==-1) {
-					openErrorMessage("No Set Selected");
+					openMessage("No Set Selected");
 					return;
 				}
-				ld.addToWishList(user, (String)sets.getValueAt(sets.getSelectedRow(), 0));
+				int errCode = ld.addToWishList(user, (String)sets.getValueAt(sets.getSelectedRow(), 0));
+				if(errCode==0) {
+					openMessage("Set Added to Wishlist");
+				} else if(errCode==3) {
+					openMessage("Set already in wishlist");
+				}
 			}
 			
 		});
@@ -208,6 +246,43 @@ public class UserInterface {
 		JScrollPane scroll = new JScrollPane(sets);
 		mid.add(scroll);
 		wishlistScreen.add(mid);
+		JButton removeFromWishlist = new JButton("Remove");
+		JPanel bottom = new JPanel();
+		bottom.add(removeFromWishlist);
+		removeFromWishlist.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				if(sets.getSelectedRow()==-1) {
+					openMessage("No Set Selected");
+				} else {
+					ld.removeFromWishlist(user,(String)sets.getValueAt(sets.getSelectedRow(),0));
+					wishlistScreen.setVisible(false);
+					setUpWishListScreen();
+					openMessage("Set Removed From Wishlist");
+				}
+			}
+			
+		});
+		JButton addSetFromWishList = new JButton("Add to Collection");
+		bottom.add(addSetFromWishList);
+		addSetFromWishList.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				if(sets.getSelectedRow()==-1) {
+					openMessage("No Set Selected");
+				} else {
+					String setNum = (String)sets.getValueAt(sets.getSelectedRow(),0);
+					ld.removeFromWishlist(user, setNum);
+					ld.addSetToCollection(user, setNum);
+					wishlistScreen.setVisible(false);
+					setUpWishListScreen();
+					openMessage("Set Added to Collection");
+				}
+			}
+		});
+		wishlistScreen.add(bottom,BorderLayout.SOUTH);
 		wishlistScreen.pack();
 		wishlistScreen.setVisible(true);
 	}
@@ -227,7 +302,9 @@ public class UserInterface {
 		main.add(wishList);
 		mainScreen.add(main,BorderLayout.CENTER);
 		mainScreen.setTitle("LEGO Database");
-		mainScreen.add(new JLabel("   "),BorderLayout.NORTH);
+		JPanel top = new JPanel();
+		top.add(new JLabel("Welcome to LEGO Database"),BorderLayout.NORTH);
+		mainScreen.add(top,BorderLayout.NORTH);
 		mainScreen.pack();
 		mainScreen.setSize(mainScreen.getWidth(),150);
 		browseParts.addActionListener(new ActionListener() {
@@ -309,7 +386,7 @@ public class UserInterface {
 					mainScreen.setVisible(true);
 					
 				} else {
-					openErrorMessage("Login Failed");
+					openMessage("Login Failed");
 				}
 			}
 		});
@@ -324,7 +401,7 @@ public class UserInterface {
 					mainScreen.setVisible(true);
 					
 				} else {
-					openErrorMessage("Register failed");
+					openMessage("Register failed");
 				}
 			}
 			
@@ -335,11 +412,8 @@ public class UserInterface {
 		loginScreen.setVisible(true);
 	}
 	
-	private void openErrorMessage(String messageText) {
-		JFrame error = new JFrame();
-		error.add(new JLabel(messageText));
-		error.setSize(100,100);
-		error.setVisible(true);
+	private void openMessage(String messageText) {
+		JOptionPane.showMessageDialog(null, messageText);
 	}
 	
 	private String[][] moveToArr(ArrayList<String[]> toChange) {
