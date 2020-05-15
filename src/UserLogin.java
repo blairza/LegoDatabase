@@ -31,9 +31,11 @@ public class UserLogin{
 	
 	public boolean login(String username, String password) {
 		try {
-			String query = "SELECT PasswordSalt,PasswordHash \nFROM brunera1.Users \nWHERE Username = ?";
-			PreparedStatement stmt = dbConnection.prepareStatement(query);
-			stmt.setString(1, username);
+			CallableStatement stmt = dbConnection.prepareCall("{? = call Login(@Username = ?)}");
+//			String query = "SELECT PasswordSalt,PasswordHash \nFROM brunera1.Users \nWHERE Username = ?";
+//			PreparedStatement stmt = dbConnection.prepareStatement(query);
+			stmt.registerOutParameter(1,Types.INTEGER);
+			stmt.setString(2, username);
 			ResultSet results = stmt.executeQuery();
 			results.next();
 			String passString = results.getString(2);
