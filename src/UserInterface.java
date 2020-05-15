@@ -3,6 +3,10 @@ import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 
 import javax.swing.JButton;
@@ -301,7 +305,23 @@ public class UserInterface {
 		buttons.add(back);
 		filebar.add(fileName);
 		buttons.add(importFile);
-		
+		importFile.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				String fname = fileName.getText();
+				File f = new File(fname);
+				BufferedReader br = null;
+				try {
+					br = new BufferedReader(new FileReader(f));
+				} catch (FileNotFoundException e1) {
+					// TODO Auto-generated catch block
+					e1.printStackTrace();
+				}
+				ld.addSetToDatabase(f);
+				openMessage("Set Successfully Imported");
+			}
+		});
 		importScreen.add(filebar,BorderLayout.NORTH);
 		importScreen.add(buttons,BorderLayout.SOUTH);
 		importScreen.setTitle("Import Sets");

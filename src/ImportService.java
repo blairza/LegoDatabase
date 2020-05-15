@@ -20,7 +20,7 @@ public class ImportService {
 		this.c = c;
 	}
 
-	public boolean add(File file) {
+	public boolean addSetToDatabase(File file) {
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(file));
@@ -36,6 +36,7 @@ public class ImportService {
 			}
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
+			System.out.println("Import Set Not Implemented");
 			e1.printStackTrace();
 		}
 		String setInfo = info.get(0);

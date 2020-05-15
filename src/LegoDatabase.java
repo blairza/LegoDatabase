@@ -1,6 +1,7 @@
 //Main Class for Lego Database
 //Zane Blair and Alan Bruner
 
+import java.io.File;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -19,6 +20,7 @@ public class LegoDatabase {
 	private OwnedSetService ownedSets;
 	private UserLogin login;
 	private WishListService wishList; 
+	private ImportService importing;
 
 	public LegoDatabase(String serverName, String databaseName) {
 		this.serverName = serverName;
@@ -45,6 +47,7 @@ public class LegoDatabase {
 		ownedSets = new OwnedSetService(connection);
 		login = new UserLogin(connection);
 		wishList = new WishListService(connection);
+		importing = new ImportService(connection);
 		return true;
 	}
 	
@@ -172,5 +175,9 @@ public class LegoDatabase {
 
 	public int removeSetFromCollection(String user, String valueAt) {
 		return ownedSets.removeSet(user,valueAt);
+	}
+	
+	public boolean addSetToDatabase(File file) {
+		return importing.addSetToDatabase(file);
 	}
 }
