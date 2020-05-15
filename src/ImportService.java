@@ -106,12 +106,11 @@ public class ImportService {
 			}
 			try {
 				stmt.execute();
-				System.out.println(stmt.getInt(1));
-				return true;
 			} catch (SQLException e) {
 				e.printStackTrace();
 				return false;
 			}
+			i++;
 		}
 		return false;
 	}
