@@ -8,6 +8,7 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -311,13 +312,6 @@ public class UserInterface {
 			public void actionPerformed(ActionEvent arg0) {
 				String fname = fileName.getText();
 				File f = new File(fname);
-				BufferedReader br = null;
-				try {
-					br = new BufferedReader(new FileReader(f));
-				} catch (FileNotFoundException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
-				}
 				ld.addSetToDatabase(f);
 				openMessage("Set Successfully Imported");
 			}

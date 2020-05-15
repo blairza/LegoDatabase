@@ -36,7 +36,6 @@ public class ImportService {
 			}
 		} catch (IOException e1) {
 			// TODO Auto-generated catch block
-			System.out.println("Import Set Not Implemented");
 			e1.printStackTrace();
 		}
 		String setInfo = info.get(0);
@@ -45,9 +44,10 @@ public class ImportService {
 		for (int i = 0; i < setInfo.length(); i++) {
 			if (setInfo.charAt(i) == ' ') {
 				vars.add(setInfo.substring(previous, i));
-				previous = i;
+				previous = i+1;
 			}
 		}
+		vars.add(setInfo.substring(previous,setInfo.length()-1));
 		int setNum = Integer.parseInt(vars.get(0));
 		String setName = vars.get(1);
 		int minAge = Integer.parseInt(vars.get(2));
@@ -77,6 +77,7 @@ public class ImportService {
 	}
 
 	private boolean addPieceList(ArrayList<String> info,int setNum) {
+		System.out.println("Adding Pieces");
 		CallableStatement stmt = null;
 		int i = 1;
 		while (i < info.size()) {
@@ -86,9 +87,10 @@ public class ImportService {
 			for (int j = 0; j < pieceInfo.length(); j++) {
 				if (pieceInfo.charAt(j) == ' ') {
 					vars.add(pieceInfo.substring(previous, j));
-					previous = j;
+					previous = j+1;
 				}
 			}
+			vars.add(pieceInfo.substring(previous,pieceInfo.length()-1));
 			String color = vars.get(0);
 			String partNum = vars.get(1);
 			String quantity = vars.get(2);
