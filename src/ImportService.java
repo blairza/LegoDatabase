@@ -93,7 +93,7 @@ public class ImportService {
 			String partNum = vars.get(1);
 			String quantity = vars.get(2);
 			try {
-				stmt = c.prepareCall("{=call brunera1.AddPieceToSet(?,?,?,?)}");
+				stmt = c.prepareCall("{call brunera1.AddPieceToSet(?,?,?,?)}");
 				stmt.setString(1, partNum);
 				stmt.setInt(2, setNum);
 				stmt.setString(3, quantity);
