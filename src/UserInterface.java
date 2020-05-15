@@ -25,6 +25,7 @@ public class UserInterface {
 	private JFrame myPartScreen;
 	private JFrame mySetScreen;
 	private JFrame wishlistScreen;
+	private JFrame importScreen;
 	private String user;
 	
 	public UserInterface(LegoDatabase ld) {
@@ -40,12 +41,14 @@ public class UserInterface {
 		setUpMyPartsScreen();
 		setUpMySetsScreen();
 		setUpWishListScreen();
+		setUpImportScreen();
 		setScreen.setVisible(false);
 		partScreen.setVisible(false);
 		addPartScreen.setVisible(false);
 		myPartScreen.setVisible(false);
 		mySetScreen.setVisible(false);
 		wishlistScreen.setVisible(false);
+		importScreen.setVisible(false);
 	}
 	private void setUpMySetsScreen() {
 		mySetScreen = new JFrame();
@@ -286,17 +289,39 @@ public class UserInterface {
 		wishlistScreen.pack();
 		wishlistScreen.setVisible(true);
 	}
-
+    
+	private void setUpImportScreen() {
+		importScreen = new JFrame();
+		JPanel filebar = new JPanel();
+		JTextField fileName = new JTextField("Insert File Name");
+		JPanel buttons = new JPanel();
+		JButton importFile = new JButton("Import File");
+		JButton back = new JButton("Back");
+		back.addActionListener(new BackButton());
+		buttons.add(back);
+		filebar.add(fileName);
+		buttons.add(importFile);
+		
+		importScreen.add(filebar,BorderLayout.NORTH);
+		importScreen.add(buttons,BorderLayout.SOUTH);
+		importScreen.setTitle("Import Sets");
+		importScreen.setSize(300, 150);
+		importScreen.setVisible(true);
+		
+	}
+	
 	private void setUpMainScreen() {
 		mainScreen = new JFrame();
 		JPanel main = new JPanel();
 		JButton browseParts = new JButton("Browse Parts");
 		JButton browseSets = new JButton("Browse Sets");
+		JButton importData = new JButton("Import Data");
 		JButton myParts = new JButton("My Parts");
 		JButton mySets = new JButton("My Sets");
 		JButton wishList = new JButton("My Wishlist");
 		main.add(browseParts);
 		main.add(browseSets);
+		main.add(importData);
 		main.add(myParts);
 		main.add(mySets);
 		main.add(wishList);
@@ -324,6 +349,14 @@ public class UserInterface {
 				mainScreen.setVisible(false);
 			}
 			
+		});
+		importData.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent argo0) {
+				setUpImportScreen();
+				mainScreen.setVisible(false);
+			}
 		});
 		myParts.addActionListener(new ActionListener() {
 
@@ -438,6 +471,7 @@ public class UserInterface {
 			myPartScreen.setVisible(false);
 			mySetScreen.setVisible(false);
 			wishlistScreen.setVisible(false);
+			importScreen.setVisible(false);
 		}
 		
 	}
