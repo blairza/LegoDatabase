@@ -67,7 +67,7 @@ public class ImportService {
 			e.printStackTrace();
 		}
 		try {
-			stmt.executeQuery();
+			stmt.execute();
 			addPieceList(info,setNum);
 			return true;
 		} catch (SQLException e) {
@@ -95,16 +95,18 @@ public class ImportService {
 			String partNum = vars.get(1);
 			String quantity = vars.get(2);
 			try {
-				stmt = c.prepareCall("{call brunera1.AddPieceToSet(?,?,?,?)}");
-				stmt.setString(1, partNum);
-				stmt.setInt(2, setNum);
-				stmt.setString(3, quantity);
-				stmt.setString(4, color);
+				stmt = c.prepareCall("{?=call brunera1.AddToSet(?,?,?,?)}");
+				stmt.registerOutParameter(1, Types.INTEGER);
+				stmt.setString(2, partNum);
+				stmt.setInt(3, setNum);
+				stmt.setString(4, quantity);
+				stmt.setString(5, color);
 			}catch(SQLException e){
 				e.printStackTrace();
 			}
 			try {
 				stmt.execute();
+				System.out.println(stmt.getInt(1));
 				return true;
 			} catch (SQLException e) {
 				e.printStackTrace();
