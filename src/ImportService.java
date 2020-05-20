@@ -40,17 +40,21 @@ public class ImportService {
 		}
 	}
 
-	public boolean addSetToDatabase(String setNumber) {
+	public String addSetToDatabase(String setNumber) {
 		String setName = getSetName(setNumber);
 		File file = new File("LegoSets/"+setNumber+".csv");
 		setNumber = setNumber.replace("-", "");
-		int setNum = Integer.parseInt(setNumber);
+		int setNum;
+		try {
+			setNum = Integer.parseInt(setNumber);
+		} catch(NumberFormatException e) {
+			return "";
+		}
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(file));
 		} catch (FileNotFoundException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
+			return "";
 		}
 		ArrayList<String> info = new ArrayList<String>();
 		String st;
@@ -91,11 +95,14 @@ public class ImportService {
 		}
 		try {
 			stmt.execute();
+			if(stmt.getInt(1)==1) {
+				return "already exists";
+			}
 			addPieceList(info,setNum);
-			return true;
+			return setName;
 		} catch (SQLException e) {
 			e.printStackTrace();
-			return false;
+			return "SQL Error";
 		}
 	}
 
@@ -175,7 +182,7 @@ public class ImportService {
 			return false;
 		}
 		try {
-			double d = Double.parseDouble(strNum);
+			Integer i = Integer.parseInt(strNum);
 		} catch (NumberFormatException nfe) {
 			return false;
 		}

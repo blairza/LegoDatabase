@@ -311,8 +311,15 @@ public class UserInterface {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				String setNumber = setNum.getText();
-				ld.addSetToDatabase(setNumber);
-				openMessage("Set Successfully Imported");
+				openMessage("Importing Set, this may take a minute \n Close this window to continue");
+				String setName = ld.addSetToDatabase(setNumber);
+				if(setName.equals("already exists")) {
+					openMessage("That set is already in the database");
+				} else if(setNumber.length()>0) {
+					openMessage("Set Added: "+setName);
+				} else {
+					openMessage("Please enter a valid Set number");
+				}
 			}
 		});
 		importScreen.add(filebar,BorderLayout.NORTH);
