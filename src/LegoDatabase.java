@@ -21,7 +21,8 @@ public class LegoDatabase {
 	private UserLogin login;
 	private WishListService wishList; 
 	private ImportService importing;
-
+    private CreateNewDB newDB;
+    
 	public LegoDatabase(String serverName, String databaseName) {
 		this.serverName = serverName;
 		this.databaseName = databaseName;
@@ -48,6 +49,7 @@ public class LegoDatabase {
 		login = new UserLogin(connection);
 		wishList = new WishListService(connection);
 		importing = new ImportService(connection);
+		newDB = new CreateNewDB(connection);
 		return true;
 	}
 	
@@ -179,6 +181,10 @@ public class LegoDatabase {
 	
 	public String addSetToDatabase(String setNum) {
 		return importing.addSetToDatabase(setNum);
+	}
+	
+	public Boolean createNew(String u, String p) {
+		return newDB.creation(u,p);
 	}
 	
 }
