@@ -412,10 +412,8 @@ public class UserInterface {
 		JPanel bottomButtons = new JPanel();
 		JButton login = new JButton("Login");
 		JButton register = new JButton("Register");
-		JButton createNew = new JButton("Create New Database");
 		bottomButtons.add(login);
 		bottomButtons.add(register);
-		bottomButtons.add(createNew);
 		loginScreen.add(bottomButtons,BorderLayout.SOUTH);
 		JPanel textInputs = new JPanel();
 		JTextField username = new JTextField("Username");
@@ -460,18 +458,6 @@ public class UserInterface {
 				}
 			}
 			
-		});
-		createNew.addActionListener(new ActionListener(){
-			
-			@Override
-			public void actionPerformed(ActionEvent e) {
-				if(ld.createNew(username.getText(),password.getText())) {
-					System.out.println("Worked");
-					SetUpScreens();
-					loginScreen.setVisible(false);
-					mainScreen.setVisible(true);
-				}
-			}
 		});
 	}
 	

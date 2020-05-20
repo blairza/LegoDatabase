@@ -6,280 +6,227 @@ public class CreateNewDB {
 	private Connection c;
 	private String username;
 	private String password;
-	private String database_name = "Lego_Database_username";
-
-	private String useDBQuery = "Use [database_name] Go";
-	private String newDBQuery = "CREATE DATABASE [database_name]\r\n" + " CONTAINMENT = NONE\r\n" + " ON  PRIMARY \r\n"
-			+ "( NAME = N'Lego_Database', FILENAME = N'E:\\Database\\MSSQL12.MSSQLSERVER\\MSSQL\\DATA\\database_name.mdf' , SIZE = 5120KB , MAXSIZE = 30720KB , FILEGROWTH = 10%)\r\n" + " LOG ON \r\n"
-			+ "( NAME = N'Lego_Database_log', FILENAME = N'E:\\Database\\MSSQL12.MSSQLSERVER\\MSSQL\\DATA\\database_name.ldf' , SIZE = 1024KB , MAXSIZE = 20480KB , FILEGROWTH = 10%)\r\n" + "GO";
-	
-	private String dropQuery = "Drop Database [Lego_Database_" + username + "]";
 
 //Tables in the database
-	private String colorQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "CREATE TABLE [Colors](\r\n" + "	[ColorName] [varchar](40) NOT NULL,\r\n"
-			+ " CONSTRAINT [PK_Colors] PRIMARY KEY CLUSTERED \r\n" + "(\r\n" + "	[ColorName] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO";
+	private String colorQuery = "CREATE TABLE [Colors]([ColorName] [varchar](40) NOT NULL,"
+			+ " CONSTRAINT [PK_Colors] PRIMARY KEY CLUSTERED ([ColorName] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] GO";
 
-	private String hasPieceQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE TABLE  [HasPiece](\r\n" + "	[PieceNumber] [varchar](20) NULL,\r\n"
-			+ "	[SetNumber] [int] NULL,\r\n" + "	[Color] [varchar](40) NULL,\r\n" + "	[Amount] [int] NULL\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__Color__300424B4] FOREIGN KEY([Color])\r\n"
-			+ "REFERENCES  [Colors] ([ColorName])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__Color__300424B4]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__PieceN__2E1BDC42] FOREIGN KEY([PieceNumber])\r\n"
-			+ "REFERENCES  [Pieces] ([PartNumber])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__PieceN__2E1BDC42]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__SetNum__2F10007B] FOREIGN KEY([SetNumber])\r\n"
-			+ "REFERENCES  [LEGO_Sets] ([SetNumber])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__SetNum__2F10007B]\r\n" + "GO";
+	private String hasPieceQuery = "CREATE TABLE  [HasPiece](	[PieceNumber] [varchar](20) NULL,"
+			+ "	[SetNumber] [int] NULL,	[Color] [varchar](40) NULL,	[Amount] [int] NULL"
+			+ ") ON [PRIMARY] GO"
+			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__Color__300424B4] FOREIGN KEY([Color])"
+			+ "REFERENCES  [Colors] ([ColorName]) GO"
+			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__Color__300424B4] GO"
+			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__PieceN__2E1BDC42] FOREIGN KEY([PieceNumber])"
+			+ "REFERENCES  [Pieces] ([PartNumber]) GO"
+			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__PieceN__2E1BDC42] GO"
+			+ "ALTER TABLE  [HasPiece]  WITH CHECK ADD  CONSTRAINT [FK__HasPiece__SetNum__2F10007B] FOREIGN KEY([SetNumber])"
+			+ "REFERENCES  [LEGO_Sets] ([SetNumber]) GO"
+			+ "ALTER TABLE  [HasPiece] CHECK CONSTRAINT [FK__HasPiece__SetNum__2F10007B] GO";
 
-	private String setQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "CREATE TABLE  [LEGO_Sets](\r\n" + "	[SetNumber] [int] NOT NULL,\r\n"
-			+ "	[MinAge] [int] NOT NULL,\r\n" + "	[MaxAge] [int] NULL,\r\n"
-			+ "	[SetName] [varchar](40) NOT NULL,\r\n" + "	[Cost] [money] NOT NULL,\r\n" + "	[Theme] [int] NULL,\r\n"
-			+ "PRIMARY KEY CLUSTERED \r\n" + "(\r\n" + "	[SetNumber] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [LEGO_Sets]  WITH CHECK ADD FOREIGN KEY([Theme])\r\n"
-			+ "REFERENCES  [Themes] ([ThemeID])\r\n" + "GO";
+	private String setQuery = "CREATE TABLE  [LEGO_Sets](	[SetNumber] [int] NOT NULL,"
+			+ "	[MinAge] [int] NOT NULL,	[MaxAge] [int] NULL,	[SetName] [varchar](40) NOT NULL,"
+			+ "	[Cost] [money] NOT NULL,	[Theme] [int] NULL,PRIMARY KEY CLUSTERED ("
+			+ "	[SetNumber] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY]GOALTER TABLE  [LEGO_Sets]  WITH CHECK ADD FOREIGN KEY([Theme])"
+			+ "REFERENCES  [Themes] ([ThemeID])  Go";
 
-	private String ownsPieceQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE TABLE  [OwnsPiece](\r\n" + "	[PartNumber] [varchar](20) NULL,\r\n"
-			+ "	[Username] [varchar](50) NULL,\r\n" + "	[Color] [varchar](40) NULL,\r\n"
-			+ "	[Quantity] [int] NULL\r\n" + ") ON [PRIMARY]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Color__34C8D9D1] FOREIGN KEY([Color])\r\n"
-			+ "REFERENCES  [Colors] ([ColorName])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Color__34C8D9D1]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Piece__32E0915F] FOREIGN KEY([PartNumber])\r\n"
-			+ "REFERENCES  [Pieces] ([PartNumber])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Piece__32E0915F]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Usern__33D4B598] FOREIGN KEY([Username])\r\n"
-			+ "REFERENCES  [Users] ([Username])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Usern__33D4B598]\r\n" + "GO";
+	private String ownsPieceQuery = "CREATE TABLE  [OwnsPiece](	[PartNumber] [varchar](20) NULL,"
+			+ "	[Username] [varchar](50) NULL,	[Color] [varchar](40) NULL,	[Quantity] [int] NULL"
+			+ ") ON [PRIMARY] Go"
+			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Color__34C8D9D1] FOREIGN KEY([Color])"
+			+ "REFERENCES  [Colors] ([ColorName]) Go"
+			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Color__34C8D9D1] Go"
+			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Piece__32E0915F] FOREIGN KEY([PartNumber])"
+			+ "REFERENCES  [Pieces] ([PartNumber]) Go"
+			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Piece__32E0915F] Go"
+			+ "ALTER TABLE  [OwnsPiece]  WITH CHECK ADD  CONSTRAINT [FK__OwnsPiece__Usern__33D4B598] FOREIGN KEY([Username])"
+			+ "REFERENCES  [Users] ([Username]) Go"
+			+ "ALTER TABLE  [OwnsPiece] CHECK CONSTRAINT [FK__OwnsPiece__Usern__33D4B598] Go";
 
-	private String ownsSetQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE TABLE  [OwnsSet](\r\n" + "	[SetNumber] [int] NOT NULL,\r\n"
-			+ "	[Username] [varchar](50) NOT NULL,\r\n" + "	[Quantity] [int] NULL,\r\n"
-			+ " CONSTRAINT [PK__OwnsSet__3E655D51BD295835] PRIMARY KEY CLUSTERED \r\n" + "(\r\n"
-			+ "	[SetNumber] ASC,\r\n" + "	[Username] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsSet]  WITH CHECK ADD  CONSTRAINT [FK__OwnsSet__SetNumb__619B8048] FOREIGN KEY([SetNumber])\r\n"
-			+ "REFERENCES  [LEGO_Sets] ([SetNumber])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsSet] CHECK CONSTRAINT [FK__OwnsSet__SetNumb__619B8048]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsSet]  WITH CHECK ADD  CONSTRAINT [FK__OwnsSet__Usernam__60A75C0F] FOREIGN KEY([Username])\r\n"
-			+ "REFERENCES  [Users] ([Username])\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [OwnsSet] CHECK CONSTRAINT [FK__OwnsSet__Usernam__60A75C0F]\r\n" + "GO";
+	private String ownsSetQuery = "CREATE TABLE  [OwnsSet](	[SetNumber] [int] NOT NULL,"
+			+ "	[Username] [varchar](50) NOT NULL,	[Quantity] [int] NULL,"
+			+ " CONSTRAINT [PK__OwnsSet__3E655D51BD295835] PRIMARY KEY CLUSTERED (	[SetNumber] ASC,"
+			+ "	[Username] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] Go"
+			+ "ALTER TABLE  [OwnsSet]  WITH CHECK ADD  CONSTRAINT [FK__OwnsSet__SetNumb__619B8048] FOREIGN KEY([SetNumber])"
+			+ "REFERENCES  [LEGO_Sets] ([SetNumber]) Go"
+			+ "ALTER TABLE  [OwnsSet] CHECK CONSTRAINT [FK__OwnsSet__SetNumb__619B8048] Go"
+			+ "ALTER TABLE  [OwnsSet]  WITH CHECK ADD  CONSTRAINT [FK__OwnsSet__Usernam__60A75C0F] FOREIGN KEY([Username])"
+			+ "REFERENCES  [Users] ([Username]) Go"
+			+ "ALTER TABLE  [OwnsSet] CHECK CONSTRAINT [FK__OwnsSet__Usernam__60A75C0F] Go";
 
-	private String piecesQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "CREATE TABLE  [Pieces](\r\n" + "	[PartNumber] [varchar](20) NOT NULL,\r\n"
-			+ "	[Part_Name] [varchar](100) NOT NULL,\r\n"
-			+ " CONSTRAINT [PK__Pieces__7BB41F31DCB256E5] PRIMARY KEY CLUSTERED \r\n" + "(\r\n"
-			+ "	[PartNumber] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO\r\n";
+	private String piecesQuery = "CREATE TABLE  [Pieces](	[PartNumber] [varchar](20) NOT NULL,"
+			+ "	[Part_Name] [varchar](100) NOT NULL,"
+			+ " CONSTRAINT [PK__Pieces__7BB41F31DCB256E5] PRIMARY KEY CLUSTERED (	[PartNumber] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] Go";
 
-	private String themesQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "CREATE TABLE  [Themes](\r\n" + "	[Name] [varchar](40) NOT NULL,\r\n"
-			+ "	[ThemeID] [int] IDENTITY(1,1) NOT NULL,\r\n" + "PRIMARY KEY CLUSTERED \r\n" + "(\r\n"
-			+ "	[ThemeID] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO";
+	private String themesQuery = "CREATE TABLE  [Themes](	[Name] [varchar](40) NOT NULL,"
+			+ "	[ThemeID] [int] IDENTITY(1,1) NOT NULL,PRIMARY KEY CLUSTERED (	[ThemeID] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] Go";
 
-	private String usersQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "CREATE TABLE  [Users](\r\n" + "	[Username] [varchar](50) NOT NULL,\r\n"
-			+ "	[PasswordHash] [varchar](50) NOT NULL,\r\n" + "	[PasswordSalt] [varchar](50) NOT NULL,\r\n"
-			+ " CONSTRAINT [PK__Users__536C85E59B32A24D] PRIMARY KEY CLUSTERED \r\n" + "(\r\n" + "	[Username] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO";
+	private String usersQuery = "CREATE TABLE  [Users](	[Username] [varchar](50) NOT NULL,"
+			+ "	[PasswordHash] [varchar](50) NOT NULL,	[PasswordSalt] [varchar](50) NOT NULL,"
+			+ " CONSTRAINT [PK__Users__536C85E59B32A24D] PRIMARY KEY CLUSTERED (	[Username] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] Go";
 
-	private String wishlistQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE TABLE  [WishListedSets](\r\n" + "	[SetNumber] [int] NOT NULL,\r\n"
-			+ "	[Username] [varchar](50) NOT NULL,\r\n" + "PRIMARY KEY CLUSTERED \r\n" + "(\r\n"
-			+ "	[SetNumber] ASC,\r\n" + "	[Username] ASC\r\n"
-			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]\r\n"
-			+ ") ON [PRIMARY]\r\n" + "GO\r\n" + "\r\n"
-			+ "ALTER TABLE  [WishListedSets]  WITH CHECK ADD FOREIGN KEY([Username])\r\n"
-			+ "REFERENCES  [Users] ([Username])\r\n" + "GO";
+	private String wishlistQuery = "CREATE TABLE  [WishListedSets](	[SetNumber] [int] NOT NULL,"
+			+ "	[Username] [varchar](50) NOT NULL,PRIMARY KEY CLUSTERED (	[SetNumber] ASC,"
+			+ "	[Username] ASC"
+			+ ")WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]"
+			+ ") ON [PRIMARY] GoALTER TABLE  [WishListedSets]  WITH CHECK ADD FOREIGN KEY([Username])"
+			+ "REFERENCES  [Users] ([Username]) Go";
 
 //Views in the database
-	private String allOwnedQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "\r\n" + "\r\n" + "\r\n" + "CREATE View [AllOwned] As\r\n" + "SELECT [Username]\r\n"
-			+ "      ,[partNumber]\r\n" + "      ,[Color]\r\n" + "     ,Sum([Quantity]) as Quantity,\r\n"
-			+ "	 Part_Name\r\n" + "  FROM [Lego_Database].[AllOwned_NoGrouping]\r\n"
-			+ "  Group By Username, PartNumber, Color, Part_Name\r\n" + "GO";
+	private String allOwnedQuery = "CREATE View [AllOwned] AsSELECT [Username]      ,[partNumber]"
+			+ "      ,[Color]     ,Sum([Quantity]) as Quantity,	 Part_Name"
+			+ "  FROM [Lego_Database].[AllOwned_NoGrouping]  Group By Username, PartNumber, Color, Part_Name"
+			+ " Go";
 
-	private String allOwnedQueryNoGrouping = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n"
-			+ "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n" + "\r\n" + "\r\n" + "\r\n" + "\r\n"
-			+ "CREATE View [AllOwned_NoGrouping] as\r\n"
-			+ "Select Username, pieces.partNumber, Color, Sum(Quantity) As Quantity, Part_Name\r\n"
-			+ "From OwnsPiece\r\n" + "Join Pieces on Pieces.PartNumber = OwnsPiece.PartNumber\r\n"
-			+ "Group By Username, pieces.partNumber, Color, Part_Name\r\n" + "Union All\r\n"
-			+ "Select OwnsSet.Username, hasPiece.PieceNumber, HasPiece.Color, HasPiece.Amount*OwnsSet.Quantity, Part_Name\r\n"
-			+ "From OwnsSet\r\n" + "Join HasPiece on ownsset.SetNumber = haspiece.SetNumber\r\n"
-			+ "Join Pieces on HasPiece.PieceNumber = Pieces.PartNumber\r\n" + "\r\n" + "GO";
+	private String allOwnedQueryNoGrouping = "CREATE View [AllOwned_NoGrouping] as"
+			+ "Select Username, pieces.partNumber, Color, Sum(Quantity) As Quantity, Part_NameFrom OwnsPiece"
+			+ "Join Pieces on Pieces.PartNumber = OwnsPiece.PartNumber"
+			+ "Group By Username, pieces.partNumber, Color, Part_NameUnion All"
+			+ "Select OwnsSet.Username, hasPiece.PieceNumber, HasPiece.Color, HasPiece.Amount*OwnsSet.Quantity, Part_Name"
+			+ "From OwnsSetJoin HasPiece on ownsset.SetNumber = haspiece.SetNumber"
+			+ "Join Pieces on HasPiece.PieceNumber = Pieces.PartNumber Go";
 
 //Stored Procedures in the database
-	private String addColorQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "\r\n" + "Create procedure [addColor]\r\n" + "@ColorName varchar(40)\r\n" + "As\r\n"
-			+ "\r\n" + "if((Select count(ColorName) from Colors where ColorName =@ColorName)=0)\r\n" + "Begin\r\n"
-			+ "insert into Colors(ColorName)\r\n" + "Values(@ColorName)\r\n" + "End\r\n" + "GO";
+	private String addColorQuery = "Create procedure [addColor]@ColorName varchar(40)As"
+			+ "if((Select count(ColorName) from Colors where ColorName =@ColorName)=0)Begin"
+			+ "insert into Colors(ColorName)Values(@ColorName)End Go";
 
-	private String addThemeQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "\r\n" + "CREATE Procedure [AddTheme]\r\n" + "@ThemeName varchar(40)\r\n" + "\r\n"
-			+ "\r\n" + "AS\r\n" + "\r\n" + "IF (Select ThemeID from Themes where Name=@ThemeName) is Not NULL\r\n"
-			+ "Begin\r\n" + "Print 'That Theme already exists'\r\n" + "Return 1;\r\n" + "END\r\n" + "\r\n" + "\r\n"
-			+ "Begin\r\n" + "Insert into Themes (Name)\r\n" + "Values (@ThemeName)\r\n" + "End\r\n" + "GO";
+	private String addThemeQuery = "CREATE Procedure [AddTheme]@ThemeName varchar(40)AS"
+			+ "IF (Select ThemeID from Themes where Name=@ThemeName) is Not NULLBegin"
+			+ "Print 'That Theme already exists'Return 1;ENDBeginInsert into Themes (Name)"
+			+ "Values (@ThemeName)End Go";
 
-	private String addPieceToCollectionQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n"
-			+ "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n" + "\r\n" + "CREATE procedure [AddPieceToCollection]\r\n"
-			+ "@Username varchar(20),\r\n" + "@Color varchar(40),\r\n" + "@PartNumber varchar(20),\r\n"
-			+ "@Quantity int\r\n" + "As\r\n" + "\r\n"
-			+ "if (Select Part_Name from pieces where PartNumber=@PartNumber) is null\r\n" + "Begin\r\n"
-			+ "print 'piece '+@PartNumber+' does not exist'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "if (Select Username from Users where Username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'User '+@Username+' does not exist'\r\n" + "return 2\r\n" + "End\r\n" + "\r\n"
-			+ "if (@Quantity <= 0)\r\n" + "Begin\r\n" + "print 'Quantity cannot be nagative'\r\n" + "return 3\r\n"
-			+ "End\r\n" + "\r\n" + "if (Select ColorName from Colors where LOWER(ColorName)=LOWER(@Color)) is null\r\n"
-			+ "Begin\r\n" + "print 'color '+@Color+' does not exist'\r\n" + "return 4\r\n" + "End\r\n" + "\r\n"
-			+ "if (select quantity from ownsPiece where Username=@username and Lower(color) = Lower(@Color) and partNumber = @PartNumber) is not null\r\n"
-			+ "Begin\r\n" + "Update OwnsPiece\r\n" + "Set Quantity = Quantity+@Quantity\r\n"
-			+ "Where Username=@username and color = @Color and partNumber = @PartNumber\r\n" + "return 0\r\n"
-			+ "End\r\n" + "\r\n" + "insert into OwnsPiece (Username, color, partnumber, quantity)\r\n"
-			+ "values (@Username, @Color, @PartNumber, @Quantity)\r\n" + "GO";
+	private String addPieceToCollectionQuery = "CREATE procedure [AddPieceToCollection]@Username varchar(20),"
+			+ "@Color varchar(40),@PartNumber varchar(20),@Quantity intAs"
+			+ "if (Select Part_Name from pieces where PartNumber=@PartNumber) is nullBegin"
+			+ "print 'piece '+@PartNumber+' does not exist'return 1End"
+			+ "if (Select Username from Users where Username=@Username) is nullBegin"
+			+ "print 'User '+@Username+' does not exist'return 2Endif (@Quantity <= 0)Begin"
+			+ "print 'Quantity cannot be nagative'return 3End"
+			+ "if (Select ColorName from Colors where LOWER(ColorName)=LOWER(@Color)) is nullBegin"
+			+ "print 'color '+@Color+' does not exist'return 4End"
+			+ "if (select quantity from ownsPiece where Username=@username and Lower(color) = Lower(@Color) and partNumber = @PartNumber) is not null"
+			+ "BeginUpdate OwnsPieceSet Quantity = Quantity+@Quantity"
+			+ "Where Username=@username and color = @Color and partNumber = @PartNumberreturn 0End"
+			+ "insert into OwnsPiece (Username, color, partnumber, quantity)"
+			+ "values (@Username, @Color, @PartNumber, @Quantity) Go";
 
-	private String addPieceToSetQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "\r\n" + "CREATE Procedure [AddToSet]\r\n" + "@PieceNumber varchar(20),\r\n"
-			+ "@SetNumber int,\r\n" + "@count int = 1,\r\n" + "@color varchar(20)\r\n" + "As\r\n" + "if\r\n"
-			+ "(select PieceNumber\r\n" + "from HasPiece\r\n"
-			+ "where @PieceNumber = PieceNumber and @SetNumber = SetNumber and @color = Color\r\n" + ") is not null\r\n"
-			+ "Begin\r\n" + "Update HasPiece\r\n" + "Set Amount = Amount + @count\r\n"
-			+ "where PieceNumber = @PieceNumber and @SetNumber = SetNumber and Color = @color\r\n" + "return 0\r\n"
-			+ "End\r\n" + "\r\n" + "if\r\n" + "(select PartNumber\r\n" + "from Pieces\r\n"
-			+ "where PartNumber=@PieceNumber) is null\r\n" + "Begin\r\n" + "Print 'That piece does not exist'\r\n"
-			+ "return 1\r\n" + "End\r\n" + "\r\n" + "if\r\n" + "(select SetNumber\r\n" + "from LEGO_Sets\r\n"
-			+ "where @SetNumber = SetNumber) is null\r\n" + "begin\r\n" + "Print 'That set does not exist'\r\n"
-			+ "return 1\r\n" + "End\r\n" + "\r\n" + "if\r\n" + "(select ColorName\r\n" + "from Colors\r\n"
-			+ "where LOWER(ColorName)=Lower(@color)) is null\r\n" + "Begin\r\n"
-			+ "Print 'That color does not exist'\r\n" + "return 1\r\n" + "end\r\n" + "\r\n" + "if(@count<1)\r\n"
-			+ "Begin\r\n" + "Print 'Cannot have non-positive amount'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "insert into HasPiece(SetNumber,PieceNumber,Amount,Color)\r\n"
-			+ "values (@SetNumber,@PieceNumber,@count,@color)\r\n" + "GO";
+	private String addPieceToSetQuery = "CREATE Procedure [AddToSet]@PieceNumber varchar(20),@SetNumber int,"
+			+ "@count int = 1,@color varchar(20)Asif(select PieceNumberfrom HasPiece"
+			+ "where @PieceNumber = PieceNumber and @SetNumber = SetNumber and @color = Color) is not null"
+			+ "BeginUpdate HasPieceSet Amount = Amount + @count"
+			+ "where PieceNumber = @PieceNumber and @SetNumber = SetNumber and Color = @colorreturn 0End"
+			+ "if(select PartNumberfrom Pieceswhere PartNumber=@PieceNumber) is nullBegin"
+			+ "Print 'That piece does not exist'return 1Endif(select SetNumberfrom LEGO_Sets"
+			+ "where @SetNumber = SetNumber) is nullbeginPrint 'That set does not exist'return 1End"
+			+ "if(select ColorNamefrom Colorswhere LOWER(ColorName)=Lower(@color)) is nullBegin"
+			+ "Print 'That color does not exist'return 1endif(@count<1)Begin"
+			+ "Print 'Cannot have non-positive amount'return 1End"
+			+ "insert into HasPiece(SetNumber,PieceNumber,Amount,Color)"
+			+ "values (@SetNumber,@PieceNumber,@count,@color) Go";
 
-	private String newPieceQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "\r\n" + "Create Procedure [NewPiece]\r\n" + "@PartNumber varchar(20),\r\n"
-			+ "@PartName varchar(40)\r\n" + "As\r\n" + "\r\n"
-			+ "if (Select Part_Name From Pieces Where @PartNumber=PartNumber) is not null\r\n" + "Begin\r\n"
-			+ "Print 'That piece is already in the database'\r\n" + "Return 1\r\n" + "END\r\n" + "\r\n"
-			+ "insert into pieces (Part_Name, PartNumber)\r\n" + "values (@PartName, @PartNumber)\r\n" + "GO";
+	private String newPieceQuery = "Create Procedure [NewPiece]@PartNumber varchar(20),@PartName varchar(40)"
+			+ "Asif (Select Part_Name From Pieces Where @PartNumber=PartNumber) is not nullBegin"
+			+ "Print 'That piece is already in the database'Return 1END"
+			+ "insert into pieces (Part_Name, PartNumber)values (@PartName, @PartNumber) Go";
 
-	private String addSetQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "\r\n" + "CREATE Procedure [AddSet]\r\n" + "@SetNumber int,\r\n" + "@SetName varchar(40) ,\r\n"
-			+ "@MinAge int = 0,\r\n" + "@MaxAge int = Null,\r\n" + "@Theme varchar(40) = 'Other',\r\n"
-			+ "@Cost money = 0\r\n" + "As\r\n"
-			+ "if(Select SetNumber From LEGO_Sets Where SetNumber = @SetNumber) is not null\r\n" + "Begin\r\n"
-			+ "Print 'That set is already in the database'\r\n" + "Return 1\r\n" + "END\r\n"
-			+ "if(@MinAge<0 or @MaxAge <= @MinAge) \r\n" + "Begin\r\n" + "Print 'Invalid age entries'\r\n"
-			+ "Return 2\r\n" + "End\r\n" + "if(@Cost<0)\r\n" + "Begin\r\n" + "Print 'The cost cannot be negative'\r\n"
-			+ "Return 3\r\n" + "End\r\n" + "Insert into LEGO_Sets (SetNumber, SetName, MinAge, MaxAge, Cost,Theme)\r\n"
-			+ "Values(\r\n" + "@SetNumber,\r\n" + "@SetName,\r\n" + "@MinAge,\r\n" + "@MaxAge,\r\n" + "@Cost,\r\n"
-			+ "(Select ThemeID From Themes\r\n" + "Where Lower(@Theme)=Lower(Themes.name))\r\n" + ")\r\n" + "GO";
+	private String addSetQuery = "CREATE Procedure [AddSet]@SetNumber int,@SetName varchar(40) ,"
+			+ "@MinAge int = 0,@MaxAge int = Null,@Theme varchar(40) = 'Other',@Cost money = 0As"
+			+ "if(Select SetNumber From LEGO_Sets Where SetNumber = @SetNumber) is not nullBegin"
+			+ "Print 'That set is already in the database'Return 1END"
+			+ "if(@MinAge<0 or @MaxAge <= @MinAge) BeginPrint 'Invalid age entries'Return 2End"
+			+ "if(@Cost<0)BeginPrint 'The cost cannot be negative'Return 3End"
+			+ "Insert into LEGO_Sets (SetNumber, SetName, MinAge, MaxAge, Cost,Theme)Values(@SetNumber,"
+			+ "@SetName,@MinAge,@MaxAge,@Cost,(Select ThemeID From Themes"
+			+ "Where Lower(@Theme)=Lower(Themes.name))) Go";
 
-	private String addSetToCollectionQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n"
-			+ "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n" + "\r\n" + "create procedure [addSetToCollection]\r\n"
-			+ "@Username varchar(20),\r\n" + "@SetNumber int\r\n" + "As\r\n" + "\r\n"
-			+ "if (Select username from users where username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'That User does not exist'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "if (Select setNumber from LEGO_Sets where SetNumber = @SetNumber) is null\r\n" + "Begin\r\n"
-			+ "print 'That Set does not exist'\r\n" + "return 2\r\n" + "End\r\n" + "\r\n"
-			+ "if ((Select OwnsSet.quantity from OwnsSet where OwnsSet.username=@Username and OwnsSet.SetNumber=@SetNumber) is not null)\r\n"
-			+ "Begin\r\n" + "Update OwnsSet\r\n" + "Set Quantity = OwnsSet.Quantity+1\r\n"
-			+ "Where Username = @Username and SetNumber = @SetNumber\r\n" + "Return 0\r\n" + "End\r\n" + "\r\n"
-			+ "Insert into OwnsSet (Username,SetNumber,Quantity)\r\n" + "values (@Username, @SetNumber, 1)\r\n"
-			+ "Return 0\r\n" + "GO";
+	private String addSetToCollectionQuery = "Create procedure [addSetToCollection]@Username varchar(20),"
+			+ "@SetNumber intAsif (Select username from users where username=@Username) is nullBegin"
+			+ "print 'That User does not exist'return 1End"
+			+ "if (Select setNumber from LEGO_Sets where SetNumber = @SetNumber) is nullBegin"
+			+ "print 'That Set does not exist'return 2End"
+			+ "if ((Select OwnsSet.quantity from OwnsSet where OwnsSet.username=@Username and OwnsSet.SetNumber=@SetNumber) is not null)"
+			+ "BeginUpdate OwnsSetSet Quantity = OwnsSet.Quantity+1"
+			+ "Where Username = @Username and SetNumber = @SetNumberReturn 0End"
+			+ "Insert into OwnsSet (Username,SetNumber,Quantity)values (@Username, @SetNumber, 1)Return 0"
+			+ " Go";
 
-	private String addToWishlistQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE procedure [AddToWishlist]\r\n" + "@Set_Num [int],\r\n"
-			+ "@Username varchar(40)\r\n" + "As\r\n" + "\r\n"
-			+ "if (Select SetNumber from brunera1.LEGO_Sets where SetNumber = @Set_Num) is null\r\n" + "Begin\r\n"
-			+ "print 'Set '+ @Set_Num +' does not exist'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "if (Select Username from brunera1.Users where Username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'User '+@Username+' does not exist'\r\n" + "return 2\r\n" + "End\r\n" + "\r\n"
-			+ "if (Select SetNumber from brunera1.WishListedSets where Username=@Username and SetNumber=@Set_Num) is not null\r\n"
-			+ "Begin\r\n" + "print'Set already in wishlist'\r\n" + "return 3\r\n" + "End\r\n"
-			+ "Insert into brunera1.WishListedSets values (@Set_Num,@Username)\r\n" + "GO";
+	private String addToWishlistQuery = "CREATE procedure [AddToWishlist]@Set_Num [int],@Username varchar(40)"
+			+ "Asif (Select SetNumber from brunera1.LEGO_Sets where SetNumber = @Set_Num) is nullBegin"
+			+ "print 'Set '+ @Set_Num +' does not exist'return 1End"
+			+ "if (Select Username from brunera1.Users where Username=@Username) is nullBegin"
+			+ "print 'User '+@Username+' does not exist'return 2End"
+			+ "if (Select SetNumber from brunera1.WishListedSets where Username=@Username and SetNumber=@Set_Num) is not null"
+			+ "Beginprint'Set already in wishlist'return 3End"
+			+ "Insert into brunera1.WishListedSets values (@Set_Num,@Username) Go";
 
-	private String removeFromCollectionQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n"
-			+ "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n" + "\r\n" + "\r\n"
-			+ "Create Procedure [removeSetFromCollection]\r\n" + "@Username varchar(50),\r\n" + "@SetNumber int\r\n"
-			+ "As\r\n" + "\r\n"
-			+ "if (select quantity from OwnsSet where Username=@Username and SetNumber=@SetNumber)=1\r\n" + "Begin\r\n"
-			+ "Delete from OwnsSet\r\n" + "Where username = @Username and SetNumber=@setNumber\r\n" + "End\r\n"
-			+ "Else\r\n" + "Begin\r\n" + "Update OwnsSet\r\n" + "Set Quantity = quantity-1\r\n"
-			+ "where username = @username and SetNumber = @SetNumber\r\n" + "END\r\n" + "GO";
+	private String removeFromCollectionQuery = "Create Procedure [removeSetFromCollection]@Username varchar(50),"
+			+ "@SetNumber intAs"
+			+ "if (select quantity from OwnsSet where Username=@Username and SetNumber=@SetNumber)=1Begin"
+			+ "Delete from OwnsSetWhere username = @Username and SetNumber=@setNumberEndElseBegin"
+			+ "Update OwnsSetSet Quantity = quantity-1where username = @username and SetNumber = @SetNumber"
+			+ "ENDGO";
 
-	private String removeFromWishlistQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n"
-			+ "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n" + "\r\n" + "Create Procedure [RemoveFromWishList]\r\n"
-			+ "@Username varchar(50),\r\n" + "@SetNum int\r\n" + "As\r\n" + "\r\n" + "Delete from WishListedSets\r\n"
-			+ "Where SetNumber = @SetNum and Username=@Username\r\n" + "GO";
+	private String removeFromWishlistQuery = "Create Procedure [RemoveFromWishList]@Username varchar(50),"
+			+ "@SetNum intAsDelete from WishListedSetsWhere SetNumber = @SetNum and Username=@Username"
+			+ " Go";
 
-	private String registerQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE PROCEDURE [Register]\r\n" + "	@Username nvarchar(50),\r\n"
-			+ "	@PasswordSalt varchar(50),\r\n" + "	@PasswordHash varchar(50)\r\n" + "AS\r\n" + "BEGIN\r\n"
-			+ "	if @Username is null or @Username = ''\r\n" + "	BEGIN\r\n"
-			+ "		Print 'Username cannot be null or empty.';\r\n" + "		RETURN (1)\r\n" + "	END\r\n"
-			+ "	if @PasswordSalt is null or @PasswordSalt = ''\r\n" + "	BEGIN\r\n"
-			+ "		Print 'PasswordSalt cannot be null or empty.';\r\n" + "		RETURN (2)\r\n" + "	END\r\n"
-			+ "	if @PasswordHash is null or @PasswordHash = ''\r\n" + "	BEGIN\r\n"
-			+ "		Print 'PasswordHash cannot be null or empty.';\r\n" + "		RETURN (3)\r\n" + "	END\r\n"
-			+ "	IF (SELECT COUNT(*) FROM Users\r\n" + "          WHERE Username = @Username) = 1\r\n" + "	BEGIN\r\n"
-			+ "      PRINT 'ERROR: Username already exists.';\r\n" + "	  RETURN(4)\r\n" + "	END\r\n"
-			+ "	INSERT INTO [Users](Username, PasswordSalt, PasswordHash)\r\n"
-			+ "	VALUES (@username, @passwordSalt, @passwordHash)\r\n" + "END\r\n" + "GO";
+	private String registerQuery = "CREATE PROCEDURE [Register]	@Username nvarchar(50),"
+			+ "	@PasswordSalt varchar(50),	@PasswordHash varchar(50)ASBEGIN"
+			+ "	if @Username is null or @Username = ''	BEGIN		Print 'Username cannot be null or empty.';"
+			+ "		RETURN (1)	END	if @PasswordSalt is null or @PasswordSalt = ''	BEGIN"
+			+ "		Print 'PasswordSalt cannot be null or empty.';		RETURN (2)	END"
+			+ "	if @PasswordHash is null or @PasswordHash = ''	BEGIN"
+			+ "		Print 'PasswordHash cannot be null or empty.';		RETURN (3)	END"
+			+ "	IF (SELECT COUNT(*) FROM Users          WHERE Username = @Username) = 1	BEGIN"
+			+ "      PRINT 'ERROR: Username already exists.';	  RETURN(4)	END"
+			+ "	INSERT INTO [Users](Username, PasswordSalt, PasswordHash)"
+			+ "	VALUES (@username, @passwordSalt, @passwordHash)ENDGO";
 
-	private String loginQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n" + "GO\r\n"
-			+ "\r\n" + "\r\n" + "Create Procedure [Login]\r\n" + "@Username varchar(40)\r\n" + "As\r\n"
-			+ "SELECT PasswordSalt,PasswordHash FROM brunera1.Users WHERE Username = @Username\r\n" + "GO";
+	private String loginQuery = "Create Procedure [Login]@Username varchar(40)As"
+			+ "SELECT PasswordSalt,PasswordHash FROM brunera1.Users WHERE Username = @UsernameGO";
 
-	private String getSetsQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "Create Procedure [GetAllSets]\r\n" + "As\r\n"
-			+ "Select SetNumber, SetName, cost, Theme from brunera1.LEGO_Sets\r\n" + "GO";
+	private String getSetsQuery = "Create Procedure [GetAllSets]As"
+			+ "Select SetNumber, SetName, cost, Theme from brunera1.LEGO_SetsGO";
 
-	private String getOwnedSetsQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE Procedure [GetOwnedSets]\r\n" + "@Username varchar(40)\r\n" + "As\r\n"
-			+ "\r\n" + "if (Select Username from brunera1.Users where Username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'User '+@Username+' does not exist'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "Select brunera1.LEGO_Sets.SetNumber, SetName,Quantity from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = @Username\r\n"
-			+ "GO";
+	private String getOwnedSetsQuery = "CREATE Procedure [GetOwnedSets]@Username varchar(40)As"
+			+ "if (Select Username from brunera1.Users where Username=@Username) is nullBegin"
+			+ "print 'User '+@Username+' does not exist'return 1End"
+			+ "Select brunera1.LEGO_Sets.SetNumber, SetName,Quantity from brunera1.LEGO_Sets Join brunera1.OwnsSet on OwnsSet.SetNumber = LEGO_Sets.SetNumber Where OwnsSet.Username = @Username"
+			+ " Go";
 
-	private String getPiecesQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "Create Procedure [ShowAllPieces]\r\n" + "As\r\n"
-			+ "Select PartNumber, Part_Name from brunera1.Pieces\r\n" + "GO";
+	private String getPiecesQuery = "Create Procedure [ShowAllPieces]As"
+			+ "Select PartNumber, Part_Name from brunera1.PiecesGO";
 
-	private String getOwnedPiecesQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "Create Procedure [GetOwnedPieces]\r\n" + "@Username varchar(40)\r\n" + "As\r\n"
-			+ "\r\n" + "if (Select Username from brunera1.Users where Username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'User '+@Username+' does not exist'\r\n" + "return 1\r\n" + "End\r\n" + "\r\n"
-			+ "Select PartNumber, Quantity, Part_Name, Color from brunera1.AllOwned Where Username= @Username\r\n"
-			+ "GO";
+	private String getOwnedPiecesQuery = "Create Procedure [GetOwnedPieces]@Username varchar(40)As"
+			+ "if (Select Username from brunera1.Users where Username=@Username) is nullBegin"
+			+ "print 'User '+@Username+' does not exist'return 1End"
+			+ "Select PartNumber, Quantity, Part_Name, Color from brunera1.AllOwned Where Username= @UsernameGO";
 
-	private String getWishlistQuery = "SET ANSI_NULLS ON\r\n" + "GO\r\n" + "\r\n" + "SET QUOTED_IDENTIFIER ON\r\n"
-			+ "GO\r\n" + "\r\n" + "CREATE procedure [GetWishlist]\r\n" + "@Username varchar(40)\r\n" + "As\r\n" + "\r\n"
-			+ "if (Select Username from brunera1.Users where Username=@Username) is null\r\n" + "Begin\r\n"
-			+ "print 'User '+@Username+' does not exist'\r\n" + "return 2\r\n" + "End\r\n" + "\r\n"
-			+ "Select WishListedSets.SetNumber, SetName\r\n" + "from brunera1.WishListedSets \r\n"
-			+ "Join brunera1.LEGO_Sets on LEGO_Sets.setnumber = WishListedSets.SetNumber\r\n"
-			+ "where Username= @Username\r\n" + "GO";
+	private String getWishlistQuery = "CREATE procedure [GetWishlist]@Username varchar(40)As"
+			+ "if (Select Username from brunera1.Users where Username=@Username) is nullBegin"
+			+ "print 'User '+@Username+' does not exist'return 2End"
+			+ "Select WishListedSets.SetNumber, SetNamefrom brunera1.WishListedSets "
+			+ "Join brunera1.LEGO_Sets on LEGO_Sets.setnumber = WishListedSets.SetNumberwhere Username= @Username"
+			+ " Go";
 
 	public CreateNewDB(Connection c) {
 		this.c = c;
 	}
-	
 
-	public boolean creation(String u,String p) {
+	public boolean creation(String u, String p) {
 		Statement stmt = null;
 		try {
 			stmt = c.createStatement();
@@ -289,30 +236,20 @@ public class CreateNewDB {
 		}
 		username = u;
 		password = p;
-		this.database_name = this.database_name.replaceAll("username", username);
-		this.useDBQuery = this.useDBQuery.replaceAll("database_name",database_name);
-		this.newDBQuery = this.newDBQuery.replaceAll("database_name", database_name);
 		try {
-			try {
-			stmt.execute(this.newDBQuery);
-			}catch(SQLException e){
-				stmt.execute(this.dropQuery);
-				stmt.execute(this.newDBQuery);
-			}
-			stmt.execute(this.useDBQuery);
 			stmt.execute(this.colorQuery);
-			stmt.execute(this.hasPieceQuery);
+			stmt.execute(this.themesQuery);
+			stmt.execute(this.piecesQuery);
+			stmt.execute(this.usersQuery);
 			stmt.execute(this.setQuery);
+			stmt.execute(this.hasPieceQuery);
 			stmt.execute(this.ownsSetQuery);
 			stmt.execute(this.ownsPieceQuery);
-			stmt.execute(this.piecesQuery);
-			stmt.execute(this.themesQuery);
-			stmt.execute(this.usersQuery);
 			stmt.execute(this.wishlistQuery);
-			
+
 			stmt.execute(this.allOwnedQuery);
 			stmt.execute(this.allOwnedQueryNoGrouping);
-			
+
 			stmt.execute(this.addColorQuery);
 			stmt.execute(this.addThemeQuery);
 			stmt.execute(this.addPieceToCollectionQuery);
@@ -330,13 +267,12 @@ public class CreateNewDB {
 			stmt.execute(this.getPiecesQuery);
 			stmt.execute(this.getSetsQuery);
 			stmt.execute(this.getWishlistQuery);
-			System.out.println("Database: " + this.database_name + " successfully created");
 			return true;
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		
+
 		return false;
 	}
 }
