@@ -1,0 +1,88 @@
+color,part,quantity,part_id
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 4,1,3001
+Black,"Hose, Classic 4mm D. 12L",2,x467c12
+Black,Slope 45º 2 x 2,4,3039
+Black,Slope Inverted 45° 2 x 2 Double Convex,4,3676
+Black,Technic Axle 10,3,3737
+Black,Technic Axle 12,2,3708
+Black,Technic Axle 3,2,4519
+Black,Technic Axle 4,11,3705
+Black,Technic Axle 6,5,3706
+Black,Technic Axle 8,5,3707
+Black,Technic Pin with Friction Ridges Lengthwise [No Slots],40,4459
+Black,"Technic, Gear Worm Screw",1,4716
+Black,Tile 1 x 1 with Groove,2,3070b
+Black,Tyre 20 x 30 Technic,2,4267
+Black,Tyre 24 x 43 Technic,2,3740
+Blue,Dish 4 x 4 Inverted [Radar],2,3960
+Blue,Plate 2 x 4,2,3020
+Blue,Slope 45º 2 x 2,2,3039
+Blue,Slope Inverted 45º 2 x 2,2,3660
+Blue,Technic Brick 1 x 4 [3 Holes],2,3701
+Blue,Wheel 20 x 30 Technic [4 studs Diameter],4,4266
+Light Gray,Brick 1 x 2,1,3004
+Light Gray,Brick Round 1 x 1 Open Stud,12,3062b
+Light Gray,Brick Round 2 x 2,1,3941
+Light Gray,Plate 1 x 1,2,3024
+Light Gray,Plate 1 x 10,2,4477
+Light Gray,Plate 1 x 2,8,3023
+Light Gray,Plate 1 x 3,2,3623
+Light Gray,Plate 1 x 4,4,3710
+Light Gray,Plate 1 x 6,4,3666
+Light Gray,Plate 1 x 8,2,3460
+Light Gray,Plate 2 x 2,9,3022
+Light Gray,Plate 2 x 3,2,3021
+Light Gray,Plate 2 x 4,1,3020
+Light Gray,Plate 2 x 4 [3 Holes],6,3709b
+Light Gray,Plate 2 x 6,4,3795
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,2,3749
+Light Gray,Technic Axle and Pin Connector,10,3651
+Light Gray,Technic Brick 1 x 12 with Holes,4,3895
+Light Gray,Technic Brick 1 x 2 [1 Hole],19,3700
+Light Gray,Technic Brick 1 x 4 [3 Holes],4,3701
+Light Gray,Technic Brick 1 x 6 [5 Holes],2,3894
+Light Gray,Technic Brick 1 x 8 [7 Holes],4,3702
+Light Gray,Technic Bush,25,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],5,4265a
+Light Gray,Technic Connector Toggle Joint Toothed,2,4273b
+Light Gray,Technic Gear 14 Tooth Bevel,6,4143
+Light Gray,Technic Gear 24 Tooth Crown (Old Style),2,3650a
+Light Gray,Technic Gear 24 Tooth [Old Style - Three axle holes],3,3648a
+Light Gray,Technic Gear 8 Tooth,4,3647
+Light Gray,Technic Gear Rack 1 x 4,1,3743
+Light Gray,Technic Pin 1/2,4,4274
+Light Gray,Technic Universal Joint 4L [Complete Assembly],1,9244
+Light Gray,Technic Wedge Belt Wheel [aka Pulley],1,4185
+Light Gray,"Technic, Plate 1 x 8 with Toothed Ends",3,4442
+Light Gray,"Technic, Steering Arm",2,4261
+Light Gray,"Technic, Steering Pulley Large",1,3736
+Light Gray,Wheel 20 x 30 Technic [4 studs Diameter],2,4266
+Light Gray,Wheel 24 x 43 Technic,2,3739
+Red,Hinge Plate 1 x 2 with 2 Fingers and Hollow Studs,2,4276b
+Red,Hinge Plate 1 x 2 with 3 Fingers and Hollow Studs,2,4275b
+Red,Plate 1 x 1,2,3024
+Red,Plate 1 x 2,3,3023
+Red,Plate 1 x 4,4,3710
+Red,Plate 1 x 6,2,3666
+Red,Plate 2 x 4,1,3020
+Red,Tap 1 x 1,4,4599
+Red,Technic Brick 1 x 16 with Holes,2,3703
+Red,Technic Brick 1 x 2 [1 Hole],3,3700
+Red,Technic Brick 1 x 4 [3 Holes],1,3701
+Red,Technic Brick 1 x 6 [5 Holes],3,3894
+Red,Technic Brick 1 x 8 [7 Holes],2,3702
+Yellow,Brick 1 x 4,2,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Plate 1 x 1,2,3024
+Yellow,Plate 1 x 10,2,4477
+Yellow,Plate 1 x 4,8,3710
+Yellow,Plate 1 x 6,2,3666
+Yellow,Plate 2 x 4,2,3020
+Yellow,Plate 2 x 6,3,3795
+Yellow,Plate 4 x 6,2,3032
+Yellow,Plate 4 x 8,1,3035
+Yellow,Slope 45º 2 x 4,1,3037
+Yellow,Technic Brick 1 x 12 with Holes,2,3895
+Yellow,Technic Brick 1 x 2 [1 Hole],6,3700
+Yellow,Technic Brick 1 x 8 [7 Holes],10,3702

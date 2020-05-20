@@ -1,0 +1,201 @@
+color,part,quantity,part_id
+Aqua,Brick 1 x 1,1,3005
+Black,Brick 1 x 1,16,3005
+Black,Brick 1 x 16,1,2465
+Black,Brick 1 x 2,16,3004
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 10,2,3006
+Black,Brick 2 x 2,10,3003
+Black,Brick 2 x 3,4,3002
+Black,Brick 2 x 4,4,3001
+Black,Brick 4 x 6,1,2356
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 4,2,3020
+Black,Plate 4 x 6,5,3032
+Black,Slope 33º 3 x 3,1,4161
+Black,Slope 45° 2 x 1 Double - with Inside Stud Holder,3,3044c
+Black,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Blue,Antenna 1 x 4,1,3957
+Blue,Brick 1 x 1,16,3005
+Blue,Brick 1 x 2,14,3004
+Blue,Brick 1 x 2 x 5,2,2454
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 2 x 2,10,3003
+Blue,Brick 2 x 3,4,3002
+Blue,Brick 2 x 4,4,3001
+Blue,Brick Arch 1 x 6,2,3455
+Blue,Brick Round 2 x 2,2,3941
+Blue,Cone 1 x 1 [No Top Groove],2,4589
+Blue,Flower 2 x 2 - Round,2,4728
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 3,2,3021
+Blue,Plate 2 x 8,1,3034
+Blue,Plate 4 x 4,3,3031
+Blue,Slope 33º 2 x 2 Double,2,3300
+Blue,Slope 33º 3 x 3 Double Convex,1,3675
+Blue,Slope 45º 2 x 4,1,3037
+Brown,Brick 1 x 1,9,3005
+Brown,Brick 1 x 10,1,6111
+Brown,Brick 2 x 3,1,3002
+Brown,Brick 2 x 6,1,2456
+Brown,Plate 4 x 4,1,3031
+Brown,Slope 45º 2 x 4,1,3037
+Dark Blue,Slope 33º 3 x 2,2,3298
+Dark Blue,Slope 45º 2 x 2,1,3039
+Dark Gray,Brick  1 x  1 with Angry Eye Left/Sad Eye Right Print,1,3005pe2
+Dark Gray,Brick  1 x  1 with Angry Eye Right/Sad Eye Left Print,1,3005pe3
+Dark Gray,Brick 1 x 1 x 5,5,2453
+Dark Gray,Brick 2 x 3 with Curved Top,1,6215
+Dark Gray,Slope 45° 2 x 3,5,3038
+Dark Orange,Brick 1 x 1,2,3005
+Dark Orange,Brick 1 x 3,3,3622
+Dark Orange,Brick 1 x 6,1,3009
+Dark Orange,Brick 1 x 8,2,3008
+Dark Orange,Brick 2 x 2,1,3003
+Dark Orange,Plate 1 x 4,2,3710
+Dark Orange,Plate 2 x 2 Corner,1,2420
+Dark Orange,Plate 2 x 3,1,3021
+Dark Orange,Plate 2 x 4,1,3020
+Dark Orange,Tile 1 x 4,1,2431
+Dark Pink,Brick 2 x 2,1,3003
+Dark Red,Brick 2 x 3,3,3002
+Dark Red,Slope 45º 2 x 2,2,3039
+Dark Turquoise,Brick 1 x 2,2,3004
+Dark Turquoise,Brick 2 x 2,4,3003
+Dark Turquoise,Brick 2 x 4,1,3001
+Dark Turquoise,Slope 33º 3 x 2,1,3298
+Dark Turquoise,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Green,Brick 1 x 1,6,3005
+Green,Brick 1 x 16,1,2465
+Green,Brick 1 x 2,12,3004
+Green,Brick 1 x 4,2,3010
+Green,Brick 1 x 6,15,3009
+Green,Brick 2 x 2,10,3003
+Green,Brick 2 x 2 Corner,2,2357
+Green,Brick 2 x 3,2,3002
+Green,Brick 2 x 3 with Curved Top,1,6215
+Green,Brick 2 x 4,4,3001
+Green,Brick 2 x 8,1,3007
+Green,Plant Flower 2 x 2 Leaves - Angular,2,4727
+Green,Plate 1 x 6,1,3666
+Green,Plate 2 x 2 Corner,1,2420
+Green,Slope 45º 2 x 1,2,3040b
+Green,Slope Inverted 45º 2 x 1,2,3665
+Green,Tile 1 x 4,1,2431
+Light Blue,Brick 2 x 2 x 3,1,30145
+Light Gray,Brick 1 x 2,8,3004
+Light Gray,Brick 1 x 8,2,3008
+Light Gray,Brick 2 x 2,56,3003
+Light Gray,Brick 2 x 3,2,3002
+Light Gray,Brick 2 x 4,2,3001
+Light Gray,Brick 2 x 6,2,2456
+Light Gray,Plate 2 x 4,2,3020
+Light Gray,Slope 18º 4 x 2,1,30363
+Light Gray,Slope 33º 3 x 2,8,3298
+Light Gray,Slope 45º 2 x 1,2,3040b
+Light Gray,Slope Inverted 45º 2 x 1,2,3665
+Light Yellow,Brick 1 x 1 x 5,2,2453
+Light Yellow,Brick 1 x 2 x 5,1,2454
+Light Yellow,Brick 2 x 4,2,3001
+Light Yellow,Brick 2 x 6,1,2456
+Lime,Brick 1 x 3,1,3622
+Lime,Brick 1 x 8,1,3008
+Lime,Plate 2 x 8,1,3034
+Lime,Tile 1 x 4,2,2431
+Lime,Tile 1 x 6,2,6636
+Magenta,Plate 2 x 2,1,3022
+Medium Blue,Brick Round 1 x 1 Open Stud,3,3062b
+Medium Blue,Slope 45º 2 x 2,4,3039
+Medium Green,Brick 1 x 4,2,3010
+Medium Orange,Brick 1 x 3,1,3622
+Orange,Brick 1 x 1,2,3005
+Orange,Brick 1 x 2,8,3004
+Orange,Brick 1 x 3,1,3622
+Orange,Brick 1 x 4,2,3010
+Orange,Brick 2 x 2,6,3003
+Orange,Brick 2 x 3,2,3002
+Orange,Brick 2 x 4,4,3001
+Orange,Plate 1 x 6,2,3666
+Orange,Plate 2 x 10,1,3832
+Orange,Plate 2 x 3,2,3021
+Orange,Plate 2 x 4,4,3020
+Orange,Plate 2 x 6,1,3795
+Orange,Plate 2 x 8,3,3034
+Orange,Slope 33º 3 x 1,3,4286
+Orange,Slope 45º 2 x 1,4,3040b
+Orange,Slope Inverted 45º 2 x 1,4,3665
+Pink,Plate 2 x 4,2,3020
+Purple,Brick 1 x 4,5,3010
+Purple,Plate 2 x 6,1,3795
+Red,Brick 1 x 1,16,3005
+Red,Brick 1 x 12,1,6112
+Red,Brick 1 x 2,12,3004
+Red,Brick 2 x 2,10,3003
+Red,Brick 2 x 3,4,3002
+Red,Brick 2 x 4,2,3001
+Red,"Brick 2 x 4 x 2 No Studs, Triple Curved Top",1,6216
+Red,Brick 2 x 4 x 3,2,30144
+Red,Flower 2 x 2 - Round,2,4728
+Red,Plate 1 x 6,5,3666
+Red,Slope 33º 2 x 2 Double,2,3300
+Red,Slope 45° 2 x 2 Double,2,3043
+Red,Slope 45° 2 x 2 Double Concave,2,3046a
+Red,Slope 45° 2 x 4 Double,1,3041
+Sand Blue,Brick 1 x 4,2,3010
+Sand Blue,Brick 2 x 3,2,3002
+Sand Blue,Brick 2 x 4,1,3001
+Sand Green,Brick 1 x 4,1,3010
+Sand Green,Brick 2 x 2,1,3003
+Sand Green,Brick 2 x 2 Corner,3,2357
+Sand Green,Brick 2 x 3,4,3002
+Sand Green,Plate 1 x 3,1,3623
+Sand Green,Plate 1 x 4,1,3710
+Sand Green,Plate 1 x 6,1,3666
+Sand Green,Plate 2 x 2,2,3022
+Sand Green,Plate 2 x 2 Corner,1,2420
+Sand Green,Plate 2 x 8,1,3034
+Sand Red,Slope 33º 3 x 1,3,4286
+Tan,Brick 1 x 8,3,3008
+Tan,Brick 2 x 10,1,3006
+Tan,Brick 2 x 3,3,3002
+Tan,Brick 2 x 6,1,2456
+Tan,Brick 2 x 8,1,3007
+Trans-Clear,Brick Round 1 x 1 Open Stud,2,3062b
+Trans-Dark Blue,Brick 1 x 2 [No Bottom Tube],6,3065
+Trans-Dark Blue,Brick 2 x 2,8,3003
+Trans-Dark Blue,Slope 45º 2 x 2,2,3039
+Trans-Dark Pink,Brick 1 x 3,1,3622
+Trans-Neon Green,Slope 45º 2 x 1,1,3040b
+Trans-Red,Brick 1 x 1,2,3005
+Trans-Red,Brick 1 x 2 [No Bottom Tube],6,3065
+Trans-Red,Brick 2 x 2,8,3003
+Trans-Red,Slope 45º 2 x 2,2,3039
+White,Brick 1 x 1,14,3005
+White,Brick 1 x 2,16,3004
+White,Brick 1 x 4,2,3010
+White,Brick 2 x 2,12,3003
+White,Brick 2 x 3,6,3002
+White,Brick 2 x 4,4,3001
+White,Cone 2 x 2 x 2 [Open Stud],3,3942c
+White,Plate 2 x 2,2,3022
+White,Plate 2 x 2 Corner,3,2420
+White,Plate 2 x 3,2,3021
+White,Plate 2 x 4,2,3020
+Yellow,Brick 1 x 1 with Eye Squinting Black and White Print,2,3005px2
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Yellow,Brick 1 x 2,16,3004
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 4 with Black Smile Print,1,3010p01
+Yellow,Brick 2 x 2,10,3003
+Yellow,Brick 2 x 3,6,3002
+Yellow,Brick 2 x 3 with Curved Top,2,6215
+Yellow,Brick 2 x 4,4,3001
+Yellow,Brick 2 x 6,1,2456
+Yellow,Flag 4 x 1 Wave,1,4495
+Yellow,Plate 1 x 6,5,3666
+Yellow,Plate 2 x 10,3,3832
+Yellow,Plate 2 x 6,2,3795
+Yellow,Plate Round 2 x 2 with Axle Hole,1,4032
+Yellow,Slope 18º 4 x 2,2,30363
+Yellow,Slope 45º 2 x 1,3,3040b
+Yellow,Slope Inverted 45º 2 x 1,2,3665

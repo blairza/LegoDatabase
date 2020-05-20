@@ -1,0 +1,117 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,1,3004
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 3,2,3002
+Black,Brick Special 1 x 2 with Handle,2,30236
+Black,Minifig Visor Goggles,1,30170
+Black,Plate 1 x 2,2,3023
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 2,2,3022
+Black,Plate Round 2 x 2 with Axle Hole,4,4032
+Black,Slope 45º 2 x 2,5,3039
+Black,Tile 1 x 2 with Groove,8,3069b
+Black,Tile 1 x 4,5,2431
+Black,Tile 1 x 6,1,6636
+Black,Tile Special 1 x 2 with Handle,1,2432
+Black,"Turntable 2 x 2 Plate, Base",1,3680
+Black,Tyre Offset Tread,4,3483
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 3,2,3622
+Blue,Brick 2 x 3 with Curved Top,1,6215
+Blue,Brick 2 x 4,4,3001
+Blue,Brick Arch 1 x 6 x 2 Curved Top,4,6183
+Blue,Brick Round 4 x 4 with Holes,2,6222
+Blue,Cone 1 x 1 [No Top Groove],2,4589
+Blue,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",2,3475b
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 2 x 12,1,2445
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 4,3,3020
+Blue,Plate 3 x 6 Cut Corners,1,2419
+Blue,Plate 6 x 6,2,3958
+Blue,Slope 33° 3 x 2 with SW Crisscross Print,1,3298px7
+Blue,Slope 33º 3 x 1,2,4286
+Blue,Slope 33º 3 x 2,6,3298
+Blue,Slope Inverted 45 4 x 4 Double,1,4854
+Brown,Minifig Aviator Cap,1,30171
+Dark Gray,Brick 2 x 2,7,3003
+Dark Gray,Brick Special 2 x 2 with Pins and Axle Hole,2,30000
+Dark Gray,Cone 2 x 2 x 2 - Blocked Open Stud,2,3942b
+Dark Gray,Cone 4 x 4 x 2 [Axle Hole],2,3943b
+Dark Gray,Cylinder 3 x 6 x 2 2/3 Horizontal,2,30360
+Dark Gray,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",2,3475b
+Dark Gray,Hips and Legs [Complete Assembly],1,970c00
+Dark Gray,Minifig Visor Goggles,1,30170
+Dark Gray,Plate 1 x 2,6,3023
+Dark Gray,Plate 2 x 3,4,3021
+Dark Gray,Plate 2 x 4,2,3020
+Dark Gray,Plate 2 x 6,3,3795
+Dark Gray,Plate 4 x 4,4,3031
+Dark Gray,Slope 33º 3 x 2,5,3298
+Dark Gray,Slope Inverted 45º 2 x 2,2,3660
+Green,Brick Round 1 x 1 Open Stud,2,3062b
+Green,Plate 2 x 2,1,3022
+Light Gray,Brick 1 x 4,1,3010
+Light Gray,Brick 2 x 2 x 3,2,30145
+Light Gray,Brick 2 x 3,1,3002
+Light Gray,Brick Round 2 x 2 Dome Top - Undetermined Bottom Type,2,553
+Light Gray,Brick Round 4 x 4 with Holes,4,6222
+Light Gray,Brick Special 2 x 2 with Pin and Axle Hole,16,6232
+Light Gray,Brick Special 2 x 4 x 2 with Studs on Sides,2,2434
+Light Gray,Cone 1 x 1 [No Top Groove],1,4589
+Light Gray,Minifig Aviator Cap,1,30171
+Light Gray,Plate 1 x 6,1,3666
+Light Gray,Plate 2 x 4,4,3020
+Light Gray,Plate 2 x 6,4,3795
+Light Gray,Plate 4 x 4,2,3031
+Light Gray,Plate 4 x 6,2,3032
+Light Gray,Plate Special 1 x 2 Side Handle [Free Ends],3,2540
+Light Gray,Slope Inverted 45º 2 x 2,1,3660
+Light Gray,Technic Link 1 x 16,6,2637
+Light Gray,"Turntable 2 x 2 Plate, Top",1,3679
+Light Gray,Wheel Freestyle with Pin Hole,8,6248
+Red,Brick 1 x 2,1,3004
+Red,Brick 2 x 2,1,3003
+Red,Brick 2 x 2 Curved Top with Two Top Studs,1,30165
+Red,Brick Round 2 x 2,4,3941
+Red,Brick Round 4 x 4 with Holes,2,6222
+Red,Cone 1 x 1 [No Top Groove],4,4589
+Red,Plate 1 x 10,1,4477
+Red,Plate 1 x 3,2,3623
+Red,Plate 2 x 10,2,3832
+Red,Plate 2 x 2,5,3022
+Red,Slope Inverted 45 4 x 4 Double,1,4854
+Red,Slope Inverted 45º 2 x 2,1,3660
+Red,Wedge Plate 3 x 4 without Stud Notches,1,4859
+Tan,Arm Mechanical [Battle Droid],3,30377
+Tan,Brick 1 x 1,1,3005
+Tan,Brick 1 x 12,2,6112
+Tan,Brick Arch 1 x 6 x 2,4,3307
+Tan,Dish 4 x 4 Inverted [Radar],1,3960
+Tan,Dish 8 x 8 Inverted [Radar],2,3961
+Tan,Hips and Legs [Complete Assembly],1,970c00
+Tan,"Legs Mechanical, Battle Droid",1,30376
+Tan,Minifig Head Gungan jar-jar binks,1,30371
+Tan,Panel 3 x 4 x 6 with Arched Window,2,30246
+Tan,Slope 45º 2 x 1,1,3040b
+Tan,"Torso SW Closed Shirt, Brown Belt, Yellow Neck Print / Tan Arms / Yellow Hands",1,973px82ac01
+Tan,Torso SW Gungan Dark Gray/Light Brown Shirts Print / Tan Arms / Tan Hands,1,973px59c01
+Trans-Clear,Panel 1 x 2 x 1 [Square Corners],1,4865a
+Trans-Dark Blue,Brick Round 1 x 1 Open Stud,3,3062b
+Trans-Green,Panel 1 x 2 x 1 [Square Corners],1,4865a
+Trans-Neon Orange,Brick 1 x 6,4,3009
+Trans-Red,Panel 1 x 2 x 1 [Square Corners],1,4865a
+White,Brick 2 x 2,1,3003
+White,Plate 2 x 10,1,3832
+White,Plate 2 x 8,2,3034
+White,Plate 3 x 6 Cut Corners,2,2419
+White,Slope Inverted 45º 2 x 2,1,3660
+White,Slope Inverted 45Â° 6 x 4 Double with Recessed Center,2,30183
+Yellow,Brick 1 x 2,8,3004
+Yellow,Brick Round 2 x 2,2,3941
+Yellow,Minifig Head with SW Freckles and Thin Brown Eyebrows Print,1,3626bpsd
+Yellow,"Minifig, Head Alien with Blue and Silver Mask Type 1 Print",1,3626bpx46
+Yellow,Plate 1 x 2,7,3023
+Yellow,Plate 1 x 4,4,3710
+Yellow,Plate 1 x 6,6,3666
+Yellow,Slope 33º 3 x 2,2,3298

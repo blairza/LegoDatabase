@@ -1,0 +1,74 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,3,3005
+Black,Brick 1 x 2,9,3004
+Black,Brick 1 x 4,1,3010
+Black,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",1,crssprt02
+Black,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",4,crssprt01
+Black,Brick 2 x 2,2,3003
+Black,Brick 2 x 3 without Cross Supports,1,3002old
+Black,Brick 2 x 4 without Cross Supports,7,3001old
+Black,Electric 4.5V Battery Box 7 x 11 x 3 Type 1 (Complete),1,468c01
+Black,Electric Train Motor 4.5V 4 x 12 x 4 with Black Base,1,x579c02
+Black,Plate 1 x 1,4,3024
+Black,Plate 1 x 2 with old style bottom,11,3023old
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 3,4,3021
+Black,Plate 2 x 4,3,3020
+Black,Slope 45° 2 x 2 Double Convex,2,3045
+Black,Slope 45° 2 x 3,2,3038
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope 45º 2 x 2,5,3039
+Black,Slope 45º 2 x 4,2,3037
+Black,Tile 1 x 2 without Groove,1,3069a
+Blue,Brick 1 x 2,4,3004
+Blue,"Electric, Connector, 1 Way male Rounded with Cross-Cut Pin (Banana Plug)",4,996bc01
+Blue,Train Signal Circuit-Breaker Bar,2,trainsig2
+Blue,Train Signal Post,2,x489
+Blue,Train Track Tapered Rail Curved Inside,16,3230a
+Blue,Train Track Tapered Rail Curved Outside,16,3229a
+Blue,Train Track Tapered Rail Straight 16L,14,3228a
+Blue,"Train, Track 4.5V Switch Point Left with White Ties",2,x878cx1
+Light Gray,Plate 2 x 2,8,3022
+Light Gray,Plate 2 x 3,16,3021
+Light Gray,Plate 2 x 4,12,3020
+Light Gray,Plate 6 x 16,2,3027
+Light Gray,Plate 6 x 8,4,3036
+Light Gray,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Light Gray,Train Level Crossing Base - Solid Center,1,813a
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,4,458
+Red,Brick 1 x 1,5,3005
+Red,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",2,crssprt02
+Red,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",2,crssprt01
+Red,Brick Round 1 x 1 Solid Stud,16,3062a
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+Red,Door 1 x 2 x 3 Right (old type),2,33bc01
+Red,Fence 1 x 4 x 2,4,3185
+Red,Fence Gate 1 x 3 x 2,8,3358
+Red,Fence Gate 1 x 3 x 2 Base,8,3359
+Red,Plate 2 x 2,11,3022
+Red,Plate 2 x 4,10,3020
+Red,Plate Special 2 x 4 with Train Coupler Closed for Hook,4,737
+Red,Plate Special 2 x 4 with Train Coupler Closed with Hook,4,737c01
+Red,Slope 45° 2 x 3,4,3038
+Red,Slope 45º 2 x 4,2,3037
+Red,"Train Wheel with 2 x 2 Stud Center, Beveled Tread and Cam Axle for Motor",4,wheel1b
+Red,"Train Wheel with 2 x 2 Stud Center, Traction Teeth",16,wheel1a
+Red,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",16,29bc01
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",3,7026bc01
+Trans-Clear,Brick 1 x 1,2,3005
+Trans-Clear,Plate 1 x 2 with old style bottom,8,3023old
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",8,7049b
+White,"Electric, Wire 12V / 4.5V with two Leads, unspecified length",1,x466
+White,Plate 2 x 8 with Waffle Bottom,25,3034old
+White,Train Direction Switch - 4.5V 2 x 3,3,3218
+White,"Train Level Crossing Gate Type 1, Assembly with Blue Base & Red Handle (Left)",1,815c02
+White,"Train Level Crossing Gate Type 1, Assembly with Blue Base & Red Handle (Right)",1,815c01
+Yellow,Brick 1 x 1,16,3005
+Yellow,Brick 1 x 2,24,3004
+Yellow,Brick 2 x 10,4,3006
+Yellow,Brick Round 1 x 1 Solid Stud,1,3062a
+Yellow,Plate 1 x 1,1,3024
+Yellow,Plate 1 x 2 with old style bottom,1,3023old
+Yellow,Plate 2 x 2,8,3022
+Yellow,Plate 2 x 3,1,3021
+Yellow,Plate 2 x 4,16,3020

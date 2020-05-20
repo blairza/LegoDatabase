@@ -1,0 +1,40 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,10,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 6,1,3009
+Black,Brick 2 x 2 [Red Wheels for Single Tyre],2,3137c01
+Black,Plate 2 x 2,1,3022
+Black,Plate 4 x 10,2,3030
+Black,Plate 4 x 8,3,3035
+Black,Plate 6 x 8,1,3036
+Black,Tyre Smooth Small Single,4,3139
+Green,Baseplate 24 x 32 with Dots Print [353],1,10p08
+Green,"Plant, Tree Granulated Fruit",1,gtfruit
+Light Gray,Tile 2 x 2 with Groove,37,3068b
+Red,Brick Round 1 x 1 Solid Stud,4,3062a
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+Red,Fence 1 x 4 x 2,2,3185
+Red,Fence Gate 1 x 4 x 2,2,3186
+Red,Fence Gate 1 x 4 x 2 Base,2,3187
+Red,Slope 33º 3 x 4,1,3297
+Red,Tile 2 x 2 with Groove,2,3068b
+Red,Window 1 x 2 x 1 Classic with Short Sill (Complete),6,27cc01
+Red,Window 1 x 2 x 2 Classic with Short Sill (Complete),2,3081cc01
+Red,Window 1 x 3 x 2 Classic with Short Sill (Complete),2,31cc01
+Red,Window 1 x 6 x 2 Classic with Short Sill (Complete),2,645cc01
+Trans-Clear,Slope 45º 2 x 4,1,3037
+White,Antenna with Side Spokes,2,3144
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 1 with Blue '2' Print (Bold Font),1,3005pt2b
+White,Brick 1 x 1 with Blue '4' Print (Bold Font),1,3005pt4b
+White,Brick 1 x 2,20,3004
+White,Brick 1 x 4,6,3010
+White,Brick 1 x 6,5,3009
+White,Brick 1 x 8,6,3008
+White,Plate 1 x 2,2,3023
+White,Plate 2 x 2,2,3022
+White,Plate 2 x 3,2,3021
+Yellow,Brick 1 x 4,1,3010
+Yellow,Brick 1 x 4 with Chrome Car Grill Print [Embossed],1,3010pb035e
+Yellow,Brick 2 x 3 without Cross Supports,2,3002old
+Yellow,Plate 4 x 8,1,3035

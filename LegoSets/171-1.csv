@@ -1,0 +1,37 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,10,3005
+Black,Brick 1 x 2,1,3004
+Black,Brick 1 x 4,6,3010
+Black,Brick 1 x 6,5,3009
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 10,4,3006
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 4 without Cross Supports,1,3001old
+Black,Brick Round 1 x 1 Open Stud,5,3062b
+Black,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",2,7049b
+Black,Fence Gate 1 x 3 x 2,6,3358
+Black,Fence Gate 1 x 3 x 2 Base,6,3359
+Black,Plate 1 x 2,1,3023
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate 4 x 6,2,3032
+Black,Slope 45° 2 x 3,2,3038
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 4,2,3037
+Black,Train Base 6 x 12 with Wheels and Red and Blue Magnets,3,x487c01
+Black,Train Base 6 x 16 Old with Magnets,1,4178a
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,8,3004
+Blue,Brick 1 x 4,2,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Train Track Tapered Rail Curved Inside,16,3230a
+Blue,Train Track Tapered Rail Curved Outside,16,3229a
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 8,1,3034
+Red,Plate 4 x 8,2,3035
+Red,Train Wheel Spoked for Wagon,4,wheel2b
+Red,"Vehicle, Tipper End Flat with Pins",2,3145
+White,Plate 2 x 2,1,3022
+White,Plate 2 x 8,16,3034
+Yellow,Brick 2 x 10,2,3006
+Yellow,Window 1 x 1 x 1,2,39

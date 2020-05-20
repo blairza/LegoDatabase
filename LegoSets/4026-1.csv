@@ -1,0 +1,24 @@
+color,part,quantity,part_id
+Black,Plate 2 x 4,2,3020
+Blue,Brick 1 x 1,6,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 2 x 2,5,3003
+Blue,Brick 2 x 4,10,3001
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,4,3004
+Green,Brick 2 x 2,3,3003
+Light Gray,Plate 2 x 2,2,3022
+Red,Brick 1 x 1,6,3005
+Red,Brick 1 x 2,6,3004
+Red,Brick 2 x 2,5,3003
+Red,Brick 2 x 4,6,3001
+Red,Plate 2 x 3,2,3021
+White,Plate 2 x 2,4,3022
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Yellow,Brick 1 x 2,8,3004
+Yellow,Brick 2 x 2,5,3003
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,8,3001
+Yellow,Slope 45º 2 x 1,2,3040b
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Slope Inverted 45º 2 x 1,2,3665

@@ -1,0 +1,93 @@
+color,part,quantity,part_id
+Black,Bracket 1 x 2 - 2 x 2,1,44728
+Black,Brick 2 x 2 Corner,2,2357
+Black,Brick 2 x 3,1,3002
+Black,Brick 2 x 6,1,2456
+Black,Brick Special 1 x 2 with Handle,6,30236
+Black,Hinge Plate 1 x 2 Locking with 2 Fingers On End,2,44302
+Black,Plate 1 x 10,2,4477
+Black,Plate 1 x 4,4,3710
+Black,Plate 1 x 6,4,3666
+Black,Plate 2 x 4,1,3020
+Black,Plate 4 x 6,1,3032
+Black,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],2,3839b
+Black,Slope Curved 6 x 2,2,44126
+Black,Technic Axle 10,1,3737
+Black,Technic Axle 2 Notched,1,32062
+Black,Technic Beam 1 x 3 Thin,1,6632
+Black,Technic Pin with Friction and Slots,2,2780
+Black,Technic Pole Reverser Handle,2,6553
+Black,Technic Steering Wheel Large,1,2741
+Black,Tile 1 x 2 with Groove,2,3069b
+Black,Tile 2 x 2 with Groove,7,3068b
+Black,Tile Special 1 x 1 with Clip,11,2555
+Black,Tyre 30.4 x 14 Offset Tread,4,30391
+Black,Tyre 37 x 18R,4,56891
+Black,"Wheel 30.4 x 14 with Axle Hole, Fake Bolts and Shallow Spokes",4,55982
+Black,Windscreen 3 x 6 x 1 Curved,1,62360
+Blue,Brick 2 x 3,1,3002
+Dark Bluish Gray,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],1,3839b
+Dark Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,1,2412b
+Dark Bluish Gray,Tile 1 x 4,7,2431
+Dark Bluish Gray,Tile Special 2 x 2 with Pin,1,2460
+Green,Plate 1 x 2,4,3023
+Green,Plate 1 x 4,2,3710
+Green,Plate 1 x 8,2,3460
+Green,Plate 2 x 6,2,3795
+Green,Plate 4 x 6,1,3032
+Green,Plate Special 1 x 2 Side Handle [Free Ends],1,2540
+Green,"Plate, Round Corner 3 x 3",2,30357
+Green,Slope Curved 4 x 1 No Studs,4,61678
+Green,Tile 1 x 2 with Groove,4,3069b
+Green,Tile 1 x 6,3,6636
+Green,Wedge 4 x 6 x 2/3 Triple Curved,1,52031
+Light Bluish Gray,"Electric Motor RC with Steering Mechanism and Receiving Unit, Dark Bluish Gray Base",1,64766
+Light Bluish Gray,Plate 2 x 6 [5 Holes],2,32001
+Light Bluish Gray,Power Functions 9V IR Remote Control [Dark Bluish Gray Bottom Hatch],1,58122
+Light Bluish Gray,Technic Bush 1/2 Smooth,2,4265c
+Red,Brick 1 x 16,2,2465
+Red,Brick 1 x 2 x 1 1/3 with Curved Top,2,6091
+Red,Brick Special 1 x 1 with Headlight,2,4070
+Red,BrickSpecial 1 x 4 with 4 Studs on One Side,2,30414
+Red,Plate 1 x 10,2,4477
+Red,Plate 1 x 4,1,3710
+Red,Plate 1 x 8,2,3460
+Red,Plate 2 x 4 [3 Holes],1,3709b
+Red,Plate 2 x 8 [7 Holes],1,3738
+Red,Slope Curved 4 x 1 No Studs,2,61678
+Red,Tile 1 x 6,1,6636
+Red,Tile Special 4 x 6 with Studs on Edges,1,6180
+Red,Wheel Cover 9 Spoke - 18mm D. - for Wheel 55982,4,62701
+Tan,Technic Axle Pin without Friction Ridges Lengthwise,1,3749
+Trans-Clear,Plate Round 1 x 1 Straight Side,9,4073
+Trans-Red,Plate 1 x 2,3,3023
+Trans-Red,Plate Round 1 x 1 Straight Side,4,4073
+Trans-Red,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+White,Brick 1 x 12,2,6112
+White,Brick 1 x 2 x 1 1/3 with Curved Top,2,6091
+White,Brick 1 x 3,2,3622
+White,Brick 1 x 6,1,3009
+White,Brick 2 x 2 Corner,2,2357
+White,Brick 2 x 4 x 1 1/3 with Curved Top,2,6081
+White,Hinge Plate 1 x 2 Locking with 1 Finger On End,2,44301
+White,Hinge Plate 1 x 2 Locking with 1 Finger On Top,2,30383
+White,Hinge Plate 1 x 2 Locking with 2 Fingers On End,2,44302
+White,Mudguard 1 1/2 x 6 x 1 [Arch Extended],8,62361
+White,Plate 1 x 2,2,3023
+White,Plate 1 x 2 [Side Handle Closed Ends],7,48336
+White,Plate 1 x 3,8,3623
+White,Plate 1 x 4,1,3710
+White,Plate 1 x 6,6,3666
+White,Plate 1 x 8,3,3460
+White,Plate 2 x 3,2,3021
+White,Plate 2 x 4,1,3020
+White,Plate 2 x 6,6,3795
+White,Plate 2 x 8,4,3034
+White,Plate 4 x 8,2,3035
+White,Slope Curved 3 x 1 No Studs,4,50950
+White,Slope Curved 6 x 1,2,42022
+White,Technic Brick 1 x 4 [3 Holes],1,3701
+White,Technic Car Spoiler 3 x 8 [Three Holes],1,61073
+White,Tile 1 x 2 Grill with Bottom Groove,2,2412b
+White,Tile 1 x 6,2,6636
+White,"Wheel 30.4 x 14 with Axle Hole, Fake Bolts and Shallow Spokes",4,55982

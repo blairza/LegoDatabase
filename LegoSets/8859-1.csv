@@ -1,0 +1,107 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,1,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick Round 1 x 1 Solid Stud,8,3062a
+Black,Brick Special 1 x 1 with Headlight,4,4070
+Black,Plate 1 x 2,29,3023
+Black,Plate 1 x 3,5,3623
+Black,Plate 1 x 4,18,3710
+Black,Plate 1 x 6,11,3666
+Black,Plate 1 x 8,12,3460
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,6,3021
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 6,2,3032
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+Black,Rubber Band [Square Cross Section],4,x88
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope Inverted 45º 2 x 1,2,3665
+Black,Technic Axle 10,4,3737
+Black,Technic Axle 12,4,3708
+Black,Technic Axle 2,20,3704
+Black,Technic Axle 4,9,3705
+Black,Technic Axle 6,10,3706
+Black,Technic Axle 8,5,3707
+Black,Technic Brick 1 x 12 with Holes,3,3895
+Black,Technic Brick 1 x 16 with Holes,6,3703
+Black,Technic Brick 1 x 2 [1 Hole],9,3700
+Black,Technic Brick 1 x 4 [3 Holes],8,3701
+Black,Technic Brick 1 x 6 [5 Holes],7,3894
+Black,Technic Brick 1 x 8 [7 Holes],2,3702
+Black,"Technic, Plate 1 x 4 with Toothed Ends",5,4263
+Black,"Technic, Plate 1 x 6 with Toothed Ends",2,4262
+Black,Tile 1 x 2 with Groove,12,3069b
+Black,Tyre 24 x 43 Technic,4,3740
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2,2,3004
+Blue,Plate 1 x 2,12,3023
+Blue,Plate 1 x 3,2,3623
+Blue,Plate 1 x 4,6,3710
+Blue,Plate 1 x 6,5,3666
+Blue,Plate 1 x 8,2,3460
+Blue,Plate 2 x 4 [3 Holes],1,3709b
+Blue,Plate 2 x 6,4,3795
+Blue,Plate 2 x 8 [7 Holes],1,3738
+Blue,Plate 4 x 12,1,3029
+Blue,Plate 4 x 8,3,3035
+Blue,Plate 6 x 8,1,3036
+Blue,Technic Brick 1 x 12 with Holes,4,3895
+Blue,Technic Brick 1 x 16 with Holes,2,3703
+Blue,Technic Brick 1 x 2 [1 Hole],4,3700
+Blue,Technic Brick 1 x 4 [3 Holes],3,3701
+Blue,Technic Brick 1 x 8 [7 Holes],2,3702
+Light Gray,Plate 1 x 2,2,3023
+Light Gray,Plate 1 x 6,2,3666
+Light Gray,Plate 2 x 2,20,3022
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,3,3749
+Light Gray,Technic Axle and Pin Connector,8,3651
+Light Gray,Technic Brick 1 x 2 [1 Hole],2,3700
+Light Gray,Technic Brick 1 x 8 [7 Holes],3,3702
+Light Gray,Technic Bush,41,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],22,4265a
+Light Gray,Technic Connector Toggle Joint Toothed,27,4273b
+Light Gray,Technic Engine Piston Square 2 x 2 - Old,2,3652
+Light Gray,Technic Gear 14 Tooth Bevel,5,4143
+Light Gray,Technic Gear 16 Tooth with Round Holes [Old Style],1,4019
+Light Gray,Technic Gear 24 Tooth [Old Style - Three axle holes],7,3648a
+Light Gray,Technic Gear 8 Tooth,5,3647
+Light Gray,Technic Gear Rack 1 x 4,3,3743
+Light Gray,Technic Pin 1/2,5,4274
+Light Gray,Technic Universal Joint 4L [Complete Assembly],1,9244
+Light Gray,"Technic, Gear Differential (Old Style, 28 Teeth)",1,73071
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",51,3673
+Light Gray,"Technic, Steering Arm",2,4261
+Light Gray,"Technic, Steering Pulley Large",1,3736
+Light Gray,Wheel 24 x 43 Technic,4,3739
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2,2,3004
+Red,Brick 1 x 3,2,3622
+Red,Brick 1 x 6,3,3009
+Red,Hinge Plate 1 x 2 with Double Finger,4,hngpltd
+Red,Hinge Plate 1 x 2 with Single Finger,4,hngplts
+Red,Plate 1 x 3,2,3623
+Red,Plate 1 x 4,4,3710
+Red,Plate 1 x 8,2,3460
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 3,1,3021
+Red,Plate 2 x 4,4,3020
+Red,Plate 4 x 10,2,3030
+Red,Plate 4 x 4,2,3031
+Red,Plate 4 x 6,2,3032
+Red,Slope 45º 2 x 1,4,3040b
+Trans-Clear,Plate 1 x 2,2,3023
+Trans-Red,Plate 1 x 1,6,3024
+Trans-Yellow,Plate 1 x 1,6,3024
+Yellow,Brick 1 x 1,6,3005
+Yellow,Plate 1 x 2,8,3023
+Yellow,Plate 1 x 4,8,3710
+Yellow,Plate 2 x 4,2,3020
+Yellow,Plate 2 x 8,3,3034
+Yellow,Slope 45º 2 x 1,6,3040b
+Yellow,Technic Brick 1 x 12 with Holes,1,3895
+Yellow,Technic Brick 1 x 16 with Holes,2,3703
+Yellow,Technic Brick 1 x 2 [1 Hole],1,3700
+Yellow,Technic Brick 1 x 4 [3 Holes],5,3701
+Yellow,Technic Brick 1 x 6 [5 Holes],4,3894
+Yellow,Technic Brick 1 x 8 [7 Holes],1,3702
+Yellow,"Technic, Plate 1 x 4 with Toothed Ends",12,4263

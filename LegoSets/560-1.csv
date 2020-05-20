@@ -1,0 +1,49 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 2,3,3004
+Black,Brick 1 x 4,1,3010
+Black,Brick 2 x 2,2,3003
+Black,Brick 2 x 4 without Cross Supports,1,3001old
+Black,Slope 45º 2 x 1,2,3040b
+Blue,Slope 33º 3 x 2,8,3298
+Blue,Slope 33º 3 x 4,8,3297
+Blue,Slope 45° 2 x 1 Double,1,3044
+Blue,Slope 45° 2 x 3 Double,3,3042
+Blue,Slope 45º 2 x 2,12,3039
+Blue,Slope 45º 2 x 4,12,3037
+Green,Baseplate 16 x 16,2,3867
+Green,Flower Stem,9,3741
+Green,Pine Tree - Large 4 x 4 x 6 2/3,1,3471
+Green,Window 1 x 2 x 3 Shutter,4,3856
+Red,Brick 1 x 1,18,3005
+Red,Brick 1 x 2,22,3004
+Red,Brick 1 x 3,14,3622
+Red,Brick 1 x 4,20,3010
+Red,Brick 1 x 6,11,3009
+Red,Brick 1 x 8,3,3008
+Red,Brick Arch 1 x 6 x 2,1,3307
+Red,Hinge Brick 1 x 4 [Lower],2,3831
+Red,Hinge Brick 1 x 4 [Upper],2,3830
+Red,"Plant Flower Small, Sprue of Four",2,3742c01
+Red,Slope 33º 3 x 2,2,3298
+Red,Slope 33º 3 x 4,2,3297
+White,Brick 1 x 2,5,3004
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 4 without Cross Supports,1,3001old
+White,Door 1 x 4 x 5 with 4 Panes,1,3861
+White,Plate 1 x 2,2,3023
+White,Plate 2 x 2,4,3022
+White,Plate 2 x 4,1,3020
+White,Tap 1 x 2 Base with Light Gray Spout,1,69c01
+White,Window 1 x 2 x 2 with Fixed Glass,3,7026
+White,Window 1 x 2 x 3 Pane,4,3854
+White,Window 1 x 4 x 3,2,3853
+Yellow,Brick 1 x 1,2,3005
+Yellow,Brick 1 x 2,5,3004
+Yellow,"Plant Flower Small, Sprue of Four",6,3742c01
+Yellow,Plate 1 x 2,6,3023
+Yellow,Plate 1 x 4,1,3710
+Yellow,Plate 2 x 4,1,3020
+Yellow,Plate 2 x 6,1,3795
+Yellow,Slope 45º 2 x 2,1,3039
+Yellow,Slope Inverted 45º 2 x 2,1,3660

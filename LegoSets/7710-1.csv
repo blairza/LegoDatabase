@@ -1,0 +1,82 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 3,4,3622
+Black,Brick 1 x 4,12,3010
+Black,Brick 1 x 6,15,3009
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 4 without Cross Supports,13,3001old
+Black,Brick Round 1 x 1 Open Stud,2,3062b
+Black,Brick Round 2 x 2,2,3941
+Black,Brick Special 1 x 1 with Headlight,2,4070
+Black,"Brick, Modified 2 x 4 with Wheels, Train Spoked Small (23mm D.) Red",7,4180c04
+Black,Magnet Cylindrical,6,73092
+Black,Plate 1 x 1,6,3024
+Black,Plate 1 x 2,4,3023
+Black,Plate 1 x 3,4,3623
+Black,Plate 1 x 4,7,3710
+Black,Plate 1 x 6,4,3666
+Black,Plate 1 x 8,2,3460
+Black,Plate 2 x 10,2,3832
+Black,Plate 2 x 2,4,3022
+Black,Plate 2 x 4,5,3020
+Black,Plate 2 x 6,4,3795
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 6,1,3032
+Black,Plate 6 x 16,2,3027
+Black,Plate 6 x 6,1,3958
+Black,Plate 6 x 8,1,3036
+Black,Plate Round 2 x 2 with Axle Hole,16,4032
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+Black,Slope 33º 3 x 3,4,4161
+Black,Slope 45° 2 x 3,2,3038
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,3,3039
+Black,Slope 45º 2 x 4,4,3037
+Black,Slope Inverted 45º 2 x 1,18,3665
+Black,Slope Inverted 45º 2 x 2,10,3660
+Black,Technic Brick 1 x 2 [1 Hole],1,3700
+Black,Train Base 6 x 16,1,4178
+Black,Train Buffer Beam,4,4022
+Black,Train Coupling,6,4023
+Blue,Brick 1 x 1,16,3005
+Blue,Brick 1 x 6,4,3009
+Blue,Door 1 x 4 x 5 Train Left with Yellow Bottom Half Print,2,4181p01
+Blue,Door 1 x 4 x 5 Train Right with Yellow Bottom Half Print,2,4182p01
+Blue,Tile 1 x 8,8,4162
+Blue,Window 1 x 2 x 3 Train,4,4035
+Blue,Window 1 x 4 x 3 Train with All Studs Hollow,8,4033
+Dark Gray,"Train, Track Sleeper Plate 2 x 8 without Cable Grooves",32,767
+Light Gray,Minifig Signal Paddle,1,3900
+Light Gray,Plate 1 x 4,4,3710
+Light Gray,Plate 2 x 6,4,3795
+Light Gray,Plate 4 x 12,2,3029
+Light Gray,Plate 6 x 12,1,3028
+Light Gray,Slope 33º 3 x 4,16,3297
+Light Gray,Tile 2 x 2 with Groove,6,3068b
+Light Gray,Train Track Slotted Rail Curved Inside,16,3230b
+Light Gray,"Train, Track Slotted Rail Curved Outside",16,3229b
+Red,Brick 1 x 4,4,3010
+Red,Brick 2 x 10,2,3006
+Red,Minifig Seat 2 x 2,3,4079
+Red,Plate 1 x 2,4,3023
+Red,Plate 1 x 6,1,3666
+Red,Plate 2 x 8,1,3034
+Red,Plate Round 2 x 2 with Axle Hole,1,4032
+Red,Plate Special 1 x 2 with Ladder,2,4175
+Trans-Clear,Glass for Train Door,4,4183
+Trans-Clear,Glass for Train Window 1 x 2 x 3,4,4036
+Trans-Clear,Glass for Train Window 1 x 4 x 3,8,4034
+Trans-Yellow,Plate Round 1 x 1 Straight Side,3,4073
+Unknown,Minifig,1,pln072
+Unknown,Minifig,1,pln073
+Unknown,Minifig,1,pln058
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Hat",1,but020
+Unknown,"Suit with 3 Buttons Blue - Blue Legs, Red Hat",1,trn068
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 6,8,3009
+Yellow,Brick 1 x 8,4,3008
+Yellow,Minifig Seat 2 x 2,8,4079

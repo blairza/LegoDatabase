@@ -1,0 +1,126 @@
+color,part,quantity,part_id
+Black,Bar 1 x 4 x 2 with Studs,2,4083
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,10,3004
+Black,Brick 1 x 3,4,3622
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,14,3003
+Black,Brick 2 x 3,4,3002
+Black,Brick 2 x 4,5,3001
+Black,Brick Round 1 x 1 Open Stud,4,3062b
+Black,Plate 1 x 1 - Horizontal Clip,4,6019
+Black,Plate 1 x 2 [Side Handle Closed Ends],2,48336
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 8,1,3034
+Black,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],2,3839b
+Black,Plate Special 2 x 2 with Wheel Holder,2,4488
+Black,Plate Special 2 x 2 with Wheels Holder Wide,2,6157
+Black,Plate Special 2 x 2 with Wheels Holder Wide - Technic Pins,2,47720
+Black,Propeller 3 Blade Small,2,2421
+Black,Propeller 4 Blade 5 Diameter with Rounded Ends,2,2479
+Black,Tile Special 1 x 2 with Handle,2,2432
+Black,Tyre 24 x 14 Shallow Tread [Tread Small Hub],4,30648
+Black,Tyre Offset Tread,4,3483
+Black,Tyre Offset Tread Small,4,3641
+Blue,Brick 1 x 1,10,3005
+Blue,Brick 1 x 2,20,3004
+Blue,Brick 1 x 3,4,3622
+Blue,Brick 1 x 4,5,3010
+Blue,Brick 1 x 6,4,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,30,3003
+Blue,Brick 2 x 3,8,3002
+Blue,Brick 2 x 3 with Curved Top,2,6215
+Blue,Brick 2 x 4,10,3001
+Blue,Brick 2 x 6,2,2456
+Blue,Brick 2 x 8,1,3007
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 6,2,3795
+Blue,Slope 33º 3 x 1,4,4286
+Blue,Slope 33º 3 x 2,2,3298
+Blue,Slope Curved 6 x 1,2,42022
+Dark Bluish Gray,Brick Special 2 x 4 with Pins,2,6249
+Dark Bluish Gray,Hook with Towball,1,30395
+Dark Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,4,2412b
+Green,Baseplate 16 x 32,1,3857
+Green,Brick 1 x 1,6,3005
+Green,Brick 1 x 2,10,3004
+Green,Brick 1 x 3,4,3622
+Green,Brick 1 x 4,4,3010
+Green,Brick 2 x 2,14,3003
+Green,Brick 2 x 3,4,3002
+Green,Brick 2 x 4,5,3001
+Light Bluish Gray,Antenna 1 x 4,2,3957
+Light Bluish Gray,Brick Special 1 x 1 with Headlight,4,4070
+Light Bluish Gray,Brick Special 1 x 2 with Grill,2,2877
+Light Bluish Gray,BrickSpecial 2 x 2 with Top Pin and 1 x 2 Side Plates,1,30592
+Light Bluish Gray,Plate Special 1 x 1 Clip Light [Thick Ring],4,4081b
+Light Bluish Gray,Wheel 18 x 8 mm with Fake Bolts and Shallow Spokes,4,56902
+Light Bluish Gray,"Wheel 30.4 x 14 with Pin Hole, Fake Bolts and Shallow Spokes",4,55981
+Light Bluish Gray,Wheel 8mm D. x 6mm,4,4624
+Red,Brick 1 x 1,10,3005
+Red,Brick 1 x 2,20,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,5,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,30,3003
+Red,Brick 2 x 3,8,3002
+Red,Brick 2 x 3 with Curved Top,2,6215
+Red,Brick 2 x 4,10,3001
+Red,Brick 2 x 6,2,2456
+Red,Brick 2 x 8,1,3007
+Red,Plate 1 x 2,4,3023
+Red,Plate 1 x 4,4,3710
+Red,Plate 1 x 6,2,3666
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 6,2,3795
+Red,Slope 33º 3 x 2 Smooth,2,30474
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope 45º 2 x 2,4,3039
+Red,Slope Curved 6 x 1,2,42022
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],4,3065
+Trans-Clear,Slope 45º 2 x 2,4,3039
+Trans-Dark Blue,Brick Curved 1 x 4 with Sloped Ends and Two Top Studs,1,40996
+Trans-Light Blue,Windscreen 2 x 4 x 2,2,3823
+Trans-Light Blue,Windscreen 3 x 4 x 1 1/3 with 2 Studs on Top,2,2437
+Trans-Red,Brick Round 1 x 1 Open Stud,4,3062b
+Trans-Red,Plate Round 1 x 1 Straight Side,4,4073
+Trans-Yellow,Brick Round 1 x 1 Open Stud,4,3062b
+Trans-Yellow,Plate Round 1 x 1 Straight Side,4,4073
+White,Brick 1 x 1,10,3005
+White,Brick 1 x 2,20,3004
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,5,3010
+White,Brick 1 x 6,4,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 2,30,3003
+White,Brick 2 x 3,8,3002
+White,Brick 2 x 4,10,3001
+White,Brick 2 x 6,2,2456
+White,Brick 2 x 8,1,3007
+Yellow,Brick 1 x 1,10,3005
+Yellow,Brick 1 x 2,20,3004
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,5,3010
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 1 x 8,2,3008
+Yellow,Brick 2 x 2,30,3003
+Yellow,Brick 2 x 3,8,3002
+Yellow,Brick 2 x 4,10,3001
+Yellow,Brick 2 x 6,2,2456
+Yellow,Brick 2 x 8,1,3007
+Yellow,Hinge 1 x 2 Locking with 2 Fingers and Towball Socket,1,30396
+Yellow,Hinge Brick 1 x 2 Locking with 1 Finger Vertical End and 2 Fingers Vertical End,1,30386
+Yellow,Hinge Brick 1 x 4 Locking with 1 Finger Vertical End and 2 Fingers Vertical End,1,30387
+Yellow,Hinge Brick 1 x 6 Locking with 1 Finger Vertical End and 2 Fingers Vertical End,1,30388
+Yellow,Hinge Brick 2 x 2 Locking with 1 Finger Vertical and Axle Hole [X Opening],1,30389c
+Yellow,Plate 1 x 6,2,3666
+Yellow,Plate 2 x 2,2,3022
+Yellow,Plate 2 x 4,2,3020
+Yellow,Slope 33º 3 x 2,2,3298
+Yellow,Slope 45º 2 x 1,4,3040b
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,"Vehicle, Digger Bucket 7 Teeth 3 x 6 with Locking 2 Finger Hinge",1,30394

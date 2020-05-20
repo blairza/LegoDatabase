@@ -1,0 +1,84 @@
+color,part,quantity,part_id
+Black,"HO Scale, VW Beetle (shorter version)",1,260pb01
+Blue,"HO Scale, Bedford Flatbed (Indicators on sides)",1,253pb02
+Blue,Slope 45° 2 x 2 Double,1,3043
+Blue,Slope 45° 2 x 4 Double,4,3041
+Blue,Slope 45º 2 x 2,6,3039
+Blue,Slope 45º 2 x 4,16,3037
+Green,"HO Scale, VW Beetle (shorter version)",1,260pb01
+Green,"Plant, Tree Flat Birch painted with solid base",1,ftbirch
+Green,"Plant, Tree Flat Bush painted with solid base",2,ftbush
+Green,"Plant, Tree Flat Cypress painted with solid base",2,ftcyp
+Green,"Plant, Tree Flat Fruit painted with solid base",1,ftfruit
+Green,"Plant, Tree Flat Oak painted with solid base",1,ftoak
+Green,"Plant, Tree Flat Pine painted with solid base",2,ftpine
+Light Gray,"Brick 10 x 20 without Bottom Tubes, with '+' Cross Support (early Baseplate)",1,700ex
+Metallic Silver,"HO Scale, Accessory Lamp Post, Lattice Mast",1,723
+Red,Brick 1 x 1,3,3005
+Red,Brick 1 x 2 [No Bottom Tube],17,3065
+Red,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",3,crssprt02
+Red,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",2,crssprt01
+Red,Brick 2 x 10,9,3006
+Red,Brick 2 x 2,17,3003
+Red,Brick 2 x 4 without Cross Supports,29,3001old
+Red,Brick 2 x 8,12,3007
+Red,Brick Round Corner 2 x 2 [Macaroni],1,3063
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],4,32bc01
+Red,Door 1 x 2 x 3 Right (old type),5,33bc01
+Red,"HO Scale, Bedford ESSO Tank Truck (Indicators on sides)",1,250pb01
+Red,"HO Scale, Bedford Fire Engine (Indicators on front)",1,255pb01
+Red,"HO Scale, Bedford Tow Truck (Indicators on front)",1,256pb01
+Red,"HO Scale, VW Beetle (shorter version)",1,260pb01
+Red,Window 1 x 1 x 1 Classic with Long Sill [Complete],4,3087bc01
+Red,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",4,29bc01
+Red,"Window 1 x 2 x 1 (old type) with Extended Lip, with Glass",4,27bc01
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",5,7026bc01
+Red,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",4,31bc01
+Red,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",4,453bc01
+Red,Window 1 x 6 x 2 [Old Style Extended Lip &amp; Glass],5,645bc01
+Red,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],5,646bc01
+Red,Window 1 x 6 x 3 Panorama with Glass,3,604c01
+Royal Blue,"HO Scale, Bicycle Touring",1,270pb05
+Royal Blue,"HO Scale, Motorcycle Touring",1,270pb06
+Royal Blue,"HO Scale, Motorcycle with Sidecar Long Touring",1,270pb07
+Royal Blue,"HO Scale, Scooter Touring",1,270pb08
+Royal Blue,"Town Plan Board, Cardboard European Right-Driving (50 1/2cm x 79 1/2cm) - Set 200-4",1,tplan06
+Trans-Clear,Brick 1 x 1,6,3005
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],69,3065
+Trans-Clear,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",4,crssprt02
+Trans-Clear,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",2,crssprt01
+Trans-Clear,Brick 2 x 2,33,3003
+Trans-Clear,Brick Round Corner 2 x 2 [Macaroni],14,3063
+White,Brick 1 x 1,118,3005
+White,Brick 1 x 2 [No Bottom Tube],111,3065
+White,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",4,crssprt02
+White,Brick 1 x 6 without Bottom Tubes with Cross Side Supports with Blue 'HOTEL' Curvy Print,1,crssprt02pb23
+White,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",13,crssprt01
+White,Brick 1 x 8 with Blue 'ESSO SERVICE' Long Print,1,3008pb011
+White,Brick 2 x 10,18,3006
+White,Brick 2 x 2,23,3003
+White,Brick 2 x 3 without Cross Supports,12,3002old
+White,Brick 2 x 4 without Cross Supports,59,3001old
+White,Brick 2 x 8,11,3007
+White,Brick Round Corner 2 x 2 [Macaroni],18,3063
+White,Door 1 x 2 x 3 Left [Old Style with Glass],1,32bc01
+White,Garage Door Frame (Old style),1,821
+White,Garage Door Solid Assembly - Old (Hinge Pin on Counterweights - One Side),1,822ac01
+White,Garage Floor Plate (Old style),1,820
+White,"HO Scale, Accessory Petrol Pumps Esso",1,x887px1
+White,Plate 2 x 8 with Waffle Bottom,6,3034old
+White,Plate 4 x 8 with Waffle Bottom,9,3035old
+White,Plate 6 x 8 [Waffle Bottom],10,3036old
+White,Plate Round Curved 4 x 8 Left with Waffle Bottom,4,712old
+White,Plate Round Curved 4 x 8 Right with Waffle Bottom,6,713old
+White,Road Sign Cantilever Cruciform with 'Esso' Print,1,bb108pb01
+White,Road Sign Old Diamond with Black & White Border End of Major Road Print & Type 1 Base,1,1850pr0001
+White,Road Sign Old Diamond with Black & White Border Major Road Print & Type 1 Base,1,1850pr0002
+White,Road Sign Old Round with No Entry Print & Type 1 Base,1,bb140pb01c01
+White,Road Sign Old Round with No Parking Blue Print & Type 1 Base,1,1852pr0004
+White,Road Sign Old Round with Triangle Stop Print & Type 1 Base,1,1851pr0001
+White,Road Sign Old Square with Parking 'P' Print & Type 1 Base,1,1853pr0001
+White,Road Sign Old Triangle with Generic Warning Print & Type 1 Base,1,747p01c01
+White,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",2,31bc01
+White,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+Yellow,"HO Scale, Bedford Moving Van (Indicators on side - LEGO Transport in gold)",1,257pb02

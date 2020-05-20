@@ -1,0 +1,60 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,20,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,16,3003
+Black,Brick 2 x 3 without Cross Supports,8,3002old
+Black,Brick 2 x 4 without Cross Supports,18,3001old
+Black,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",6,7049b
+Black,Plate 4 x 6,3,3032
+Black,Plate 4 x 8,1,3035
+Black,Tyre Smooth Old Style - Small,12,132-old
+Blue,Brick 1 x 1,16,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,4,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Brick 2 x 2,4,3003
+Blue,Brick 2 x 4 without Cross Supports,24,3001old
+Blue,Door 1 x 3 x 4,4,7930
+Blue,Plate Special 1 x 4 with Towball,1,3184
+Blue,"Plate Special 1 x 4 with Towball Socket, Long, 2 Slots",1,3183a
+Blue,"Storage Bin with Retractable Handle on Top, Reinforced Short Sides, Studs on Bottom - LEGO Logo Pattern",2,bin02
+Blue,Window 1 x 2 x 2 Shutter,8,3582
+Green,"Brick 10 x 20 with Bottom Tubes in single row around edge, with '+' Cross Support",3,700ed
+Green,Pine Tree - Large 4 x 4 x 6 2/3,2,3471
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2,20,3004
+Red,Brick 1 x 4,6,3010
+Red,Brick 2 x 10,2,3006
+Red,Brick 2 x 2,18,3003
+Red,Brick 2 x 3 without Cross Supports,20,3002old
+Red,Brick 2 x 4 without Cross Supports,88,3001old
+Red,Brick 2 x 8,2,3007
+Red,Brick Special 1 x 1 x 2 with Shutter Holder,6,3581
+Red,Door 1 x 3 x 4,2,7930
+Red,Door Frame 1 x 3 x 4,4,3579
+Red,Slope 33º 2 x 2 Double,2,3300
+Red,Slope 33º 2 x 4 Double,10,3299
+Red,Slope 33º 3 x 2,8,3298
+Red,Slope 33º 3 x 4,42,3297
+Red,Wheel Old with 4 Studs,12,7039
+Red,Window 1 x 2 x 2 with Fixed Glass,16,7026
+Red,Window 1 x 4 x 2 with Fixed Glass,4,453
+Red,Window 1 x 6 x 3 Panorama with Glass,2,604c01
+Trans-Clear,Brick 1 x 2,8,3004
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2,14,3004
+White,Brick 1 x 4,4,3010
+White,Brick 2 x 2,30,3003
+White,Brick 2 x 3 without Cross Supports,18,3002old
+White,Brick 2 x 4 without Cross Supports,58,3001old
+White,Brick 2 x 8,2,3007
+White,Brick Special 1 x 1 x 2 with Shutter Holder,8,3581
+White,Door Frame 1 x 3 x 4,2,3579
+White,Window 1 x 2 x 2 with Fixed Glass,8,7026
+Yellow,Brick 1 x 1,10,3005
+Yellow,Brick 2 x 2,10,3003
+Yellow,Brick 2 x 3 without Cross Supports,4,3002old
+Yellow,Brick 2 x 4 without Cross Supports,36,3001old
+Yellow,Window 1 x 2 x 2 Shutter,6,3582

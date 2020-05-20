@@ -1,0 +1,69 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,4,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,1,3010
+Black,Brick 1 x 6,1,3009
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Plate 1 x 1,3,3024
+Black,Plate 1 x 2,1,3023
+Black,Plate 1 x 3,1,3623
+Black,Plate 2 x 2,1,3022
+Blue,Brick 1 x 1,14,3005
+Blue,Brick 1 x 2,16,3004
+Blue,Brick 1 x 3,19,3622
+Blue,Brick 1 x 4,6,3010
+Blue,Brick 1 x 6,7,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Plate 1 x 1,2,3024
+Blue,Plate 1 x 4,3,3710
+Blue,Plate 1 x 8,3,3460
+Blue,Plate 2 x 6,2,3795
+Blue,Plate 6 x 12,1,3028
+Blue,Slope Inverted 45º 2 x 1,2,3665
+Blue,Slope Inverted 45º 2 x 2,2,3660
+Green,Baseplate 16 x 32,1,3857
+Green,Flower Stem,7,3741
+Light Gray,Antenna 1 x 4,1,3957
+Red,Brick 1 x 1,3,3005
+Red,Brick 1 x 2,5,3004
+Red,Brick 1 x 3,2,3622
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 3,1,3002
+Red,"Plant Flower Small, Sprue of Four",2,3742c01
+Red,Plate 1 x 2,1,3023
+Red,Plate 1 x 3,2,3623
+Red,Plate 1 x 4,1,3710
+Red,Plate 2 x 4,1,3020
+Red,Plate 4 x 4,1,3031
+Red,Plate 6 x 10,1,3033
+Red,Slope 33º 2 x 2 Double,1,3300
+Red,Slope 33º 2 x 4 Double,3,3299
+Red,Slope 33º 3 x 2,5,3298
+Red,Slope 33º 3 x 4,11,3297
+Red,Slope 45° 2 x 2 Double Convex,2,3045
+Red,Slope 45° 2 x 3,4,3038
+Red,Slope 45º 2 x 2,4,3039
+Trans-Clear,Minifig Cup,4,3899
+Trans-Clear,"Minifig, Head (Plain) - Stud Solid",3,3626a
+Trans-Yellow,Brick Round 1 x 1 Open Stud,1,3062b
+Unknown,"Jacket Red with Zipper - Red Arms - Black Legs, Black Male Hair",1,jred009
+Unknown,"Vertical Lines Red &amp; Blue - Blue Arms - Red Legs, Black Pigtails Hair",1,ver010
+White,Brick 2 x 2,3,3003
+White,Brick 2 x 4,2,3001
+White,FLAT TILE 1X2 LETTER,2,3069bpr0099
+White,Minifig Seat 2 x 2,4,4079
+White,"Plant Flower Small, Sprue of Four",2,3742c01
+White,Plate 1 x 2,4,3023
+White,Plate 2 x 4,1,3020
+White,Plate 2 x 6,2,3795
+White,Plate 4 x 4,1,3031
+White,Round Dish 4 x 4 Inverted with Blue and Red Stripes Print Space Radar,1,3960p04
+White,Tile 2 x 2 with Groove,4,3068b
+White,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",2,3680c01
+Yellow,Container Box  2 x  2 x  2 Door with Slot and Mailbox Print,1,4346p03
+Yellow,Container Box  2 x  2 x  2 Solid Studs with Mailbox Print,1,4345ap03
+Yellow,Door 1 x 4 x 5 with 4 Panes,1,3861
+Yellow,"Plant Flower Small, Sprue of Four",2,3742c01
+Yellow,Tile 1 x 2 with Groove,1,3069b
+Yellow,Window 1 x 2 x 2 Classic with Short Sill (Complete),3,3081cc01
+Yellow,Window 1 x 4 x 5 with Fixed Glass,2,4347

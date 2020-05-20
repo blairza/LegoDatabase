@@ -1,0 +1,97 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 2,4,3004
+Black,Brick 2 x 2,2,3003
+Black,Brick 2 x 4,1,3001
+Black,Cone 1 x 1 [No Top Groove],3,4589
+Black,Slope 45º 2 x 2,2,3039
+Black,Slope 45º 2 x 4,1,3037
+Black,Tyre 30.4 x 14 Offset Tread,4,30391
+Dark Bluish Gray,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Dark Bluish Gray,Plate 1 x 2,3,3023
+Dark Bluish Gray,Plate 1 x 3,2,3623
+Dark Bluish Gray,Plate 1 x 4,1,3710
+Dark Bluish Gray,Plate 2 x 3,4,3021
+Dark Bluish Gray,Plate 2 x 4,1,3020
+Dark Bluish Gray,Plate Special 1 x 2 with Ladder,1,4175
+Dark Bluish Gray,Slope 45º 2 x 1,2,3040b
+Dark Bluish Gray,Slope Inverted 45º 2 x 1,2,3665
+Green,Brick 1 x 2,1,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 1 x 4,6,3010
+Green,Brick 2 x 2,2,3003
+Green,Brick 2 x 3,2,3002
+Green,Brick 2 x 4,1,3001
+Green,Brick 2 x 8,1,3007
+Green,Plate 2 x 4,2,3020
+Green,Slope 45º 2 x 1,2,3040b
+Light Bluish Gray,Brick 1 x 2,9,3004
+Light Bluish Gray,Brick 2 x 2,1,3003
+Light Bluish Gray,Brick 4 x 12,1,4202
+Light Bluish Gray,Brick Special 1 x 2 with Handle,1,30236
+Light Bluish Gray,Brick Special 2 x 2 with Pins and Axle Hole,1,30000
+Light Bluish Gray,Brick Special 2 x 4 with Pins,1,6249
+Light Bluish Gray,Plate 2 x 6,1,3795
+Light Bluish Gray,Slope 45º 2 x 2,2,3039
+Light Bluish Gray,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Light Bluish Gray,Slope Inverted 45º 2 x 2,1,3660
+Lime,Brick 1 x 2,2,3004
+Lime,Plate 2 x 4,1,3020
+Orange,Brick 1 x 1,1,3005
+Orange,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Orange,Brick 1 x 4,1,3010
+Orange,Plate 1 x 2,3,3023
+Orange,Plate 1 x 3,1,3623
+Orange,Plate 1 x 4,1,3710
+Orange,Plate 1 x 8,1,3460
+Orange,Plate 2 x 2,1,3022
+Orange,Plate 2 x 3,1,3021
+Orange,Slope 45º 2 x 1,2,3040b
+Orange,Slope Inverted 45º 2 x 1,2,3665
+Red,Brick 1 x 2,1,3004
+Red,Brick 1 x 6,1,3009
+Red,Brick 2 x 3,3,3002
+Red,Brick 2 x 6,1,2456
+Red,Brick 2 x 8,1,3007
+Red,Plate 1 x 6,2,3666
+Red,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+Red,Slope 45° 2 x 1 Double,1,3044
+Red,Slope 45° 2 x 3,1,3038
+Red,Slope 45° 2 x 4 Double,1,3041
+Red,Slope 45º 2 x 1,10,3040b
+Red,Slope 45º 2 x 2,4,3039
+Reddish Brown,Brick 1 x 1,1,3005
+Reddish Brown,Brick 1 x 2,1,3004
+Reddish Brown,Brick 2 x 2,1,3003
+Reddish Brown,Brick 2 x 4,1,3001
+Reddish Brown,Plate 1 x 2,1,3023
+Reddish Brown,Plate 1 x 4,1,3710
+Reddish Brown,Slope 45º 2 x 2,1,3039
+Reddish Brown,Slope Inverted 45º 2 x 1,4,3665
+Reddish Brown,Slope Inverted 45º 2 x 2,1,3660
+Tan,Brick 1 x 1,2,3005
+Tan,Brick 1 x 2,5,3004
+Tan,Brick 2 x 2,2,3003
+Tan,Plate 1 x 2,2,3023
+Tan,Plate 1 x 4,1,3710
+Tan,Plate 2 x 2 Corner,2,2420
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Trans-Red,Brick Round 1 x 1 Open Stud,2,3062b
+Trans-Yellow,Brick Round 1 x 1 Open Stud,1,3062b
+White,Brick 1 x 2,6,3004
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,3,3010
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,2,3001
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,4,3005pe1
+Yellow,Brick 1 x 2,6,3004
+Yellow,Brick 1 x 3,6,3622
+Yellow,Brick 2 x 2,1,3003
+Yellow,Plate 1 x 2,1,3023
+Yellow,Plate 2 x 4,1,3020
+Yellow,Slope 45º 2 x 1,1,3040b
+Yellow,Slope 45º 2 x 2,3,3039
+Yellow,Slope Inverted 45º 2 x 1,1,3665
+Yellow,Slope Inverted 45º 2 x 2,2,3660
+Yellow,Wheel 30.4 x 14 [Tread Small Hub],4,30285

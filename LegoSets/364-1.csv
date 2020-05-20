@@ -1,0 +1,126 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,1,3005
+Black,Brick 1 x 2,1,3004
+Black,Brick 1 x 4,5,3010
+Black,Brick 1 x 6,5,3009
+Black,Brick 1 x 8,5,3008
+Black,Brick 2 x 2,6,3003
+Black,Brick 2 x 2 [Red Wheels for Single Tyre],4,3137c01
+Black,Brick 2 x 3 without Cross Supports,1,3002old
+Black,Brick Round 1 x 1 Solid Stud,1,3062a
+Black,"Brick, Modified 2 x 2 with Wheels Red for Dually Tire",3,3137c02
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 2,4,3023
+Black,Plate 2 x 2,4,3022
+Black,Plate 2 x 3,3,3021
+Black,Plate 4 x 6,1,3032
+Black,"String, Cord Thin",2,x77a
+Black,Tyre Smooth Small Dually,6,7b
+Black,Tyre Smooth Small Single,12,3139
+Blue,Brick 1 x 2,24,3004
+Blue,Brick 1 x 4,9,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick Round 1 x 1 Solid Stud,6,3062a
+Blue,Door 1 x 3 x 3 Left,1,3193
+Blue,Door 1 x 3 x 3 Right,1,3192
+Blue,Plate 1 x 1,1,3024
+Blue,Plate 1 x 2,4,3023
+Blue,Plate 4 x 4,1,3031
+Blue,Plate 4 x 6,1,3032
+Blue,Plate 4 x 8,2,3035
+Blue,Plate 6 x 8,1,3036
+Blue,Slope 33º 2 x 2 Double,2,3300
+Blue,Slope 33º 2 x 4 Double,3,3299
+Blue,Slope 33º 3 x 2,7,3298
+Blue,Slope 33º 3 x 4,7,3297
+Green,Baseplate 8 x 12,2,bb31
+Green,Baseplate 8 x 24,1,3497
+Green,Pine Tree - Large 4 x 4 x 6 2/3,1,3471
+Light Gray,Plate 2 x 8,1,3034
+Light Gray,Plate 6 x 16,1,3027
+Light Gray,Plate Special 2 x 2 with Wheel Holder Bottom,1,8
+Red,Brick 1 x 1,13,3005
+Red,Brick 1 x 2,18,3004
+Red,Brick 1 x 4,25,3010
+Red,Brick 1 x 4 with Chrome Car Grill Print [Embossed],2,3010pb035e
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,6,3008
+Red,Brick 2 x 2,1,3003
+Red,Brick 2 x 3 without Cross Supports,2,3002old
+Red,Brick 2 x 4 without Cross Supports,8,3001old
+Red,Brick Round Corner 2 x 2 [Macaroni],6,3063
+Red,Door 1 x 3 x 4,3,7930
+Red,Door Frame 1 x 3 x 4,1,3579
+Red,Hinge Plate 2 x 5 [Complete Assembly],1,3149c01
+Red,Hinge Plate 2 x 9 - Complete Assembly,1,3324c01
+Red,Plate 1 x 1,3,3024
+Red,Plate 1 x 2,11,3023
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 3,1,3021
+Red,Plate 2 x 4,7,3020
+Red,Plate 2 x 8,1,3034
+Red,Plate 4 x 10,3,3030
+Red,Plate 4 x 4,1,3031
+Red,Plate 4 x 6,1,3032
+Red,Plate 4 x 8,1,3035
+Red,Plate 6 x 10,1,3033
+Red,Plate Special 2 x 5 with Towball Socket,1,3491
+Red,Plate Special 3 x 2 with Hole,1,3176
+Red,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Red,Slope 33º 2 x 2 Double,8,3300
+Red,Slope 33º 2 x 4 Double,4,3299
+Red,Slope 33º 3 x 2,1,3298
+Red,Slope 33º 3 x 4,9,3297
+Red,Slope 45º 2 x 1,2,3040b
+Red,"Turntable 4 x 4 - Old Type Complete, Faceted",1,3404ac01
+Red,Wheel Centre Small with Stub Axles [Pulley Wheel],1,3464
+Red,Winch  4 x  4 x  2 with Red Drum (Complete),1,586c01
+Red,Window 1 x 2 x 2 Classic with Short Sill (Complete),3,3081cc01
+Red,Window 1 x 3 x 2 Classic with Short Sill (Complete),5,31cc01
+Red,Window 1 x 4 x 2 Classic with Short Sill (Complete),2,453cc01
+Royal Blue,"Paper, Cardboard Base for Set 364, Harbor Pattern",1,364cdb01
+Trans-Clear,Brick 1 x 4,5,3010
+Trans-Clear,Brick Round 1 x 1 Solid Stud,1,3062a
+Trans-Clear,Plate 1 x 2,1,3023
+Trans-Clear,Plate 2 x 2,1,3022
+Trans-Clear,Slope 45º 2 x 4,2,3037
+Trans-Clear,Windscreen 2 x 4 x 1 2/3,2,21
+Unknown,Minifig,2,old007
+Unknown,Minifig,1,old001
+Unknown,Minifig,1,old004
+Unknown,Minifig,2,old009
+Unknown,Minifig,1,old005
+White,Brick 1 x 1,17,3005
+White,Brick 1 x 2,17,3004
+White,Brick 1 x 4,7,3010
+White,Brick 1 x 6,16,3009
+White,Brick 1 x 8,4,3008
+White,Brick 2 x 2 [Red Wheels for Single Tyre],2,3137c01
+White,Brick 2 x 3 without Cross Supports,2,3002old
+White,Brick Round Corner 2 x 2 [Macaroni],2,3063
+White,Door 1 x 3 x 4,1,7930
+White,Door Frame 1 x 3 x 4,2,3579
+White,Plate 1 x 1,2,3024
+White,Plate 1 x 2,9,3023
+White,Plate 2 x 2,2,3022
+White,Plate 2 x 3,4,3021
+White,Plate 2 x 4,1,3020
+White,Plate 4 x 6,1,3032
+White,Plate 4 x 8,2,3035
+White,Road Sign Triangle with Pedestrian Crossing 1 Person Print,1,649pb11
+White,Road Sign Triangle with Roadworks [2 Piles] Print,1,649pb10
+White,Road Sign Triangle with Skidding Car Print (Old Car with Tire on Back),1,649pb08a
+White,Window 1 x 2 x 1 Classic with Short Sill (Complete),2,27cc01
+White,Window 1 x 2 x 2 Classic with Short Sill (Complete),4,3081cc01
+Yellow,Brick 1 x 1,24,3005
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick 1 x 4,3,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 1 x 8,10,3008
+Yellow,Brick 2 x 10,2,3006
+Yellow,Brick 2 x 2,7,3003
+Yellow,Brick 2 x 3 without Cross Supports,3,3002old
+Yellow,Brick 2 x 4 without Cross Supports,2,3001old
+Yellow,Brick Round 1 x 1 Solid Stud,10,3062a
+Yellow,"Crane Bucket - Complete Assembly (Top, Jaws, Spring)",1,3492c01
+Yellow,Door Frame 1 x 3 x 4,1,3579

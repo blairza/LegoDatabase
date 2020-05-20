@@ -1,0 +1,175 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,2,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 4,1,3001
+Black,Brick Round 1 x 1 Open Stud,2,3062b
+Black,Cone 1 x 1 [No Top Groove],2,4589
+Black,Door 1 x 4 x 5 Right with Trans-Clear Glass,2,73435c01
+Black,Hinge Brick 1 x 2 Base,1,3937
+Black,Hinge Brick 1 x 2 Top Plate Thin,1,3938
+Black,Hinge Plate 1 x 2 with 2 Fingers and Hollow Studs,2,4276b
+Black,Hinge Plate 1 x 2 with 3 Fingers and Hollow Studs,2,4275b
+Black,Lever Small Base with Black Lever,2,298c02
+Black,Minifig Briefcase,1,4449
+Black,Plate 1 x 10,3,4477
+Black,Plate 1 x 2,1,3023
+Black,Plate 1 x 4,1,3710
+Black,Plate 1 x 8,1,3460
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 4,1,3020
+Black,Plate 2 x 6,1,3795
+Black,Plate 4 x 4,1,3031
+Black,Plate Special 2 x 2 with Towball,1,3731
+Black,"Plate Special 2 x 2 with Towball Socket, Short, 4 Slots",1,3730
+Black,Plate Special 2 x 2 with Wheels Red,4,122c01
+Black,Propeller 2 Blade,1,3480
+Black,Propeller 4 Blade 5 Diameter with Hole for Rotor Holder,1,3461
+Black,Slope Inverted 45º 2 x 2,4,3660
+Black,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",1,3680c01
+Black,Tyre Offset Tread Small,8,3641
+Black,Tyre Smooth Small Single,6,3139
+Black,Wedge Plate 4 x 4 Wing Left,1,3936
+Black,Wedge Plate 4 x 4 Wing Right,1,3935
+Black,Window 1 x 4 x 5 with Fixed Glass,6,4347
+Black,Window 4 x 4 x 3 Roof,2,4447
+Green,Baseplate 16 x 32,1,3857
+Green,Baseplate Road 32 x 32 9-Stud Landing Pad with Runway 'V' Print,1,6099px1
+Green,Baseplate Road 32 x 32 9-Stud Straight with Runway Print,2,606p33
+Green,"Baseplate, Road 32 x 32 9-Stud T Intersection with Runway 'V' Print",1,608px1
+Green,Plate 2 x 16,2,4282
+Green,Plate 2 x 4,6,3020
+Light Gray,Antenna 1 x 4,2,3957
+Light Gray,Dish 6 x 6 Inverted [Radar / Webbed / No anti-studs],1,4285a
+Light Gray,Minifig Briefcase,1,4449
+Light Gray,Plate Special 2 x 2 Thin with Dual Wheels Holder [Split Pins],3,4870
+Light Gray,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",2,3680c01
+Light Gray,Wheel 8mm D. x 6mm,6,4624
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2,4,3004
+Red,Brick 1 x 4,2,3010
+Red,Fence 1 x 4 x 1,2,3633
+Red,Fence 1 x 4 x 2,3,3185
+Red,Minifig Cup,2,3899
+Red,Minifig Seat 2 x 2,2,4079
+Red,Panel 1 x 2 x 1 [Square Corners],5,4865a
+Red,Panel 1 x 2 x 2 [Solid Studs],2,4864a
+Red,Plate 1 x 1,6,3024
+Red,Plate 1 x 10,1,4477
+Red,Plate 1 x 2,2,3023
+Red,Plate 1 x 3,1,3623
+Red,Plate 1 x 4,3,3710
+Red,Plate 1 x 6,3,3666
+Red,Plate 1 x 8,1,3460
+Red,Plate 2 x 16,1,4282
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 3,1,3021
+Red,Plate 4 x 4,1,3031
+Red,Plate Special 1 x 1 with Clip Vertical [Thick U Clip],2,4085c
+Red,Slope 45° 2 x 1 with 9 Large + 3 Small Black Buttons Print,1,3040p32
+Red,Slope 45º 2 x 2,1,3039
+Red,Tile 1 x 1 with Groove,1,3070b
+Red,Tile 1 x 2 with Groove,5,3069b
+Red,Tile 1 x 8,1,4162
+Red,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Red,Wedge 4 x 4 Taper,1,4858
+Red,Wedge 6 x 4 Inverted,2,4856
+Red,Wedge Plate 3 x 4 without Stud Notches,4,4859
+Red,Window 1 x 2 x 2 Shutter,2,3582
+Red,Window 1 x 4 x 2 Plane,6,4863
+Trans-Clear,Glass for Window 4 x 4 x 3 Roof,2,4448
+Trans-Clear,Plate 2 x 4,1,3020
+Trans-Clear,Plate Round 1 x 1 Straight Side,22,4073
+Trans-Clear,Windscreen 3 x 4 x 4 Inverted,3,4872
+Trans-Dark Blue,Plate Round 1 x 1 Straight Side,10,4073
+Trans-Green,Plate Round 1 x 1 Straight Side,1,4073
+Trans-Light Blue,Glass for Window 1 x 2 x 2 Plane,16,4862
+Trans-Light Blue,Panel 1 x 2 x 2 [Solid Studs],2,4864a
+Trans-Light Blue,Windscreen 2 x 4 x 2,1,3823
+Trans-Light Blue,Windscreen 3 x 4 x 1 1/3 with 6 Studs on Top,1,4866
+Trans-Red,Plate 1 x 1,1,3024
+Trans-Red,Plate Round 1 x 1 Straight Side,11,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+Unknown,"Horizontal Lines Blue - Blue Arms - Blue Legs, Black Female Hair",1,hor002
+Unknown,"Jacket with Zipper - Blue, Blue Legs, Red Classic Helmet",1,zip005
+Unknown,Minifig - Airport,1,air012
+Unknown,Minifig - Airport,1,air002
+Unknown,Minifig - Airport,1,air011
+Unknown,Minifig - Airport,1,air003
+Unknown,Minifig - Cop,1,cop001
+Unknown,Minifig - Train,1,trn069
+White,Bar 1 x 6 [Open Studs],2,4873
+White,Brick 1 x 2,4,3004
+White,Brick 1 x 4,3,3010
+White,Brick 1 x 8,1,3008
+White,Brick 2 x 2,1,3003
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,1,3001
+White,Brick Round 1 x 1 Open Stud,3,3062b
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,Cone  2 x  2 x  2 with Red Stripes Print,1,3942bp01
+White,Cone 1 x 1 [No Top Groove],1,4589
+White,Door 1 x 3 x 1 Left,1,3822
+White,Door 1 x 3 x 1 Right,1,3821
+White,"Engine, Smooth Large, 1 x 2 Thin Top Plate, with Light Gray Center - Complete Assembly",4,4868ac01
+White,Hinge Tile 1 x 4,4,4625
+White,Hinge Vehicle Roof 4 x 4,1,4213
+White,Hinge Vehicle Roof Holder 1 x 4,1,4315
+White,Minifig Seat 2 x 2,4,4079
+White,Minifig Signal Paddle,3,3900
+White,Panel 1 x 2 x 1 [Square Corners],5,4865a
+White,Plate 1 x 1,5,3024
+White,Plate 1 x 10,2,4477
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 3,2,3623
+White,Plate 1 x 4,1,3710
+White,Plate 1 x 6,1,3666
+White,Plate 1 x 8,3,3460
+White,Plate 2 x 2,3,3022
+White,Plate 2 x 3,1,3021
+White,Plate 2 x 4,1,3020
+White,Plate 2 x 6,2,3795
+White,Plate 4 x 4,1,3031
+White,Plate Round 1 x 1 Straight Side,39,4073
+White,Plate Special 1 x 2 with 1 Stud [aka Jumper],3,3794
+White,Plate Special 2 x 2 with Helicopter Tail Rotor Holder,1,3481
+White,Plate Special 2 x 3 with Helicopter Rotor Holder,1,3462
+White,Slope 33º 3 x 1,1,4286
+White,Slope 45° 2 x 2 with Computer Panel Print,3,3039p34
+White,Slope 45° 2 x 3,2,3038
+White,Slope 45° 3 x 4 Double / 33,1,4861
+White,Slope 45° 4 x 4 Double with Hinge,4,4857
+White,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+White,Slope Inverted 45 4 x 4 Double,4,4854
+White,Slope Inverted 45° 4 x 2 Double,1,4871
+White,Slope Inverted 45º 2 x 1,1,3665
+White,Slope Inverted 45º 2 x 2,2,3660
+White,Tail Wedge with Airport Classic Print,1,4867pb03
+White,Tile 1 x 1 with Groove,3,3070b
+White,Tile 1 x 2 with Groove,1,3069b
+White,Tile 2 x 2 with Groove,1,3068b
+White,Tile Round 2 x 2 with Clock Print,1,4150pr0001
+White,Wedge 4 x 4 Taper,2,4858
+White,Wedge 4 x 4 Triple Inverted,4,4855
+White,Wedge 6 x 4 Inverted,1,4856
+White,Wedge Plate 3 x 4 without Stud Notches,2,4859
+White,Wedge Plate 4 x 8 Tail,1,3474
+White,"Wedge, Plate 7 x 12 Wing Left",1,3586
+White,"Wedge, Plate 7 x 12 Wing Right",1,3585
+White,Window 1 x 4 x 2 Plane,2,4863
+Yellow,Brick 1 x 1,38,3005
+Yellow,Brick 1 x 2,12,3004
+Yellow,Brick 1 x 3,2,3622
+Yellow,Brick 1 x 4,16,3010
+Yellow,Brick 1 x 6,1,3009
+Yellow,Brick Special 1 x 1 x 2 with Shutter Holder,2,3581
+Yellow,Minifig Seat 2 x 2,5,4079
+Yellow,Plate 1 x 1,2,3024
+Yellow,Plate 1 x 3,2,3623
+Yellow,Plate 4 x 10,2,3030
+Yellow,Plate 6 x 10,2,3033
+Yellow,Plate 6 x 6,1,3958
+Yellow,Slope 45º 2 x 1,8,3040b

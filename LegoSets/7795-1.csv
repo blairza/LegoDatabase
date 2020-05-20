@@ -1,0 +1,154 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,16,3005
+Black,Brick 1 x 2,30,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,12,3003
+Black,Brick 2 x 3,12,3002
+Black,Brick 2 x 4,21,3001
+Black,Door 1 x 4 x 5,2,4131
+Black,Plate 1 x 4,1,3710
+Black,Plate 2 x 4,1,3020
+Black,Slope 33º 3 x 2,4,3298
+Black,Slope 33º 3 x 4,10,3297
+Blue,Brick 1 x 1,26,3005
+Blue,Brick 1 x 2,30,3004
+Blue,Brick 1 x 3,8,3622
+Blue,Brick 1 x 4,10,3010
+Blue,Brick 1 x 6,4,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Brick 2 x 2,32,3003
+Blue,Brick 2 x 3,12,3002
+Blue,Brick 2 x 4,18,3001
+Blue,Brick 2 x 6,3,2456
+Blue,Brick 2 x 8,2,3007
+Blue,Plate 1 x 2,2,3023
+Blue,Plate 2 x 2,3,3022
+Blue,Plate 2 x 3,2,3021
+Blue,Plate 2 x 4,1,3020
+Blue,Slope 45º 2 x 1,4,3040b
+Blue,Slope 45º 2 x 2,6,3039
+Blue,Slope 45º 2 x 4,3,3037
+Blue,Slope 75° 2 x 2 x 3,1,3684
+Blue,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Blue,Slope Inverted 45º 2 x 2,6,3660
+Blue,Window 2 x 4 x 3 Frame,4,4132
+Bright Green,Baseplate 16 x 32,1,3857
+Dark Bluish Gray,Plate 2 x 10,2,3832
+Dark Bluish Gray,Slope 45º 2 x 1,4,3040b
+Dark Bluish Gray,Slope 45º 2 x 2,4,3039
+Dark Bluish Gray,Window 2 x 4 x 3 Pane,4,4133
+Green,Brick 1 x 1,16,3005
+Green,Brick 1 x 2,18,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 1 x 4,4,3010
+Green,Brick 2 x 2,17,3003
+Green,Brick 2 x 3,2,3002
+Green,Brick 2 x 4,8,3001
+Green,Brick 4 x 6,3,2356
+Green,Brick 8 x 8,2,4201
+Green,Pine Tree - Large 4 x 4 x 6 2/3,2,3471
+Green,Plate 1 x 2,1,3023
+Green,Plate 2 x 2,1,3022
+Green,Plate 2 x 3,1,3021
+Green,Slope 33º 3 x 1,2,4286
+Green,Slope 45º 2 x 1,4,3040b
+Green,Slope 75° 2 x 2 x 3,2,3684
+Green,Slope Inverted 45º 2 x 2,2,3660
+Green,Tile 2 x 2 with Groove,1,3068b
+Light Bluish Gray,Antenna 1 x 4,1,3957
+Light Bluish Gray,Brick 1 x 2 x 1 1/3 with Curved Top,4,6091
+Light Bluish Gray,Brick 1 x 3,2,3622
+Light Bluish Gray,Brick 1 x 4,2,3010
+Light Bluish Gray,Brick 2 x 2,7,3003
+Light Bluish Gray,Brick 2 x 4,8,3001
+Light Bluish Gray,Brick 4 x 12,3,4202
+Light Bluish Gray,Brick Special 1 x 1 Studs on 4 Sides,1,4733
+Light Bluish Gray,Hinge Brick 1 x 2 Base,1,3937
+Light Bluish Gray,Plate 1 x 2,2,3023
+Light Bluish Gray,Plate 2 x 3,1,3021
+Light Bluish Gray,Plate 2 x 4,1,3020
+Light Bluish Gray,Slope 45° 2 x 3,2,3038
+Light Bluish Gray,Slope Inverted 45º 2 x 2,4,3660
+Light Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,5,2412b
+Light Bluish Gray,"Turntable 4 x 4 Square Base with Top, Complete Assembly",1,3403c01
+Medium Blue,Plate 1 x 1,2,3024
+Medium Blue,Plate 1 x 2,2,3023
+Medium Blue,Tile 1 x 2 with Groove,2,3069b
+Red,Brick 1 x 1,20,3005
+Red,Brick 1 x 2,26,3004
+Red,Brick 1 x 3,6,3622
+Red,Brick 1 x 4,7,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 2 x 10,1,3006
+Red,Brick 2 x 2,32,3003
+Red,Brick 2 x 3,6,3002
+Red,Brick 2 x 4,12,3001
+Red,Brick 2 x 6,6,2456
+Red,Brick 2 x 8,4,3007
+Red,Brick Round 1 x 1 Open Stud,4,3062b
+Red,Brick Special 1 x 1 with Headlight,2,4070
+Red,Plate 4 x 4,1,3031
+Red,Slope 33º 3 x 2,8,3298
+Red,Slope 45° 2 x 1 Double,2,3044
+Red,Slope 45° 2 x 2 Double,5,3043
+Red,Slope 45° 2 x 3,6,3038
+Red,Slope 45° 2 x 4 Double,4,3041
+Red,Slope 45º 2 x 1,9,3040b
+Red,Slope 45º 2 x 2,16,3039
+Red,Slope 45º 2 x 4,18,3037
+Red,Slope Curved 6 x 2,1,44126
+Red,Slope Inverted 45º 2 x 1,2,3665
+Reddish Brown,Brick 1 x 2,6,3004
+Reddish Brown,Brick 2 x 2,4,3003
+Reddish Brown,Brick 2 x 4,2,3001
+Trans-Clear,Brick Round 1 x 1 Open Stud,2,3062b
+Trans-Clear,Panel 1 x 2 x 2 [Hollow Studs],2,4864b
+Trans-Clear,Plate 1 x 2,5,3023
+Trans-Dark Blue,Brick 1 x 1,4,3005
+Trans-Dark Blue,Brick 1 x 2 [No Bottom Tube],2,3065
+Trans-Dark Blue,Brick 2 x 2,9,3003
+Trans-Yellow,Plate 1 x 1,2,3024
+White,Brick 1 x 1,28,3005
+White,Brick 1 x 1 with Simple Eye Black and White Print,6,3005pe1
+White,Brick 1 x 2,30,3004
+White,Brick 1 x 3,18,3622
+White,Brick 1 x 4,27,3010
+White,Brick 1 x 6,4,3009
+White,Brick 1 x 8,4,3008
+White,Brick 2 x 2,44,3003
+White,Brick 2 x 3,12,3002
+White,Brick 2 x 4,30,3001
+White,Brick 2 x 6,3,2456
+White,Brick 2 x 8,3,3007
+White,Door Frame 2 x 4 x 5,1,4130
+White,Hinge Brick 1 x 2 Top Plate Thin,1,3938
+White,Picket Fence 1 x 4 x 2,4,33303
+White,Plate 1 x 2,3,3023
+White,Plate 1 x 4,2,3710
+White,Plate 2 x 10,1,3832
+White,Plate 2 x 2,1,3022
+White,Slope 18º 4 x 2,3,30363
+White,Slope 45º 2 x 1,3,3040b
+White,Slope 45º 2 x 2,3,3039
+White,Slope Inverted 45º 2 x 2,5,3660
+White,Tile 1 x 2 Grill with Bottom Groove,3,2412b
+White,Window 2 x 4 x 3 Frame,4,4132
+White,Window 2 x 4 x 3 Pane,4,4133
+Yellow,Brick 1 x 1,24,3005
+Yellow,Brick 1 x 2,30,3004
+Yellow,Brick 1 x 3,7,3622
+Yellow,Brick 1 x 4,8,3010
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 1 x 8,1,3008
+Yellow,Brick 2 x 2,32,3003
+Yellow,Brick 2 x 3,7,3002
+Yellow,Brick 2 x 3 with Curved Top,1,6215
+Yellow,Brick 2 x 4,22,3001
+Yellow,Door Frame 2 x 4 x 5,1,4130
+Yellow,Plate Special 1 x 1 Clip Light [Thick Ring],1,4081b
+Yellow,Slope 33º 3 x 1,2,4286
+Yellow,Slope 45º 2 x 1,4,3040b
+Yellow,Slope 45º 2 x 2,5,3039
+Yellow,Slope 45º 2 x 4,3,3037
+Yellow,Slope Curved 6 x 1,2,42022
+Yellow,Slope Inverted 45º 2 x 2,2,3660

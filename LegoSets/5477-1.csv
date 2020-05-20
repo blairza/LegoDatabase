@@ -1,0 +1,41 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,6,3004
+Blue,Brick 1 x 4,2,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 2 x 2,6,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,4,3001
+Blue,Brick 2 x 8,2,3007
+Bright Green,Plant Flower 2 x 2 Leaves - Angular,4,4727
+Green,Brick 4 x 12,2,4202
+Green,Brick 8 x 8,3,4201
+Green,Bush 2 x 2 x 4,2,6064
+Green,Pine Tree - Large 4 x 4 x 6 2/3,2,3471
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2,6,3004
+Red,Brick 1 x 4,2,3010
+Red,Brick 2 x 2,6,3003
+Red,Brick 2 x 3,2,3002
+Red,Door Frame 2 x 6 x 6 Freestyle,4,6235
+Red,Slope 33º 2 x 2 Double,6,3300
+Red,Slope 33º 2 x 4 Double,6,3299
+Red,Slope 33º 3 x 1,8,4286
+Red,Slope 33º 3 x 2,12,3298
+Red,Slope 33º 3 x 4,20,3297
+Red,Window 2 x 6 x 6 Freestyle,10,6236
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 2,16,3004
+White,Brick 1 x 3,2,3622
+White,Brick 1 x 4,4,3010
+White,Brick 1 x 6,4,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 2,20,3003
+White,Brick 2 x 3,4,3002
+White,Brick 2 x 4,8,3001
+White,Brick 2 x 8,4,3007
+White,Door 1 x 6 x 6 Freestyle,4,600
+White,Flower 2 x 2 - Round,2,4728
+White,Picket Fence 1 x 4 x 2,8,33303
+White,Window 1 x 3 x 4 Pane for Window 2 x 6 x 6 Freestyle,20,601
+Yellow,Flower 2 x 2 - Round,2,4728

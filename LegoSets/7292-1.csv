@@ -1,0 +1,85 @@
+color,part,quantity,part_id
+Black,Brick 2 x 4,1,3001
+Black,Brick 2 x 8,1,3007
+Black,BrickSpecial 1 x 4 with 4 Studs on One Side,2,30414
+Black,Dish 2 x 2 Inverted [Radar],1,4740
+Black,Plate 1 x 6,7,3666
+Black,Plate Special 1 x 4 with 2 Studs,6,92593
+Black,Slope 65º 2 x 1 x 2,1,60481
+Black,Slope Curved 3 x 1 No Studs,1,50950
+Black,Technic Axle and Pin Connector Perpendicular 3L with Centre Pin Hole,2,32184
+Black,Technic Beam 1 x 4 Thin with Stud Connector,2,2825
+Black,Technic Brick 1 x 2 [1 Hole],4,3700
+Black,Technic Pin with Friction and Slots,2,2780
+Black,Tile 1 x 6,2,6636
+Black,"Turntable 2 x 2 Plate, Base",1,3680
+Black,Tyre 11.2 x 6.4 Slick,2,50951
+Black,Tyre 13mm D. x 4mm,1,59895
+Black,Wedge Plate 2 x 4,2,51739
+Blue,Technic Axle Pin with Friction Ridges Lengthwise,4,43093
+Dark Bluish Gray,Plate 2 x 12,1,2445
+Dark Bluish Gray,Plate 2 x 4,2,3020
+Dark Bluish Gray,Slope 18º 2 x 1 x 2/3 with 4 Slots,4,61409
+Dark Bluish Gray,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],8,50746
+Dark Bluish Gray,Technic Axle 5.5 With Stop,2,32209
+Light Bluish Gray,Bracket 1 x 2 - 1 x 4 [Square Corners],4,2436a
+Light Bluish Gray,Brick 1 x 2 x 1 1/3 with Curved Top,4,6091
+Light Bluish Gray,Brick Special 1 x 1 with Stud on 1 Side,4,87087
+Light Bluish Gray,Plate 1 x 3,6,3623
+Light Bluish Gray,Plate 2 x 6,2,3795
+Light Bluish Gray,Plate Special 2 x 2 Thin with Plane Single Wheel Holder,1,2415
+Light Bluish Gray,"Slope Curved 2 x 2 No Studs, 3 Side Ports Recessed",2,44675
+Light Bluish Gray,Slope Inverted 45° 4 x 2 Double,4,4871
+Light Bluish Gray,Slope Inverted 45º 2 x 2,11,3660
+Light Bluish Gray,Technic Axle Connector Hub with 3 Axles at 120°,2,57585
+Light Bluish Gray,Technic Axle Towball,1,2736
+Light Bluish Gray,Technic Brick 1 x 2 [2 Holes],4,32000
+Light Bluish Gray,Technic Bush 1/2 Smooth,12,4265c
+Light Bluish Gray,Technic Cylinder 4 x 4 with Pin Holes and Center Bar,2,41531
+Light Bluish Gray,"Technic, Plate Rotor 3 Blade with Smooth Ends and 6 Studs (Propeller)",2,32125
+Light Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,2,2412b
+Light Bluish Gray,"Turntable 2 x 2 Plate, Top",1,3679
+Light Bluish Gray,Wheel 11 x 8 mm [Centre Groove],2,42610
+Red,Brick 1 x 2,3,3004
+Red,Brick 1 x 8,2,3008
+Red,"Brick Curved 2 x 2 x 2/3 Two Studs, Curved Slope End",1,47457
+Red,Plate 1 x 4,3,3710
+Red,Plate 2 x 3,4,3021
+Red,Plate Special 1 x 2 with 1 Stud [aka Jumper],5,3794
+Red,Plate Special 2 x 2 with Groove and Centre Stud,1,87580
+Red,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],5,50746
+Red,Slope 30º 1 x 2 x 2/3,8,85984
+Red,Slope Curved 10 x 1,2,85970
+Red,Slope Curved 3 x 1 No Studs,2,50950
+Red,Slope Curved 6 x 1 Inverted,2,42023
+Red,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Red,Tile 1 x 3,8,63864
+Red,Wedge 3 x 2 Left,1,6565
+Red,Wedge 3 x 2 Right,1,6564
+Red,Wedge 4 x 3 [No Studs],2,64225
+Tan,Technic Axle Pin without Friction Ridges Lengthwise,2,3749
+Trans-Black,"Slope Curved 2 x 2 Lip, No Studs",2,30602
+Trans-Green,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,3,4073
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 4,4,3710
+White,Plate 2 x 12,2,2445
+White,Plate 2 x 2 Corner,2,2420
+White,Plate 2 x 3,2,3021
+White,Plate 2 x 4,2,3020
+White,Plate 2 x 6,1,3795
+White,Plate 4 x 12,1,3029
+White,Slope Inverted 33º 3 x 1,2,4287
+White,Wedge Plate 12 x 3 Left,1,47397
+White,Wedge Plate 12 x 3 Right,1,47398
+White,Wedge Plate 4 x 2 Left,1,41770
+White,Wedge Plate 4 x 2 Right,1,41769
+White,Wedge Plate 4 x 4 Cut Corner,2,30503
+White,Wedge Plate 4 x 9,2,2413
+White,Wheel Centre Small with Stub Axles [Pulley Wheel],1,3464
+Yellow,Plate 1 x 2,6,3023
+Yellow,Plate 2 x 2,4,3022
+Yellow,Technic Bush 1/2 Smooth,6,4265c
+Yellow,Tile 1 x 1 with Groove,6,3070b
+Yellow,Tile 1 x 4,2,2431

@@ -1,0 +1,75 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,9,3005
+Black,Brick 1 x 2,18,3004
+Black,Brick 1 x 4,19,3010
+Black,Brick 1 x 6,9,3009
+Black,Brick 1 x 8,10,3008
+Black,Brick 2 x 3 without Cross Supports,15,3002old
+Black,Brick 2 x 4 without Cross Supports,2,3001old
+Black,Brick 2 x 8,3,3007
+Black,Brick Round 1 x 1 Open Stud,12,3062b
+Black,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",11,7049b
+Black,Plate 1 x 1,17,3024
+Black,Plate 1 x 2,22,3023
+Black,Plate 2 x 2,8,3022
+Black,Plate 2 x 3,5,3021
+Black,Plate 2 x 4,10,3020
+Black,Plate 2 x 8,5,3034
+Black,Plate 4 x 10,3,3030
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 6,3,3032
+Black,Plate 4 x 8,1,3035
+Black,Plate 6 x 10,7,3033
+Black,Plate 6 x 12,1,3028
+Black,Plate 6 x 16,1,3027
+Black,Plate 6 x 8,2,3036
+Black,"Plate Special 1 x 2 with Steam Engine Cylinder, Flat Surfaces",2,263
+Black,Slope 45° 2 x 2 Double Convex,8,3045
+Black,Slope 45º 2 x 1,6,3040b
+Black,Slope 45º 2 x 2,5,3039
+Black,Slope 45º 2 x 4,6,3037
+Black,Slope Inverted 45° 2 x 2 Old Type with Round Bottom Pin,10,3660a
+Black,Tile 1 x 2 without Groove,1,3069a
+Black,Train Wheel Spoked for Motor,1,wheel2a
+Black,Tyre Smooth Old Style - Large,6,36
+Black,Tyre Smooth Old Style - Small,4,132-old
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2,2,3004
+Blue,Brick 1 x 4,2,3010
+Blue,Brick 1 x 6,6,3009
+Blue,Brick 1 x 8,8,3008
+Blue,Brick Round 1 x 1 Open Stud,4,3062b
+Blue,Brick Round Corner 2 x 2 [Macaroni],4,3063
+Blue,Plate 1 x 1,2,3024
+Blue,Plate 1 x 2,3,3023
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 3,4,3021
+Blue,Plate 2 x 4,6,3020
+Blue,Plate 4 x 6,4,3032
+Blue,Slope 45° 2 x 3,2,3038
+Blue,Slope 45º 2 x 4,6,3037
+Blue,Slope Inverted 45° 2 x 2 Old Type with Round Bottom Pin,6,3660a
+Red,Brick 1 x 1,14,3005
+Red,Brick 1 x 2,16,3004
+Red,Brick 1 x 4,6,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 1 x 8,5,3008
+Red,Brick Arch 1 x 4,2,3659
+Red,Brick Arch 1 x 6,4,3455
+Red,Fence Gate 1 x 4 x 2,2,3186
+Red,Fence Gate 1 x 4 x 2 Base,2,3187
+Red,Plate 1 x 2,6,3023
+Red,Plate 1 x 8,1,3460
+Red,Plate 2 x 4,5,3020
+Red,Train Steam Drive Rod Holder,2,x564
+Red,Wheel Spoked Large,6,35
+Red,Wheel Spoked with Stud (Complete),4,242c01
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick Round 1 x 1 Open Stud,15,3062b
+Yellow,Brick Round Corner 2 x 2 [Macaroni],4,3063
+Yellow,Plate 1 x 2,8,3023
+Yellow,Plate 2 x 2,1,3022
+Yellow,Plate 2 x 4,4,3020
+Yellow,Plate 4 x 4,2,3031
+Yellow,Train Steam Drive Rod,2,x515
+Yellow,Window 1 x 2 x 2 with Fixed Glass,3,7026

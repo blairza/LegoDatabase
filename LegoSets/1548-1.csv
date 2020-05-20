@@ -1,0 +1,66 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 2,3,3004
+Black,Plate 1 x 2,1,3023
+Black,Plate 1 x 4,1,3710
+Black,Plate 2 x 2 Corner,2,2420
+Black,Plate 2 x 4,1,3020
+Black,Plate 3 x 6 Cut Corners,1,2419
+Black,Plate Round 2 x 2 with Axle Hole,1,4032
+Black,Plate Round 2 x 2 with Rounded Bottom [Boat Stud],6,2654
+Black,Plate Special 2 x 2 with Wheel Holders,2,4600
+Black,Tail 4 x 2 x 2,2,3479
+Black,Tyre Offset Tread Small,4,3641
+Blue,Brick 2 x 2,1,3003
+Blue,Plate 2 x 4,1,3020
+Green,Plate 2 x 10,1,3832
+Green,Plate 2 x 3,1,3021
+Green,Plate 2 x 8,1,3034
+Red,Boat Bow Plate 7 x 6 without Stud Notches,2,2625
+Red,Plate 1 x 1,2,3024
+Red,Plate 1 x 10,6,4477
+Red,Plate 1 x 3,8,3623
+Red,Plate 1 x 4,2,3710
+Red,Plate 2 x 2 Corner,2,2420
+Red,Plate 6 x 24,1,3026
+Red,Plate 6 x 8,1,3036
+Red,Tile 1 x 1 with Groove,6,3070b
+Red,Tile 1 x 2 with Groove,6,3069b
+Trans-Clear,Slope 45º 2 x 2,1,3039
+Trans-Green,Plate 1 x 1,1,3024
+Trans-Red,Plate 1 x 1,1,3024
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+White,Boat Bow Brick 6 x 6 x 1,2,2626
+White,Boat Bow Plate 7 x 6 without Stud Notches,1,2625
+White,Boat Mast 2 x 2 x 3 Inclined with Stud on Top and Two Sides,1,4289
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 16,8,2465
+White,Brick 1 x 2,2,3004
+White,Brick 1 x 2 with Black Grill Print,4,3004p06
+White,Brick 1 x 4,1,3010
+White,Brick 1 x 6,2,3009
+White,Brick 1 x 8 with Ferry Square Windows Black 16 in 1 Line Print,20,3008p22
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 8,2,3007
+White,Hinge Brick 1 x 4 [Lower],2,3831
+White,Hinge Brick 1 x 4 [Upper],2,3830
+White,Hinge Plate 1 x 4 Swivel Upper / Lower [Complete Assembly],2,2429c01
+White,Lever Small Base with Black Lever,2,298c02
+White,Plate 1 x 1,2,3024
+White,Plate 1 x 6,1,3666
+White,Plate 1 x 8,2,3460
+White,Plate 2 x 3,1,3021
+White,Plate 3 x 6 Cut Corners,2,2419
+White,Plate 6 x 12,2,3028
+White,Plate 6 x 8,1,3036
+White,Plate Special 1 x 2 Side Handle [Free Ends],1,2540
+White,Plate Special 1 x 2 with Arm Up [Horizontal Arm 6mm],2,4623
+White,Slope 33º 3 x 1,2,4286
+White,Slope 33º 3 x 4,1,3297
+White,Slope 75° 2 x 2 x 3,2,3684
+White,Slope 75° 2 x 2 x 3 with Ferry Windows Black Print,3,3684p22
+White,Slope 75º 2 x 1 x 3 [Undetermined Type],2,4460
+White,Slope Inverted 45º 2 x 1,2,3665
+White,Slope Inverted 45º 2 x 2,8,3660
+White,Slope Inverted 45Â° 3 x 1 Double,6,2341
+White,Wheel 8mm D. x 6mm,4,4624

@@ -1,0 +1,88 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,8,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 2,2,3003
+Black,Brick 2 x 2 [Red Wheels for Single Tyre],2,3137c01
+Black,Tyre Offset Tread Small,4,3641
+Blue,Brick 1 x 1,8,3005
+Blue,Brick 1 x 2,6,3004
+Blue,Brick 1 x 2 x 2 with Inside Axle Holder with Clock Face Print,1,3245bpx11
+Blue,Brick 1 x 3,2,3622
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 2 x 2,2,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,2,3001
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 1 x 6,4,3666
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 3,2,3021
+Blue,Plate 2 x 4,4,3020
+Blue,Plate 2 x 6,2,3795
+Blue,Plate 2 x 8,4,3034
+Blue,Plate 4 x 4,1,3031
+Blue,Plate 4 x 6,1,3032
+Blue,Propeller 4 Blade 5 Diameter with Rounded Ends,2,2479
+Dark Gray,"Human Tool, Brick Separator",1,6007
+Green,Baseplate 16 x 16,1,3867
+Green,Flower Stem,2,3741
+Green,Fruit Tree,1,3470
+Red,Brick 1 x 1,14,3005
+Red,Brick 1 x 2,18,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,6,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 2 x 2,4,3003
+Red,Brick 2 x 2 Corner,2,2357
+Red,Brick 2 x 4,2,3001
+Red,Brick 2 x 6,1,2456
+Red,Door 1 x 4 x 5 Right with 6 Panes,1,73312
+Red,Door 1 x 4 x 5 Right with Trans-Clear Glass,1,73435c01
+Red,"Plant Flower Small, Sprue of Four",1,3742c01
+Red,Slope 33º 2 x 2 Double,2,3300
+Red,Slope 33º 2 x 4 Double,3,3299
+Red,Slope 33º 3 x 2,6,3298
+Red,Slope 33º 3 x 4,6,3297
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope Inverted 45º 2 x 1,4,3665
+Red,Slope Inverted 45º 2 x 2,4,3660
+Red,"Turntable 4 x 4 Square Base with Top, Complete Assembly",1,3403c01
+Red,Window 1 x 2 x 2 Classic with Short Sill (Complete),2,3081cc01
+Red,Window 1 x 4 x 3,4,3853
+Red,Window 1 x 4 x 5 with Fixed Glass,1,4347
+Trans-Clear,Brick 1 x 1,2,3005
+Trans-Clear,Brick 1 x 2,4,3004
+Trans-Clear,Slope 45º 2 x 2,2,3039
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Unknown,Minifig,1,pln062
+Unknown,Minifig - Horizontal Lines,1,hor018
+White,Antenna 1 x 4,2,3957
+White,Brick 1 x 1,20,3005
+White,Brick 1 x 2,24,3004
+White,Brick 1 x 2 with Black Grill Print,1,3004p06
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,6,3010
+White,Brick 1 x 6,2,3009
+White,Brick 1 x 8,1,3008
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 2 Corner,2,2357
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,4,3001
+White,Brick 2 x 6,1,2456
+White,Window 1 x 2 x 3 Pane,8,3854
+White,Window 1 x 2 x 3 Shutter,4,3856
+Yellow,Brick 1 x 1,18,3005
+Yellow,Brick 1 x 2,20,3004
+Yellow,Brick 1 x 2 with Pin,2,2458
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,8,3010
+Yellow,Brick 1 x 6,1,3009
+Yellow,Brick 2 x 2,2,3003
+Yellow,Brick 2 x 2 Corner,2,2357
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,2,3001
+Yellow,Fence 1 x 4 x 1,4,3633
+Yellow,Flag 4 x 1 Wave,2,4495
+Yellow,"Plant Flower Small, Sprue of Four",1,3742c01
+Yellow,Tile Special 2 x 2 with Pin,1,2460

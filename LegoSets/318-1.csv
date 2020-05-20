@@ -1,0 +1,34 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2 [No Bottom Tube],5,3065
+Blue,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",1,crssprt02
+Blue,Brick 2 x 2,3,3003
+Blue,Brick 2 x 4 without Cross Supports,3,3001old
+Blue,Plate 1 x 2 with old style bottom,1,3023old
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 3,4,3021
+Blue,Plate 2 x 4,4,3020
+Blue,Slope 45° 2 x 4 Double,2,3041
+Blue,Slope 45º 2 x 2,8,3039
+Blue,Slope 45º 2 x 4,12,3037
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2 [No Bottom Tube],8,3065
+Red,"Brick 1 x 6 No Bottom Tubes, with Cross Supports",5,crssprt02
+Red,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",6,crssprt01
+Red,Brick 2 x 2,4,3003
+Red,Brick 2 x 3 without Cross Supports,19,3002old
+Red,Brick 2 x 4 without Cross Supports,8,3001old
+Red,Wheel Old with 4 Studs without inner Side Supports (Old Lego Logo),1,7039d
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],3,3065
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Opaque Bottom",1,7049a
+White,Door 1 x 2 x 3 Left [Old Style with Glass],3,32bc01
+White,Plate 2 x 2,1,3022
+White,Plate 2 x 3,8,3021
+White,Plate 2 x 4,13,3020
+White,Plate 2 x 8,4,3034
+White,Plate 4 x 8,1,3035
+White,Plate 6 x 8,1,3036
+White,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",12,29bc01
+White,"Window 1 x 2 x 1 (old type) with Extended Lip, with Glass",2,27bc01
+White,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+White,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],1,646bc01

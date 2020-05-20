@@ -1,0 +1,42 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,3,3004
+Black,Brick 2 x 2,4,3003
+Black,Brick 2 x 4 without Cross Supports,3,3001old
+Black,Tyre Smooth Old Style - Small,4,132-old
+Blue,Brick 2 x 2,3,3003
+Blue,Brick 2 x 4 without Cross Supports,3,3001old
+Light Gray,"Brick 10 x 20 without Bottom Tubes, with '+' Cross Support (early Baseplate)",1,700ex
+Red,Brick 1 x 1,5,3005
+Red,Brick 1 x 2,9,3004
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,9,3003
+Red,Brick 2 x 3 without Cross Supports,9,3002old
+Red,Brick 2 x 4 without Cross Supports,40,3001old
+Red,Brick 2 x 8,2,3007
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],1,32bc01
+Red,Door 1 x 2 x 3 Right (old type),1,33bc01
+Red,Wheel Old with 4 Studs,4,7039
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+Red,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",2,31bc01
+Red,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+Red,Window 1 x 6 x 2 [Old Style Extended Lip &amp; Glass],2,645bc01
+Red,Window 1 x 6 x 3 Panorama with Glass,1,604c01
+Trans-Clear,Brick 1 x 2,3,3004
+Trans-Clear,Brick 2 x 2,4,3003
+Trans-Clear,Brick 2 x 3 without Cross Supports,2,3002old
+Trans-Clear,Brick 2 x 4 without Cross Supports,3,3001old
+White,Brick 1 x 1,5,3005
+White,Brick 1 x 2,10,3004
+White,Brick 1 x 6,2,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 10,1,3006
+White,Brick 2 x 2,12,3003
+White,Brick 2 x 3 without Cross Supports,9,3002old
+White,Brick 2 x 4 without Cross Supports,39,3001old
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",2,7049b
+White,Plate 2 x 8,3,3034
+White,Plate 4 x 8,3,3035
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick 2 x 2,4,3003
+Yellow,Brick 2 x 4 without Cross Supports,3,3001old

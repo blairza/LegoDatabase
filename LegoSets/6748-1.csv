@@ -1,0 +1,100 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,1,3005
+Black,Brick 1 x 2,13,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,2,3010
+Black,Brick 1 x 6,1,3009
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 3,6,3002
+Black,Brick 2 x 4,2,3001
+Black,Brick 2 x 6,1,2456
+Black,Brick Special 1 x 1 with Headlight,2,4070
+Black,Minifig Axe,3,3835
+Black,Minifig Bow and Arrow [Large],5,4499
+Black,Minifig Saucepan,1,4529
+Black,Minifig Spear,5,4497
+Black,Panel 1 x 1 x 1 Corner,4,6231
+Black,Plate 1 x 2,1,3023
+Black,Plate 1 x 3,1,3623
+Black,Plate 2 x 2,3,3022
+Black,Plate 2 x 2 Corner,1,2420
+Black,Plate 2 x 6,2,3795
+Black,Plate Special 1 x 2 Side Handle [Free Ends],1,2540
+Black,Snake,3,30115
+Black,Technic Pin Long with Friction Ridges Lengthwise,2,6558
+Black,Technic Pin with Friction Ridges Lengthwise and Towball,1,6628
+Black,Tile 1 x 2 Grill with Bottom Groove,2,2412b
+Black,Tile 2 x 2 with Groove,1,3068b
+Blue,Brick 1 x 2,1,3004
+Blue,Brick Special 1 x 1 with Headlight,2,4070
+Blue,Plate 1 x 2,1,3023
+Blue,Plate 2 x 2 with Pin Type 1,1,2476a
+Blue,Saddle [Two Clips],1,4491b
+Blue,Slope 45º 2 x 1,5,3040b
+Blue,Slope Inverted 45º 2 x 1,1,3665
+Brown,Animal Horse with Blue Blanket and Red Circle Pattern (Complete),1,4493cx5
+Brown,Bar 7 x 3 Double Clips [aka Ladder],1,6020
+Brown,Boat - Canoe,1,6021
+Brown,Brick 1 x 1,3,3005
+Brown,Brick 1 x 2,5,3004
+Brown,Brick Round 1 x 1 Open Stud,2,3062b
+Brown,Brick Round 2 x 2,7,3941
+Brown,Minifig Oar / Paddle,1,2542
+Brown,"Plant, Tree 6 x 6 Hollow Stump",1,30131
+Brown,Plate 1 x 2,1,3023
+Brown,Plate 1 x 3,5,3623
+Brown,Support Tepee 20L,2,30129
+Dark Gray,Bird,2,2546
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,2,3004
+Green,Brick 1 x 2 x 5,1,2454
+Green,Brick 2 x 2,4,3003
+Green,Bush 2 x 2 x 4,2,6064
+Green,Leaves 4 x 3,6,2423
+Green,Leaves 6 x 5,2,2417
+Green,Plate 1 x 2,1,3023
+Green,Saddle [Two Clips],1,4491b
+Light Gray,Brick 1 x 3,7,3622
+Light Gray,Brick 1 x 4,2,3010
+Light Gray,Brick 1 x 6,2,3009
+Light Gray,Brick 1 x 8,1,3008
+Light Gray,Brick Special Facet 3 x 3 x 2 Top,4,2463
+Light Gray,Brick Wedged Facet 5 x 5,4,6107
+Light Gray,"Brick, Modified Facet 3 x 3 x 2 Bottom",4,2464
+Light Gray,Facet 3 x 3,4,2462
+Light Gray,Plate 2 x 3,2,3021
+Light Gray,Plate 2 x 4,1,3020
+Light Gray,Plate 2 x 6,1,3795
+Light Gray,Rock Panel Rectangular [BURP],2,6082
+Light Gray,Rock Panel Triangular [LURP],2,6083
+Light Gray,Slope 33º 3 x 2,3,3298
+Light Gray,Slope 33º 3 x 4,2,3297
+Light Gray,Slope 45º 2 x 2,3,3039
+Light Gray,Technic Brick 1 x 1 with Hole,4,6541
+Light Gray,Technic Brick 1 x 2 [1 Hole],1,3700
+Light Gray,Tile 1 x 4,3,2431
+Red,Brick 1 x 2,1,3004
+Red,Brick Special 1 x 1 with Headlight,2,4070
+Red,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+Red,Slope 45º 2 x 1,2,3040b
+Red,Slope Inverted 45º 2 x 1,2,3665
+Tan,Baseplate 32 x 32 7-Stud Road Curve with River Blue/Green Print [6748 / 6766 / 6763],1,2359px1
+Tan,Minifig Accessory Shield Ovoid with Feathers and Horse Print,1,2586px3
+Tan,Minifig Shield - Ovoid with American Indian Print,2,2586pw1
+Trans-Neon Orange,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Neon Orange,Wave / Flame Rounded with Base Pins,2,6126
+Unknown,Minifig,2,ww016
+Unknown,Minifig,1,ww018
+Unknown,Minifig,1,ww019
+Unknown,Minifig,1,ww022
+Unknown,Minifig,1,ww014
+White,Animal Horse with Green Blanket and Red Hand Pattern (Complete),1,4493cx6
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,Cloth Tepee Cover with Buffalo Helmets Print,1,x172px2
+White,"Minifig Feathers with Clip and Black Tip Print West, Western, Wild, Wild West, bald, bald eagle, eagle, feather, indian",5,30127p01
+White,Slope 33º 3 x 1,2,4286
+White,Slope 45º 2 x 1,1,3040b
+White,Slope Inverted 33º 3 x 1,2,4287
+Yellow,Slope 33º 3 x 1,2,4286
+Yellow,Slope 45º 2 x 1,3,3040b
+Yellow,Slope Inverted 45º 2 x 1,1,3665

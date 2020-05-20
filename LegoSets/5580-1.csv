@@ -1,0 +1,162 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,2,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 3,2,3002
+Black,Brick Special 1 x 1 with Headlight,4,4070
+Black,Hinge Brick 1 x 2 Base,5,3937
+Black,Hinge Brick 1 x 2 Top Plate Thin,6,3938
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 10,6,4477
+Black,Plate 1 x 2,12,3023
+Black,Plate 1 x 3,2,3623
+Black,Plate 1 x 4,13,3710
+Black,Plate 1 x 6,2,3666
+Black,Plate 1 x 8,4,3460
+Black,Plate 2 x 2,5,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,1,3020
+Black,Plate Round 1 x 1 Straight Side,8,4073
+Black,Rubber Band Thin (Square Cross Section),1,x137
+Black,Technic Axle 12,3,3708
+Black,Technic Axle 4,3,3705
+Black,Technic Axle 6,2,3706
+Black,Technic Axle 8,1,3707
+Black,Technic Brick 1 x 12 with Holes,2,3895
+Black,Technic Brick 1 x 16 with Holes,2,3703
+Black,Technic Brick 1 x 2 [1 Hole],9,3700
+Black,Technic Brick 1 x 4 [3 Holes],8,3701
+Black,Technic Brick 1 x 8 [7 Holes],2,3702
+Black,Technic Pin with Friction Ridges Lengthwise [No Slots],20,4459
+Black,Technic Wedge Belt Wheel Tyre,1,70162
+Black,Tile 1 x 1 with Groove,6,3070b
+Black,Tile 1 x 2 with Groove,2,3069b
+Black,"Turntable 4 x 4 Square Base with Top, Complete Assembly",1,3403c01
+Black,Tyre 13 x 24 Model Team,11,2696
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2,2,3004
+Blue,Brick 1 x 3,4,3622
+Blue,Brick 1 x 6,1,3009
+Blue,Brick 1 x 8,1,3008
+Blue,Brick Round Corner 2 x 2 [Macaroni],2,3063
+Blue,Plate 1 x 2,4,3023
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 6,1,3795
+Blue,Slope 45º 2 x 1,2,3040b
+Light Gray,Antenna 1 x 4,2,3957
+Light Gray,Bar 1 x 6 [Open Studs],1,4873
+Light Gray,Brick 1 x 1,6,3005
+Light Gray,Brick 1 x 2,2,3004
+Light Gray,Brick 1 x 6,3,3009
+Light Gray,Brick 1 x 8,1,3008
+Light Gray,Brick 2 x 3,8,3002
+Light Gray,Brick 2 x 4,4,3001
+Light Gray,Brick Round 1 x 1 Open Stud,12,3062b
+Light Gray,Brick Round 2 x 2,14,3941
+Light Gray,Brick Special 1 x 1 with Headlight,6,4070
+Light Gray,Hinge Brick 1 x 2 Base,5,3937
+Light Gray,Lever Small Base with Light Bluish Gray Lever,3,298c05
+Light Gray,Minifig Loudhailer [aka SW Blaster / Space Gun],2,4349
+Light Gray,Minifig Space Gun / Torch,2,3959
+Light Gray,Plate 1 x 1,12,3024
+Light Gray,Plate 1 x 2,7,3023
+Light Gray,Plate 1 x 3,6,3623
+Light Gray,Plate 1 x 4,2,3710
+Light Gray,Plate 1 x 6,3,3666
+Light Gray,Plate 1 x 8,2,3460
+Light Gray,Plate 2 x 3,4,3021
+Light Gray,Plate 2 x 4,5,3020
+Light Gray,Plate 2 x 6,1,3795
+Light Gray,Plate Round 1 x 1 Straight Side,17,4073
+Light Gray,Plate Round 2 x 2 with Axle Hole,6,4032
+Light Gray,Plate Special 1 x 1 with Clip Light [Thin Ring],4,4081a
+Light Gray,Plate Special 1 x 2 with 1 Stud [aka Jumper],9,3794
+Light Gray,Plate Special 1 x 2 with Ladder,6,4175
+Light Gray,Slope 45º 2 x 1,6,3040b
+Light Gray,Slope 45º 2 x 2,4,3039
+Light Gray,Slope 45º 2 x 4,6,3037
+Light Gray,Slope Inverted 45º 2 x 1,4,3665
+Light Gray,Slope Inverted 45º 2 x 2,22,3660
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,3,3749
+Light Gray,Technic Brick 1 x 2 [1 Hole],1,3700
+Light Gray,Technic Bush,8,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],18,4265a
+Light Gray,Technic Connector Toggle Joint Toothed,1,4273b
+Light Gray,Technic Gear 14 Tooth Bevel,3,4143
+Light Gray,Technic Gear 24 Tooth Crown (Old Style),1,3650a
+Light Gray,Technic Gear 8 Tooth,2,3647
+Light Gray,Technic Gear Rack 1 x 4,1,3743
+Light Gray,Technic Pin 1/2,6,4274
+Light Gray,Technic Wedge Belt Wheel [aka Pulley],2,4185
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",6,3673
+Light Gray,"Technic, Plate 1 x 8 with Toothed Ends",3,4442
+Light Gray,"Technic, Steering Arm",2,4261
+Light Gray,Tile 1 x 1 with Groove,2,3070b
+Light Gray,Wheel 30mm D. x 13mm [13 x 24 Model Team],11,2695
+Red,Hinge Brick 1 x 2 Top Plate Thin,4,3938
+Red,Hinge Plate 1 x 2 with 2 Fingers and Solid Studs,6,4276a
+Red,Hinge Plate 1 x 2 with 3 Fingers and Solid Studs,6,4275a
+Red,Plate 1 x 10,1,4477
+Red,Plate 1 x 2,5,3023
+Red,Plate 1 x 3,2,3623
+Red,Plate 1 x 4,7,3710
+Red,Plate 1 x 6,1,3666
+Red,Plate 2 x 3,5,3021
+Red,Plate 2 x 4 [3 Holes],2,3709b
+Red,Slope 33º 3 x 2,1,3298
+Trans-Clear,Glass for Train Door,2,4183
+Trans-Clear,Glass for Train Window 1 x 2 x 3,2,4036
+Trans-Clear,Plate 1 x 1,2,3024
+Trans-Clear,Plate Round 1 x 1 Straight Side,6,4073
+Trans-Clear,Windscreen 3 x 10 x 3,1,2694
+Trans-Red,Plate 1 x 1,4,3024
+Trans-Yellow,Flexible Hose 8.5L [Tabless Ends Tube Coloured],2,73590c01a
+Trans-Yellow,Plate 1 x 1,4,3024
+Trans-Yellow,Plate Round 1 x 1 Straight Side,10,4073
+White,Antenna 1 x 4,2,3957
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2,10,3004
+White,Brick 1 x 3,6,3622
+White,Brick 1 x 4,5,3010
+White,Brick 1 x 6,2,3009
+White,Brick 1 x 8,1,3008
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 3,1,3002
+White,Brick 2 x 4,3,3001
+White,Brick Round Corner 2 x 2 [Macaroni],8,3063
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,Door 1 x 4 x 5 Train Left with Red/Blue Stripe Print,1,4181p06
+White,Door 1 x 4 x 5 Train Right with Red/Blue Stripe Print,1,4182p06
+White,Hinge Brick 1 x 2 Base,2,3937
+White,Hinge Brick 1 x 2 Top Plate Thin,2,3938
+White,Hinge Vehicle Roof 4 x 4,2,4213
+White,Hinge Vehicle Roof Holder 1 x 4,2,4315
+White,Panel 1 x 4 x 3 - Solid Studs with Blue Stripe Print Left [5580],1,4215ap06
+White,Panel 1 x 4 x 3 - Solid Studs with Blue Stripe Print Right [5580],1,4215ap04
+White,Panel 1 x 4 x 3 - Solid Studs with Red/Blue Stripe Left Print [5580],1,4215ap07
+White,Panel 1 x 4 x 3 - Solid Studs with Red/Blue Stripe Right Print [5580],1,4215ap05
+White,Plate 1 x 1,2,3024
+White,Plate 1 x 10,5,4477
+White,Plate 1 x 2,16,3023
+White,Plate 1 x 3,8,3623
+White,Plate 1 x 4,2,3710
+White,Plate 1 x 6,5,3666
+White,Plate 1 x 8,6,3460
+White,Plate 2 x 2,1,3022
+White,Plate 2 x 3,11,3021
+White,Plate 2 x 4,7,3020
+White,Plate 2 x 4 [3 Holes],1,3709b
+White,Plate 2 x 6,3,3795
+White,Plate 4 x 10,2,3030
+White,Plate 4 x 8,2,3035
+White,Plate 6 x 8,1,3036
+White,Plate Special 1 x 2 with 1 Stud [aka Jumper],3,3794
+White,Plate Special 1 x 2 with Arm Up [Horizontal Arm 6mm],2,4623
+White,"Slope 45° 2 x 2 with 12 Buttons, 3 Red Lamps, Black Panel Print",1,3039p32
+White,Slope 45º 2 x 2,1,3039
+White,Slope Inverted 45º 2 x 1,4,3665
+White,Slope Inverted 45º 2 x 2,1,3660
+White,Technic Brick 1 x 2 [1 Hole],1,3700
+White,Technic Brick 1 x 4 [3 Holes],1,3701
+White,Tile 1 x 2 with Groove,4,3069b
+White,Window 1 x 2 x 3 Train,2,4035

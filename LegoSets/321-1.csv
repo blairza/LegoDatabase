@@ -1,0 +1,47 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,1,3005
+Black,Brick 1 x 2,2,3004
+Black,Brick 2 x 2,14,3003
+Black,Brick 2 x 3 without Cross Supports,6,3002old
+Black,Brick 2 x 4 without Cross Supports,5,3001old
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 2 with old style bottom,5,3023old
+Black,Plate 2 x 2,6,3022
+Black,Plate 2 x 3,4,3021
+Black,Plate 2 x 4,8,3020
+Blue,Brick 1 x 6,3,3009
+Blue,Brick 2 x 10,1,3006
+Blue,Brick 2 x 2,1,3003
+Blue,Brick 2 x 3 without Cross Supports,13,3002old
+Blue,Plate 1 x 1,1,3024
+Blue,Plate 1 x 2 with old style bottom,2,3023old
+Blue,Plate 2 x 3,5,3021
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2,3,3004
+Red,Brick 2 x 2,5,3003
+Red,Brick 2 x 3 without Cross Supports,5,3002old
+Red,Brick 2 x 4 without Cross Supports,12,3001old
+Red,Plate 1 x 2 with old style bottom,7,3023old
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 3,1,3021
+Red,Plate 2 x 4,9,3020
+Red,Slope 45° 2 x 1 Triple - without Bottom Pin,2,3048a
+Trans-Clear,Brick 1 x 1,4,3005
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],6,3065
+Trans-Clear,Plate 1 x 2 with old style bottom,4,3023old
+Trans-Clear,Plate 2 x 2,1,3022
+White,Brick 1 x 1,3,3005
+White,Brick 1 x 2,8,3004
+White,Brick 2 x 2,5,3003
+White,Brick 2 x 3 without Cross Supports,8,3002old
+White,Brick 2 x 4 without Cross Supports,4,3001old
+White,Door 1 x 2 x 3 Right (old type),1,33bc01
+White,Plate 1 x 2 with old style bottom,11,3023old
+White,Plate 2 x 2,1,3022
+White,Plate 2 x 4,14,3020
+White,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",3,7026bc01
+Yellow,Brick 1 x 1,8,3005
+Yellow,Brick 1 x 2,8,3004
+Yellow,Brick 1 x 6,1,3009
+Yellow,Brick 2 x 2,4,3003
+Yellow,Brick 2 x 3 without Cross Supports,2,3002old

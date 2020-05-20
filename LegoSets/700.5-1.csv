@@ -1,0 +1,17 @@
+color,part,quantity,part_id
+Light Gray,"Brick 10 x 20 without Bottom Tubes, with '+' Cross Support and 4 Side Supports (early Baseplate)",1,700e
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2 [No Bottom Tube],4,3065
+Red,Brick 2 x 10,1,3006
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 3 without Cross Supports,3,3002old
+Red,Brick 2 x 4 without Cross Supports,11,3001old
+Red,Door 1 x 2 x 3 Left (old type) with Solid Studs and Fixed Glass,1,32ac01
+Red,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+Red,Window 1 x 6 x 2 [Old Style Extended Lip &amp; Glass],1,645bc01
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2 [No Bottom Tube],4,3065
+White,Brick 2 x 2,4,3003
+White,Brick 2 x 3 without Cross Supports,2,3002old
+White,Brick 2 x 4 without Cross Supports,11,3001old
+White,Brick 2 x 8,1,3007

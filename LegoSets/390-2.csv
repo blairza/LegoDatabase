@@ -1,0 +1,40 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,10,3005
+Black,Brick 1 x 2,4,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 6,1,3009
+Black,Brick 2 x 2,2,3003
+Black,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",5,7049b
+Black,Plate 1 x 1,4,3024
+Black,Plate 1 x 2,36,3023
+Black,Plate 2 x 2,24,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,4,3020
+Black,Plate 4 x 10,1,3030
+Black,Plate 4 x 6,1,3032
+Black,Plate 6 x 10,1,3033
+Black,Plate 6 x 8,3,3036
+Black,Slope 45º 2 x 1,8,3040b
+Black,Tyre Smooth Old Style - Large,5,36
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 4,7,3010
+Red,Brick 1 x 6,5,3009
+Red,Brick 1 x 8,8,3008
+Red,Brick 2 x 4 without Cross Supports,2,3001old
+Red,Plate 1 x 1,6,3024
+Red,Plate 1 x 2,13,3023
+Red,Plate 1 x 8,4,3460
+Red,Plate 4 x 4,1,3031
+Red,Plate 4 x 6,1,3032
+Red,Slope 33º 3 x 2,1,3298
+Red,Slope 33º 3 x 4,1,3297
+Red,Slope 45° 2 x 2 Double Concave,2,3046a
+Red,Slope 45° 2 x 3,6,3038
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope 45º 2 x 4,2,3037
+Red,Wheel Spoked Large,5,35
+Trans-Clear,Brick 1 x 2,1,3004
+Trans-Clear,Brick 1 x 6,2,3009
+Yellow,Brick 2 x 3 without Cross Supports,3,3002old
+Yellow,Brick Round Corner 2 x 2 [Macaroni],4,3063
+Yellow,Window 1 x 1 x 1,4,39

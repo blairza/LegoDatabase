@@ -1,0 +1,127 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,12,3003
+Black,Brick 2 x 3,2,3002
+Black,Brick 2 x 4,4,3001
+Black,Door 1 x 4 x 6 with 4 Panes and Stud Handle,1,60623
+Black,Plate 2 x 8,2,3034
+Black,Plate Special 1 x 4 with Wheels Holder,4,2926
+Black,Propeller 4 Blade 5 Diameter with Rounded Ends,1,2479
+Black,Slope 45° 2 x 2 Double Convex,2,3045
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,8,3039
+Black,Slope 45º 2 x 4,8,3037
+Black,Tyre Offset Tread Small,4,3641
+Black,Tyre Offset Tread Small Wide,4,6015
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 1 x 3,2,3622
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,28,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,8,3001
+Blue,Brick 2 x 6,2,2456
+Blue,Brick 2 x 8,1,3007
+Blue,Flower 2 x 2 - Round,1,4728
+Blue,Plate 2 x 8,1,3034
+Blue,Slope 45º 2 x 1,4,3040b
+Blue,Slope 45º 2 x 2,6,3039
+Blue,Slope 45º 2 x 4,6,3037
+Bright Green,Plate 6 x 12,2,3028
+Dark Bluish Gray,"Door 1 x 2 x 3 with Vertical Handle, New Mold for Tabless Frames",2,60614
+Dark Bluish Gray,Fence Spindled 1 x 4 x 2 [2 Top Studs],2,30055
+Green,Brick 1 x 1,2,3005
+Green,Brick 1 x 2,2,3004
+Green,Brick 1 x 4,4,3010
+Green,Brick 2 x 2,12,3003
+Green,Brick 2 x 3,2,3002
+Green,Brick 2 x 4,4,3001
+Green,Plant Flower 2 x 2 Leaves - Angular,1,4727
+Green,Plate 2 x 4,2,3020
+Green,Plate 4 x 8,1,3035
+Green,Slope 33º 3 x 1,4,4286
+Light Bluish Gray,Tile Special 2 x 2 with Pin,1,2460
+Light Bluish Gray,Wheel 11.5mm D. x 12mm [Hole Notched for Wheel Snap Pin],4,6014b
+Light Bluish Gray,Wheel 8mm D. x 6mm,4,4624
+Lime,Brick 1 x 2,2,3004
+Lime,Brick 2 x 2,2,3003
+Lime,Brick 2 x 4,2,3001
+Orange,Brick 1 x 2,4,3004
+Orange,Brick 1 x 3,4,3622
+Orange,Brick 2 x 3,2,3002
+Red,Brick 1 x 1,6,3005
+Red,Brick 1 x 2,6,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,4,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,1,3008
+Red,Brick 2 x 2,28,3003
+Red,Brick 2 x 3,4,3002
+Red,Brick 2 x 4,8,3001
+Red,Brick 2 x 6,1,2456
+Red,Brick 2 x 8,1,3007
+Red,Brick Arch 1 x 4,2,3659
+Red,Brick Special 1 x 1 with Headlight,4,4070
+Red,Door Frame 2 x 4 x 6,3,60599
+Red,Flag 2 x 2 Square,1,2335
+Red,Plate 1 x 4,2,3710
+Red,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",2,3829c01
+Red,Window 2 x 4 x 3 Frame - Hollow Studs,4,60598
+Reddish Brown,Brick 2 x 2,6,3003
+Reddish Brown,Container - Crate with Handholds,1,30150
+Trans-Clear,Door 1 x 4 x 6 Glass with Stud Handle,1,60616
+Trans-Clear,Slope 45º 2 x 2,1,3039
+Trans-Clear,Windscreen 2 x 4 x 2,2,3823
+Trans-Dark Blue,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Brick Round 1 x 1 Open Stud,2,3062b
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+White,Antenna 1 x 4,1,3957
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 2,10,3004
+White,Brick 1 x 3,3,3622
+White,Brick 1 x 4,4,3010
+White,Brick 1 x 6,2,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 10,1,3006
+White,Brick 2 x 2,28,3003
+White,Brick 2 x 3,6,3002
+White,Brick 2 x 4,8,3001
+White,Brick 2 x 6,2,2456
+White,Brick 2 x 8,1,3007
+White,Brick Round 1 x 1 Open Stud,4,3062b
+White,Brick Special 1 x 1 with Headlight,4,4070
+White,Brick Special 1 x 2 with Handle,1,30236
+White,Container - Box 2 x 2 x 2 Door with Slot,1,4346
+White,"Container, Box 2 x 2 x 2 Hollow Studs",1,4345
+White,Dish 2 x 2 Inverted [Radar],1,4740
+White,Plate 1 x 1 - Horizontal Clip,2,6019
+White,Plate 1 x 2,2,3023
+White,Plate 1 x 4,2,3710
+White,Plate 2 x 4,1,3020
+White,Slope 33º 3 x 1,2,4286
+White,Slope 45º 2 x 2,2,3039
+White,Slope Inverted 33º 3 x 1,3,4287
+White,Slope Inverted 45º 2 x 2,1,3660
+White,"Tile 1 x 2 with Envelope, Address and Stamp Print",4,3069p01
+White,Tile Round 2 x 2 with Clock Print,1,4150pr0001
+White,Window 1 x 2 x 3 Pane with Thick Corner Tabs,6,60608
+Yellow,Brick 1 x 1,6,3005
+Yellow,Brick 1 x 2,14,3004
+Yellow,Brick 1 x 3,2,3622
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 1 x 8,1,3008
+Yellow,Brick 2 x 2,28,3003
+Yellow,Brick 2 x 3,6,3002
+Yellow,Brick 2 x 4,8,3001
+Yellow,Brick 2 x 8,1,3007
+Yellow,Brick Special 1 x 1 with Headlight,3,4070
+Yellow,Door 1 x 4 x 6 with 4 Panes and Stud Handle,1,60623
+Yellow,Plate 2 x 8,2,3034
+Yellow,Slope 45º 2 x 1,2,3040b

@@ -1,0 +1,46 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,2,3005
+Blue,Brick 1 x 2,8,3004
+Blue,Brick 1 x 4,10,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 1 x 8,18,3008
+Blue,Brick 2 x 2,4,3003
+Blue,Brick 2 x 4 without Cross Supports,2,3001old
+Blue,Plate 1 x 2,2,3023
+Blue,Plate 1 x 4,2,3710
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 4,1,3020
+Blue,Plate 6 x 14,3,3456
+Blue,Slope Inverted 45º 2 x 1,8,3665
+Blue,Slope Inverted 45º 2 x 2,5,3660
+Red,Brick Round 1 x 1 Open Stud,4,3062b
+Red,Plate 1 x 4,2,3710
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 4,1,3020
+Red,Plate 2 x 8,3,3034
+Red,Plate 4 x 6,2,3032
+Red,Tile 1 x 2 with Groove,8,3069b
+Trans-Clear,Plate 1 x 1,92,3024
+Trans-Clear,Plate 1 x 2,19,3023
+Trans-Clear,Plate 1 x 4,24,3710
+Trans-Clear,Plate 2 x 3,1,3021
+Trans-Clear,Plate 2 x 4,1,3020
+White,Brick 1 x 1,8,3005
+White,Brick 1 x 2,14,3004
+White,Brick 1 x 4,8,3010
+White,Brick 1 x 6,5,3009
+White,Brick Round 1 x 1 Open Stud,1,3062b
+White,Plate 1 x 1,86,3024
+White,Plate 1 x 2,40,3023
+White,Plate 1 x 3,26,3623
+White,Plate 1 x 4,20,3710
+White,Plate 1 x 8,28,3460
+White,Plate 2 x 2,14,3022
+White,Plate 2 x 3,7,3021
+White,Plate 2 x 4,3,3020
+White,Plate 4 x 6,9,3032
+White,Slope 45º 2 x 1,4,3040b
+White,Slope Inverted 45º 2 x 1,4,3665
+White,Slope Inverted 45º 2 x 2,2,3660
+White,Tail 4 x 2 x 2,1,3479
+White,Tile 1 x 2 with Groove,1,3069b

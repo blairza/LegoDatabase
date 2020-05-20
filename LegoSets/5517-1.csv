@@ -1,0 +1,124 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,24,3005
+Black,Brick 1 x 2,40,3004
+Black,Brick 1 x 3,4,3622
+Black,Brick 1 x 4,12,3010
+Black,Brick 2 x 2,46,3003
+Black,Brick 2 x 3,6,3002
+Black,Brick 2 x 4,17,3001
+Black,Brick Round 1 x 1 Open Stud,4,3062b
+Black,Plate 1 x 4,4,3710
+Black,Plate 2 x 2,4,3022
+Black,Plate 2 x 2 Corner,4,2420
+Black,Plate 2 x 3,4,3021
+Black,Plate 2 x 4,4,3020
+Black,Plate Round 1 x 1 Straight Side,6,4073
+Black,Plate Round 2 x 2 with Axle Hole,2,4032
+Black,Plate Special 1 x 1 Clip Light [Thick Ring],2,4081b
+Black,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+Black,Slope 33º 3 x 1,8,4286
+Black,Slope 33º 3 x 2,10,3298
+Black,Slope 33º 3 x 4,6,3297
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope Inverted 45º 2 x 1,8,3665
+Black,Slope Inverted 45º 2 x 2,4,3660
+Blue,Brick 1 x 1,40,3005
+Blue,Brick 1 x 2,80,3004
+Blue,Brick 1 x 3,8,3622
+Blue,Brick 1 x 4,15,3010
+Blue,Brick 1 x 6,6,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Brick 2 x 2,80,3003
+Blue,Brick 2 x 3,12,3002
+Blue,Brick 2 x 4,30,3001
+Blue,Brick 2 x 6,4,2456
+Blue,Brick 2 x 8,2,3007
+Blue,Plate 2 x 2,4,3022
+Blue,Plate 2 x 3,4,3021
+Blue,Slope 45º 2 x 1,8,3040b
+Blue,Slope 45º 2 x 2,8,3039
+Blue,Slope 45º 2 x 4,8,3037
+Green,Brick 1 x 1,24,3005
+Green,Brick 1 x 2,40,3004
+Green,Brick 1 x 3,4,3622
+Green,Brick 1 x 4,12,3010
+Green,Brick 2 x 2,46,3003
+Green,Brick 2 x 3,6,3002
+Green,Brick 2 x 4,17,3001
+Green,Plate 2 x 2 Corner,4,2420
+Light Bluish Gray,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+Lime,Brick 1 x 1,8,3005
+Lime,Brick 1 x 2,12,3004
+Lime,Brick 1 x 4,2,3010
+Lime,Brick 2 x 2,14,3003
+Lime,Brick 2 x 4,4,3001
+Lime,Plate Round 1 x 1 Straight Side,6,4073
+Orange,Brick 1 x 1,8,3005
+Orange,Brick 1 x 2,12,3004
+Orange,Brick 1 x 4,4,3010
+Orange,Brick 2 x 2,28,3003
+Orange,Brick 2 x 4,8,3001
+Orange,Plate Round 1 x 1 Straight Side,8,4073
+Red,Brick 1 x 1,40,3005
+Red,Brick 1 x 2,80,3004
+Red,Brick 1 x 3,8,3622
+Red,Brick 1 x 4,15,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,80,3003
+Red,Brick 2 x 3,12,3002
+Red,Brick 2 x 4,30,3001
+Red,Brick 2 x 6,2,2456
+Red,Brick 2 x 8,2,3007
+Red,Brick Round 1 x 1 Open Stud,4,3062b
+Red,Plate 2 x 2,4,3022
+Red,Plate 2 x 3,4,3021
+Red,Plate 2 x 4,4,3020
+Red,Plate Round 1 x 1 Straight Side,6,4073
+Red,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+Red,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+Red,Slope 33º 2 x 2 Double,4,3300
+Red,Slope 33º 2 x 4 Double,4,3299
+Red,Slope 45º 2 x 1,8,3040b
+Red,Slope 45º 2 x 2,12,3039
+Red,Slope 45º 2 x 4,10,3037
+Red,Slope Inverted 45º 2 x 1,8,3665
+Red,Slope Inverted 45º 2 x 2,4,3660
+Trans-Clear,Slope 45º 2 x 2,2,3039
+White,Brick 1 x 1,40,3005
+White,Brick 1 x 2,80,3004
+White,Brick 1 x 3,8,3622
+White,Brick 1 x 4,15,3010
+White,Brick 1 x 6,6,3009
+White,Brick 1 x 8,4,3008
+White,Brick 2 x 2,80,3003
+White,Brick 2 x 3,12,3002
+White,Brick 2 x 4,30,3001
+White,Brick 2 x 6,4,2456
+White,Brick 2 x 8,2,3007
+White,Brick Round 1 x 1 Open Stud,4,3062b
+White,Dish 2 x 2 Inverted [Radar],2,4740
+White,Plate 1 x 4,4,3710
+White,Plate 2 x 2 Corner,4,2420
+White,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+White,Slope 45º 2 x 1,4,3040b
+White,Slope 45º 2 x 2,4,3039
+White,Slope Inverted 45º 2 x 1,4,3665
+Yellow,Brick 1 x 1,40,3005
+Yellow,Brick 1 x 1 with Eye Squinting Black and White Print,4,3005px2
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,4,3005pe1
+Yellow,Brick 1 x 2,80,3004
+Yellow,Brick 1 x 3,8,3622
+Yellow,Brick 1 x 4,17,3010
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 1 x 8,2,3008
+Yellow,Brick 2 x 2,94,3003
+Yellow,Brick 2 x 3,12,3002
+Yellow,Brick 2 x 4,34,3001
+Yellow,Brick 2 x 6,2,2456
+Yellow,Brick 2 x 8,2,3007
+Yellow,Brick Special 1 x 1 with Headlight,4,4070
+Yellow,Slope 45º 2 x 1,8,3040b
+Yellow,Slope 45º 2 x 2,4,3039
+Yellow,Slope Inverted 45º 2 x 1,8,3665
+Yellow,Slope Inverted 45º 2 x 2,4,3660

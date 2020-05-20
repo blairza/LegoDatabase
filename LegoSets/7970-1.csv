@@ -1,0 +1,41 @@
+color,part,quantity,part_id
+Black,Brick 1 x 4,1,3010
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 8,1,3035
+Black,Plate Special 1 x 2 with End Handle [Closed Ends],2,60478
+Black,"Plate, Round Corner 3 x 3",2,30357
+Black,Slope Curved 6 x 2,1,44126
+Black,Technic Axle 8,2,3707
+Black,Technic Brick 1 x 14 [13 Holes],2,32018
+Black,Technic Pin with Friction and Slots,1,2780
+Black,Tire 30.4 x 14 VR Solid,4,58090
+Black,Wedge 6 x 2 Left,1,41748
+Black,Wedge 6 x 2 Right,1,41747
+Black,"Wheel 30.4 x 14 with Axle Hole, Fake Bolts and Shallow Spokes",4,55982
+Blue,Brick 1 x 2,3,3004
+Blue,Brick 1 x 4,2,3010
+Blue,Plate 1 x 1,2,3024
+Blue,Plate 2 x 6,3,3795
+Blue,Slope 45º 2 x 1,2,3040b
+Blue,Slope Curved 6 x 1,2,42022
+Dark Bluish Gray,Air Blast Launcher Base (Racers),1,87941
+Dark Bluish Gray,Air Blast Launcher Injector (Racers),1,88496
+Dark Bluish Gray,Air Blast Receiver (Racers),1,87944
+Dark Bluish Gray,Plate 1 x 3,2,3623
+Dark Bluish Gray,Technic Brick 1 x 2 [1 Hole],1,3700
+Light Bluish Gray,Technic Bush,4,3713
+Red,Air Blast Launcher Air Pump (Racers),1,87943
+Trans-Dark Blue,Tile 1 x 2 with Groove,1,3069b
+Trans-Red,Tile 1 x 2 with Groove,1,3069b
+White,Brick 2 x 2,2,3003
+White,Plate 2 x 2 Corner,2,2420
+White,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+White,Slope Curved 2 x 4 x 2/3 [Bottom Tubes],1,88930
+White,Slope Curved 6 x 2,2,44126
+White,Slope Curved 8 x 1 x 1 2/3 with Arch,2,50967
+White,Tile 1 x 6,1,6636
+White,Wedge 4 x 2 Left,1,41768
+White,Wedge 4 x 2 Right,1,41767
+White,Wedge Plate 4 x 2 Left,1,41770
+White,Wedge Plate 4 x 2 Right,1,41769
+Yellow,Plate 2 x 2,1,3022

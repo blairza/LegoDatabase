@@ -1,0 +1,65 @@
+color,part,quantity,part_id
+(No Color),"Max, Blue Torso, Black Legs",1,cre003
+(No Color),"Tina, Orange Torso, Light Gray Legs",1,cre001
+Black,Brick 1 x 2,2,3004
+Black,Brick 2 x 2,4,3003
+Black,Brick 2 x 3,2,3002
+Black,Brick 2 x 4,2,3001
+Black,Tile Special 1 x 2 with Handle,1,2432
+Black,Tyre 30.4 x 14 Offset Tread,4,30391
+Blue,Brick 1 x 2,6,3004
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 2 x 2,4,3003
+Blue,Brick 2 x 3,4,3002
+Blue,Brick 2 x 4,4,3001
+Blue,Brick 2 x 6,2,2456
+Blue,Plate 2 x 4,2,3020
+Blue,Plate 2 x 8,2,3034
+Blue,Slope 33° 3 x 2 with Red Triangles with Yellow Borders Print,2,3298px2
+Blue,Slope 45º 2 x 2,4,3039
+Blue,Slope Inverted 45º 2 x 2,4,3660
+Brown,Brick 1 x 2,6,3004
+Brown,Brick 1 x 4,4,3010
+Brown,Brick 2 x 2,4,3003
+Brown,Brick 2 x 4,2,3001
+Brown,Slope 45º 2 x 2,4,3039
+Brown,Slope Inverted 45º 2 x 2,4,3660
+Green,Baseplate 16 x 32,2,3857
+Green,Bush 2 x 2 x 4,1,6064
+Green,Plant 1 x 1 x 2/3 - 3 Large Leaves,1,6255
+Green,Plant Flower 2 x 2 Leaves - Angular,2,4727
+Red,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Red,Brick 1 x 2,6,3004
+Red,Brick 1 x 4,2,3010
+Red,Brick 2 x 2,4,3003
+Red,Brick 2 x 3,4,3002
+Red,Brick 2 x 4,2,3001
+Red,Brick Special 2 x 4 with Pins,2,6249
+Red,Door Frame 2 x 6 x 6 Freestyle,1,6235
+Red,Flower 2 x 2 - Round,1,4728
+Red,Plastic Playtable 40 x 64 with Handle and Two Bins,1,30341
+Red,Plate 2 x 3,2,3021
+Red,Plate 2 x 4,2,3020
+Red,Slope 45º 2 x 2,4,3039
+Red,Slope Inverted 45º 2 x 2,4,3660
+Red,Window 2 x 4 x 3 Frame,1,4132
+White,Door 1 x 6 x 6 Freestyle,1,600
+White,Picket Fence 1 x 4 x 2,4,33303
+White,Wheel 30.4 x 14 [Tread Small Hub],4,30285
+White,Window 2 x 4 x 3 Pane,1,4133
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Yellow,Brick 1 x 2,6,3004
+Yellow,Brick 1 x 2 with Black and White Squinting Eyes and Hair Print,1,3004p0a
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 2 x 2,4,3003
+Yellow,Brick 2 x 3,4,3002
+Yellow,Brick 2 x 4,2,3001
+Yellow,Brick 2 x 4 with Whiskers and Fangs Print,1,3001pb13
+Yellow,Flower 2 x 2 - Round,1,4728
+Yellow,Plate 2 x 4,2,3020
+Yellow,Plate 2 x 6,2,3795
+Yellow,Slope 33º 3 x 1,2,4286
+Yellow,Slope 45º 2 x 2,4,3039
+Yellow,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Yellow,Slope Inverted 45º 2 x 2,2,3660

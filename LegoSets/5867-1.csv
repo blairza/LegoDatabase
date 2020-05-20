@@ -1,0 +1,96 @@
+color,part,quantity,part_id
+Black,Bracket 1 x 2 - 2 x 2,2,44728
+Black,Brick 1 x 3,2,3622
+Black,Hinge Brick 1 x 2 Top Plate Thin,2,3938
+Black,Hinge Brick 2 x 2 Top Plate Thin,4,6134
+Black,Panel 1 x 2 x 1 [Square Corners],3,4865a
+Black,Plate 1 x 1 - Horizontal Clip,2,6019
+Black,Plate 1 x 2,6,3023
+Black,Plate 1 x 2 [Side Handle Closed Ends],2,48336
+Black,Plate 1 x 3,4,3623
+Black,Plate 1 x 4,4,3710
+Black,Plate 1 x 8,2,3460
+Black,Plate 2 x 12,3,2445
+Black,Plate 2 x 2,5,3022
+Black,Plate 2 x 2 Corner,2,2420
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,1,3020
+Black,Plate 2 x 8,2,3034
+Black,Plate 3 x 3 Cut Corner,2,2450
+Black,Plate 4 x 4,1,3031
+Black,Plate 4 x 6,3,3032
+Black,Plate Round 2 x 2 with Rounded Bottom [Boat Stud],2,2654
+Black,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+Black,Tile 1 x 1 with Groove,2,3070b
+Black,Tile 1 x 4,4,2431
+Black,Tile 1 x 6,1,6636
+Black,Tire 30.4 x 14 VR Solid,4,58090
+Black,"Vehicle Steering Wheel Small, 2 x 2",1,30663
+Dark Bluish Gray,Brick 2 x 2,1,3003
+Dark Bluish Gray,Slope 18º 2 x 1 x 2/3 with 4 Slots,2,61409
+Dark Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,6,2412b
+Light Bluish Gray,Brick 2 x 4,1,3001
+Light Bluish Gray,Brick Special 2 x 2 with Pin and Axle Hole,2,6232
+Light Bluish Gray,Hinge Brick 1 x 2 Base,4,3937
+Light Bluish Gray,Plate 1 x 4,4,3710
+Light Bluish Gray,Plate 2 x 4,1,3020
+Light Bluish Gray,Plate Round 1 x 1 Straight Side,16,4073
+Light Bluish Gray,Tile 1 x 6,1,6636
+Light Bluish Gray,"Wheel 30.4 x 14 with Pin Hole, Fake Bolts and Shallow Spokes",4,55981
+Medium Blue,Brick 1 x 2,4,3004
+Medium Blue,Brick 2 x 4,2,3001
+Medium Blue,Tile 2 x 2 with Groove,3,3068b
+Pearl Light Gray,Tile 1 x 2 Grill with Bottom Groove,2,2412b
+Red,Brick 1 x 2,6,3004
+Red,Brick 1 x 2 with Pin,4,2458
+Red,Brick 1 x 2 x 1 1/3 with Curved Top,2,6091
+Red,Brick 1 x 3,2,3622
+Red,Brick 2 x 3 with Curved Top,1,6215
+Red,Brick Special 1 x 1 with Stud on 1 Side,4,87087
+Red,BrickSpecial 1 x 4 with 4 Studs on One Side,5,30414
+Red,Hinge Brick 1 x 2 Base,2,3937
+Red,Plate 1 x 10,1,4477
+Red,Plate 1 x 2,2,3023
+Red,Plate 1 x 2 [Side Handle Closed Ends],2,48336
+Red,Plate 1 x 4,3,3710
+Red,Plate 2 x 10,2,3832
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 3,2,3021
+Red,Plate 2 x 4,5,3020
+Red,Plate 2 x 8,2,3034
+Red,Plate 6 x 10,1,3033
+Red,Plate Special 1 x 1 with Clip Vertical [Thick U Clip],4,4085c
+Red,Plate Special 1 x 2 with End Handle [Closed Ends],2,60478
+Red,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],10,50746
+Red,Slope 45º 2 x 1,2,3040b
+Red,Slope Curved 2 x 4 x 2/3 [Bottom Tubes],1,88930
+Red,Slope Curved 3 x 1 No Studs,2,50950
+Red,Slope Curved 4 x 1 No Studs,4,61678
+Red,Slope Inverted 45º 2 x 2,8,3660
+Red,Tile 1 x 1 with Groove,2,3070b
+Red,Tile 1 x 4,3,2431
+Red,Tile 1 x 8,1,4162
+Red,Tile 2 x 4,2,87079
+Red,Tile Special 1 x 2 with Handle,2,2432
+Red,Wedge Plate 4 x 2 Left,3,41770
+Red,Wedge Plate 4 x 2 Right,3,41769
+Tan,Plate 1 x 1,4,3024
+Tan,Plate 1 x 6,8,3666
+Tan,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+Trans-Clear,Panel 1 x 4 x 3 [Hollow Studs],1,4215b
+Trans-Clear,Plate 1 x 1,4,3024
+Trans-Clear,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],6,50746
+Trans-Clear,Slope 33° 3 x 6 No Inner Walls,1,58181
+Trans-Orange,Plate 1 x 1,4,3024
+Trans-Red,Plate 1 x 1,2,3024
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 2,1,3004
+White,Brick 1 x 6,1,3009
+White,Brick Round 1 x 1 Open Stud,4,3062b
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 6,1,3666
+White,Plate Special 1 x 1 with Clip Vertical [Thick U Clip],2,4085c
+White,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],2,50746
+White,Slope Curved 3 x 1 No Studs,2,50950
+White,Slope Curved 4 x 1 No Studs,2,61678
+White,Technic Brick 1 x 1 with Hole,2,6541

@@ -1,0 +1,76 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,2,3004
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 2,14,3003
+Black,Brick 2 x 4,4,3001
+Black,Door 1 x 4 x 5,1,4131
+Black,Plate 1 x 2,4,3023
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate Round 1 x 1 Straight Side,4,4073
+Black,Slope 45º 2 x 2,2,3039
+Black,Slope Inverted 33º 3 x 1,2,4287
+Blue,Brick 1 x 2,2,3004
+Blue,Brick 2 x 2,2,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,2,3001
+Blue,Flower 2 x 2 - Round,1,4728
+Blue,Slope 33º 3 x 2,2,3298
+Blue,Slope 45º 2 x 2,2,3039
+Blue,Slope Inverted 45º 2 x 2,2,3660
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Green,Brick 1 x 2,2,3004
+Green,Brick 1 x 4,2,3010
+Green,Brick 2 x 2,14,3003
+Green,Brick 2 x 3,2,3002
+Green,Brick 2 x 4,4,3001
+Green,Brick 2 x 4 x 2 Double Curved Top with Red and White Striped Shirt and Overalls Print,1,4744pr0004
+Green,Brick Round 1 x 1 Open Stud,3,3062b
+Green,Brick Special 1 x 1 with Headlight,3,4070
+Green,Plant Flower 2 x 2 Leaves - Angular,1,4727
+Green,Plate 2 x 2,2,3022
+Green,Plate 2 x 3,1,3021
+Green,Plate 2 x 4,1,3020
+Green,Plate 4 x 12,1,3029
+Green,Slope 45º 2 x 2,2,3039
+Green,Slope Inverted 45º 2 x 1,2,3665
+Green,Slope Inverted 45º 2 x 2,2,3660
+Lime,Brick 1 x 2,4,3004
+Lime,Brick 1 x 4,2,3010
+Lime,Brick 2 x 2,8,3003
+Lime,Brick 2 x 4,2,3001
+Lime,Plate Round 1 x 1 Straight Side,4,4073
+Orange,Brick 2 x 2,4,3003
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2,4,3004
+Red,Brick 1 x 4,2,3010
+Red,Brick 2 x 2,14,3003
+Red,Brick 2 x 4,4,3001
+Red,Brick 2 x 4 x 2 Double Curved Top with Freckled Face Print,1,4744pr0002
+Red,Brick 2 x 8,2,3007
+Red,Brick Arch 1 x 4,2,3659
+Red,Flower 2 x 2 - Round,1,4728
+Red,Plate 2 x 2,1,3022
+Red,Plate Round 1 x 1 Straight Side,4,4073
+Red,Slope 45º 2 x 2,2,3039
+Red,Window 2 x 4 x 3 Frame,1,4132
+Reddish Brown,Brick 1 x 2,2,3004
+Reddish Brown,Brick 2 x 2,4,3003
+White,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+White,Brick 1 x 4,2,3010
+White,Brick 2 x 2,6,3003
+White,Brick 2 x 4,2,3001
+White,Door Frame 2 x 4 x 5,1,4130
+White,Picket Fence 1 x 4 x 2,2,33303
+White,Window 2 x 4 x 3 Pane,1,4133
+Yellow,Brick 1 x 1,2,3005
+Yellow,Brick 1 x 4,2,3010
+Yellow,Brick 2 x 2,14,3003
+Yellow,"Brick 2 x 2 with Eye with White Print on Two Sides, Offset",1,3003pe2
+Yellow,Brick 2 x 4,4,3001
+Yellow,Flower 2 x 2 - Round,1,4728
+Yellow,Lever Small Base with Black Lever,2,298c02
+Yellow,Slope 33º 3 x 1,2,4286
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Slope Inverted 33º 3 x 1,2,4287

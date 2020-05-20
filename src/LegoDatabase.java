@@ -177,7 +177,8 @@ public class LegoDatabase {
 		return ownedSets.removeSet(user,valueAt);
 	}
 	
-	public boolean addSetToDatabase(File file) {
-		return importing.addSetToDatabase(file);
+	public boolean addSetToDatabase(String setNum) {
+		return importing.addSetToDatabase(setNum);
 	}
+	
 }

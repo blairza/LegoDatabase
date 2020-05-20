@@ -1,0 +1,16 @@
+color,part,quantity,part_id
+Blue,Brick 2 x 2,5,3003
+Blue,Brick 2 x 3 without Cross Supports,2,3002old
+Blue,Brick 2 x 4 without Cross Supports,3,3001old
+Blue,Brick 2 x 8,1,3007
+Green,Brick 4 x 12,1,4202
+Red,Brick 2 x 2,5,3003
+Red,Brick 2 x 3 without Cross Supports,2,3002old
+Red,Brick 2 x 4 without Cross Supports,2,3001old
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 4 without Cross Supports,2,3001old
+Yellow,Brick 2 x 2,3,3003
+Yellow,"Brick 2 x 2 with Eye [No Pupils] Print on Two Sides, Offset",2,3003pe1
+Yellow,Brick 2 x 3 without Cross Supports,2,3002old
+Yellow,Brick 2 x 4 with Smile and Frown Print on Opposite Sides,1,3001pe1
+Yellow,Brick 2 x 4 without Cross Supports,1,3001old

@@ -1,0 +1,12 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,4,3004
+Green,Brick 1 x 2,3,3004
+Green,Slope 45º 2 x 2,2,3039
+Orange,Brick 2 x 2,7,3003
+Orange,Brick 2 x 3,16,3002
+Orange,Brick 2 x 4,12,3001
+Orange,Brick 2 x 8,9,3007
+Orange,Slope 33º 3 x 2,6,3298
+Orange,Slope 45º 2 x 2,6,3039
+Orange,Slope Inverted 33º 3 x 2 [Connections between Studs],4,3747b
+Orange,Slope Inverted 45º 2 x 2,18,3660

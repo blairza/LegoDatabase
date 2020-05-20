@@ -1,4 +1,6 @@
+import java.sql.CallableStatement;
 import java.sql.Connection;
+import java.sql.SQLException;
 import java.util.*;
 
 import javax.swing.JFrame;
@@ -12,7 +14,7 @@ public class Main {
 		String pass = new String(decodedBytes);
 		boolean connected = ld.connect("appUserLego", pass);
 		if(!connected)
-			return;
+			return; 
 		Connection dbConnection = ld.getConnection();
 		UserInterface UI = new UserInterface(ld);
 		UI.RunApp();

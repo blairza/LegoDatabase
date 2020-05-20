@@ -1,0 +1,18 @@
+color,part,quantity,part_id
+Black,Brick 2 x 2,2,3003
+Blue,Brick 2 x 2,1,3003
+Blue,Brick 2 x 4,1,3001
+Blue,Brick 2 x 6,1,2456
+Green,Brick 4 x 12,1,4202
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 4,1,3001
+Red,Door Frame 2 x 4 x 5,1,4130
+Red,Window 2 x 4 x 3 Frame,1,4132
+White,Brick 2 x 2,2,3003
+White,Door 1 x 4 x 5,1,4131
+White,Window 2 x 4 x 3 Pane,1,4133
+Yellow,Brick 2 x 2,1,3003
+Yellow,"Brick 2 x 2 with Eye [No Pupils] Print on Two Sides, Offset",2,3003pe1
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,1,3001
+Yellow,Brick 2 x 4 with Smile and Frown Print on Opposite Sides,1,3001pe1

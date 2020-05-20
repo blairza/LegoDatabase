@@ -1,0 +1,23 @@
+color,part,quantity,part_id
+Black,Tile 1 x 2 without Groove,3,3069a
+Black,Tile 2 x 2 with Groove,1,3068b
+Green,Baseplate 16 x 24 with Rounded Corners,1,455
+Green,"Plant, Tree Granulated Pine",1,gtpine
+Light Gray,Tile 1 x 2 without Groove,3,3069a
+Red,Door 1 x 2 x 3 Right (old type),1,33bc01
+Red,Fence 1 x 4 x 2,3,3185
+Red,Slope 33º 2 x 2 Double,2,3300
+Red,Slope 33º 2 x 4 Double,1,3299
+Red,Slope 33º 3 x 2,3,3298
+Red,Slope 33º 3 x 4,10,3297
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+Red,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],3,646bc01
+White,Antenna with Side Spokes,1,3144
+White,Brick 1 x 1,13,3005
+White,Brick 1 x 2,12,3004
+White,Brick 1 x 4,8,3010
+White,Brick 1 x 6,6,3009
+White,Brick 1 x 8,1,3008
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 3 without Cross Supports,1,3002old
+White,Plate 4 x 6,3,3032

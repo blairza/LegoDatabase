@@ -1,0 +1,87 @@
+color,part,quantity,part_id
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 6,4,3009
+Black,Brick 1 x 8,2,3008
+Black,Technic Axle 10,2,3737
+Black,Technic Axle 12,3,3708
+Black,Technic Axle 2,9,3704
+Black,Technic Axle 4,12,3705
+Black,Technic Axle 6,1,3706
+Black,Technic Axle 8,6,3707
+Black,Tyre 24 x 43 Technic,4,3740
+Blue,Brick 1 x 4,6,3010
+Blue,Plate 1 x 1,2,3024
+Blue,Plate 1 x 2,25,3023
+Blue,Plate 1 x 4,6,3710
+Blue,Plate 1 x 6,15,3666
+Blue,Plate 1 x 8,8,3460
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 3,2,3021
+Blue,Plate 2 x 4,2,3020
+Blue,Plate 2 x 4 [3 Holes],1,3709b
+Blue,Technic Brick 1 x 2 [1 Hole],1,3700
+Blue,Technic Brick 1 x 4 [3 Holes],4,3701
+Blue,Technic Brick 1 x 8 [7 Holes],1,3702
+Light Gray,Plate 1 x 2,8,3023
+Light Gray,Plate 1 x 4,8,3710
+Light Gray,Plate 1 x 8,8,3460
+Light Gray,Plate 2 x 2,24,3022
+Light Gray,Technic Axle and Pin Connector,17,3651
+Light Gray,Technic Bush,16,3713
+Light Gray,Technic Engine Piston Square 2 x 2 - Old,4,3652
+Light Gray,Technic Gear 24 Tooth Crown (Old Style),1,3650a
+Light Gray,Technic Gear 24 Tooth [Old Style - Three axle holes],12,3648a
+Light Gray,Technic Gear 8 Tooth,9,3647
+Light Gray,Technic Gear Rack 1 x 4,3,3743
+Light Gray,Technic Universal Joint 4L [Complete Assembly],5,9244
+Light Gray,"Technic, Gear 40 Tooth",1,3649
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",42,3673
+Light Gray,"Technic, Steering Pulley Large",1,3736
+Light Gray,Wheel 24 x 43 Technic,4,3739
+Red,Brick 1 x 2,9,3004
+Red,Brick 1 x 4,6,3010
+Red,Brick 1 x 8,5,3008
+Red,Brick 2 x 2,4,3003
+Red,Plate 1 x 2,7,3023
+Red,Plate 1 x 4,23,3710
+Red,Plate 1 x 6,8,3666
+Red,Plate 1 x 8,11,3460
+Red,Plate 2 x 2,9,3022
+Red,Plate 2 x 3,3,3021
+Red,Plate 2 x 4,3,3020
+Red,Plate 2 x 4 [3 Holes],12,3709b
+Red,Plate 2 x 8,2,3034
+Red,Plate 2 x 8 [7 Holes],2,3738
+Red,Plate 4 x 10,2,3030
+Red,Plate 4 x 4,1,3031
+Red,Plate 4 x 6,2,3032
+Red,Plate 6 x 16,3,3027
+Red,Slope 45º 2 x 1,5,3040b
+Red,Slope 45º 2 x 2,2,3039
+Red,Slope Inverted 45º 2 x 2,11,3660
+Red,Technic Brick 1 x 16 with Holes,10,3703
+Red,Technic Brick 1 x 2 [1 Hole],22,3700
+Red,Technic Brick 1 x 4 [3 Holes],11,3701
+Red,Technic Brick 1 x 8 [7 Holes],8,3702
+Red,Tile 2 x 2 with Groove,18,3068b
+Red,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",4,3680c01
+Yellow,Brick 1 x 1,18,3005
+Yellow,Brick 1 x 2,2,3004
+Yellow,Brick 1 x 4,8,3010
+Yellow,Brick 1 x 6,10,3009
+Yellow,Brick 2 x 4 without Cross Supports,2,3001old
+Yellow,Hinge Plate 2 x 5 [Complete Assembly],4,3149c01
+Yellow,Plate 1 x 1,6,3024
+Yellow,Plate 1 x 2,17,3023
+Yellow,Plate 1 x 4,5,3710
+Yellow,Plate 1 x 6,2,3666
+Yellow,Plate 1 x 8,2,3460
+Yellow,Plate 2 x 3,10,3021
+Yellow,Plate 2 x 4,2,3020
+Yellow,Plate 4 x 4,2,3031
+Yellow,Plate 4 x 6,2,3032
+Yellow,Plate 6 x 16,1,3027
+Yellow,Slope 45º 2 x 1,10,3040b
+Yellow,Technic Brick 1 x 2 [1 Hole],2,3700
+Yellow,Technic Brick 1 x 4 [3 Holes],2,3701
+Yellow,Tile 1 x 2 with Groove,4,3069b

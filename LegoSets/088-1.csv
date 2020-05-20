@@ -1,0 +1,86 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,20,3004
+Black,Brick 2 x 2,10,3003
+Black,Brick 2 x 3 without Cross Supports,4,3002old
+Black,Brick 2 x 4 without Cross Supports,18,3001old
+Black,Tread Small - Old - Wedge Shaped Treads,2,x486a
+Black,Tyre Smooth Old Style - Large,4,36
+Black,Tyre Smooth Old Style - Small,8,132-old
+Blue,Brick 1 x 1,6,3005
+Blue,Brick 1 x 2,8,3004
+Blue,Brick 2 x 2,8,3003
+Blue,Brick 2 x 3 without Cross Supports,6,3002old
+Blue,Brick 2 x 4 without Cross Supports,18,3001old
+Blue,Door 1 x 3 x 4 Left,1,445
+Blue,Door 1 x 3 x 4 Right,1,446
+Blue,Door 1 x 5 x 4 Left,1,3195
+Blue,Door 1 x 5 x 4 Right,1,3194
+Blue,Electric 4.5V Battery Box 7 x 11 x 3 Type 1 (Complete),1,468c01
+Blue,Electric Train Motor 4.5V 4 x 12 x 4 with Black Base,1,x579c02
+Green,"Brick 10 x 20 with Bottom Tubes in single row around edge, with '+' Cross Support",3,700ed
+Green,"Plant, Tree Flat Cypress painted with hollow base",1,ftcyph
+Green,"Plant, Tree Flat Pine painted with hollow base",1,ftpineh
+Light Gray,"Brick 10 x 20 with Bottom Tubes in single row around edge, with '+' Cross Support",2,700ed
+Light Gray,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Red,Brick 1 x 1,12,3005
+Red,Brick 1 x 2,24,3004
+Red,Brick 2 x 10,2,3006
+Red,Brick 2 x 2,16,3003
+Red,Brick 2 x 3 without Cross Supports,12,3002old
+Red,Brick 2 x 4 without Cross Supports,72,3001old
+Red,Brick 2 x 8,2,3007
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+Red,Fence 1 x 4 x 2,12,3185
+Red,Fence Gate 1 x 4 x 2,2,3186
+Red,Fence Gate 1 x 4 x 2 Base,2,3187
+Red,Hinge Plate 2 x 5 [Complete Assembly],4,3149c01
+Red,Slope 45° 2 x 2 Double,2,3043
+Red,Slope 45° 2 x 4 Double,8,3041
+Red,Slope 45º 2 x 2,12,3039
+Red,Slope 45º 2 x 4,48,3037
+Red,Wheel Old with 12 Studs and Axle Cam for motor,4,715a
+Red,Wheel Old with 4 Studs and Axle Cam for Motor,8,7039b
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+Red,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",2,31bc01
+Red,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+Red,Window 1 x 6 x 2 [Old Style Extended Lip &amp; Glass],2,645bc01
+Red,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],2,646bc01
+Red,Window 1 x 6 x 3 Panorama with Glass,2,604c01
+Trans-Clear,Brick 1 x 1,4,3005
+Trans-Clear,Brick 1 x 2,10,3004
+Trans-Clear,Brick 2 x 2,8,3003
+Trans-Clear,Brick 2 x 3 without Cross Supports,4,3002old
+Trans-Clear,Brick 2 x 4 without Cross Supports,8,3001old
+Trans-Clear,Electric Light Brick 4.5V 2 x 4 with Removable Bulb,1,x456c01
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 2,16,3004
+White,Brick 2 x 10,4,3006
+White,Brick 2 x 2,16,3003
+White,Brick 2 x 3 without Cross Supports,8,3002old
+White,Brick 2 x 4 without Cross Supports,60,3001old
+White,Brick 2 x 8,2,3007
+White,Brick Special 1 x 2 with Cable Holding Cutout,1,3134
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",6,7049b
+White,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+White,"Electric Wire 4.5V with two blue 2-prong Type 2 connectors (with cross-cut pins), 96 Studs Long",1,236bc96
+White,"Electric, Wire 4.5V with four Metal 1-prong connectors, 85 Studs long (Old)",2,bb393c85
+White,"Flag on Flagpole, Straight with Red Small Lego Print",1,3596pb03
+White,Plate 2 x 8,6,3034
+White,Plate 4 x 8,4,3035
+White,"Turntable 4 x 4 - Old Type Complete, Faceted with Indented Base",1,3404ac02
+White,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+White,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",2,31bc01
+White,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+White,Window 1 x 6 x 2 [Old Style Extended Lip &amp; Glass],2,645bc01
+White,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],2,646bc01
+White,Window 1 x 6 x 3 Panorama with Glass,2,604c01
+Yellow,Brick 1 x 1,6,3005
+Yellow,Brick 1 x 2,10,3004
+Yellow,Brick 2 x 2,8,3003
+Yellow,Brick 2 x 3 without Cross Supports,4,3002old
+Yellow,Brick 2 x 4 without Cross Supports,12,3001old
+Yellow,Door 1 x 3 x 4 Left,1,445
+Yellow,Door 1 x 3 x 4 Right,1,446
+Yellow,Door 1 x 5 x 4 Left,1,3195
+Yellow,Door 1 x 5 x 4 Right,1,3194

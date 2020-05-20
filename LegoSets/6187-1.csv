@@ -1,0 +1,104 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 8,2,3008
+Black,Brick Special 4 x 10 with 4 Pins,1,30076
+Black,Hinge Brick 1 x 6 Locking with 1 Finger Vertical End and 2 Fingers Vertical End,1,30388
+Black,Plate 1 x 2 [Side Handle Closed Ends],1,48336
+Black,Plate 1 x 6,2,3666
+Black,Plate 2 x 16,1,4282
+Black,Plate 2 x 4,2,3020
+Black,Plate 2 x 6,2,3795
+Black,Plate Special 1 x 2 with Ladder,4,4175
+Black,Slope 33º 3 x 2,2,3298
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope 45º 2 x 2,2,3039
+Black,Tile Special 2 x 3 with 2 Clips,1,30350
+Black,Tread Medium - 28 Tread Links,2,43903
+Black,Tyre 24 x 14 Shallow Tread [Tread Small Hub],10,30648
+Black,"Vehicle Steering Wheel Small, 2 x 2",1,30663
+Black,Wedge Plate 4 x 6 Cut Corners,1,32059
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 1 x 3,2,3622
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,4,3003
+Blue,Brick 2 x 3,4,3002
+Blue,Brick 2 x 4,3,3001
+Dark Bluish Gray,Brick 1 x 2,4,3004
+Dark Bluish Gray,Brick 1 x 2 with Pin,4,2458
+Dark Bluish Gray,Brick 1 x 8,2,3008
+Dark Bluish Gray,Brick Special 2 x 2 with Pins and Axle Hole,1,30000
+Dark Bluish Gray,BrickSpecial 1 x 4 with 4 Studs on One Side,1,30414
+Dark Bluish Gray,Tile 1 x 2 Grill with Bottom Groove,4,2412b
+Green,Brick 1 x 1,3,3005
+Green,Brick 1 x 2,4,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 1 x 4,4,3010
+Green,Brick 1 x 6,2,3009
+Green,Brick 2 x 2,4,3003
+Green,Brick 2 x 3,4,3002
+Green,Brick 2 x 3 with Curved Top,3,6215
+Green,Brick 2 x 4,3,3001
+Green,Brick 2 x 6,3,2456
+Green,Plate 1 x 4,2,3710
+Green,Slope 45º 2 x 2,2,3039
+Light Bluish Gray,Brick 1 x 2,4,3004
+Light Bluish Gray,Brick 2 x 4,2,3001
+Light Bluish Gray,Brick 2 x 6,3,2456
+Light Bluish Gray,Brick Round 1 x 1 Open Stud,9,3062b
+Light Bluish Gray,Hinge Brick 2 x 2 Locking with 2 Fingers Vertical and Axle Hole,1,40902
+Light Bluish Gray,Plate 2 x 4,2,3020
+Light Bluish Gray,Plate Special 1 x 2 with 1 Stud [aka Jumper],2,3794
+Light Bluish Gray,Plate Special 2 x 2 with 2 Pin Holes,2,2817
+Light Bluish Gray,Plate Special 2 x 4 with Pins,4,30157
+Light Bluish Gray,Slope Inverted 45º 2 x 1,4,3665
+Light Bluish Gray,"Technic, Pin without Friction Ridges Lengthwise",4,3673
+Light Bluish Gray,Tile 1 x 4,2,2431
+Light Bluish Gray,"Wheel 30.4 x 14 with Pin Hole, Fake Bolts and Shallow Spokes",14,55981
+Orange,Brick 1 x 1,4,3005
+Orange,Brick 1 x 2,4,3004
+Orange,Brick 1 x 3,2,3622
+Orange,Brick 1 x 4,4,3010
+Orange,Brick 2 x 2,4,3003
+Orange,Brick 2 x 3,4,3002
+Orange,Brick 2 x 4,3,3001
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2,4,3004
+Red,Brick 1 x 4,2,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 2 x 8,4,3007
+Red,Door 1 x 3 x 1 Left,1,3822
+Red,Door 1 x 3 x 1 Right,1,3821
+Red,Plate 1 x 4,5,3710
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 6,4,3795
+Red,Plate 4 x 6,1,3032
+Red,Slope 33º 3 x 2,2,3298
+Red,Slope 45º 2 x 1,2,3040b
+Red,Slope 45º 2 x 2,4,3039
+Red,Slope Inverted 45º 2 x 1,2,3665
+Red,"Vehicle, Tipper Bed 12 x 8 x 3 1/3",1,30300
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Trans-Clear,Windscreen 2 x 6 x 2,1,4176
+Trans-Neon Green,Brick Round 1 x 1 Open Stud,4,3062b
+Trans-Neon Green,Plate Round 1 x 1 Straight Side,4,4073
+Trans-Neon Orange,Brick Round 1 x 1 Open Stud,4,3062b
+Trans-Red,Plate Round 1 x 1 Straight Side,4,4073
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick 1 x 3,2,3622
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,2,3001
+Yellow,Brick 2 x 6,2,2456
+Yellow,BrickSpecial 1 x 4 with 4 Studs on One Side,3,30414
+Yellow,Hinge Brick 2 x 2 Locking with 1 Finger Vertical and Axle Hole [X Opening],1,30389c
+Yellow,Slope 18º 4 x 2,2,30363
+Yellow,Slope 33º 3 x 2,2,3298
+Yellow,Slope 45º 2 x 1,2,3040b
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Vehicle Digger Bucket 9 Teeth 4 x 8 with Locking 2 Finger Hinge,1,47508
+Yellow,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",2,3829c01
+Yellow,Windscreen 2 x 4 x 3 Frame,2,2352

@@ -1,0 +1,75 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,10,3005
+Black,Brick 1 x 2,21,3004
+Black,Brick 1 x 3,4,3622
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 2,12,3003
+Black,Brick 2 x 3,4,3002
+Black,Brick 2 x 4,3,3001
+Blue,Brick 1 x 1,18,3005
+Blue,Brick 1 x 2,32,3004
+Blue,Brick 1 x 3,4,3622
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,20,3003
+Blue,Brick 2 x 3,4,3002
+Blue,Brick 2 x 4,6,3001
+Blue,Brick 2 x 6,2,2456
+Green,Brick 1 x 1,10,3005
+Green,Brick 1 x 2,21,3004
+Green,Brick 1 x 3,4,3622
+Green,Brick 1 x 4,2,3010
+Green,Brick 2 x 2,12,3003
+Green,Brick 2 x 3,4,3002
+Green,Brick 2 x 4,3,3001
+Lime,Brick 1 x 1,15,3005
+Lime,Brick 1 x 2,18,3004
+Lime,Brick 1 x 3,4,3622
+Lime,Brick 1 x 4,2,3010
+Lime,Brick 2 x 2,12,3003
+Lime,Brick 2 x 3,4,3002
+Lime,Brick 2 x 4,3,3001
+Orange,Brick 1 x 1,15,3005
+Orange,Brick 1 x 2,18,3004
+Orange,Brick 1 x 3,4,3622
+Orange,Brick 1 x 4,2,3010
+Orange,Brick 2 x 2,12,3003
+Orange,Brick 2 x 3,4,3002
+Orange,Brick 2 x 4,3,3001
+Red,Brick 1 x 1,18,3005
+Red,Brick 1 x 2,32,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,4,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,20,3003
+Red,Brick 2 x 3,4,3002
+Red,Brick 2 x 4,6,3001
+Red,Brick 2 x 8,1,3007
+Reddish Brown,Brick 1 x 1,10,3005
+Reddish Brown,Brick 1 x 2,18,3004
+Reddish Brown,Brick 1 x 3,4,3622
+Reddish Brown,Brick 1 x 4,2,3010
+Reddish Brown,Brick 2 x 2,8,3003
+Reddish Brown,Brick 2 x 3,4,3002
+Reddish Brown,Brick 2 x 4,3,3001
+White,Brick 1 x 1,18,3005
+White,Brick 1 x 2,32,3004
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,4,3010
+White,Brick 1 x 6,2,3009
+White,Brick 2 x 2,20,3003
+White,Brick 2 x 3,4,3002
+White,Brick 2 x 4,6,3001
+Yellow,Brick 1 x 1,18,3005
+Yellow,Brick 1 x 2,32,3004
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 1 x 8,2,3008
+Yellow,Brick 2 x 2,20,3003
+Yellow,Brick 2 x 3,4,3002
+Yellow,Brick 2 x 4,6,3001
+Yellow,Brick 2 x 6,1,2456
+Yellow,Brick 2 x 8,1,3007

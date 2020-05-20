@@ -1,0 +1,167 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 3,6,3622
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 2,8,3003
+Black,Brick 2 x 3,7,3002
+Black,Brick 2 x 4,4,3001
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Door 1 x 4 x 5,2,4131
+Black,Fence 1 x 4 x 1,2,3633
+Black,Plate 1 x 2,3,3023
+Black,Plate 1 x 3,2,3623
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 4,1,3020
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+Black,Plate Special 1 x 4 with Wheels Holder,4,2926
+Black,Plate Special 2 x 2 with Wheel Holder,1,4488
+Black,Propeller 3 Blade Small,1,2421
+Black,Slope 33º 3 x 2,8,3298
+Black,Slope 75° 2 x 2 x 3,4,3684
+Black,Slope Inverted 45º 2 x 2,4,3660
+Black,Tyre Offset Tread Small Wide,8,6015
+Black,Wheel Skateboard / Trolley,1,2496
+Black,Window 1 x 2 x 2 2/3 Pane Lattice Diamond with Rounded Top,2,30046
+Blue,Brick 1 x 1,8,3005
+Blue,Brick 1 x 2,12,3004
+Blue,Brick 1 x 3,8,3622
+Blue,Brick 1 x 4,3,3010
+Blue,Brick 1 x 6,7,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Brick 2 x 2,16,3003
+Blue,Brick 2 x 3,14,3002
+Blue,Brick 2 x 4,6,3001
+Blue,Brick 2 x 6,4,2456
+Blue,Brick 2 x 8,2,3007
+Blue,Plate 1 x 2,2,3023
+Blue,Plate 1 x 3,2,3623
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 2 x 4,3,3020
+Blue,Plate 2 x 6,2,3795
+Blue,Plate 2 x 8,2,3034
+Blue,Slope 18º 4 x 2,2,30363
+Blue,Slope 45º 2 x 2,2,3039
+Blue,Window 2 x 4 x 3 Frame,2,4132
+Bright Green,Baseplate 16 x 32,1,3857
+Bright Green,Plant Flower 2 x 2 Leaves - Angular,3,4727
+Dark Bluish Gray,Brick Special 1 x 2 with Grill,1,2877
+Dark Bluish Gray,Plate 1 x 2,2,3023
+Dark Bluish Gray,Plate 2 x 3,1,3021
+Dark Bluish Gray,Slope 45º 2 x 1,2,3040b
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,6,3004
+Green,Brick 1 x 3,6,3622
+Green,Brick 1 x 4,2,3010
+Green,Brick 2 x 2,8,3003
+Green,Brick 2 x 3,7,3002
+Green,Brick 2 x 4,3,3001
+Green,"Brick 2 x 4 x 2 No Studs, Triple Curved Top",2,6216
+Green,Pine Tree - Large 4 x 4 x 6 2/3,1,3471
+Green,Pine Tree - Small 2 x 2 x 4,1,2435
+Green,Slope 45º 2 x 1,4,3040b
+Green,Slope 45º 2 x 2,4,3039
+Green,Slope 75° 2 x 2 x 3,2,3684
+Light Bluish Gray,Brick 1 x 2,8,3004
+Light Bluish Gray,Brick 2 x 2,2,3003
+Light Bluish Gray,Brick 2 x 3,2,3002
+Light Bluish Gray,Brick 2 x 6,1,2456
+Light Bluish Gray,Plate 2 x 10,3,3832
+Light Bluish Gray,Plate 2 x 4,1,3020
+Light Bluish Gray,Plate 2 x 6,2,3795
+Light Bluish Gray,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],1,3839b
+Light Bluish Gray,Plate Special 2 x 2 with Wheel Holders,2,4600
+Light Bluish Gray,Slope Inverted 45º 2 x 2,1,3660
+Lime,Brick 1 x 2,4,3004
+Lime,Brick 1 x 3,2,3622
+Lime,Brick 1 x 4,2,3010
+Lime,Brick 2 x 2,8,3003
+Lime,Brick 2 x 4,2,3001
+Orange,Brick 1 x 2,4,3004
+Orange,Brick 1 x 4,2,3010
+Orange,Brick 2 x 2,6,3003
+Orange,Brick 2 x 4,4,3001
+Orange,Plate Round 1 x 1 Straight Side,2,4073
+Red,Brick 1 x 1,8,3005
+Red,Brick 1 x 2,12,3004
+Red,Brick 1 x 3,8,3622
+Red,Brick 1 x 4,3,3010
+Red,Brick 1 x 6,6,3009
+Red,Brick 1 x 8,3,3008
+Red,Brick 2 x 2,16,3003
+Red,Brick 2 x 3,14,3002
+Red,Brick 2 x 4,6,3001
+Red,Brick 2 x 6,3,2456
+Red,Brick 2 x 8,2,3007
+Red,Brick Arch 1 x 4,4,3659
+Red,Flag 2 x 2 Square,1,2335
+Red,Minifig Hand Truck [Frame Only],1,2495
+Red,Plate 2 x 4,4,3020
+Red,Plate 2 x 6,4,3795
+Red,Slope 18º 4 x 2,10,30363
+Red,Slope 45° 2 x 1 Double,2,3044
+Red,Slope 45° 2 x 2 Double,2,3043
+Red,Slope 45° 2 x 4 Double,1,3041
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope 45º 2 x 2,6,3039
+Red,Slope 45º 2 x 4,8,3037
+Red,Slope Inverted 45º 2 x 1,8,3665
+Red,Slope Inverted 45º 2 x 2,2,3660
+Red,Window 2 x 4 x 3 Frame,3,4132
+Reddish Brown,Brick Round 1 x 1 Open Stud,2,3062b
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],2,3065
+Trans-Clear,Slope 45º 2 x 2,2,3039
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+White,Antenna 1 x 4,1,3957
+White,Brick 1 x 1,8,3005
+White,Brick 1 x 1 with Simple Eye Black and White Print,6,3005pe1
+White,Brick 1 x 2,12,3004
+White,Brick 1 x 3,8,3622
+White,Brick 1 x 4,3,3010
+White,Brick 1 x 6,7,3009
+White,Brick 1 x 8,4,3008
+White,Brick 2 x 2,16,3003
+White,Brick 2 x 3,14,3002
+White,Brick 2 x 4,6,3001
+White,Brick 2 x 6,4,2456
+White,Brick 2 x 8,2,3007
+White,Door 1 x 3 x 3 Right,1,3192
+White,Door Frame 2 x 4 x 5,1,4130
+White,Picket Fence 1 x 4 x 2,2,33303
+White,Plate 1 x 2,4,3023
+White,Plate 2 x 2,2,3022
+White,Plate 2 x 2 Corner,2,2420
+White,Plate 2 x 3,2,3021
+White,Plate 2 x 4,1,3020
+White,Slope Inverted 45º 2 x 1,2,3665
+White,Turntable 4 x 4 Square Base,1,3403
+White,Turntable 4 x 4 Top,1,3404
+White,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",2,3829c01
+White,Wheel 11.5mm D. x 12mm [Hole Notched for Wheel Snap Pin],4,6014b
+White,Window 1 x 2 x 2 2/3 with Rounded Top,2,30044
+White,Window 2 x 4 x 3 Pane,3,4133
+Yellow,Brick 1 x 1,8,3005
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Yellow,Brick 1 x 2,12,3004
+Yellow,Brick 1 x 3,8,3622
+Yellow,Brick 1 x 4,3,3010
+Yellow,Brick 1 x 6,6,3009
+Yellow,Brick 1 x 8,3,3008
+Yellow,Brick 2 x 2,16,3003
+Yellow,Brick 2 x 3,14,3002
+Yellow,Brick 2 x 4,7,3001
+Yellow,Brick 2 x 6,3,2456
+Yellow,Brick 2 x 8,2,3007
+Yellow,Brick Special 1 x 1 with Headlight,4,4070
+Yellow,Door Frame 2 x 4 x 5,1,4130
+Yellow,Flower 2 x 2 - Round,2,4728
+Yellow,Plate 2 x 3,1,3021
+Yellow,Plate 2 x 4,2,3020
+Yellow,Slope 45º 2 x 1,2,3040b
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Slope Inverted 45º 2 x 1,2,3665
+Yellow,Slope Inverted 45º 2 x 2,1,3660
+Yellow,Wheel 11.5mm D. x 12mm [Hole Notched for Wheel Snap Pin],4,6014b
+Yellow,Window 2 x 4 x 3 Pane,2,4133

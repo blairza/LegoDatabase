@@ -1,0 +1,117 @@
+color,part,quantity,part_id
+Black,Bracket 1 x 2 - 1 x 4 [Square Corners],1,2436a
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 6,1,3009
+Black,Brick Round 2 x 2,1,3941
+Black,Hinge Plate 1 x 2 with 2 Fingers and Hollow Studs,2,4276b
+Black,Hinge Plate 1 x 2 with 3 Fingers and Hollow Studs,2,4275b
+Black,"Hose, Pneumatic 4mm D. 25L",1,5102c25
+Black,Plate 1 x 2,5,3023
+Black,Plate 1 x 4,6,3710
+Black,Plate 1 x 6,1,3666
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 4 [3 Holes],3,3709b
+Black,Plate 2 x 6,1,3795
+Black,Plate 4 x 4,2,3031
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],3,3794
+Black,Plate Special 2 x 2 with Pin Hole,4,2444
+Black,Pneumatic Hose [4mm OD],1,5102
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 75º 2 x 1 x 3 [Undetermined Type],2,4460
+Black,Slope Inverted 45º 2 x 1,4,3665
+Black,Technic Axle 10,4,3737
+Black,Technic Axle 10 Threaded,1,3737b
+Black,Technic Axle 12,11,3708
+Black,Technic Axle 2,4,3704
+Black,Technic Axle 3,2,4519
+Black,Technic Axle 4,12,3705
+Black,Technic Axle 6,16,3706
+Black,Technic Axle 8,7,3707
+Black,Technic Brick 1 x 4 [3 Holes],2,3701
+Black,Technic Brick 1 x 6 [5 Holes],1,3894
+Black,Technic Brick 1 x 8 [7 Holes],2,3702
+Black,Technic Pin with Friction Ridges Lengthwise [No Slots],70,4459
+Black,"Technic, Gear Worm Screw",4,4716
+Black,Tile 1 x 1 with Groove,2,3070b
+Black,Tile 1 x 2 with Groove,9,3069b
+Black,"Train Weight 2 x 6 x 2 [Bottom Openings, Centre End Seam]",1,73090a
+Black,"Turntable 4 x 4 Square Base with Top, Complete Assembly",1,3403c01
+Black,Tyre 20 x 30 Technic,2,4267
+Black,Tyre 24 x 43 Technic,2,3740
+Light Gray,Brick 1 x 1,2,3005
+Light Gray,Brick 1 x 1 x 5,1,2453
+Light Gray,Brick 2 x 4,1,3001
+Light Gray,"Hose, Pneumatic 4mm D. 3L / 2.4cm",3,5102c03
+Light Gray,"Hose, Pneumatic 4mm D. 5L",1,5102c05
+Light Gray,Plate 1 x 1,4,3024
+Light Gray,Plate 1 x 2,2,3023
+Light Gray,Plate 1 x 3,1,3623
+Light Gray,Plate 1 x 4,3,3710
+Light Gray,Pneumatic Switch with Top Studs,3,4694c01
+Light Gray,Slope Inverted 45º 2 x 1,2,3665
+Light Gray,Technic Axle Nut,2,4698
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,24,3749
+Light Gray,Technic Axle and Pin Connector,8,3651
+Light Gray,Technic Beam 1 x 4 Thin with Stud Connector,8,2825
+Light Gray,Technic Brick 1 x 12 with Holes,1,3895
+Light Gray,Technic Brick 1 x 2 [1 Hole],2,3700
+Light Gray,Technic Brick 1 x 4 [3 Holes],4,3701
+Light Gray,Technic Brick 1 x 6 [5 Holes],2,3894
+Light Gray,Technic Brick 1 x 8 [7 Holes],1,3702
+Light Gray,Technic Bush,37,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],54,4265a
+Light Gray,Technic Connector Toggle Joint Toothed,4,4273b
+Light Gray,Technic Gear 14 Tooth Bevel,15,4143
+Light Gray,Technic Gear 16 Tooth with Round Holes [Old Style],2,4019
+Light Gray,Technic Gear 24 Tooth Crown (Old Style),4,3650a
+Light Gray,Technic Gear 24 Tooth [Old Style - Three axle holes],2,3648a
+Light Gray,Technic Gear 8 Tooth,4,3647
+Light Gray,Technic Gear Rack 1 x 4,1,3743
+Light Gray,Technic Pin 1/2,2,4274
+Light Gray,Technic Pneumatic T-Piece,3,4697b
+Light Gray,Technic Universal Joint 4L [Complete Assembly],2,9244
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",8,3673
+Light Gray,"Technic, Plate 1 x 10 with Toothed Ends",3,2719
+Light Gray,"Technic, Plate Rotor 3 Blade with Toothed Ends and 3 Studs (Propeller)",2,2712
+Light Gray,"Technic, Steering Arm",2,4261
+Light Gray,"Technic, Steering Pulley Large",4,3736
+Trans-Yellow,Brick Round 2 x 2,1,3941
+Yellow,Brick 1 x 1,2,3005
+Yellow,Brick 1 x 2,5,3004
+Yellow,Brick 1 x 3,2,3622
+Yellow,Brick 1 x 6,1,3009
+Yellow,Plate 1 x 1,4,3024
+Yellow,Plate 1 x 2,21,3023
+Yellow,Plate 1 x 3,8,3623
+Yellow,Plate 1 x 4,14,3710
+Yellow,Plate 1 x 6,13,3666
+Yellow,Plate 1 x 8,12,3460
+Yellow,Plate 2 x 10,2,3832
+Yellow,Plate 2 x 2,6,3022
+Yellow,Plate 2 x 2 Corner,2,2420
+Yellow,Plate 2 x 3,2,3021
+Yellow,Plate 2 x 4 [3 Holes],5,3709b
+Yellow,Plate 2 x 6,3,3795
+Yellow,Plate 2 x 8,4,3034
+Yellow,Plate 2 x 8 [7 Holes],3,3738
+Yellow,Plate 4 x 6,1,3032
+Yellow,Plate 4 x 8,4,3035
+Yellow,Plate 6 x 6,1,3958
+Yellow,Plate Round 2 x 2 with Axle Hole,1,4032
+Yellow,Pneumatic Cylinder with 2 Inlets Medium (48mm) with Yellow Top,3,2793c02
+Yellow,Pneumatic Pump New Style with Yellow Top,1,2797c03
+Yellow,Slope 45º 2 x 1,4,3040b
+Yellow,Technic Beam 1 x 4 Thin with Stud Connector,14,2825
+Yellow,Technic Brick 1 x 12 with Holes,16,3895
+Yellow,Technic Brick 1 x 16 with Holes,10,3703
+Yellow,Technic Brick 1 x 2 [1 Hole],19,3700
+Yellow,Technic Brick 1 x 4 [3 Holes],23,3701
+Yellow,Technic Brick 1 x 6 [5 Holes],13,3894
+Yellow,Technic Brick 1 x 8 [7 Holes],14,3702
+Yellow,Technic Digger Bucket 8 x 14 with 7 teeth,1,2814
+Yellow,Technic Digger Bucket 8 x 6,1,4700
+Yellow,"Technic, Plate 1 x 4 with Toothed Ends",2,4263
+Yellow,"Technic, Plate 1 x 5 with Toothed Ends, 2 Studs and Center Axle Hole",2,2711
+Yellow,Tile 2 x 2 Round,1,4150
+Yellow,Wheel 20 x 30 Technic [4 studs Diameter],2,4266
+Yellow,Wheel 24 x 43 Technic,2,3739

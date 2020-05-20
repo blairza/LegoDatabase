@@ -1,0 +1,104 @@
+color,part,quantity,part_id
+Black,Bar 1 x 4 x 2 with Studs,1,4083
+Black,Brick 1 x 2,2,3004
+Black,Brick 1 x 4,1,3010
+Black,Brick 1 x 6,8,3009
+Black,Brick 2 x 4,1,3001
+Black,Brick Special 1 x 1 with Headlight,2,4070
+Black,"Brick, Modified 2 x 4 with Wheels, Train Spoked Small (23mm D.) Red",4,4180c04
+Black,"Electric, Motor 4.5V Type II 12 x 4 x 3 1/3",1,x469b
+Black,Hinge Plate 2 x 5 [Complete Assembly],1,3149c01
+Black,Magnet Cylindrical,6,73092
+Black,Plate 1 x 1,8,3024
+Black,Plate 1 x 2,2,3023
+Black,Plate 1 x 3,4,3623
+Black,Plate 1 x 4,4,3710
+Black,Plate 1 x 6,15,3666
+Black,Plate 1 x 8,2,3460
+Black,Plate 2 x 10,2,3832
+Black,Plate 2 x 2,6,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 6,4,3795
+Black,Plate 4 x 8,1,3035
+Black,Plate 6 x 10,1,3033
+Black,Plate 6 x 16,1,3027
+Black,Plate 6 x 8,1,3036
+Black,Plate Special 1 x 1 with Clip Light [Thin Ring],2,4081a
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],8,3794
+Black,Plate Special 2 x 2 with Wheels Red,2,122c01
+Black,Slope Inverted 45º 2 x 1,16,3665
+Black,Train Base 6 x 16,1,4178
+Black,Train Buffer Beam,4,4022
+Black,Train Buffer Single,4,buffer
+Black,Train Coupling,6,4023
+Black,Tyre Offset Tread Medium,4,4084
+Black,"Vehicle, Digger Bucket Arm, Small - 2 x 6 x 2",1,3314
+Blue,Brick 1 x 2,4,3004
+Blue,Train Battery Box Car (Complete Assembly) with Black Base and Red Wheels,1,3443cx1
+Dark Gray,"Train, Track Sleeper Plate 2 x 8 without Cable Grooves",40,767
+Light Gray,Fence 1 x 4 x 1,8,3633
+Light Gray,Plate 1 x 4,2,3710
+Light Gray,Plate 1 x 6,2,3666
+Light Gray,Plate 1 x 8,2,3460
+Light Gray,Plate 4 x 6,1,3032
+Light Gray,Plate 6 x 12,2,3028
+Light Gray,Plate Special 1 x 2 with Ladder,2,4175
+Light Gray,Slope 33º 3 x 2,2,3298
+Light Gray,Slope 33º 3 x 4,11,3297
+Light Gray,Slope 45º 2 x 2,2,3039
+Light Gray,Slope 45º 2 x 4,2,3037
+Light Gray,Train Battery Box Car Roof  6 x 14,1,699
+Light Gray,Train Level Crossing Base,1,813
+Light Gray,Train Level Crossing Center Rail Cap Insert 2 x 14 x 2/3,1,812
+Light Gray,Train Track Slotted Rail Curved Inside,16,3230b
+Light Gray,Train Track Slotted Rail Straight,8,3228b
+Light Gray,"Train, Track Slotted Rail Curved Outside",16,3229b
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,4,458
+Red,Brick 1 x 1,14,3005
+Red,Brick 1 x 2,8,3004
+Red,Brick 1 x 4,7,3010
+Red,Brick 2 x 2,2,3003
+Red,Brick Special 1 x 1 with Headlight,8,4070
+Red,Brick Special 1 x 1 x 2 with Shutter Holder,4,3581
+Red,Brick Special 1 x 2 with Cable Holding Cutout,1,3134
+Red,Door 1 x 4 x 5 Train Left,2,4181
+Red,Door 1 x 4 x 5 Train Right,2,4182
+Red,Plate 1 x 1,4,3024
+Red,Plate 1 x 3,4,3623
+Red,Plate 1 x 4,4,3710
+Red,Plate 2 x 6,5,3795
+Red,Plate 4 x 6,4,3032
+Red,Slope 45º 2 x 2,2,3039
+Red,Train Direction Switch - 4.5V 2 x 3,1,3218
+Red,Train Signal Circuit-Breaker Bar,1,trainsig2
+Red,Train Signal Post,1,x489
+Red,Train Wheel Spoked for Motor,4,wheel2a
+Red,Window 1 x 2 x 2 Classic with Short Sill (Complete),4,3081cc01
+Red,Window 1 x 2 x 2 Shutter,4,3582
+Red,Window 1 x 2 x 3 Train,1,4035
+Red,Window 1 x 4 x 3 Train with All Studs Hollow,1,4033
+Trans-Clear,Glass for Train Door,4,4183
+Trans-Clear,Glass for Train Window 1 x 2 x 3,1,4036
+Trans-Clear,Glass for Train Window 1 x 4 x 3,1,4034
+Trans-Red,Plate Round 1 x 1 Straight Side,6,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,6,4073
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Construction Helmet",1,but011
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Hat",1,but020
+Unknown,"Suit with 3 Buttons Blue - Blue Legs, Red Hat",1,trn068
+White,"Electric, Wire 12V / 4.5V with two 2-prong connectors, 11 Studs Long",1,x466c11
+White,"Train Level Crossing Gate Type 1, Assembly with Blue Base & Red Handle (Left)",1,815c02
+White,"Train Level Crossing Gate Type 1, Assembly with Blue Base & Red Handle (Right)",1,815c01
+Yellow,Brick 1 x 1,8,3005
+Yellow,Brick 1 x 2,11,3004
+Yellow,Brick 1 x 4,2,3010
+Yellow,Brick 1 x 6,1,3009
+Yellow,"Brick, Modified 1 x 2 with Digger Bucket Arm Holder",1,3317
+Yellow,Plate 1 x 2,4,3023
+Yellow,Plate 1 x 4,5,3710
+Yellow,Plate 2 x 3,2,3021
+Yellow,Plate 2 x 4,1,3020
+Yellow,Plate 2 x 6,1,3795
+Yellow,"Vehicle, Digger Bucket Smooth 3 x 5 x 1 & 1/3",1,3433
+Yellow,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Yellow,Window 1 x 2 x 3 Shutter,8,3856
+Yellow,Window 1 x 4 x 3,4,3853

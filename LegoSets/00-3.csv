@@ -1,0 +1,37 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 2,7,3004
+Black,Brick 1 x 4,1,3010
+Black,Brick 1 x 8,2,3008
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Plate 1 x 1,1,3024
+Black,Plate 1 x 2,3,3023
+Black,Slope 45º 2 x 1,3,3040b
+Blue,Door 1 x 3 x 4,2,7930
+Blue,Plate 1 x 2,6,3023
+Blue,Slope 45° 2 x 3,2,3038
+Blue,Slope 45° 2 x 3 Double,3,3042
+Blue,Slope 45° 2 x 4 Double,1,3041
+Blue,Slope 45º 2 x 1,6,3040b
+Blue,Slope 45º 2 x 1 Double / Inverted,2,3049
+Blue,Slope 45º 2 x 2,2,3039
+Blue,Slope 45º 2 x 4,3,3037
+Green,Baseplate 8 x 24,1,3497
+Red,Brick 1 x 1,12,3005
+Red,Brick 1 x 2,18,3004
+Red,Brick 1 x 4,9,3010
+Red,Brick 1 x 6,6,3009
+Red,Brick 1 x 8,14,3008
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+Red,Plate 1 x 1,2,3024
+Red,Plate 2 x 2,1,3022
+White,Brick 1 x 1,2,3005
+White,Brick 2 x 2,1,3003
+White,Brick 2 x 3 without Cross Supports,1,3002old
+White,Door Frame 1 x 3 x 4,2,3579
+White,Fence 1 x 4 x 2,1,3185
+White,Plate 6 x 8,2,3036
+White,Slope 45º 2 x 1,5,3040b
+White,Window 1 x 1 x 1,4,39
+White,Window 1 x 2 x 2 with Fixed Glass,4,7026
+White,Window 1 x 3 x 2 with Fixed Glass,2,31

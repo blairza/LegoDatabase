@@ -1,0 +1,17 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,1,3005
+Blue,Brick 2 x 2,1,3003
+Blue,Tile 2 x 2 with Groove,1,3068b
+Red,Tile 1 x 2 without Groove,1,3069a
+White,Brick 1 x 1,8,3005
+White,Brick 1 x 2,3,3004
+White,Brick 1 x 4,1,3010
+White,Brick 2 x 2,1,3003
+White,Brick 2 x 4 without Cross Supports,8,3001old
+White,Brick Arch 1 x 6 x 2,2,3307
+White,Brick Round Corner 2 x 2 [Macaroni],2,3063
+White,Plate 1 x 2,2,3023
+White,Plate 4 x 4,1,3031
+White,Plate 4 x 6,1,3032
+White,Tile 1 x 2 without Groove,4,3069a
+White,Tile 2 x 2 with Groove,9,3068b

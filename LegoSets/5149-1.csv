@@ -1,0 +1,12 @@
+color,part,quantity,part_id
+Green,Window 1 x 2 x 3 Shutter,8,3856
+Red,Door 1 x 4 x 5 Left (Undetermined Glass Color),1,73436
+Red,Door 1 x 4 x 5 Right (Undetermined Glass Color),1,73435
+Red,Door 1 x 4 x 5 Right with 6 Panes,2,73312
+Red,Door 1 x 4 x 5 with 4 Panes,2,3861
+Red,Window 1 x 2 x 2 with Fixed Glass,4,7026
+Red,Window 1 x 4 x 3,6,3853
+Red,Window 1 x 4 x 5,2,2493
+Trans-Clear,Glass for Window 1 x 4 x 3,2,3855
+Trans-Clear,Glass for Window 1 x 4 x 5,2,2494
+White,Window 1 x 2 x 3 Pane,8,3854

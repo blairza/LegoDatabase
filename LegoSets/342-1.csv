@@ -1,0 +1,29 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,2,3004
+Black,Brick 1 x 4,2,3010
+Black,Brick 1 x 6,2,3009
+Black,Brick 1 x 8,4,3008
+Black,Plate 2 x 2,1,3022
+Green,Baseplate 16 x 32 with Railway Station Stud Pattern [342],1,648
+Green,"Plant, Tree Flat Cypress painted with hollow base",1,ftcyph
+Light Gray,Plate 1 x 2,10,3023
+Light Gray,Plate 2 x 3,10,3021
+Light Gray,Plate 2 x 4,4,3020
+Light Gray,Plate 4 x 8,1,3035
+Light Gray,Plate 6 x 8,3,3036
+Red,Door 1 x 2 x 3 Left [Old Style with Glass],3,32bc01
+Red,Door 1 x 2 x 3 Right (old type),3,33bc01
+Red,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",2,29bc01
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",18,7026bc01
+Red,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",4,453bc01
+Trans-Clear,Brick 2 x 4 without Cross Supports,4,3001old
+Yellow,Brick 1 x 1,38,3005
+Yellow,Brick 1 x 2,18,3004
+Yellow,Brick 1 x 4,16,3010
+Yellow,Brick 1 x 6,5,3009
+Yellow,Brick 1 x 8,10,3008
+Yellow,Brick 2 x 2,3,3003
+Yellow,Brick 2 x 3 without Cross Supports,6,3002old
+Yellow,Brick 2 x 4 without Cross Supports,4,3001old
+Yellow,Plate 2 x 3,2,3021
+Yellow,Plate 2 x 4,14,3020

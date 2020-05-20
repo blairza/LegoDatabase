@@ -1,0 +1,11 @@
+color,part,quantity,part_id
+White,Door 1 x 2 x 3 Right (old type),1,33bc01
+White,Window 1 x 1 x 1,1,39
+White,Window 1 x 1 x 2,1,29
+White,Window 1 x 2 x 1,1,27
+White,Window 1 x 2 x 2 with Fixed Glass,1,7026
+White,Window 1 x 3 x 2 with Fixed Glass,1,31
+White,Window 1 x 4 x 2 with Fixed Glass,1,453
+White,Window 1 x 6 x 2,1,645
+White,Window 1 x 6 x 2 with Shutters,1,646
+White,Window 1 x 6 x 3 Panorama with Glass,1,604c01

@@ -1,0 +1,111 @@
+color,part,quantity,part_id
+Black,Bar 1 x 4 x 2 with Studs,1,4083
+Black,Brick 1 x 2,36,3004
+Black,Brick 1 x 4,6,3010
+Black,Brick 1 x 6,16,3009
+Black,Brick 1 x 8,7,3008
+Black,Brick 2 x 2,8,3003
+Black,Brick 2 x 4,4,3001
+Black,Brick Round 1 x 1 Open Stud,2,3062b
+Black,"Brick, Modified 2 x 4 with Wheels, Train Spoked Small (23mm D.) Black",11,4180c01
+Black,"Electric, Train Motor 12V Modern Type I with 2 round contact holes",1,501a
+Black,Magnet Cylindrical,6,73092
+Black,Plate 1 x 1,4,3024
+Black,Plate 1 x 2,24,3023
+Black,Plate 1 x 3,12,3623
+Black,Plate 1 x 4,9,3710
+Black,Plate 1 x 6,7,3666
+Black,Plate 2 x 4,16,3020
+Black,Plate 2 x 6,8,3795
+Black,Plate 4 x 10,2,3030
+Black,Plate 4 x 12,2,3029
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 6,1,3032
+Black,Plate Round 2 x 2 with Axle Hole,16,4032
+Black,Slope Inverted 45º 2 x 2,20,3660
+Black,Train Base 6 x 28 with 10 Round Holes Each End,3,4093b
+Black,"Train Bogie Plate (Tile, Modified 6 x 4 with 7mm Pin)",5,4092
+Black,Train Buffer Beam,6,4022
+Black,Train Coupling,6,4023
+Black,Wheel Train for 12V Electric Motor,2,867
+Blue,Brick 1 x 4,2,3010
+Blue,Plate 4 x 4,2,3031
+Blue,Slope 45 2 x 2 with Computer Screen Print,2,3039p23
+Blue,Slope 45° 2 x 2 with Computer Panel Print,2,3039p34
+Dark Gray,"Train, Track Sleeper Plate 2 x 8 without Cable Grooves",44,767
+Light Gray,Brick 1 x 2,3,3004
+Light Gray,"Electric Wire 12V / 4.5V with four 1-prong connectors, 28 Studs Long",2,765c28
+Light Gray,Minifig Seat 2 x 2,10,4079
+Light Gray,Minifig Signal Paddle,1,3900
+Light Gray,Plate 1 x 2,16,3023
+Light Gray,Plate 1 x 4,12,3710
+Light Gray,Plate 2 x 6,4,3795
+Light Gray,Plate 2 x 8,1,3034
+Light Gray,Plate 4 x 6,1,3032
+Light Gray,Plate 6 x 24,1,3026
+Light Gray,Plate Round 2 x 2 with Axle Hole,6,4032
+Light Gray,Plate Special 1 x 2 with 1 Stud [aka Jumper],8,3794
+Light Gray,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],1,3839b
+Light Gray,Slope 33º 3 x 2,10,3298
+Light Gray,Slope 33º 3 x 4,26,3297
+Light Gray,Slope 45° 2 x 2 with Computer Panel Print,1,3039p34
+Light Gray,Slope 45º 2 x 1,4,3040b
+Light Gray,Slope 45º 2 x 2,4,3039
+Light Gray,Support 2 x 2 x 2 Stand,2,3940
+Light Gray,Tile 2 x 2 with Groove,6,3068b
+Light Gray,Train Track 12V Conducting Rail Curved,16,3241
+Light Gray,Train Track Slotted Rail Curved Inside,16,3230b
+Light Gray,Train Track Slotted Rail Straight,12,3228b
+Light Gray,"Train, Track 12V Conducting Rail Straight",6,3242
+Light Gray,"Train, Track Slotted Rail Curved Outside",16,3229b
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,6,458
+Light Gray,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Light Gray,Window 1 x 2 x 2 Classic with Short Sill (Complete),10,3081cc01
+Red,Brick 1 x 3,12,3622
+Red,Brick 1 x 4,12,3010
+Red,Brick 1 x 6,8,3009
+Red,Brick 1 x 8,10,3008
+Red,Brick 2 x 4,2,3001
+Red,"Electric, Train Light Prism 1 x 6 Holder",2,4170
+Red,Minifig Seat 2 x 2,3,4079
+Red,Plate 1 x 2,10,3023
+Red,Plate 2 x 8,1,3034
+Red,Slope Inverted 45º 2 x 2,6,3660
+Red,"Train Weight 2 x 6 x 2 [Bottom Openings, Centre End Seam]",2,73090a
+Trans-Clear,"Electric, Train Light Prism 1 x 3",4,4171
+Trans-Clear,Glass for Train Door,12,4183
+Trans-Clear,Glass for Train Window 1 x 2 x 3,2,4036
+Trans-Clear,Glass for Train Window 1 x 4 x 3,18,4034
+Trans-Clear,Windscreen 2 x 6 x 2,2,4176
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+Unknown,"Chef - Light Gray Legs, Standard Grin",1,chef004
+Unknown,Minifig,1,pln060
+Unknown,Minifig,2,pln058
+Unknown,Minifig,1,pln057
+Unknown,Minifig,1,pln061
+Unknown,Minifig,1,pln024
+Unknown,Minifig,1,pln059
+Unknown,"Suit with 3 Buttons Blue - Blue Legs, Red Hat",2,trn068
+White,Electric Lightbrick  2 x  2 Type 2 12V with Clear Diffusor,2,266bc01
+White,Minifig Cup,2,3899
+Yellow,Brick 1 x 1,28,3005
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,5,3010
+Yellow,Brick 1 x 6,6,3009
+Yellow,Brick 2 x 2,3,3003
+Yellow,Door 1 x 4 x 5 Train Left with Red Bottom Half Print,6,4181p02
+Yellow,Door 1 x 4 x 5 Train Right with Red Bottom Half Print,6,4182p02
+Yellow,Plate 1 x 6,8,3666
+Yellow,Plate 2 x 6,2,3795
+Yellow,Plate 2 x 8,2,3034
+Yellow,Plate 4 x 12,6,3029
+Yellow,Slope 33º 3 x 2,4,3298
+Yellow,Slope 33º 3 x 3,4,4161
+Yellow,Slope 33º 3 x 3 Double Convex,4,3675
+Yellow,Slope 45º 2 x 2,4,3039
+Yellow,Tile 1 x 8,14,4162
+Yellow,Window 1 x 2 x 2 Classic with Short Sill (Complete),4,3081cc01
+Yellow,Window 1 x 2 x 3 Train,2,4035
+Yellow,Window 1 x 4 x 3 Train with All Studs Hollow,18,4033

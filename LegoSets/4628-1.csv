@@ -1,0 +1,137 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,12,3003
+Black,Brick 2 x 3,3,3002
+Black,Brick 2 x 4,4,3001
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 4,1,3020
+Black,Plate Special 1 x 4 with Wheels Holder,2,2926
+Black,Slope 30º 1 x 1 x 2/3 [aka Cheese Slope],4,50746
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope Inverted 45º 2 x 1,2,3665
+Black,Tyre Offset Tread Small Wide [Centre Band],4,87697
+Blue,Brick 1 x 1,8,3005
+Blue,Brick 1 x 2,12,3004
+Blue,Brick 1 x 3,4,3622
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,3,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,28,3003
+Blue,Brick 2 x 3,6,3002
+Blue,Brick 2 x 4,8,3001
+Blue,Brick 2 x 6,2,2456
+Blue,Brick 2 x 8,2,3007
+Blue,Brick Special 1 x 1 with Headlight,2,4070
+Blue,Plate 1 x 2,4,3023
+Blue,Plate 1 x 4,2,3710
+Blue,Plate 2 x 3,1,3021
+Blue,Plate 2 x 4,2,3020
+Blue,Plate Round 1 x 1 Straight Side,4,4073
+Blue,Slope 33º 3 x 2,4,3298
+Blue,Slope 33º 3 x 4,4,3297
+Blue,Slope 45º 2 x 1,4,3040b
+Blue,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Blue,Slope Inverted 45º 2 x 1,2,3665
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,6,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 1 x 4,4,3010
+Green,Brick 2 x 2,12,3003
+Green,Brick 2 x 3,3,3002
+Green,Brick 2 x 4,4,3001
+Green,Plate 2 x 4,2,3020
+Green,Plate 2 x 8,2,3034
+Green,Slope 45º 2 x 1,4,3040b
+Green,Slope Inverted 45º 2 x 1,4,3665
+Light Bluish Gray,Wheel 11.5mm D. x 12mm [Hole Notched for Wheel Snap Pin],4,6014b
+Lime,Brick 1 x 1,6,3005
+Lime,Brick 1 x 2,4,3004
+Lime,Brick 2 x 2,2,3003
+Lime,Plate 1 x 2,2,3023
+Lime,Plate Round 1 x 1 Straight Side,4,4073
+Medium Blue,Brick 1 x 1,6,3005
+Medium Blue,Plate 1 x 2,4,3023
+Medium Blue,Plate 1 x 4,2,3710
+Orange,Brick 1 x 1,4,3005
+Orange,Brick 1 x 3,1,3622
+Orange,Brick 1 x 4,3,3010
+Orange,Brick 2 x 2,4,3003
+Orange,Plate 1 x 6,2,3666
+Orange,Plate 2 x 4,2,3020
+Orange,Plate 2 x 6,1,3795
+Orange,Plate Round 1 x 1 Straight Side,4,4073
+Orange,Slope 45º 2 x 1,4,3040b
+Red,Brick 1 x 1,8,3005
+Red,Brick 1 x 2,12,3004
+Red,Brick 1 x 2 x 1 1/3 with Curved Top,2,6091
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,4,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,1,3008
+Red,Brick 2 x 2,28,3003
+Red,Brick 2 x 3,6,3002
+Red,Brick 2 x 4,8,3001
+Red,Brick 2 x 6,1,2456
+Red,Brick 2 x 8,1,3007
+Red,Brick Special 1 x 1 with Headlight,4,4070
+Red,Plate 1 x 2,4,3023
+Red,Plate 1 x 4,1,3710
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 2 Corner,4,2420
+Red,Plate Round 1 x 1 Straight Side,4,4073
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope 45º 2 x 2,4,3039
+Red,Slope Inverted 45º 2 x 1,4,3665
+Red,Slope Inverted 45º 2 x 2,4,3660
+Reddish Brown,Brick 1 x 1,4,3005
+Reddish Brown,Brick 1 x 2,2,3004
+Reddish Brown,Brick 1 x 4,2,3010
+Reddish Brown,Brick 2 x 2,3,3003
+Reddish Brown,Slope 45º 2 x 1,4,3040b
+Reddish Brown,Slope Inverted 45º 2 x 1,4,3665
+Reddish Brown,Slope Inverted 45º 2 x 2,4,3660
+Reddish Brown,Technic Brick 1 x 2 [1 Hole],1,3700
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],2,3065
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+White,Brick 1 x 1,8,3005
+White,Brick 1 x 1 with Simple Black Eye with White Pupil Print,2,3005pr0003
+White,Brick 1 x 2,12,3004
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,4,3010
+White,Brick 1 x 6,3,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 2,28,3003
+White,"Brick 2 x 2 with Simple Eye with White Print on Two Sides, White Circle Pupil, Offset",1,3003pr0002
+White,Brick 2 x 3,6,3002
+White,Brick 2 x 4,8,3001
+White,Brick 2 x 6,2,2456
+White,Brick 2 x 8,1,3007
+White,Brick Arch 1 x 3,2,4490
+White,Brick Round 1 x 1 Open Stud,3,3062b
+White,Plate 1 x 2,2,3023
+White,Plate 2 x 6,1,3795
+White,Plate Round 1 x 1 Straight Side,4,4073
+White,Plate Special 1 x 2 with Arm Up [Horizontal Arm 6mm],1,4623
+Yellow,Brick 1 x 1,8,3005
+Yellow,Brick 1 x 1 with Simple Black Eye with White Pupil Print,2,3005pr0003
+Yellow,Brick 1 x 2,12,3004
+Yellow,Brick 1 x 2 with Eyes and Red Smile Print,1,3004pr0002
+Yellow,"Brick 1 x 2 with Eyes, Freckles and Smile Print",1,3004pr0001
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 1 x 8,1,3008
+Yellow,Brick 2 x 2,28,3003
+Yellow,Brick 2 x 3,6,3002
+Yellow,Brick 2 x 4,8,3001
+Yellow,Brick 2 x 6,1,2456
+Yellow,Brick 2 x 8,1,3007
+Yellow,Plate 1 x 4,2,3710
+Yellow,Plate Round 1 x 1 Straight Side,4,4073
+Yellow,Slope 45º 2 x 1,3,3040b
+Yellow,Technic Brick 1 x 2 [2 Holes],2,32000

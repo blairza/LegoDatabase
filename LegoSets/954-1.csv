@@ -1,0 +1,74 @@
+color,part,quantity,part_id
+Black,Brick 1 x 4,6,3010
+Black,Brick 2 x 2,4,3003
+Black,Plate 1 x 6,2,3666
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 8,14,3034
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 6,2,3032
+Black,Plate 6 x 16,4,3027
+Black,Slope 45º 2 x 1,8,3040b
+Black,Slope Inverted 45º 2 x 2,2,3660
+Black,Technic Axle 10,4,3737
+Black,Technic Axle 12,3,3708
+Black,Technic Axle 2,2,3704
+Black,Technic Axle 4,3,3705
+Black,Technic Axle 6,13,3706
+Black,Technic Axle 8,5,3707
+Black,Tyre Offset Tread,4,3483
+Black,Tyre Smooth Small Single,1,3139
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 2 x 2,6,3022
+Blue,Plate 2 x 4,1,3020
+Blue,Plate 2 x 4 [3 Holes],3,3709b
+Blue,Slope Inverted 45º 2 x 1,2,3665
+Blue,Technic Brick 1 x 16 with Holes,2,3703
+Blue,Technic Brick 1 x 2 [1 Hole],4,3700
+Blue,Technic Brick 1 x 4 [3 Holes],4,3701
+Light Gray,Plate Special 2 x 2 with Wheel Holder Bottom,1,8
+Light Gray,Technic Axle and Pin Connector,36,3651
+Light Gray,Technic Bush,16,3713
+Light Gray,Technic Gear 24 Tooth Crown (Old Style),3,3650a
+Light Gray,Technic Gear 24 Tooth [Old Style - Three axle holes],2,3648a
+Light Gray,Technic Gear 8 Tooth,3,3647
+Light Gray,Technic Gear Rack 1 x 4,2,3743
+Light Gray,Technic Universal Joint 4L [Complete Assembly],3,9244
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",43,3673
+Light Gray,"Technic, Steering Pulley Large",1,3736
+Light Gray,Wheel with Split Axle hole,4,3482
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2,4,3004
+Red,Brick 1 x 4,6,3010
+Red,Brick 1 x 6,1,3009
+Red,Brick 2 x 2,1,3003
+Red,Brick 2 x 4 without Cross Supports,2,3001old
+Red,Plate 1 x 1,4,3024
+Red,Plate 1 x 2,1,3023
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 8 [7 Holes],3,3738
+Red,Slope 45º 2 x 2,2,3039
+Red,Slope Inverted 45º 2 x 2,1,3660
+Red,Wheel Centre Small with Stub Axles [Pulley Wheel],1,3464
+Yellow,Brick 1 x 2,7,3004
+Yellow,Brick 2 x 2,1,3003
+Yellow,Brick 2 x 3 without Cross Supports,1,3002old
+Yellow,Brick 2 x 4 without Cross Supports,2,3001old
+Yellow,Plate 1 x 1,4,3024
+Yellow,Plate 1 x 2,2,3023
+Yellow,Plate 1 x 3,2,3623
+Yellow,Plate 1 x 4,5,3710
+Yellow,Plate 2 x 3,4,3021
+Yellow,Plate 2 x 4,13,3020
+Yellow,Plate 2 x 4 [3 Holes],3,3709b
+Yellow,Plate 4 x 10,1,3030
+Yellow,Plate 4 x 12,1,3029
+Yellow,Plate 4 x 4,3,3031
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Slope Inverted 45º 2 x 1,2,3665
+Yellow,Slope Inverted 45º 2 x 2,3,3660
+Yellow,Technic Brick 1 x 16 with Holes,10,3703
+Yellow,Technic Brick 1 x 2 [1 Hole],22,3700
+Yellow,Technic Brick 1 x 4 [3 Holes],18,3701
+Yellow,Technic Brick 1 x 8 [7 Holes],4,3702
+Yellow,Tile 2 x 2 with Groove,1,3068b

@@ -1,0 +1,104 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,3,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,3,3010
+Black,Brick 1 x 6,4,3009
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 2 Corner,4,2357
+Black,Brick Special 1 x 1 with Headlight,1,4070
+Black,Brick Special 1 x 2 x 2/3 with Studs on Sides,1,4595
+Black,Brick Special 2 x 4 x 2 with Holes on Sides,1,6061
+Black,Cone 4 x 4 x 2 [Axle Hole],1,3943b
+Black,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",4,3475b
+Black,Flexible Hose 8.5L [Tabless Ends Tube Coloured],1,73590c01a
+Black,Hinge Bar 2.5L with 2 and 3 Fingers on Ends (Pantograph Shoe Holder),2,2880
+Black,Hinge Bar with 3 Fingers and End Stud (Control Lever),1,2433
+Black,Hinge Plate 1 x 2 with 2 Fingers and Hollow Studs,4,4276b
+Black,Hinge Plate 1 x 2 with 3 Fingers and Hollow Studs,6,4275b
+Black,Hinge Tile 1 x 4,2,4625
+Black,Hinge Vehicle Roof Holder 1 x 4,1,4315
+Black,Minifig Camera with Side Sight [aka Space Gun],1,4360
+Black,Plate 1 x 2,2,3023
+Black,Plate 1 x 3,4,3623
+Black,Plate 1 x 4,2,3710
+Black,Plate 1 x 8,2,3460
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 2 Corner,1,2420
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,3,3020
+Black,Plate 4 x 4,2,3031
+Black,Plate 4 x 8,1,3035
+Black,Slope 33º 3 x 1,10,4286
+Black,Slope 33º 3 x 2,2,3298
+Black,Slope 33º 3 x 4,2,3297
+Black,Slope 45° 2 x 2 with Gauge Print,1,3039pc1
+Black,Slope 45º 2 x 1,12,3040b
+Black,Slope Inverted 33º 3 x 1,4,4287
+Black,Slope Inverted 45º 2 x 1,4,3665
+Black,Slope Inverted 45º 2 x 2,1,3660
+Black,Tail 4 x 1 x 3,2,2340
+Black,"Tail 4 x 2 x 2, Rocket",4,4746
+Black,Technic Axle 4,1,3705
+Black,Tile 1 x 2 with Arrow Short Yellow without Black Border Print,1,3069bp21
+Black,Tile 1 x 2 with Groove,2,3069b
+Black,Tile 2 x 2 with Groove,5,3068b
+Black,Tile Special 1 x 1 with Clip,4,2555
+Black,Wedge Plate 3 x 4 without Stud Notches,2,4859
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 10,1,6111
+Blue,Brick 1 x 12,1,6112
+Blue,Brick 1 x 16,1,2465
+Blue,Brick 1 x 2,2,3004
+Blue,Brick 1 x 6,1,3009
+Blue,Brick 2 x 10,2,3006
+Blue,Brick 2 x 2 Corner,2,2357
+Blue,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",2,3475b
+Blue,Plate 1 x 2,2,3023
+Blue,Plate 1 x 3,2,3623
+Blue,Plate 1 x 4,2,3710
+Blue,Plate 2 x 4,2,3020
+Blue,Plate 2 x 6,1,3795
+Blue,Plate 4 x 4,1,3031
+Blue,Slope 33º 3 x 1,4,4286
+Blue,Slope 33º 3 x 2,2,3298
+Blue,Slope 45º 2 x 1,10,3040b
+Blue,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Blue,Slope Inverted 45º 2 x 1,2,3665
+Blue,Tile 1 x 1 with Groove,6,3070b
+Blue,Tile 1 x 2 with Groove,1,3069b
+Light Gray,Brick 2 x 2,1,3003
+Light Gray,Brick 2 x 2 Corner,2,2357
+Light Gray,Brick Special 2 x 2 with Pin and Axle Hole,1,6232
+Light Gray,Hinge Tile 1 x 2 1/2 with 2 Fingers on Top,2,4531
+Light Gray,Plate 1 x 2,7,3023
+Light Gray,Plate 2 x 2,5,3022
+Light Gray,Plate 2 x 2 Corner,4,2420
+Light Gray,Plate 2 x 6,3,3795
+Light Gray,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+Light Gray,Plate Special 10 x 10 without Corner,2,2401
+Light Gray,Slope 33º 3 x 1,4,4286
+Light Gray,Slope 33º 3 x 2,2,3298
+Light Gray,Slope 45º 2 x 1,2,3040b
+Light Gray,Technic Brick 1 x 2 [1 Hole],1,3700
+Light Gray,Tile 1 x 1 with Groove,2,3070b
+Light Gray,Tile 1 x 2 Grill with Bottom Groove,3,2412b
+Light Gray,Tile 1 x 4,1,2431
+Light Gray,Wedge Plate 3 x 4 without Stud Notches,1,4859
+Light Gray,Wedge Plate 8 x 8 with 3 x 4 Cutout,2,6104
+Light Gray,"Wedge, Plate 7 x 12 Wing Left",1,3586
+Light Gray,"Wedge, Plate 7 x 12 Wing Right",1,3585
+Trans-Clear,Plate Round 1 x 1 Straight Side,3,4073
+Trans-Dark Blue,Cone 1 x 1 [No Top Groove],3,4589
+Trans-Dark Blue,Dish 2 x 2 Inverted [Radar],5,4740
+Trans-Dark Blue,Dish 4 x 4 Inverted [Radar],1,3960
+Trans-Dark Blue,Hinge Panel 2 x 4 x 3 1/3,2,2582
+Trans-Dark Blue,Plate 1 x 1,2,3024
+Trans-Dark Blue,Plate Round 1 x 1 Straight Side,1,4073
+Trans-Dark Blue,Tile 1 x 1 with Groove,10,3070b
+Trans-Dark Blue,Windscreen 10 x 4 x 2 1/3 Canopy,1,2507
+Trans-Neon Green,Antenna Whip 8H,4,2569
+Trans-Neon Green,Cone 1 x 1 [No Top Groove],9,4589
+Trans-Neon Green,Dish 2 x 2 Inverted [Radar],5,4740
+Trans-Neon Green,Plate Round 1 x 1 Straight Side,12,4073
+Unknown,Minifig,1,sp049
+Unknown,Minifig,1,sp048

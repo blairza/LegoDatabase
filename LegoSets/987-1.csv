@@ -1,0 +1,15 @@
+color,part,quantity,part_id
+White,Brick 1 x 1 with Blue '+' Print (Bold Font),2,3005ptplus
+White,Brick 1 x 1 with Blue '-' Print (Bold Font),2,3005ptpminus
+White,Brick 1 x 1 with Blue '0' Print (Bold Font),6,3005pt0b
+White,Brick 1 x 1 with Blue '1' Print (Bold Font),6,3005pt1b
+White,Brick 1 x 1 with Blue '2' Print (Bold Font),4,3005pt2b
+White,Brick 1 x 1 with Blue '3' Print (Bold Font),4,3005pt3b
+White,Brick 1 x 1 with Blue '4' Print (Bold Font),4,3005pt4b
+White,Brick 1 x 1 with Blue '5' Print (Bold Font),4,3005pt5b
+White,Brick 1 x 1 with Blue '6' Print (Bold Font),4,3005pt6b
+White,Brick 1 x 1 with Blue '7' Print (Bold Font),4,3005pt7b
+White,Brick 1 x 1 with Blue '8' Print (Bold Font),4,3005pt8b
+White,Brick 1 x 1 with Blue '9' Print (Bold Font),4,3005pt9b
+White,Brick 1 x 1 with Blue ':' Print (Bold Font),2,3005ptdevid
+White,Brick 1 x 1 with Blue '=' Print (Bold Font),2,3005ptis

@@ -1,0 +1,36 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,8,3005
+Black,Brick 1 x 4,1,3010
+Black,Brick 1 x 6,7,3009
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 3 without Cross Supports,2,3002old
+Black,Brick 2 x 4 without Cross Supports,3,3001old
+Black,Brick Round 1 x 1 Solid Stud,1,3062a
+Black,Electric 4.5V Battery Box 7 x 11 x 3 Type 1 (Complete),1,468c01
+Black,Electric Train Motor 4.5V 4 x 12 x 4 with Black Base,1,x579c02
+Black,"Electric, Train 4.5V Whistle Thick",1,x870a
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 2,9,3023
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,7,3021
+Black,Plate 2 x 4,8,3020
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,1,3039
+Blue,"Electric Connector, 1 Way male Rounded with Hollow Pin (Banana Plug)",4,996ac01
+Light Gray,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,4,458
+Red,"Electric Connector, 1 Way male Rounded with Hollow Pin (Banana Plug)",4,996ac01
+Red,Plate 1 x 1,2,3024
+Red,Plate 1 x 2,4,3023
+Red,Plate Special 2 x 4 with Train Coupler Open with Magnet Short Cylinder Blue,1,737ac02
+Red,Plate Special 2 x 4 with Train Coupler Open with Magnet Short Cylinder Red,2,737ac01
+Red,"Train Wheel with 2 x 2 Stud Center, Beveled Tread and Cam Axle for Motor",4,wheel1b
+Red,"Train Wheel with 2 x 2 Stud Center, Traction Teeth",4,wheel1a
+Red,Window 1 x 1 x 1 Classic with Long Sill [Complete],2,3087bc01
+Trans-Clear,Brick 1 x 1,2,3005
+Trans-Clear,Brick 1 x 2,2,3004
+Trans-Clear,"Electric, Train 4.5V Whistle Control Block 4 x 8 x 2 with Forward/Stop Functions",1,x871a
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",2,7049b
+White,"Electric, Train 4.5V Microphone 4 x 4 x 2 with Vertical Plug Sockets",1,x869b
+White,"Electric, Wire 12V / 4.5V with two Leads, unspecified length",2,x466
+Yellow,Plate 2 x 2,1,3022

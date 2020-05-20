@@ -1,0 +1,16 @@
+color,part,quantity,part_id
+Blue,Brick 2 x 2,4,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,1,3001
+Green,Brick 4 x 12,1,4202
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 4,2,3001
+Red,Door Frame 2 x 4 x 5,1,4130
+Red,Window 2 x 4 x 3 Frame,1,4132
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,2,3001
+Yellow,Brick 2 x 2,3,3003
+Yellow,Brick 2 x 4,2,3001
+Yellow,Door 1 x 4 x 5,1,4131
+Yellow,Window 2 x 4 x 3 Pane,1,4133

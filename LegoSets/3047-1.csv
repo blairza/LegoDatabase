@@ -1,0 +1,84 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,2,3003
+Black,Brick 2 x 3,2,3002
+Black,Brick 2 x 4,2,3001
+Black,Brick Arch 1 x 6 x 2,2,3307
+Black,Plate 1 x 2,2,3023
+Black,Plate 1 x 4,2,3710
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,2,3021
+Black,Slope 33º 3 x 1,2,4286
+Black,Slope 33º 3 x 2,2,3298
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,2,3039
+Black,Slope Inverted 33º 3 x 1,2,4287
+Black,Slope Inverted 45º 2 x 1,2,3665
+Black,Slope Inverted 45º 2 x 2,2,3660
+Black,Tyre Offset Tread,4,3483
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Plate 2 x 4,2,3020
+Blue,Plate 2 x 6,2,3795
+Blue,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Bright Green,Baseplate 8 x 16,1,3865
+Dark Gray,Brick Special 2 x 4 with Pins,2,6249
+Green,Brick 2 x 3 with Curved Top,2,6215
+Green,Brick Round 1 x 1 Open Stud,2,3062b
+Green,Flag 4 x 1 Wave,1,4495
+Green,Flower Stem,2,3741
+Green,Plate 1 x 3,2,3623
+Green,Plate 2 x 2,2,3022
+Green,Slope 45º 2 x 1,2,3040b
+Light Gray,Propeller 4 Blade 5 Diameter with Rounded Ends,1,2479
+Orange,Brick 1 x 2,8,3004
+Orange,Brick 1 x 2 with Pumpkin Jack O' Lantern Eye Print,2,3004pb022
+Orange,Brick 1 x 3,8,3622
+Orange,Brick 1 x 4,6,3010
+Orange,Brick 1 x 4 with Pumpkin Jack O' Lantern Mouth Print,1,3010pb028
+Orange,Plate 2 x 12,3,2445
+Orange,Plate 2 x 6,3,3795
+Orange,Slope 33º 3 x 2,4,3298
+Orange,Slope 45º 2 x 2,10,3039
+Orange,Slope Inverted 33º 3 x 1,4,4287
+Orange,Slope Inverted 33º 3 x 2 [Connections between Studs],4,3747b
+Orange,Slope Inverted 45º 2 x 1,4,3665
+Orange,Slope Inverted 45º 2 x 2,14,3660
+Red,Door 1 x 4 x 5 with 4 Panes,1,3861
+Red,Fence 1 x 4 x 1,2,3633
+Red,"Plant Flower Small, Sprue of Four",1,3742c01
+Red,Slope 33º 3 x 2,4,3298
+Red,Slope 33º 3 x 4,2,3297
+Red,Slope Inverted 45º 2 x 1,4,3665
+Red,Slope Inverted 45º 2 x 2,2,3660
+Red,Window 1 x 4 x 3,2,3853
+Trans-Light Blue,Windscreen 2 x 4 x 2,1,3823
+Unknown,"Time Cruisers - Timmy with Green Legs, Blue Cap",1,tim005
+White,Antenna 1 x 4,1,3957
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2,6,3004
+White,Brick 1 x 4,4,3010
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,2,3001
+White,"Plant Flower Small, Sprue of Four",1,3742c01
+White,Plate 1 x 4,2,3710
+White,Slope 45º 2 x 2,6,3039
+White,Slope Inverted 45º 2 x 2,2,3660
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 2,8,3004
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,8,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 2 x 2,2,3003
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,2,3001
+Yellow,Plate 2 x 4,2,3020
+Yellow,Plate 2 x 8,2,3034
+Yellow,"Slope 33° 3 x 2 with Eyes, Nose and Whiskers Print",1,3298px11
+Yellow,Tile Special 2 x 2 with Pin,1,2460
+Yellow,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",1,3680c01
+Yellow,Wheel Freestyle with Pin Hole,4,6248
+Yellow,Window 1 x 2 x 3 Pane,4,3854

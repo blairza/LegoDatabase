@@ -1,0 +1,58 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,8,3005
+Black,Brick 1 x 4,3,3010
+Black,Brick 1 x 6,4,3009
+Black,Brick 1 x 8,6,3008
+Black,Brick 2 x 4 without Cross Supports,13,3001old
+Black,Brick Round 1 x 1 Solid Stud,1,3062a
+Black,Electric 4.5V Battery Box 7 x 11 x 3 Type 1 (Complete),1,468c01
+Black,Electric Train Motor 4.5V 4 x 12 x 4 with Black Base,1,x579c02
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 2,10,3023
+Black,Plate 2 x 2,5,3022
+Black,Plate 2 x 3,5,3021
+Black,Plate 2 x 4,8,3020
+Black,Slope 45° 2 x 2 Double Convex,2,3045
+Black,Slope 45° 2 x 3,2,3038
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope 45º 2 x 2,4,3039
+Black,Slope 45º 2 x 4,6,3037
+Blue,Plate 2 x 2,6,3022
+Blue,Plate 2 x 4,6,3020
+Blue,Train Track Tapered Rail Curved Inside,16,3230a
+Blue,Train Track Tapered Rail Curved Outside,16,3229a
+Blue,Train Track Tapered Rail Straight 16L,8,3228a
+Light Gray,Plate 1 x 2,6,3023
+Light Gray,Plate 2 x 2,2,3022
+Light Gray,Plate 2 x 4,20,3020
+Light Gray,Plate 6 x 16,5,3027
+Light Gray,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,4,458
+Red,Brick 1 x 1,16,3005
+Red,Brick 1 x 2,8,3004
+Red,Brick 1 x 4,2,3010
+Red,Brick 1 x 8,4,3008
+Red,Door 1 x 3 x 4 Left,2,445
+Red,Door 1 x 3 x 4 Right,2,446
+Red,Plate 1 x 1,2,3024
+Red,Plate 1 x 2,4,3023
+Red,Plate 2 x 3,26,3021
+Red,Plate 2 x 4,3,3020
+Red,Plate Special 2 x 4 with Train Coupler Closed for Hook,5,737
+Red,Plate Special 2 x 4 with Train Coupler Open with Hook,5,737bc01
+Red,"Train Wheel with 2 x 2 Stud Center, Beveled Tread and Cam Axle for Motor",4,wheel1b
+Red,"Train Wheel with 2 x 2 Stud Center, Traction Teeth",16,wheel1a
+Red,Window 1 x 1 x 1 Classic with Long Sill [Complete],2,3087bc01
+Trans-Clear,Brick 1 x 1,2,3005
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],26,3065
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",8,7049b
+White,"Electric, Wire 4.5V with four Blue 1-prong Connectors Hollow Pin, 15 Studs Long",1,996ac15
+White,Plate 2 x 8,20,3034
+Yellow,Brick 1 x 1,8,3005
+Yellow,Brick 1 x 4,16,3010
+Yellow,"Brick 1 x 4 with Envelope on Red Background Print, Left Side",1,3010pb027
+Yellow,"Brick 1 x 4 with Envelope on Red Background Print, Right Side",1,3010pb026
+Yellow,"Brick 1 x 4 with Horn on Red Background Print, Left Side",1,3010pb025
+Yellow,"Brick 1 x 4 with Horn on Red Background Print, Right Side",1,3010pb024
+Yellow,Brick 1 x 6,4,3009
+Yellow,Plate 2 x 2,1,3022

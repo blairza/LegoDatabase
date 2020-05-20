@@ -1,0 +1,63 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,5,3005
+Black,Brick 1 x 2,16,3004
+Black,Brick 1 x 4,9,3010
+Black,Brick 1 x 6,16,3009
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 4 without Cross Supports,7,3001old
+Black,Fence Gate 1 x 3 x 2 Base,1,3359
+Black,Plate 2 x 4,2,3020
+Black,Plate 4 x 10,1,3030
+Black,Plate 6 x 10,1,3033
+Black,Plate 6 x 12,1,3028
+Black,Plate 6 x 16,2,3027
+Black,Plate 6 x 8,1,3036
+Black,Slope 45º 2 x 1,14,3040b
+Blue,Baseplate 24 x 40 with Set 369 Dots Print,1,3645p02
+Light Gray,"Engine - Smooth, Small 1 x 2 Side Plate [With Axle Holders]",8,3475b
+Light Gray,Plate 1 x 8,4,3460
+Light Gray,Propeller 2 Blade,4,3480
+Light Gray,Propeller 4 Blade 5 Diameter with Hole for Rotor Holder,1,3461
+Milky White,Antenna with Side Spokes,1,3144
+Red,Brick 1 x 1,12,3005
+Red,Brick 1 x 2,34,3004
+Red,Brick 1 x 4,9,3010
+Red,Brick 1 x 6,7,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,5,3003
+Red,Brick 2 x 4 without Cross Supports,2,3001old
+Red,Brick Arch 1 x 4,2,3659
+Red,Door Frame 1 x 3 x 4,1,3579
+Red,Plate 1 x 1,4,3024
+Red,Plate 4 x 4,1,3031
+Red,Plate Special 2 x 2 with Helicopter Tail Rotor Holder,4,3481
+Red,Slope 45º 2 x 2,3,3039
+Red,Slope Inverted 45º 2 x 2,8,3660
+Trans-Clear,Brick 1 x 6,2,3009
+Trans-Clear,Slope 45º 2 x 2,2,3039
+Trans-Clear,Windscreen 2 x 4 x 1 2/3,1,21
+Trans-Green,Brick Round 1 x 1 Solid Stud,3,3062a
+Trans-Red,Brick Round 1 x 1 Solid Stud,3,3062a
+Unknown,Minifig,1,pln128
+Unknown,Minifig,1,pln127
+Unknown,Minifig,3,pln126
+White,Brick 1 x 2,3,3004
+White,Brick 2 x 2,3,3003
+White,"Flag on Flagpole, Straight",1,3596
+White,Plate 1 x 2,1,3023
+White,Plate 2 x 2,5,3022
+White,Plate 2 x 4,8,3020
+White,Plate 2 x 8,3,3034
+White,Plate 4 x 8,1,3035
+White,Plate Special 1 x 4 with Towball,1,3184
+White,"Plate Special 1 x 4 with Towball Socket, Long, 2 Slots",1,3183a
+White,Plate Special 2 x 3 with Helicopter Rotor Holder,1,3462
+White,Slope 45º 2 x 2,4,3039
+White,Slope Inverted 45º 2 x 2,7,3660
+White,Tile 1 x 2 with Groove,12,3069b
+Yellow,Brick 1 x 2,2,3004
+Yellow,Door 1 x 3 x 4,1,7930
+Yellow,Fence 1 x 4 x 1,14,3633
+Yellow,"Ladder Two Piece, Bottom Section",1,420
+Yellow,Plate 2 x 4,1,3020
+Yellow,Window 1 x 2 x 2 Classic with Short Sill (Complete),8,3081cc01

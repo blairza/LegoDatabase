@@ -1,0 +1,13 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 2,3,3004
+Blue,Brick 2 x 10,1,3006
+Blue,Brick 2 x 2,6,3003
+Blue,Brick 2 x 3 without Cross Supports,3,3002old
+Blue,Brick 2 x 4 without Cross Supports,8,3001old
+Blue,Brick 2 x 8,1,3007
+Yellow,Brick 1 x 2,3,3004
+Yellow,Brick 2 x 10,1,3006
+Yellow,Brick 2 x 2,6,3003
+Yellow,Brick 2 x 3 without Cross Supports,4,3002old
+Yellow,Brick 2 x 4 without Cross Supports,8,3001old
+Yellow,Brick 2 x 8,1,3007

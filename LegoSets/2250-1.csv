@@ -1,0 +1,95 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,1,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 3,1,3002
+Black,Plate 1 x 2,1,3023
+Black,Plate 1 x 4,1,3710
+Black,Plate 2 x 2,7,3022
+Black,Plate 2 x 3,5,3021
+Black,Plate 2 x 4,2,3020
+Black,Propeller 3 Blade 5.5 Diameter,1,4617
+Black,Slope 45º 2 x 1,2,3040b
+Black,Slope 45º 2 x 2,2,3039
+Black,Wheel Skateboard / Trolley,5,2496
+Blue,Brick 1 x 2,5,3004
+Blue,Brick 2 x 2,1,3003
+Blue,Brick 2 x 4,1,3001
+Blue,Brick Round 1 x 1 Open Stud,5,3062b
+Blue,Plate 1 x 4,3,3710
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 4,2,3020
+Blue,Slope 45º 2 x 2,3,3039
+Blue,Slope Inverted 33º 3 x 1,2,4287
+Blue,Slope Inverted 45° 4 x 2 Double,1,4871
+Blue,Slope Inverted 45º 2 x 2,3,3660
+Blue,Wedge 3 x 2 Left,1,6565
+Blue,Wedge 3 x 2 Right,1,6564
+Green,Brick 1 x 2,3,3004
+Green,Plate 2 x 2,2,3022
+Green,Plate 2 x 3,1,3021
+Green,Plate 2 x 4,2,3020
+Green,Plate 3 x 3 Cut Corner,4,2450
+Green,Slope 33º 3 x 2,1,3298
+Green,Wedge 3 x 2 Left,1,6565
+Green,Wedge 3 x 2 Right,1,6564
+Light Bluish Gray,Brick 2 x 2,1,3003
+Light Bluish Gray,Plate 2 x 4,1,3020
+Light Bluish Gray,"Plate, Round 2 x 2 Thin with Wheel Holder",4,2655
+Light Bluish Gray,Slope Inverted 45º 2 x 2,2,3660
+Red,Brick 1 x 2,8,3004
+Red,Brick 1 x 4,1,3010
+Red,Brick 2 x 2,2,3003
+Red,"Brick 2 x 2 with Eye with White Print on Two Sides, Offset",2,3003pe2
+Red,Brick 2 x 3,2,3002
+Red,Brick 2 x 3 with Curved Top,1,6215
+Red,Brick Special 1 x 2 with Grill,2,2877
+Red,Plate 1 x 2,4,3023
+Red,Plate 1 x 4,1,3710
+Red,Plate 2 x 2,3,3022
+Red,Plate 2 x 3,6,3021
+Red,Plate 2 x 4,6,3020
+Red,Plate Special 2 x 2 with Towball,1,3731
+Red,Slope 45º 2 x 1,3,3040b
+Red,Slope 45º 2 x 2,9,3039
+Red,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Red,Slope Inverted 45º 2 x 1,1,3665
+Red,Slope Inverted 45º 2 x 2,2,3660
+Red,Technic Brick 1 x 2 [1 Hole],3,3700
+Red,Tile Special 2 x 2 with Pin,1,2460
+Trans-Clear,Slope 45º 2 x 2,10,3039
+Trans-Green,Plate Round 1 x 1 Straight Side,4,4073
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+White,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+White,Brick 1 x 2,3,3004
+White,Brick 1 x 2 with Santa Claus Face Print,1,3004p0c
+White,Brick 2 x 2,1,3003
+White,Brick Round 1 x 1 Open Stud,5,3062b
+White,Plate 1 x 4,1,3710
+White,Plate 2 x 2,2,3022
+White,Plate Round 1 x 1 Straight Side,2,4073
+White,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],1,3839b
+White,Slope 45º 2 x 2,3,3039
+White,Slope Inverted 45º 2 x 2,3,3660
+White,Torso Skeleton - Angular Rib Cage with Black Holes and Cracks and White Loincloth Print,1,93764pr0004
+Yellow,Brick 1 x 1,1,3005
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,4,3005pe1
+Yellow,Brick 1 x 2,7,3004
+Yellow,Brick 1 x 2 with Eyes and Smile Print,3,3004p0b
+Yellow,Brick 1 x 2 with Pin,1,2458
+Yellow,Brick 1 x 4,2,3010
+Yellow,Brick 2 x 2,1,3003
+Yellow,"Brick 2 x 2 with Eye with White Print on Two Sides, Offset",3,3003pe2
+Yellow,Brick 2 x 3,1,3002
+Yellow,Brick Special 1 x 1 with Headlight,2,4070
+Yellow,Plate 1 x 4,2,3710
+Yellow,Plate 2 x 2,4,3022
+Yellow,Plate 2 x 3,7,3021
+Yellow,Plate 2 x 4,3,3020
+Yellow,"Plate, Round 2 x 2 Thin with Wheel Holder",1,2655
+Yellow,"Slope 33° 3 x 2 with Eyes, Nose and Whiskers Print",1,3298px11
+Yellow,Slope 45º 2 x 1,2,3040b
+Yellow,Slope 45º 2 x 2,3,3039
+Yellow,Slope Inverted 45° 4 x 2 Double,1,4871
+Yellow,Slope Inverted 45º 2 x 2,2,3660

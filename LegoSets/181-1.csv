@@ -1,0 +1,48 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,6,3005
+Black,Brick 1 x 2,1,3004
+Black,Brick 1 x 4,5,3010
+Black,Brick 1 x 6,3,3009
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 2,1,3003
+Black,Brick 2 x 4 without Cross Supports,1,3001old
+Black,Door 1 x 3 x 2 Left,1,3189
+Black,Door 1 x 3 x 2 Right,1,3188
+Black,Electric Motor  4 x 12 x  3.333 Type 1  4.5V,1,564c01
+Black,Fence Gate 1 x 3 x 2 Base,2,3359
+Black,Plate 1 x 2,2,3023
+Black,Plate 2 x 2,1,3022
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,1,3039
+Black,Slope 45º 2 x 4,4,3037
+Black,Train Base 6 x 12 with Wheels and Red and Blue Magnets,2,x487c01
+Black,Tyre for Train Wheel for Electric Train Motor 12V,4,458
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 1 x 6,4,3009
+Blue,Train Battery Box Car Roof  6 x 14,1,699
+Blue,Train Track Tapered Rail Curved Inside,16,3230a
+Blue,Train Track Tapered Rail Curved Outside,16,3229a
+Red,Fence 1 x 4 x 2,4,3185
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 3,2,3021
+Red,Plate 2 x 8,1,3034
+Red,Plate 4 x 6,2,3032
+Red,Plate 4 x 8,2,3035
+Red,Slope 33º 3 x 4,1,3297
+Red,Slope 45º 2 x 1,2,3040b
+Red,Train Base 6 x 16 Old with Magnets,1,4178a
+Red,Train Battery Box Car with Switch and Red Wheels,1,x488c01
+Red,Train Direction Switch - 4.5V 2 x 3,1,3218
+Red,Train Signal Circuit-Breaker Bar,1,trainsig2
+Red,Train Signal Post,1,x489
+Red,Train Wheel Spoked for Motor,4,wheel2a
+Red,"Vehicle, Tipper End Flat with Pins",2,3145
+Red,Window 1 x 2 x 1 with Glass,2,27c01
+White,"Electric, Wire 12V / 4.5V with two 2-prong connectors, 11 Studs Long",1,x466c11
+White,Plate 2 x 8,16,3034
+Yellow,Brick 1 x 2,4,3004
+Yellow,Brick 1 x 4,2,3010
+Yellow,Brick 2 x 4 without Cross Supports,2,3001old
+Yellow,Brick Round 1 x 1 Open Stud,1,3062b
+Yellow,Window 1 x 1 x 1,4,39
+Yellow,Window 1 x 1 x 2,2,29

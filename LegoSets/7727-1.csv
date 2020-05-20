@@ -1,0 +1,126 @@
+color,part,quantity,part_id
+Black,Bar 1 x 4 x 2 with Studs,1,4083
+Black,Brick 1 x 1,10,3005
+Black,Brick 1 x 2,5,3004
+Black,Brick 1 x 4,1,3010
+Black,Brick 1 x 8,2,3008
+Black,Brick 2 x 2,3,3003
+Black,Brick 2 x 4,1,3001
+Black,Brick Round 2 x 2,2,3941
+Black,Brick Special 1 x 1 with Headlight,6,4070
+Black,"Brick, Modified 2 x 4 with Wheels, Train Spoked Small (23mm D.) Black",6,4180c01
+Black,Door 1 x 4 x 5 Train Left,1,4181
+Black,Door 1 x 4 x 5 Train Right,1,4182
+Black,Fence 1 x 4 x 1,6,3633
+Black,Fence 1 x 4 x 2,2,3185
+Black,Hinge Plate 1 x 2 with 2 Fingers and Solid Studs,2,4276a
+Black,Hinge Vehicle Roof 4 x 4,1,4213
+Black,Hinge Vehicle Roof Holder 1 x 4 x 2,1,4214
+Black,"Hose, Pneumatic 4mm D. 15L",1,5102c15
+Black,Magnet Cylindrical,8,73092
+Black,Minifig Space Gun / Torch,2,3959
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 2,21,3023
+Black,Plate 1 x 4,12,3710
+Black,Plate 1 x 6,15,3666
+Black,Plate 2 x 10,3,3832
+Black,Plate 2 x 2,10,3022
+Black,Plate 2 x 6,10,3795
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 4,2,3031
+Black,Plate 6 x 16,3,3027
+Black,Plate Round 2 x 2 with Axle Hole,2,4032
+Black,Plate Special 1 x 1 with Clip Light [Thin Ring],2,4081a
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],8,3794
+Black,Plate Special 1 x 8 with Door Rail,4,4510
+Black,Plate Special 2 x 2 with Wheels Red,2,122c01
+Black,Slope 33 6 x 6 Double (Train Roof),1,4509
+Black,Slope 33º 3 x 2,2,3298
+Black,Slope 45° 2 x 3,4,3038
+Black,Slope 45º 2 x 1,6,3040b
+Black,Slope 45º 2 x 1 Triple,16,3048
+Black,Slope 45º 2 x 2,2,3039
+Black,Slope 45º 2 x 4,3,3037
+Black,Slope Inverted 45º 2 x 1,26,3665
+Black,Slope Inverted 45º 2 x 2,2,3660
+Black,Technic Brick 1 x 2 [1 Hole],1,3700
+Black,Tile 1 x 8,4,4162
+Black,Tile 2 x 2 Round,2,4150
+Black,Tile 2 x 2 with Groove,2,3068b
+Black,Train Buffer Beam,6,4022
+Black,Train Coupling,8,4023
+Black,"Train Weight 2 x 6 x 2 [Bottom Openings, Centre End Seam]",2,73090a
+Black,Tyre Offset Tread Medium,2,4084
+Black,Tyre Offset Tread Small,6,3641
+Black,Vehicle Forklift Wide 1 x 2 Hinge Plate and Light Gray Wide Forks [Complete Assembly],1,4518ac01
+Black,Window 1 x 2 x 2 Classic with Short Sill (Complete),2,3081cc01
+Blue,Brick Round 2 x 2,12,3941
+Dark Gray,"Train, Track Sleeper Plate 2 x 8 with Cable Grooves",36,4166
+Light Gray,Electric Train Motor 12V Connecting Rod,4,502
+Light Gray,Hinge Plate 1 x 2 with 2 Fingers and Solid Studs,4,4276a
+Light Gray,Hinge Plate 1 x 2 with 3 Fingers and Solid Studs,4,4275a
+Light Gray,Minifig Seat 2 x 2,2,4079
+Light Gray,Plate 1 x 2,4,3023
+Light Gray,Plate 1 x 4,12,3710
+Light Gray,Plate 2 x 4,2,3020
+Light Gray,Plate 4 x 12,1,3029
+Light Gray,Plate 4 x 6,6,3032
+Light Gray,Plate Special 1 x 8 with Door Rail,4,4510
+Light Gray,Plate Special 2 x 2 with Wheels Red,2,122c01
+Light Gray,Slope 33º 3 x 4,8,3297
+Light Gray,Tile 2 x 2 with Groove,3,3068b
+Light Gray,Train Track 12V Conducting Rail Curved,15,3241
+Light Gray,Train Track Slotted Rail Curved Inside,16,3230b
+Light Gray,Train Track Slotted Rail Straight,4,3228b
+Light Gray,"Train, Track 12V Conducting Rail Curved with Connection Wire",1,2731
+Light Gray,"Train, Track 12V Conducting Rail Straight",2,3242
+Light Gray,"Train, Track Slotted Rail Curved Outside",16,3229b
+Light Gray,Tyre for Train Wheel for Electric Train Motor 12V,6,458
+Red,Brick 1 x 1,14,3005
+Red,Brick 1 x 2,8,3004
+Red,Brick 1 x 4,4,3010
+Red,Brick 1 x 6,6,3009
+Red,Door Sliding - Type 1,4,4511
+Red,Plate 1 x 1,2,3024
+Red,Plate 1 x 2,3,3023
+Red,Plate 1 x 3,2,3623
+Red,Plate 1 x 4,3,3710
+Red,Plate 1 x 6,4,3666
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 6,4,3795
+Red,Plate Round 2 x 2 with Axle Hole,1,4032
+Red,Plate Special 1 x 2 with Ladder,2,4175
+Red,Plate Special 6 x 16 with Motor Cutout Wide,1,3058b
+Red,"Plate, Modified 1 x 2 with Steam Engine Cylinder, Round Surfaces, Interior Grooves",2,x461b
+Red,Slope Inverted 33º 3 x 2 [Connections between Studs],4,3747b
+Red,Train Buffer Beam,2,4022
+Red,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Red,Wheel Train for 12V Electric Motor,2,867
+Red,~Electric Train Motor 12V Unslotted with 3-Hole Plugs,1,501b
+Trans-Clear,Glass for Train Door,2,4183
+Trans-Clear,Plate Round 1 x 1 Straight Side,5,4073
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Trans-Red,Plate 1 x 1,2,3024
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Construction Helmet",1,but011
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Hat",1,but020
+White,Brick 1 x 2,3,3004
+White,Brick 1 x 3,2,3622
+White,Brick 1 x 4,6,3010
+White,Brick Round 2 x 2,4,3941
+White,Window 1 x 2 x 3 Shutter,2,3856
+White,Window 1 x 4 x 3,1,3853
+Yellow,Brick 1 x 1,2,3005
+Yellow,Brick 1 x 2,2,3004
+Yellow,Brick 2 x 2,1,3003
+Yellow,Brick Special 1 x 1 with Headlight,4,4070
+Yellow,Plate 1 x 2,3,3023
+Yellow,Plate 1 x 3,2,3623
+Yellow,Plate 1 x 4,6,3710
+Yellow,Plate 1 x 6,6,3666
+Yellow,Plate 1 x 8,2,3460
+Yellow,Plate 2 x 4,2,3020
+Yellow,Slope 45º 2 x 2,1,3039
+Yellow,Slope Inverted 45º 2 x 1,4,3665
+Yellow,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01

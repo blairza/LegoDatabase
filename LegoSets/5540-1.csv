@@ -1,0 +1,128 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,4,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Brick Special 1 x 1 with Headlight,12,4070
+Black,Flexible Hose 8.5L [Tabless Ends Tube Coloured],2,73590c01a
+Black,Hinge Brick 1 x 2 Base,1,3937
+Black,Hinge Brick 1 x 2 Top Plate Thin,1,3938
+Black,Hinge Plate 1 x 2 with 2 Fingers and Solid Studs,2,4276a
+Black,Hinge Plate 1 x 2 with 3 Fingers and Solid Studs,4,4275a
+Black,Hinge Tile 1 x 2 1/2 with 2 Fingers on Top,2,4531
+Black,Plate 1 x 1,2,3024
+Black,Plate 1 x 10,1,4477
+Black,Plate 1 x 2,26,3023
+Black,Plate 1 x 3,4,3623
+Black,Plate 1 x 4,5,3710
+Black,Plate 1 x 8,4,3460
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,3,3020
+Black,Plate 2 x 6,4,3795
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 4,1,3031
+Black,Plate 4 x 8,1,3035
+Black,Plate Round 2 x 2 with Axle Hole,4,4032
+Black,Slope 33º 3 x 1,8,4286
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope Inverted 33º 3 x 1,10,4287
+Black,Slope Inverted 45º 2 x 1,8,3665
+Black,Technic Axle 4,1,3705
+Black,Technic Axle 6,2,3706
+Black,Technic Axle 8,3,3707
+Black,Technic Brick 1 x 2 [1 Hole],4,3700
+Black,Technic Brick 1 x 6 [5 Holes],2,3894
+Black,Technic Wedge Belt Wheel Tyre,2,70162
+Black,"Technic, Plate 1 x 4 with Toothed Ends",4,4263
+Black,"Technic, Plate 1 x 6 with Toothed Ends",2,4262
+Black,Tile 1 x 2 with Groove,1,3069b
+Black,Tile 2 x 2 with Groove,3,3068b
+Black,Tyre 13 x 24 Model Team,10,2696
+Light Gray,Bar 1 x 4 x 2 with Studs,1,4083
+Light Gray,Brick 2 x 3,1,3002
+Light Gray,Brick 2 x 4,1,3001
+Light Gray,Brick Special 1 x 1 with Headlight,8,4070
+Light Gray,Cone 1 x 1 [No Top Groove],2,4589
+Light Gray,Hinge Brick 1 x 2 Base,4,3937
+Light Gray,Hinge Brick 1 x 2 Top Plate Thin,4,3938
+Light Gray,Plate 1 x 2,2,3023
+Light Gray,Plate 2 x 3,1,3021
+Light Gray,Plate 2 x 4,2,3020
+Light Gray,Plate Round 1 x 1 Straight Side,8,4073
+Light Gray,Plate Round 2 x 2 with Axle Hole,6,4032
+Light Gray,Plate Special 1 x 2 with Ladder,4,4175
+Light Gray,Slope 33º 3 x 1,4,4286
+Light Gray,Tap 1 x 1,2,4599
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,14,3749
+Light Gray,Technic Bush,8,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],6,4265a
+Light Gray,Technic Gear 14 Tooth Bevel,1,4143
+Light Gray,Technic Gear Rack 1 x 4,2,3743
+Light Gray,Technic Wedge Belt Wheel [aka Pulley],2,4185
+Light Gray,"Technic, Steering Arm",2,4261
+Light Gray,Tile 1 x 2 with Groove,3,3069b
+Red,Brick 1 x 2,4,3004
+Red,Brick 1 x 3,8,3622
+Red,Brick 1 x 4,3,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 2 x 2,1,3003
+Red,Brick 2 x 8,1,3007
+Red,Panel 1 x 2 x 2 [Solid Studs],12,4864a
+Red,Plate 1 x 1,4,3024
+Red,Plate 1 x 2,12,3023
+Red,Plate 1 x 3,4,3623
+Red,Plate 1 x 6,4,3666
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 6,1,3795
+Red,Plate 4 x 6,1,3032
+Red,Plate 6 x 12,2,3028
+Red,Plate Special 1 x 2 with 1 Stud [aka Jumper],7,3794
+Red,Slope 33º 3 x 1,4,4286
+Red,Slope 33º 3 x 2,3,3298
+Red,Slope 33º 3 x 3 Double Convex,2,3675
+Red,Slope 33º 3 x 4,4,3297
+Red,Slope 45º 2 x 1,2,3040b
+Red,Slope Inverted 33º 3 x 1,2,4287
+Red,Slope Inverted 45º 2 x 1,4,3665
+Red,Slope Inverted 45º 2 x 2,4,3660
+Red,Tile 1 x 1 with Groove,2,3070b
+Red,Tile 1 x 2 with Groove,2,3069b
+Red,Wedge 4 x 4 Taper,1,4858
+Trans-Clear,Plate 1 x 1,2,3024
+Trans-Clear,Plate 1 x 2,3,3023
+Trans-Clear,Plate 2 x 2,1,3022
+Trans-Clear,Plate 2 x 4,1,3020
+Trans-Red,Plate 1 x 1,2,3024
+Trans-Yellow,Flexible Hose 8.5L [Tabless Ends Tube Coloured],2,73590c01a
+White,Brick 1 x 2,3,3004
+White,Brick 1 x 4,3,3010
+White,Brick 1 x 8,4,3008
+White,Brick 2 x 2,1,3003
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,Plate 1 x 1,6,3024
+White,Plate 1 x 10,4,4477
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 3,2,3623
+White,Plate 1 x 8,3,3460
+White,Plate 2 x 10,3,3832
+White,Plate 2 x 2,2,3022
+White,Plate 2 x 3,2,3021
+White,Plate 2 x 4,3,3020
+White,Plate 2 x 8,1,3034
+White,Plate 4 x 4,1,3031
+White,Plate 4 x 6,1,3032
+White,Plate 6 x 12,1,3028
+White,Plate 6 x 14,1,3456
+White,Slope 33º 3 x 1,4,4286
+White,Slope 33º 3 x 2,2,3298
+White,Slope 45° 2 x 1 with 9 Large + 3 Small Black Buttons Print,2,3040p32
+White,Slope 45° 2 x 2 Double Convex,2,3045
+White,Slope 45° 3 x 4 Double / 33,2,4861
+White,Slope 45º 2 x 1,2,3040b
+White,Slope 45º 2 x 2,2,3039
+White,Slope 45º 2 x 4,2,3037
+White,Tile 1 x 1 with Groove,2,3070b
+White,Tile 1 x 2 with Groove,8,3069b
+White,Tile 1 x 8,2,4162
+White,Wheel 30mm D. x 13mm [13 x 24 Model Team],10,2695

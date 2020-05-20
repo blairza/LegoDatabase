@@ -1,0 +1,54 @@
+color,part,quantity,part_id
+Black,Plate 1 x 3,2,3623
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 4,1,3020
+Blue,Plate 6 x 16,2,3027
+Blue,Plate 6 x 6,1,3958
+Red,Brick 1 x 2,2,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,1,3010
+Red,Brick 1 x 6,13,3009
+Red,Brick 1 x 8,8,3008
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 4,1,3001
+Red,Plate 1 x 2,8,3023
+Red,Slope Inverted 45º 2 x 1,12,3665
+Red,Slope Inverted 45º 2 x 2,2,3660
+Trans-Green,Plate 1 x 1,1,3024
+Trans-Red,Plate 1 x 1,1,3024
+Trans-Yellow,Plate Round 1 x 1 Straight Side,1,4073
+White,Boat Mast 2 x 2 x 3 Inclined with Stud on Top and Two Sides,1,4289
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2,22,3004
+White,Brick 1 x 4,1,3010
+White,Brick 1 x 6,1,3009
+White,Brick 1 x 6 with 12 Black Squares Print,4,3009p26
+White,"Brick 1 x 6 with 24 Black Squares Print boat,ferry,windows,Viking Line Ferry",2,3009p25
+White,Brick 1 x 8 with 32 Black Squares Print,6,3008p25
+White,Brick 1 x 8 with Ferry Square Windows Black 16 in 1 Line Print,8,3008p22
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 4,5,3001
+White,Brick 2 x 8,4,3007
+White,Plate 1 x 1,6,3024
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 3,2,3623
+White,Plate 1 x 4,6,3710
+White,Plate 1 x 6,2,3666
+White,Plate 1 x 8,2,3460
+White,Plate 2 x 10,1,3832
+White,Plate 2 x 2,4,3022
+White,Plate 2 x 3,3,3021
+White,Plate 2 x 4,2,3020
+White,Plate 2 x 6,1,3795
+White,Plate 4 x 12,1,3029
+White,Plate 4 x 6,2,3032
+White,Plate 6 x 14,2,3456
+White,Plate Special 1 x 2 with 1 Stud [aka Jumper],1,3794
+White,Slope 33º 3 x 2,1,3298
+White,Slope 45° 2 x 2 Inverted with 4 Black Rectangles Print,2,3660p02
+White,Slope 45º 2 x 1,8,3040b
+White,Slope 45º 2 x 4,2,3037
+White,Slope 75° 2 x 2 x 3,3,3684
+White,Slope 75° 2 x 2 x 3 with Ferry Windows Black Print,2,3684p22
+White,Slope 75º 2 x 1 x 3 [Undetermined Type],2,4460
+White,"Slope, Inverted 45 2 x 1 with Ferry Windows Black Print",2,3665pb01

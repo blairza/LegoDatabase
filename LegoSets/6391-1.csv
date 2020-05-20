@@ -1,0 +1,135 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 6,2,3009
+Black,Brick 2 x 10,4,3006
+Black,Brick 2 x 2,3,3003
+Black,Brick 2 x 3,10,3002
+Black,Brick Round 1 x 1 Open Stud,6,3062b
+Black,Brick Round 2 x 2,20,3941
+Black,Brick Special 1 x 2 with Groove,4,4216
+Black,Hinge Brick 1 x 2 Base,1,3937
+Black,Hinge Brick 1 x 2 Top Plate Thin,1,3938
+Black,Hinge Brick 1 x 4 [Lower],1,3831
+Black,Hinge Brick 1 x 4 [Upper],1,3830
+Black,Hinge Plate 1 x 2 with 2 Fingers and Solid Studs,2,4276a
+Black,Minifig Radio [Compact Handle],1,3962a
+Black,Plate 1 x 2,8,3023
+Black,Plate 1 x 6,10,3666
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 2,2,3022
+Black,Plate 4 x 10,3,3030
+Black,Plate 4 x 4,2,3031
+Black,Plate 6 x 10,2,3033
+Black,Plate 6 x 12,2,3028
+Black,Plate 6 x 6,2,3958
+Black,Plate Special 1 x 2 with Ladder,1,4175
+Black,Plate Special 2 x 2 with Wheels Red,4,122c01
+Black,Propeller 2 Blade,1,3480
+Black,Propeller 4 Blade 5 Diameter with Hole for Rotor Holder,1,3461
+Black,Slope 33º 3 x 2,8,3298
+Black,Slope 33º 3 x 4,14,3297
+Black,Tyre Offset Tread Medium,4,4084
+Black,Tyre Offset Tread Small,4,3641
+Black,Vehicle Forklift Wide 1 x 2 Hinge Plate and Light Gray Wide Forks [Complete Assembly],1,4518ac01
+Blue,Brick 1 x 1,35,3005
+Blue,Brick 1 x 2,48,3004
+Blue,Brick 1 x 3,20,3622
+Blue,Brick 1 x 4,8,3010
+Blue,Brick 1 x 6,12,3009
+Blue,Brick Special 1 x 14 Grooved,2,4217
+Blue,Brick Special 1 x 2 with Groove,10,4216
+Blue,Hinge Brick 1 x 4 [Lower],2,3831
+Blue,Hinge Brick 1 x 4 [Upper],2,3830
+Blue,Plate 1 x 1,11,3024
+Blue,Plate 1 x 2,17,3023
+Blue,Plate 1 x 3,9,3623
+Blue,Plate 1 x 6,8,3666
+Blue,Plate 2 x 10,5,3832
+Blue,Plate Special 1 x 1 with Clip Vertical [Thick U Clip],4,4085c
+Blue,Plate Special 1 x 8 with Door Rail,4,4510
+Blue,Slope 45 2 x 2 with Computer Screen Print,1,3039p23
+Blue,"Slope Brick 45 2 x 1 with White Rotary Dial Print phone,telephone,buttons",1,3040p02
+Blue,Slope Inverted 45º 2 x 2,7,3660
+Blue,Tap 1 x 1,2,4599
+Blue,Tile 1 x 1 with Groove,1,3070b
+Brown,Minifig Broom,1,3836
+Green,Flower Stem,4,3741
+Green,Fruit Tree,1,3470
+Light Gray,Antenna 1 x 4,2,3957
+Light Gray,Antenna with Side Spokes,1,3144
+Light Gray,Baseplate Road 32 x 32 with 3 Driveways Print [6391 / 6383],1,6100px4
+Light Gray,"Baseplate Road 32 x 32 with 3 Driveways, White Lines, Circle H Print",1,6100px1
+Red,Brick 1 x 2,1,3004
+Red,Brick Special 1 x 1 with Headlight,4,4070
+Red,Container - Box 2 x 2 x 2 Door with Slot,2,4346
+Red,Container Box 2 x 2 x 2 with Hollow Studs,2,4345b
+Red,Door 1 x 3 x 1 Left,1,3822
+Red,Door 1 x 3 x 1 Right,1,3821
+Red,"Plant Flower Small, Sprue of Four",3,3742c01
+Red,Plate 1 x 1,6,3024
+Red,Plate 1 x 2,3,3023
+Red,Plate 1 x 4,4,3710
+Red,Plate 1 x 6,2,3666
+Red,Plate 2 x 2,1,3022
+Red,Plate 2 x 4,1,3020
+Red,Plate 2 x 8,1,3034
+Red,Plate 4 x 12,2,3029
+Red,Plate 4 x 8,1,3035
+Red,Plate 6 x 12,3,3028
+Red,Plate Special 1 x 1 with Clip Light [Thin Ring],2,4081a
+Red,Slope 45º 2 x 1,2,3040b
+Red,Tile 2 x 2 with Groove,1,3068b
+Red,Vehicle Base 4 x 5,1,4211
+Red,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",2,3829c01
+Trans-Clear,Glass for Window 1 x 4 x 3 [Old Style - Circular Indent],5,3855a
+Trans-Clear,Roller Door Slat Normal,5,4219a
+Trans-Clear,Windscreen 2 x 4 x 2,1,3823
+Trans-Clear,Windscreen 2 x 4 x 2 Inverted,1,4284
+Trans-Clear,Windscreen 2 x 4 x 2 Vertical,1,4594
+Trans-Red,Plate 1 x 1,5,3024
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate 1 x 1,8,3024
+Trans-Yellow,Plate Round 1 x 1 Straight Side,2,4073
+Unknown,"Jacket with Zipper - Black, Black Legs, White Classic Helmet",1,zip021
+Unknown,"Overalls Blue with Pocket, Blue Legs, Blue Cap",2,trn026
+Unknown,"Vertical Lines Red &amp; Blue - Red Arms - Black Legs, Brown Male Hair",1,ver003
+Unknown,"Vertical Lines Red &amp; Blue - Red Arms - Red Legs, Brown Male Hair",1,ver009
+White,Bar 1 x 4 x 2 with Studs,11,4083
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 2,3,3004
+White,Brick 1 x 8,1,3008
+White,Brick 2 x 2,10,3003
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,FLAT TILE 1X2 LETTER,4,3069bpr0099
+White,Hinge Vehicle Roof 4 x 4,2,4213
+White,Hinge Vehicle Roof Holder 1 x 4,1,4315
+White,Hinge Vehicle Roof Holder 1 x 4 x 2,1,4214
+White,Minifig Seat 2 x 2,1,4079
+White,Minifig Signal Paddle,2,3900
+White,Mudguard 2 x 4 [Smooth],1,3787
+White,Plate 1 x 1,2,3024
+White,Plate 1 x 2,10,3023
+White,Plate 1 x 3,2,3623
+White,Plate 1 x 4,5,3710
+White,Plate 2 x 3,4,3021
+White,Plate 2 x 4,1,3020
+White,Plate Special 1 x 1 with Clip Light [Thin Ring],2,4081a
+White,Plate Special 1 x 2 with 1 Stud [aka Jumper],3,3794
+White,Plate Special 2 x 2 with Helicopter Tail Rotor Holder,1,3481
+White,Plate Special 2 x 3 with Helicopter Rotor Holder,1,3462
+White,Slope 33º 3 x 1,2,4286
+White,Slope 45º 2 x 1,2,3040b
+White,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+White,Slope Inverted 45º 2 x 1,1,3665
+White,Slope Inverted 45º 2 x 2,2,3660
+White,Tile 2 x 2 with Groove,1,3068b
+White,"Turntable 2 x 2 Plate, Complete Assembly with Light Gray Top",2,3680c01
+White,Vehicle Base 4 x 5,1,4211
+Yellow,Door 1 x 4 x 5 Left with 6 Panes,2,73313
+Yellow,Door Sliding - Type 1,2,4511
+Yellow,"Hinge Bucket 2 x 3 Curved Bottom, Hollow, with 2 Fingers",1,4626
+Yellow,Roller Door Slat Normal,4,4219a
+Yellow,Roller Door Slat with Handle,1,4218a
+Yellow,Window 1 x 2 x 2 Classic with Short Sill (Complete),2,3081cc01
+Yellow,Window 1 x 4 x 3,5,3853

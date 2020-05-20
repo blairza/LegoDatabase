@@ -1,0 +1,151 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,52,3005
+Black,Brick 1 x 2,56,3004
+Black,Brick 1 x 4,8,3010
+Black,Brick 2 x 2,36,3003
+Black,Brick 2 x 3,12,3002
+Black,Brick 2 x 4,16,3001
+Black,Plate 2 x 2,4,3022
+Black,Plate 2 x 4,4,3020
+Blue,Antenna 1 x 4,4,3957
+Blue,Brick 1 x 1,60,3005
+Blue,Brick 1 x 2,72,3004
+Blue,Brick 1 x 4,12,3010
+Blue,Brick 1 x 6,8,3009
+Blue,Brick 2 x 2,60,3003
+Blue,Brick 2 x 3,16,3002
+Blue,Brick 2 x 4,28,3001
+Blue,Brick 2 x 6,4,2456
+Blue,Brick 2 x 8,4,3007
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 2 x 2,12,3022
+Blue,Plate 2 x 3,8,3021
+Blue,Plate 2 x 4,4,3020
+Blue,Plate 2 x 6,4,3795
+Blue,Plate 2 x 8,4,3034
+Blue,Slope 33º 3 x 1,8,4286
+Blue,Slope 33º 3 x 2,8,3298
+Blue,Slope 45º 2 x 1,8,3040b
+Blue,Slope 45º 2 x 2,8,3039
+Blue,Slope Inverted 33º 3 x 1,8,4287
+Blue,Slope Inverted 33º 3 x 2 [Connections between Studs],4,3747b
+Blue,Slope Inverted 45º 2 x 1,8,3665
+Blue,Slope Inverted 45º 2 x 2,4,3660
+Dark Bluish Gray,Brick  1 x  1 with Angry Eye Left/Sad Eye Right Print,4,3005pe2
+Dark Bluish Gray,Brick  1 x  1 with Angry Eye Right/Sad Eye Left Print,4,3005pe3
+Dark Bluish Gray,Brick 1 x 2,20,3004
+Dark Bluish Gray,Brick 1 x 3,4,3622
+Dark Bluish Gray,Brick 1 x 4,4,3010
+Dark Bluish Gray,Plate 2 x 2,4,3022
+Dark Bluish Gray,Plate 2 x 3,4,3021
+Dark Bluish Gray,Slope 33º 3 x 1,4,4286
+Dark Bluish Gray,Slope 45º 2 x 1,4,3040b
+Dark Bluish Gray,Slope 45º 2 x 2,4,3039
+Dark Bluish Gray,Slope Inverted 33º 3 x 1,4,4287
+Dark Bluish Gray,Slope Inverted 45º 2 x 1,4,3665
+Green,Brick 1 x 1,28,3005
+Green,Brick 1 x 2,44,3004
+Green,Brick 1 x 3,4,3622
+Green,Brick 1 x 4,8,3010
+Green,Brick 2 x 2,36,3003
+Green,Brick 2 x 3,4,3002
+Green,Brick 2 x 4,8,3001
+Green,Plate 2 x 2,4,3022
+Green,Plate 2 x 3,4,3021
+Green,Plate 2 x 4,4,3020
+Green,Slope 45º 2 x 1,4,3040b
+Green,Slope Inverted 45º 2 x 1,4,3665
+Light Bluish Gray,Brick 1 x 2,16,3004
+Light Bluish Gray,Brick 1 x 8,4,3008
+Light Bluish Gray,Brick 2 x 2,12,3003
+Light Bluish Gray,Brick 2 x 3,4,3002
+Light Bluish Gray,Brick 2 x 4,8,3001
+Light Bluish Gray,Brick 2 x 6,4,2456
+Light Bluish Gray,Plate 2 x 4,4,3020
+Light Bluish Gray,Slope 45º 2 x 1,4,3040b
+Light Bluish Gray,Slope Inverted 45º 2 x 1,4,3665
+Orange,Brick 1 x 2,16,3004
+Orange,Brick 1 x 4,4,3010
+Orange,Brick 2 x 2,12,3003
+Orange,Brick 2 x 3,4,3002
+Orange,Brick 2 x 4,8,3001
+Orange,Plate 2 x 3,4,3021
+Orange,Plate 2 x 4,4,3020
+Orange,Slope 45º 2 x 1,8,3040b
+Orange,Slope Inverted 45º 2 x 1,8,3665
+Red,Brick 1 x 1,60,3005
+Red,Brick 1 x 2,68,3004
+Red,Brick 1 x 4,12,3010
+Red,Brick 1 x 6,8,3009
+Red,Brick 2 x 2,60,3003
+Red,Brick 2 x 3,16,3002
+Red,Brick 2 x 4,28,3001
+Red,Brick 2 x 6,4,2456
+Red,Brick 2 x 8,4,3007
+Red,Plate 1 x 4,4,3710
+Red,Plate 2 x 2,8,3022
+Red,Plate 2 x 3,4,3021
+Red,Plate 2 x 4,4,3020
+Red,Plate 2 x 6,4,3795
+Red,Plate 2 x 8,4,3034
+Red,Slope 33º 3 x 1,8,4286
+Red,Slope 33º 3 x 2,8,3298
+Red,Slope 45° 2 x 2 Double,4,3043
+Red,Slope 45° 2 x 4 Double,4,3041
+Red,Slope 45º 2 x 1,8,3040b
+Red,Slope 45º 2 x 2,12,3039
+Red,Slope 45º 2 x 4,16,3037
+Red,Slope Inverted 33º 3 x 1,8,4287
+Red,Slope Inverted 45º 2 x 1,8,3665
+Red,Slope Inverted 45º 2 x 2,4,3660
+Trans-Clear,Brick 1 x 2 [No Bottom Tube],16,3065
+Trans-Clear,Slope 45º 2 x 2,4,3039
+Trans-Dark Blue,Brick 1 x 1,8,3005
+Trans-Dark Blue,Brick 1 x 2 [No Bottom Tube],28,3065
+Trans-Dark Blue,Brick 2 x 2,24,3003
+Trans-Dark Blue,Slope 45º 2 x 2,8,3039
+Trans-Red,Brick 1 x 2 [No Bottom Tube],28,3065
+Trans-Red,Brick 1 x 4 without Bottom Tubes,4,3066
+Trans-Red,Brick 2 x 2,24,3003
+Trans-Red,Slope 45º 2 x 2,4,3039
+White,Brick 1 x 1,56,3005
+White,Brick 1 x 2,80,3004
+White,Brick 1 x 4,12,3010
+White,Brick 1 x 6,8,3009
+White,Brick 2 x 2,60,3003
+White,Brick 2 x 3,20,3002
+White,Brick 2 x 4,28,3001
+White,Brick 2 x 6,4,2456
+White,Brick 2 x 8,4,3007
+White,Plate 1 x 4,4,3710
+White,Plate 2 x 2,12,3022
+White,Plate 2 x 3,8,3021
+White,Plate 2 x 4,8,3020
+White,Plate 2 x 6,4,3795
+White,Plate 2 x 8,4,3034
+White,Slope 33º 3 x 1,8,4286
+White,Slope 33º 3 x 2,8,3298
+White,Slope 45º 2 x 1,8,3040b
+White,Slope 45º 2 x 2,8,3039
+White,Slope Inverted 33º 3 x 1,8,4287
+White,Slope Inverted 45º 2 x 1,8,3665
+White,Slope Inverted 45º 2 x 2,4,3660
+Yellow,Brick 1 x 1 with Eye Squinting Black and White Print,4,3005px2
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,8,3005pe1
+Yellow,Brick 1 x 2,56,3004
+Yellow,Brick 1 x 4,12,3010
+Yellow,Brick 1 x 4 with Smile Print,4,3010px3
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 2 x 2,54,3003
+Yellow,Brick 2 x 3,16,3002
+Yellow,Brick 2 x 4,28,3001
+Yellow,Brick 2 x 6,4,2456
+Yellow,Brick 2 x 8,4,3007
+Yellow,Flag 4 x 1 Wave,2,4495
+Yellow,Plate 2 x 2,8,3022
+Yellow,Plate 2 x 3,4,3021
+Yellow,Plate 2 x 4,4,3020
+Yellow,Plate 2 x 6,4,3795
+Yellow,Plate 2 x 8,4,3034
+Yellow,Slope 45º 2 x 1,4,3040b
+Yellow,Slope Inverted 45º 2 x 1,4,3665

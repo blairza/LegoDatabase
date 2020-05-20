@@ -1,0 +1,103 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,8,3005
+Black,Brick 1 x 2,4,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 2 x 2,4,3003
+Black,Minifig Radio [Extended Handle],1,3962b
+Black,Tyre 30 x 10.5 Offset Tread,4,2346
+Black,Tyre Offset Tread,2,3483
+Blue,Brick 1 x 1,8,3005
+Blue,Brick 1 x 2,10,3004
+Blue,Brick 1 x 3,6,3622
+Blue,Brick 1 x 4,10,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,6,3003
+Blue,Brick 2 x 3,2,3002
+Blue,Brick 2 x 4,4,3001
+Blue,Hinge Tile 1 x 4,1,4625
+Blue,Plate 1 x 6,2,3666
+Blue,Plate 2 x 2,2,3022
+Blue,Slope 33° 3 x 2 with Red Triangles with Yellow Borders Print,4,3298px2
+Blue,Slope 33° 3 x 4 with Red Triangles with Yellow Border Print,2,3297px1
+Blue,Slope 33º 3 x 1,4,4286
+Blue,Slope 33º 3 x 2,2,3298
+Blue,Slope 33º 3 x 4,4,3297
+Blue,Slope 45º 2 x 2,2,3039
+Blue,Slope Inverted 33º 3 x 1,4,4287
+Blue,Slope Inverted 33º 3 x 2 [Connections between Studs],2,3747b
+Blue,Slope Inverted 45º 2 x 2,2,3660
+Blue,Slope Inverted 45Â° 6 x 4 Double with Recessed Center,1,30183
+Blue,Wedge 3 x 2 Left,1,6565
+Blue,Wedge 3 x 2 Right,1,6564
+Bright Green,Baseplate 16 x 32,2,3857
+Dark Gray,Brick Special 2 x 2 with Pins and Axle Hole,1,30000
+Dark Gray,Brick Special 2 x 4 with Pins,3,6249
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,4,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 2 x 2,2,3003
+Green,Brick 2 x 3 with Curved Top,2,6215
+Green,Bush 2 x 2 x 4,1,6064
+Green,Flag 4 x 1 Wave,2,4495
+Green,Flower Stem,3,3741
+Green,Hips and Legs [Complete Assembly],1,970c00
+Light Gray,Propeller 4 Blade 5 Diameter with Rounded Ends,1,2479
+Red,Brick 1 x 1,6,3005
+Red,Brick 1 x 2,12,3004
+Red,Brick 1 x 3,6,3622
+Red,Brick 1 x 4,10,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,6,3003
+Red,Brick 2 x 3,2,3002
+Red,Brick 2 x 4,4,3001
+Red,Brick Special 1 x 1 with Headlight,2,4070
+Red,Door 1 x 4 x 5 with 4 Panes,1,3861
+Red,Minifig Cap Long Peak,1,4485
+Red,Plate 2 x 10,2,3832
+Red,Plate 2 x 3,2,3021
+Red,Plate 2 x 4,2,3020
+Red,Plate 2 x 6,2,3795
+Red,Plate 3 x 3 Cut Corner,2,2450
+Red,Plate 3 x 6 Cut Corners,1,2419
+Red,Plate 4 x 6,2,3032
+Red,Plate Special 2 x 2 with Towball,1,3731
+Red,"Plate Special 2 x 2 with Towball Socket, Short, 4 Slots",1,3730
+Red,Wedge Plate 4 x 9,2,2413
+Red,Window 1 x 4 x 3,2,3853
+Trans-Clear,Windscreen 1 x 4 x 1 1/3 with Bottom Hinge,1,30161
+Trans-Light Blue,Windscreen 2 x 4 x 2,2,3823
+Unknown,Minifig,1,pck025
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 2,6,3004
+White,Brick 1 x 4,4,3010
+White,Brick 2 x 2,2,3003
+White,Brick 2 x 3,2,3002
+White,Brick 2 x 4,2,3001
+White,Fence 1 x 4 x 1,2,3633
+White,Flower - Small,4,3742
+White,Torso FreeStyle Print / Red Arms / Yellow Hands,1,973px33c01
+Yellow,Antenna 1 x 4,2,3957
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Yellow,Brick 1 x 2,6,3004
+Yellow,Brick 1 x 2 with Pin,1,2458
+Yellow,Brick 1 x 3,2,3622
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 4 with Black Smile Print,1,3010p01
+Yellow,Brick 2 x 2,2,3003
+Yellow,Brick 2 x 3,2,3002
+Yellow,Brick 2 x 4,2,3001
+Yellow,Brick Arch 1 x 4,2,3659
+Yellow,Brick Round 1 x 1 Open Stud,8,3062b
+Yellow,Flower - Small,4,3742
+Yellow,Minifig Head Male Bangs and Freckles Print,1,3626bpx19
+Yellow,Minifig Seat 2 x 2,2,4079
+Yellow,Plate Special 1 x 2 with Ladder,2,4175
+Yellow,Propeller 3 Blade 5.5 Diameter,1,4617
+Yellow,Tile Special 1 x 2 with Handle,2,2432
+Yellow,Tile Special 2 x 2 with Pin,1,2460
+Yellow,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",2,3829c01
+Yellow,Wheel Freestyle with Pin Hole,6,6248
+Yellow,Window 1 x 2 x 3 Pane,4,3854

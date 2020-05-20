@@ -1,0 +1,75 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,2,3005
+Black,Brick 1 x 3,1,3622
+Black,Brick 1 x 4,1,3010
+Black,Plate 1 x 10,2,4477
+Black,Plate 1 x 2,9,3023
+Black,Plate 1 x 4,6,3710
+Black,Plate 1 x 6,1,3666
+Black,Plate 1 x 8,2,3460
+Black,Plate 2 x 16,4,4282
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 6,1,3795
+Black,Plate 2 x 8,3,3034
+Black,Plate Special 1 x 2 with 1 Stud [aka Jumper],7,3794
+Black,Slope 45º 2 x 1,3,3040b
+Black,Slope Inverted 33º 3 x 1,2,4287
+Black,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Black,Technic Axle 10,2,3737
+Black,Technic Axle 12,1,3708
+Black,Technic Axle 2,2,3704
+Black,Technic Axle 3,11,4519
+Black,Technic Axle 4,4,3705
+Black,Technic Axle 6,8,3706
+Black,Technic Axle 8,2,3707
+Black,Technic Beam 1 x 4 Thin with Stud Connector,2,2825
+Black,Technic Beam Triangle Thin [Type I],3,2905
+Black,Technic Brick 1 x 12 with Holes,6,3895
+Black,Technic Brick 1 x 2 [1 Hole],5,3700
+Black,Technic Brick 1 x 4 [3 Holes],2,3701
+Black,Technic Brick 1 x 6 [5 Holes],3,3894
+Black,Technic Brick 1 x 8 [7 Holes],4,3702
+Black,Technic Flex Cable End - Ball Connection [No Cage or Clamp],2,2901
+Black,Technic Pin with Friction and Slots,17,2780
+Black,Technic Slope Long,4,2744
+Black,Technic Slope Short (Wing Front),6,2743
+Black,"Technic, Plate 1 x 4 with Toothed Ends",1,4263
+Black,"Technic, Plate 1 x 5 with Toothed Ends, 2 Studs and Center Axle Hole",1,2711
+Black,Tyre Offset Tread,4,3483
+Black,Wedge Plate 8 x 4 Wing Left,1,3933
+Black,Wedge Plate 8 x 4 Wing Right,1,3934
+Dark Gray,Technic Engine Piston Round,2,2851
+Dark Gray,"Technic, Flex Cable End, Pin Connection [Old - No Clamp]",2,2900
+Light Gray,Propeller 2 Blade 9 Diameter,1,2952
+Light Gray,Technic Axle Pin without Friction Ridges Lengthwise,4,3749
+Light Gray,Technic Axle Towball,2,2736
+Light Gray,Technic Axle and Pin Connector,13,3651
+Light Gray,Technic Bush,13,3713
+Light Gray,Technic Bush 1/2 Toothed Type I [+ Opening],33,4265a
+Light Gray,Technic Connector Toggle Joint Toothed,17,4273b
+Light Gray,Technic Engine Connecting Rod,2,2852
+Light Gray,Technic Engine Crankshaft,2,2853
+Light Gray,Technic Engine Cylinder,2,2850
+Light Gray,Technic Flex Cable 5L,2,flex08c05l
+Light Gray,Technic Pin 1/2,6,4274
+Light Gray,Technic Shock Absorber 6.5L - Complete Assembly (Spring Undetermined),1,731c01
+Light Gray,Technic Wedge Belt Wheel [aka Pulley],2,4185
+Light Gray,"Technic, Pin without Friction Ridges Lengthwise",2,3673
+Light Gray,"Technic, Plate 1 x 6 with Toothed Ends",2,4262
+Light Gray,"Technic, Steering Arm",2,4261
+Red,Brick 1 x 3,1,3622
+Red,Plate 1 x 2,2,3023
+Red,Plate 1 x 3,2,3623
+Red,Plate 1 x 6,1,3666
+Red,Plate 2 x 2 Corner,2,2420
+Red,Plate 2 x 3,1,3021
+Red,Plate 2 x 6,1,3795
+Red,Slope 33º 3 x 1,1,4286
+Red,Slope Inverted 45º 2 x 1,1,3665
+Red,Technic Slope Long,2,2744
+Red,Technic Slope Short (Wing Front),2,2743
+Trans-Green,Tile 1 x 1 with Groove,1,3070b
+Trans-Red,Plate 1 x 1,1,3024
+Trans-Red,Tile 1 x 1 with Groove,1,3070b
+White,Wheel with Split Axle hole,4,3482
+Yellow,Technic Seat [3 x 2 Base],1,2717

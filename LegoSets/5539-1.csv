@@ -1,0 +1,117 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 2,6,3004
+Black,Brick 1 x 3,2,3622
+Black,Brick 1 x 4,2,3010
+Black,Brick 2 x 2,8,3003
+Black,Brick 2 x 3,3,3002
+Black,Brick 2 x 4,3,3001
+Black,Brick Special 1 x 1 with Clip Horizontal,2,60476
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate Special 2 x 2 with Wheel Holders,2,4600
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope 45º 2 x 2,4,3039
+Black,"Tyre 20mm D. x 12mm - Offset Tread Small Wider, Beveled Tread Edge",4,60700
+Black,Tyre Offset Tread Small,4,3641
+Blue,Brick 1 x 1,8,3005
+Blue,Brick 1 x 2,12,3004
+Blue,Brick 1 x 3,4,3622
+Blue,Brick 1 x 4,3,3010
+Blue,Brick 1 x 6,3,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,16,3003
+Blue,Brick 2 x 3,6,3002
+Blue,Brick 2 x 4,6,3001
+Blue,Brick 2 x 6,2,2456
+Blue,Brick 2 x 8,1,3007
+Blue,Plate 1 x 4,4,3710
+Blue,Plate 1 x 6,2,3666
+Blue,Plate 2 x 3,2,3021
+Blue,Slope 45º 2 x 1,2,3040b
+Blue,Slope 45º 2 x 2,4,3039
+Blue,Slope 45º 2 x 4,8,3037
+Blue,Slope Inverted 45º 2 x 2,2,3660
+Bright Green,Plate 6 x 12,1,3028
+Green,Brick 1 x 1,4,3005
+Green,Brick 1 x 2,6,3004
+Green,Brick 1 x 3,2,3622
+Green,Brick 1 x 4,2,3010
+Green,Brick 2 x 2,8,3003
+Green,Brick 2 x 3,3,3002
+Green,Brick 2 x 4,3,3001
+Light Bluish Gray,Brick Special 1 x 2 with Grill,4,2877
+Light Bluish Gray,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],1,3839b
+Light Bluish Gray,Plate Special 2 x 2 with Wheels Holder Wide,2,6157
+Light Bluish Gray,Wheel 8mm D. x 6mm,4,4624
+Lime,Brick 1 x 2,4,3004
+Lime,Brick 2 x 2,8,3003
+Lime,Brick 2 x 4,4,3001
+Orange,Brick 1 x 2,4,3004
+Orange,Brick 2 x 2,8,3003
+Orange,Brick 2 x 4,4,3001
+Red,Brick 1 x 1,8,3005
+Red,Brick 1 x 2,12,3004
+Red,Brick 1 x 3,4,3622
+Red,Brick 1 x 4,3,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,1,3008
+Red,Brick 2 x 2,16,3003
+Red,Brick 2 x 3,6,3002
+Red,Brick 2 x 4,6,3001
+Red,Brick 2 x 6,1,2456
+Red,Brick 2 x 8,1,3007
+Red,Door Frame 2 x 4 x 6,1,60599
+Red,Flag 4 x 1 Wave,1,4495
+Red,Plate 1 x 2,4,3023
+Red,Plate 2 x 2,2,3022
+Red,Plate 2 x 3,2,3021
+Red,Plate 2 x 4,4,3020
+Red,Plate 2 x 6,2,3795
+Red,Plate 2 x 8,2,3034
+Red,Plate Round 1 x 1 Straight Side,4,4073
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope 45º 2 x 2,4,3039
+Red,Slope 45º 2 x 4,4,3037
+Red,Window 2 x 4 x 3 Frame,2,4132
+Trans-Clear,Windscreen 2 x 4 x 2,2,3823
+White,Antenna 1 x 4,1,3957
+White,Brick 1 x 1,4,3005
+White,Brick 1 x 1 with Simple Eye Black and White Print,4,3005pe1
+White,Brick 1 x 2,12,3004
+White,Brick 1 x 3,4,3622
+White,Brick 1 x 4,3,3010
+White,Brick 1 x 6,3,3009
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 2,16,3003
+White,Brick 2 x 3,6,3002
+White,Brick 2 x 4,6,3001
+White,Brick 2 x 6,2,2456
+White,Brick 2 x 8,1,3007
+White,Brick Arch 1 x 4,2,3659
+White,Brick Round 1 x 1 Open Stud,6,3062b
+White,Door 1 x 4 x 6 with 4 Panes and Stud Handle,1,60623
+White,Picket Fence 1 x 4 x 2,2,33303
+White,Plate 2 x 2,4,3022
+White,Slope Inverted 45º 2 x 2,2,3660
+White,Wheel 11.5mm D. x 12mm [Hole Notched for Wheel Snap Pin],4,6014b
+White,Window 1 x 2 x 3 Pane with Thick Corner Tabs,4,60608
+Yellow,Brick 1 x 1,4,3005
+Yellow,Brick 1 x 1 with Simple Eye Black and White Print,4,3005pe1
+Yellow,Brick 1 x 2,12,3004
+Yellow,Brick 1 x 2 with Eyes and Smile Print,2,3004p0b
+Yellow,Brick 1 x 3,4,3622
+Yellow,Brick 1 x 4,3,3010
+Yellow,Brick 1 x 6,2,3009
+Yellow,Brick 1 x 8,1,3008
+Yellow,Brick 2 x 2,16,3003
+Yellow,Brick 2 x 3,6,3002
+Yellow,Brick 2 x 4,6,3001
+Yellow,Brick 2 x 6,1,2456
+Yellow,Brick 2 x 8,1,3007
+Yellow,Plate 1 x 2,4,3023
+Yellow,Plate 2 x 4,2,3020
+Yellow,Slope 45º 2 x 1,4,3040b
+Yellow,Slope 45º 2 x 2,2,3039
+Yellow,Slope Inverted 45º 2 x 1,4,3665
+Yellow,Slope Inverted 45º 2 x 2,4,3660

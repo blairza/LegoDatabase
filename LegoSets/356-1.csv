@@ -1,0 +1,37 @@
+color,part,quantity,part_id
+Black,Plate 1 x 2,2,3023
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 3,1,3021
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,14,3004
+Blue,Brick 1 x 4,11,3010
+Blue,Brick 1 x 6,3,3009
+Blue,Brick 1 x 8,4,3008
+Blue,Brick Arch 1 x 6 x 2,5,3307
+Blue,Brick Special 1 x 1 x 2 with Shutter Holder,2,3581
+Blue,Slope 33º 2 x 2 Double,1,3300
+Blue,Slope 33º 2 x 4 Double,2,3299
+Blue,Slope 33º 3 x 2,3,3298
+Blue,Slope 33º 3 x 4,8,3297
+Green,Baseplate 16 x 32 Rounded Corners and Dots Print [356],1,374px2
+Green,"Plant, Tree Granulated Fruit",1,gtfruit
+Red,Brick 1 x 1,20,3005
+Red,Brick 1 x 2,9,3004
+Red,Brick 1 x 4,4,3010
+Red,Brick 1 x 6,4,3009
+Red,Brick 1 x 8,6,3008
+Red,Brick 2 x 2,2,3003
+Red,Brick 2 x 3 without Cross Supports,1,3002old
+Red,Brick Special 1 x 1 x 2 with Shutter Holder,2,3581
+Red,Plate 2 x 3,2,3021
+Red,Plate 4 x 6,1,3032
+Red,Slope 33º 2 x 2 Double,2,3300
+Red,Slope 33º 2 x 4 Double,1,3299
+Red,Slope 33º 3 x 2,2,3298
+Red,Slope 33º 3 x 4,6,3297
+White,Antenna with Side Spokes,1,3144
+White,Door 1 x 2 x 3 Left [Old Style with Glass],2,32bc01
+White,Fence 1 x 4 x 2,5,3185
+White,Tile 2 x 2 with Groove,8,3068b
+White,Window 1 x 2 x 2 with Fixed Glass,4,7026
+Yellow,Window 1 x 2 x 2 Shutter,4,3582

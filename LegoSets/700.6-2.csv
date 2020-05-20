@@ -1,0 +1,16 @@
+color,part,quantity,part_id
+Red,Brick 1 x 2 [No Bottom Tube],2,3065
+Red,Brick 2 x 2,6,3003
+Red,Brick 2 x 3 without Cross Supports,2,3002old
+Red,Brick 2 x 4 without Cross Supports,10,3001old
+Red,Brick 2 x 8,1,3007
+Red,Door 1 x 2 x 3 Right (old type),1,33bc01
+Red,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",1,29bc01
+Red,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",1,7026bc01
+Red,"Window 1 x 3 x 2 (old type) with Extended Lip, with Glass",1,31bc01
+Trans-Clear,Brick 2 x 4 without Cross Supports,2,3001old
+White,Brick 1 x 2 [No Bottom Tube],3,3065
+White,Brick 2 x 2,4,3003
+White,Brick 2 x 3 without Cross Supports,3,3002old
+White,Brick 2 x 4 without Cross Supports,8,3001old
+White,Plate 4 x 8,1,3035

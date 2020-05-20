@@ -1,0 +1,36 @@
+color,part,quantity,part_id
+Blue,Baseplate 24 x 32 with Rounded Corners,1,10b
+Blue,Brick 1 x 1,1,3005
+Blue,Tile 1 x 1 without Groove,4,3070a
+Blue,Tile 2 x 2 with Groove,3,3068b
+Red,Brick 1 x 1,1,3005
+Red,Brick 1 x 2,6,3004
+Red,Brick 1 x 4,4,3010
+Red,Brick 2 x 2,12,3003
+Red,Brick 2 x 4 without Cross Supports,12,3001old
+Red,Homemaker Cupboard Door 4 x 4,2,838
+Red,Plate 4 x 4,4,3031
+Red,Plate 6 x 10,1,3033
+Red,Tile 1 x 1 without Groove,6,3070a
+Trans-Clear,Brick 1 x 1,4,3005
+Trans-Clear,Brick Round 1 x 1 Open Stud,5,3062b
+Trans-Clear,Plate 1 x 1,1,3024
+White,Brick 1 x 4,2,3010
+White,Brick 1 x 4 with Black Grill Print - 20 Bars,1,3010p40
+White,Brick 1 x 4 with Homemaker Stove Switch Print,1,3010p41
+White,Brick 1 x 8,2,3008
+White,Brick 2 x 3 without Cross Supports,4,3002old
+White,Homemaker Bookcase 2 x 4 x 4,1,1
+White,Homemaker Cupboard 4 x 4 x 4,2,2
+White,Homemaker Cupboard 4 x 4 x 4 with Door Holder Holes,3,837
+White,Homemaker Cupboard Door 4 x 4,2,838
+White,Homemaker Drawer 4 x 4 x 2,4,3
+White,Homemaker Stove / Oven 4 x 4 x 3,1,841
+White,Homemaker Stove / Oven Door,1,843
+White,Homemaker Stove / Oven Shelf 4 x 4,1,842
+White,Homemaker Washbasin Base 4 x 4 x 4,1,839
+White,Homemaker Washbasin Sink with Chrome Silver Tap (Complete Assembly),1,840c01
+White,Plate 4 x 12,1,3029
+White,Tile 2 x 2 with Black Circle Small Print (without bottom Groove),4,3068ap17
+Yellow,Tile 1 x 2 without Groove,6,3069a
+Yellow,Tile 2 x 2 with Groove,52,3068b

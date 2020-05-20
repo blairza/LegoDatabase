@@ -1,0 +1,13 @@
+color,part,quantity,part_id
+Green,Window 1 x 2 x 3 Shutter,8,3856
+Red,Door 1 x 4 x 5 with 4 Panes,1,3861
+Red,Door Frame 1 x 3 x 4,2,3579
+Red,Window 1 x 1 x 1,2,39
+Red,Window 1 x 1 x 2,2,29
+Red,Window 1 x 2 x 1,2,27
+Red,Window 1 x 2 x 2 with Fixed Glass,2,7026
+Red,Window 1 x 3 x 2 with Fixed Glass,2,31
+Red,Window 1 x 4 x 2 with Fixed Glass,2,453
+Red,Window 1 x 4 x 3,4,3853
+White,Door 1 x 3 x 4,2,7930
+White,Window 1 x 2 x 3 Pane,8,3854

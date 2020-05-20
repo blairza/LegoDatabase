@@ -1,0 +1,37 @@
+color,part,quantity,part_id
+Black,Plate 1 x 2,1,3023
+Black,Tile 1 x 1 without Groove,2,3070a
+Black,Tile 1 x 2 without Groove,1,3069a
+Blue,Baseplate 24 x 32 with Rounded Corners,1,10b
+Blue,Plate 1 x 2,1,3023
+Blue,Tile 1 x 2 without Groove,2,3069a
+Red,Brick 1 x 1,48,3005
+Red,Brick 1 x 4,5,3010
+Red,Homemaker Cupboard Door 4 x 4,2,838
+Red,Homemaker Drawer 4 x 4 x 2,2,3
+Red,Plate 4 x 4,3,3031
+Red,Plate 6 x 8,1,3036
+Red,Tile 1 x 1 without Groove,4,3070a
+Red,Tile 1 x 2 without Groove,36,3069a
+Red,Tile 2 x 2 with Groove,34,3068b
+Trans-Clear,Brick 1 x 1,2,3005
+Trans-Clear,Brick Round 1 x 1 Open Stud,2,3062b
+White,Brick 1 x 1,18,3005
+White,Brick 1 x 4,8,3010
+White,Brick 1 x 6,6,3009
+White,Brick 1 x 8,4,3008
+White,Homemaker Bookcase 2 x 4 x 4,3,1
+White,Homemaker Cupboard 4 x 4 x 4,1,2
+White,Homemaker Cupboard 4 x 4 x 4 with Door Holder Holes,2,837
+White,Plate 4 x 10,2,3030
+White,Plate 6 x 12,2,3028
+White,Tile 1 x 1 without Groove,1,3070a
+White,Tile 1 x 2 without Groove,32,3069a
+White,Tile 2 x 2 with Groove,6,3068b
+Yellow,Brick 2 x 2,2,3003
+Yellow,Brick Round 1 x 1 Open Stud,2,3062b
+Yellow,Plate 1 x 1,2,3024
+Yellow,Plate 1 x 2,1,3023
+Yellow,Tile 1 x 1 without Groove,1,3070a
+Yellow,Tile 1 x 2 without Groove,8,3069a
+Yellow,Tile 2 x 2 with Groove,11,3068b

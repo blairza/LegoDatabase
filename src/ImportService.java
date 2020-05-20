@@ -10,17 +10,41 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.sql.Types;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 import javax.swing.JOptionPane;
 
 public class ImportService {
 	private Connection c;
+	private HashMap<String, String> setNumToName;
 
 	public ImportService(Connection c) {
 		this.c = c;
+		setNumToName = new HashMap<String, String>();
+		File file = new File("SetNames.csv");
+		BufferedReader br = null;
+		try {
+			br = new BufferedReader(new FileReader(file));
+		} catch (FileNotFoundException e1) {
+			e1.printStackTrace();
+		}
+		String st;
+		try {
+			while((st = br.readLine())!=null) {
+				String setNum = st.substring(0,st.indexOf(','));
+				String setName = st.substring(setNum.length()+1);
+				setNumToName.put(setNum, setName);
+			} 
+		} catch (IOException e1) {
+			e1.printStackTrace();
+		}
 	}
 
-	public boolean addSetToDatabase(File file) {
+	public boolean addSetToDatabase(String setNumber) {
+		String setName = getSetName(setNumber);
+		File file = new File("LegoSets/"+setNumber+".csv");
+		setNumber = setNumber.replace("-", "");
+		int setNum = Integer.parseInt(setNumber);
 		BufferedReader br = null;
 		try {
 			br = new BufferedReader(new FileReader(file));
@@ -42,27 +66,26 @@ public class ImportService {
 		ArrayList<String> vars = new ArrayList<String>();
 		int previous = 0;
 		for (int i = 0; i < setInfo.length(); i++) {
-			if (setInfo.charAt(i) == ' ') {
+			if (setInfo.charAt(i) == ',') {
 				vars.add(setInfo.substring(previous, i));
 				previous = i+1;
 			}
 		}
 		vars.add(setInfo.substring(previous,setInfo.length()-1));
-		int setNum = Integer.parseInt(vars.get(0));
-		String setName = vars.get(1);
-		int minAge = Integer.parseInt(vars.get(2));
-		int maxAge = Integer.parseInt(vars.get(3));
-		String theme = vars.get(4);
-		Double cost = Double.parseDouble(vars.get(5));
+		int minAge = 0;
+		int maxAge = 100;
+		String theme = "Other";
+		Double cost = 0.00;
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call brunera1.AddSet(?,?,?,?,?,?)}");
-			stmt.setInt(1, setNum);
-			stmt.setString(2, setName);
-			stmt.setInt(3, minAge);
-			stmt.setInt(4, maxAge);
-			stmt.setString(5, theme);
-			stmt.setDouble(6, cost);
+			stmt = c.prepareCall("{?= call brunera1.AddSet(?,?,?,?,?,?)}");
+			stmt.registerOutParameter(1, Types.INTEGER);
+			stmt.setInt(2, setNum);
+			stmt.setString(3, setName);
+			stmt.setInt(4, minAge);
+			stmt.setInt(5, maxAge);
+			stmt.setString(6, theme);
+			stmt.setDouble(7, cost);
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
@@ -85,21 +108,25 @@ public class ImportService {
 			ArrayList<String> vars = new ArrayList<String>();
 			int previous = 0;
 			for (int j = 0; j < pieceInfo.length(); j++) {
-				if (pieceInfo.charAt(j) == ' ') {
+				if (pieceInfo.charAt(j) == ',') {
 					vars.add(pieceInfo.substring(previous, j));
 					previous = j+1;
 				}
 			}
 			vars.add(pieceInfo.substring(previous,pieceInfo.length()-1));
+			fixList(vars);
 			String color = vars.get(0);
-			String partNum = vars.get(1);
-			String quantity = vars.get(2);
+			String partName = vars.get(1);
+			String partNum = vars.get(3);
+			int quantity = Integer.parseInt(vars.get(2));
+			addPart(partNum,partName);
+			addColor(color);
 			try {
 				stmt = c.prepareCall("{?=call brunera1.AddToSet(?,?,?,?)}");
 				stmt.registerOutParameter(1, Types.INTEGER);
 				stmt.setString(2, partNum);
 				stmt.setInt(3, setNum);
-				stmt.setString(4, quantity);
+				stmt.setInt(4, quantity);
 				stmt.setString(5, color);
 			}catch(SQLException e){
 				e.printStackTrace();
@@ -115,4 +142,51 @@ public class ImportService {
 		return false;
 	}
 
+	private String getSetName(String SetNum) {
+		return setNumToName.get(SetNum);
+	}
+	
+	private void addPart(String partNum, String partName) {
+		CallableStatement stmt = null;
+		try {
+			stmt = c.prepareCall("{?=call brunera1.NewPiece(?,?)}");
+			stmt.registerOutParameter(1, Types.INTEGER);
+			stmt.setString(2, partNum);
+			stmt.setString(3, partName);
+			stmt.execute();
+		} catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private void addColor(String colorName) {
+		CallableStatement stmt = null;
+		try {
+			stmt = c.prepareCall("{call brunera1.addColor(?)}");
+			stmt.setString(1,colorName);
+			stmt.execute();
+		} catch(SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	private boolean isNumeric(String strNum) {
+		if (strNum == null) {
+			return false;
+		}
+		try {
+			double d = Double.parseDouble(strNum);
+		} catch (NumberFormatException nfe) {
+			return false;
+		}
+		return true;
+	}
+	
+	private void fixList(ArrayList<String> list) {
+		while(!isNumeric(list.get(2))) {
+			String temp = list.get(2);
+			list.set(1, list.get(1)+","+temp);
+			list.remove(2);
+		}
+	}
 }

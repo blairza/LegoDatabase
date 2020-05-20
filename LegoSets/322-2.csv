@@ -1,0 +1,32 @@
+color,part,quantity,part_id
+Black,Plate 2 x 2,2,3022
+Blue,Slope 45° 2 x 1 Triple - without Bottom Pin,3,3048a
+Blue,Slope 45° 2 x 2 Double,2,3043
+Blue,Slope 45° 2 x 2 Double Concave,4,3046a
+Blue,Slope 45° 2 x 2 Double Convex,12,3045
+Blue,Slope 45° 2 x 2 Double Convex / Double Concave,1,962
+Blue,Slope 45° 2 x 3,6,3038
+Blue,Slope 45° 2 x 3 Double,1,3042
+Blue,Slope 45° 2 x 4 Double,3,3041
+Blue,Slope 45º 2 x 2,9,3039
+Blue,Slope 45º 2 x 4,34,3037
+Green,"Brick 10 x 20 without Bottom Tubes, with '+' Cross Support (early Baseplate)",2,700ex
+Green,"Plant, Tree Flat Bush painted with hollow base",4,ftbushh
+Green,"Plant, Tree Flat Pine painted with hollow base",1,ftpineh
+Light Gray,Plate 2 x 2,3,3022
+Light Gray,Plate 2 x 4,14,3020
+Red,Brick 1 x 1,2,3005
+Red,Brick 1 x 2,9,3004
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 10,2,3006
+Red,Brick 2 x 2,13,3003
+Red,Brick 2 x 3 without Cross Supports,12,3002old
+Red,Brick 2 x 4 without Cross Supports,11,3001old
+Red,Brick 2 x 8,6,3007
+Red,Brick Round 1 x 1 Solid Stud,4,3062a
+White,Door 1 x 2 x 3 Left [Old Style with Glass],1,32bc01
+White,"Window 1 x 1 x 2 (old type) with Extended Lip, with Glass",2,29bc01
+White,"Window 1 x 2 x 1 (old type) with Extended Lip, with Glass",1,27bc01
+White,"Window 1 x 2 x 2 (old type) with Extended Lip, with Glass, Hole in Top",2,7026bc01
+White,"Window 1 x 4 x 2 (old type) with Extended Lip, with Glass",2,453bc01
+White,Window 1 x 6 x 2 with Shutters [Old Style Extended Lip &amp; Glass],1,646bc01

@@ -1,0 +1,63 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,24,3005
+Black,Brick 1 x 2,34,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 6,5,3009
+Black,Brick 1 x 8,4,3008
+Black,Brick 2 x 2,3,3003
+Black,Brick 2 x 2 [Red Wheels for Single Tyre],2,3137c01
+Black,Brick Round 1 x 1 Solid Stud,4,3062a
+Black,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",1,7049b
+Black,Electric Motor  4 x 12 x  3.333 Type 1  4.5V,1,564c01
+Black,Plate 1 x 2,16,3023
+Black,Plate 2 x 2,5,3022
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 8,1,3035
+Black,Plate 6 x 8,1,3036
+Black,Slope 45º 2 x 1,16,3040b
+Black,Slope 45º 2 x 4,6,3037
+Black,Train Base 6 x 16 Type I with Wheels and Red and Blue Magnets,3,736c02
+Black,Train Base 6 x 22 Type 1 Motor Cutout,1,303
+Black,Train Battery Box Car (Complete Assembly) with Black Base and Red Wheels,1,3443cx1
+Black,Train Battery Box Car Roof  6 x 14,1,699
+Black,Train Brick  2 x  4 x  1.333 Sliding Wheel Block,2,x946
+Black,Train Brick 2 x 4 with Holder for Sliding Wheel Block,2,bb36
+Black,Train Buffer Single,12,buffer
+Black,Train Wheel Spoked for Motor,1,wheel2a
+Black,Tyre Smooth Small Single,4,3139
+Black,Tyre for Train Wheel for Electric Train Motor 12V,9,458
+Blue,Brick 1 x 1,20,3005
+Blue,Brick 1 x 2,4,3004
+Blue,Brick 1 x 6,6,3009
+Blue,Brick 1 x 8,6,3008
+Blue,Train Track Tapered Rail Curved Inside,16,3230a
+Blue,Train Track Tapered Rail Curved Outside,16,3229a
+Blue,Train Track Tapered Rail Straight 16L,8,3228a
+Light Gray,Plate 2 x 3,4,3021
+Light Gray,Plate 2 x 4,12,3020
+Light Gray,Plate 4 x 6,2,3032
+Light Gray,Plate 6 x 16,2,3027
+Red,Brick 1 x 1,4,3005
+Red,Brick 1 x 2,14,3004
+Red,Brick 1 x 6,2,3009
+Red,Plate 2 x 2,1,3022
+Red,Train Direction Switch - 4.5V 2 x 3,1,3218
+Red,Train Signal Circuit-Breaker Bar,1,trainsig2
+Red,Train Signal Post,1,x489
+Red,Train Wheel Spoked for Motor,8,wheel2a
+Trans-Clear,Brick 1 x 2 x 2 without Bottom Tube with Train Window Print,18,772p01
+Trans-Clear,Brick 1 x 4,1,3010
+White,"Electric, Wire 12V / 4.5V with two 2-prong connectors, 11 Studs Long",1,x466c11
+White,Plate 2 x 2,1,3022
+White,Plate 2 x 8,20,3034
+Yellow,Brick 1 x 1,2,3005
+Yellow,Brick 1 x 2,2,3004
+Yellow,Brick 1 x 4,1,3010
+Yellow,Brick 1 x 6,4,3009
+Yellow,Brick 1 x 8,6,3008
+Yellow,Brick 2 x 3 without Cross Supports,3,3002old
+Yellow,Plate 1 x 2,6,3023
+Yellow,Plate 4 x 12,1,3029
+Yellow,Plate 4 x 8,1,3035
+Yellow,Plate Special 1 x 4 with Towball,1,3184
+Yellow,Window 1 x 1 x 1 Classic with Short Sill,2,3087c

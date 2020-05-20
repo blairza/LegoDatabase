@@ -1,0 +1,24 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2,8,3004
+Blue,Brick 1 x 4,12,3010
+Blue,Brick 2 x 2,2,3003
+Blue,Brick 2 x 3 without Cross Supports,2,3002old
+Blue,Brick 2 x 4 without Cross Supports,2,3001old
+Blue,Brick Round 1 x 1 Solid Stud,8,3062a
+Blue,Plate 2 x 2,2,3022
+Blue,Plate 2 x 3,1,3021
+Blue,Plate 2 x 4,1,3020
+Blue,Slope 45º 2 x 1,2,3040b
+Blue,Slope 45º 2 x 2,1,3039
+Light Gray,Plate 2 x 4,7,3020
+Light Gray,Plate 4 x 12,4,3029
+Red,Plate 2 x 2,2,3022
+Red,Plate Special 3 x 2 with Hole,3,3176
+Red,"Plate, Modified 3 x 2 with Hole (Train Coupler Closed) with Hook",3,3176c01
+Red,"Train Wheel with 2 x 2 Stud Center, Traction Teeth",12,wheel1a
+Trans-Clear,Brick 2 x 4 without Cross Supports,1,3001old
+White,"Brick, Modified 2 x 4 with Wheels Holder Old, Clear Bottom",6,7049b
+White,Plate 2 x 2,1,3022
+Yellow,Brick 2 x 4 without Cross Supports,3,3001old
+Yellow,Brick Round 1 x 1 Solid Stud,1,3062a

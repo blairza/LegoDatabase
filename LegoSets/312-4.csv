@@ -1,0 +1,21 @@
+color,part,quantity,part_id
+Blue,Brick 1 x 1,4,3005
+Blue,Brick 1 x 2 [No Bottom Tube],8,3065
+Blue,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",6,crssprt01
+Blue,Brick 2 x 2,2,3003
+Blue,Brick 2 x 4 without Cross Supports,17,3001old
+Blue,Brick 2 x 8,6,3007
+Blue,Brick Round 1 x 1 [No Bottom Groove],4,3062straight
+Blue,Brick Round Corner 2 x 2 [Macaroni],6,3063
+Red,Brick 2 x 3 without Cross Supports,9,3002old
+Red,"Window 1 x 2 x 1 (old type) with Extended Lip, with Glass",6,27bc01
+Trans-Clear,Brick 2 x 3 without Cross Supports,2,3002old
+White,Brick 1 x 1,6,3005
+White,Brick 1 x 1 with Blue '1' Print,2,3005pt1
+White,Brick 1 x 1 with Blue U Print,2,3005ptu
+White,Brick 1 x 2 [No Bottom Tube],6,3065
+White,"Brick 1 x 8 No Bottom Tubes, with Cross Supports",4,crssprt01
+White,Brick 2 x 3 without Cross Supports,4,3002old
+White,Brick Round 1 x 1 [No Bottom Groove],2,3062straight
+White,Plate 6 x 8,1,3036
+Yellow,Brick Round 1 x 1 [No Bottom Groove],10,3062straight

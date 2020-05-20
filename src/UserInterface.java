@@ -298,21 +298,20 @@ public class UserInterface {
 	private void setUpImportScreen() {
 		importScreen = new JFrame();
 		JPanel filebar = new JPanel();
-		JTextField fileName = new JTextField("Insert File Name");
+		JTextField setNum = new JTextField("Insert Set Number");
 		JPanel buttons = new JPanel();
-		JButton importFile = new JButton("Import File");
+		JButton importFile = new JButton("Import Set");
 		JButton back = new JButton("Back");
 		back.addActionListener(new BackButton());
 		buttons.add(back);
-		filebar.add(fileName);
+		filebar.add(setNum);
 		buttons.add(importFile);
 		importFile.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				String fname = fileName.getText();
-				File f = new File(fname);
-				ld.addSetToDatabase(f);
+				String setNumber = setNum.getText();
+				ld.addSetToDatabase(setNumber);
 				openMessage("Set Successfully Imported");
 			}
 		});

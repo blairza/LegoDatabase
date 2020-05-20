@@ -1,0 +1,25 @@
+color,part,quantity,part_id
+Black,Brick 1 x 2,11,3004
+Black,Brick 1 x 4,8,3010
+Black,Brick 1 x 6,4,3009
+Black,Brick 1 x 8,7,3008
+Black,Plate 1 x 1,1,3024
+Black,Plate 1 x 2,4,3023
+Black,Plate 2 x 2,1,3022
+Black,Plate 2 x 8,1,3034
+Black,Plate 4 x 10,2,3030
+Black,Slope 45º 2 x 1,2,3040b
+Black,Tile 1 x 1 without Groove,5,3070a
+Black,Tile 1 x 2 without Groove,7,3069a
+Black,Tile 2 x 2 with Groove,5,3068b
+Red,Brick 1 x 1,1,3005
+Red,Brick 2 x 2,1,3003
+Red,Tile 1 x 2 without Groove,2,3069a
+Red,Tile 2 x 2 with Groove,4,3068b
+White,Brick 1 x 2,6,3004
+White,Brick 2 x 8,1,3007
+White,Homemaker Bookcase 2 x 4 x 4,1,1
+White,Tile 1 x 1 without Groove,5,3070a
+White,Tile 1 x 2 without Groove,5,3069a
+White,Tile 2 x 2 with Groove,2,3068b
+Yellow,Tile 1 x 2 without Groove,3,3069a

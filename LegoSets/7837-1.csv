@@ -1,0 +1,90 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,18,3005
+Black,Brick 1 x 2,12,3004
+Black,Brick 1 x 4,6,3010
+Black,Brick 1 x 6,2,3009
+Black,Brick 2 x 2,24,3003
+Black,Brick 2 x 3,6,3002
+Black,Brick 2 x 4,8,3001
+Black,Plate 2 x 2,8,3022
+Black,Plate 2 x 3,2,3021
+Black,Plate 2 x 4,2,3020
+Black,Plate Special 1 x 2 with Handles [Flat Ends / Low Attachment],2,3839b
+Black,Slope 45º 2 x 1,4,3040b
+Black,Slope Inverted 45º 2 x 1,4,3665
+Blue,Brick 1 x 1,22,3005
+Blue,Brick 1 x 2,12,3004
+Blue,Brick 1 x 4,4,3010
+Blue,Brick 1 x 6,2,3009
+Blue,Brick 1 x 8,2,3008
+Blue,Brick 2 x 2,24,3003
+Blue,Brick 2 x 3,6,3002
+Blue,Brick 2 x 4,8,3001
+Blue,Plate 2 x 2,8,3022
+Blue,Plate 2 x 3,4,3021
+Blue,Plate 2 x 4,2,3020
+Chrome Silver,Tile 1 x 2 Grill with Bottom Groove,2,2412b
+Dark Gray,Brick 1 x 1 with Simple Eye Black and White Print,2,3005pe1
+Dark Gray,Brick 1 x 2,6,3004
+Dark Gray,Brick 2 x 2,4,3003
+Dark Gray,Plate 2 x 2,4,3022
+Dark Gray,Slope 33º 3 x 1,2,4286
+Dark Gray,Slope Inverted 33º 3 x 1,2,4287
+Orange,Brick 1 x 2,6,3004
+Orange,Brick 1 x 4,4,3010
+Orange,Brick 2 x 2,8,3003
+Orange,Brick 2 x 3,2,3002
+Orange,Brick 2 x 4,4,3001
+Orange,Plate 2 x 2,4,3022
+Orange,Plate 2 x 4,2,3020
+Orange,Slope 45º 2 x 1,4,3040b
+Orange,Slope Inverted 45º 2 x 1,4,3665
+Purple,Brick 1 x 2,6,3004
+Purple,Brick 1 x 4,4,3010
+Purple,Brick 1 x 6,2,3009
+Purple,Brick 2 x 2,6,3003
+Purple,Brick 2 x 4,4,3001
+Purple,Plate 2 x 2,4,3022
+Purple,Plate 2 x 4,2,3020
+Purple,Slope 45º 2 x 2,2,3039
+Purple,Slope Inverted 45º 2 x 1,4,3665
+Red,Brick 1 x 1,22,3005
+Red,Brick 1 x 2,16,3004
+Red,Brick 1 x 4,6,3010
+Red,Brick 1 x 6,2,3009
+Red,Brick 1 x 8,2,3008
+Red,Brick 2 x 2,28,3003
+Red,Brick 2 x 3,8,3002
+Red,Brick 2 x 4,12,3001
+Red,Brick 2 x 6,2,2456
+Red,Plate 2 x 2,8,3022
+Red,Plate 2 x 3,4,3021
+Red,Plate 2 x 4,2,3020
+Red,Plate 3 x 3 Cut Corner,2,2450
+Red,Slope 45º 2 x 1,4,3040b
+Red,Slope Inverted 45º 2 x 1,4,3665
+Trans-Neon Green,Dish 2 x 2 Inverted [Radar],2,4740
+White,Brick 1 x 1,18,3005
+White,Brick 1 x 2,12,3004
+White,Brick 1 x 4,4,3010
+White,Brick 1 x 6,2,3009
+White,Brick 2 x 2,24,3003
+White,Brick 2 x 3,8,3002
+White,Brick 2 x 4,9,3001
+White,Brick 2 x 8,2,3007
+White,Plate 2 x 2,8,3022
+White,Plate 2 x 3,4,3021
+White,Plate 2 x 4,2,3020
+Yellow,Brick 1 x 1,22,3005
+Yellow,Brick 1 x 2,12,3004
+Yellow,Brick 1 x 2 with Eyes and Smile Print,1,3004p0b
+Yellow,Brick 1 x 4,4,3010
+Yellow,Brick 1 x 8,2,3008
+Yellow,Brick 2 x 2,24,3003
+Yellow,Brick 2 x 3,6,3002
+Yellow,Brick 2 x 4,8,3001
+Yellow,Brick 2 x 6,2,2456
+Yellow,Flexible Hose 8.5L [Tabbed Black Ends],2,73590c02b
+Yellow,Plate 2 x 2,8,3022
+Yellow,Plate 2 x 3,4,3021
+Yellow,Plate 2 x 4,2,3020

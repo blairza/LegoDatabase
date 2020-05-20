@@ -1,0 +1,33 @@
+color,part,quantity,part_id
+Black,Brick 2 x 2,5,3437
+Black,Plate 2 x 4,1,40666
+Black,Slope 2 x 2 Slope 45°,2,6474
+Blue,Brick 1 x 2 x 2,2,4066
+Blue,Brick 2 x 2,6,3437
+Blue,Brick 2 x 3 x 2 with Curve,2,2301
+Blue,Brick 2 x 4,2,3011
+Bright Green,Brick 2 x 2,6,3437
+Bright Green,Brick 2 x 4,2,3011
+Bright Green,Door / Window with Four Equal Square Cornered Panes,1,90265
+Bright Green,Flower with 1 Top Stud,1,6510
+Bright Green,Plate 2 x 8,1,44524
+Dark Orange,Brick 2 x 2,3,3437
+Dark Orange,Plate 2 x 4,2,40666
+Dark Orange,Slope 2 x 2 Slope 45°,2,6474
+Lime,Brick 2 x 2,3,3437
+Lime,Brick 2 x 4,1,3011
+Orange,Brick 2 x 2,2,3437
+Orange,Flower with 1 Top Stud,1,6510
+Orange,Plate 2 x 4,2,40666
+Red,Brick 2 x 2,9,3437
+Red,Brick 2 x 3,2,87084
+Red,Brick 2 x 3 with Curved Top,2,2302
+Red,Brick 2 x 4,2,3011
+Red,"Door Frame Flat Front Surface, Completely Open Back",1,61649
+Red,Slope 2 x 2 Slope 45°,2,6474
+White,Brick 2 x 2,5,3437
+White,Brick 2 x 4,1,3011
+White,Plate 2 x 4,1,40666
+Yellow,Brick 1 x 2 x 2,2,4066
+Yellow,Brick 2 x 2,9,3437
+Yellow,Brick 2 x 4,2,3011

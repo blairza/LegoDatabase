@@ -1,0 +1,130 @@
+color,part,quantity,part_id
+Black,Brick 1 x 1,4,3005
+Black,Brick 1 x 2,8,3004
+Black,Brick 1 x 4,4,3010
+Black,Brick 1 x 8,6,3008
+Black,"Brick, Modified 2 x 4 with Wheels, Train Spoked Small (23mm D.) Black",2,4180c01
+Black,Flexible Hose 8.5L [Tabless Ends Tube Coloured],2,73590c01a
+Black,Hook Metal 1 x 4 x 1,1,x99
+Black,Lever Small Base with Light Bluish Gray Lever,2,298c05
+Black,Magnet Cylindrical,2,73092
+Black,Panel 1 x 2 x 1 [Square Corners],4,4865a
+Black,Plate 1 x 2,12,3023
+Black,Plate 1 x 6,8,3666
+Black,Plate 2 x 10,1,3832
+Black,Plate 2 x 2,2,3022
+Black,Plate 2 x 4,3,3020
+Black,Plate 2 x 6,2,3795
+Black,Plate 6 x 16,1,3027
+Black,Plate Special 1 x 8 with Door Rail,8,4510
+Black,Plate Special 2 x 2 with Wheel Holder,4,4488
+Black,Plate Special 2 x 2 with Wheels Red,2,122c01
+Black,Slope Inverted 45º 2 x 1,8,3665
+Black,"String, Cord Thin",1,x77a
+Black,Technic Pin with Friction Ridges Lengthwise [No Slots],12,4459
+Black,Tile 1 x 2 with Groove,4,3069b
+Black,Tile 1 x 8,4,4162
+Black,Train Buffer Beam,2,4022
+Black,Train Coupling,2,4023
+Black,Tyre Offset Tread Medium,4,4084
+Black,Tyre Offset Tread Small,4,3641
+Blue,Hinge Vehicle Roof 4 x 4,1,4213
+Blue,Plate 1 x 2,16,3023
+Blue,Plate 2 x 2,1,3022
+Blue,Plate 2 x 4,1,3020
+Blue,Plate 2 x 6,1,3795
+Blue,Plate 2 x 8,3,3034
+Blue,Plate 4 x 10,1,3030
+Blue,Plate 4 x 4,1,3031
+Blue,Plate 4 x 8,4,3035
+Blue,Plate Special 1 x 1 with Clip Light [Thin Ring],2,4081a
+Blue,Tile 1 x 2 with Groove,4,3069b
+Blue,Tile 1 x 8,2,4162
+Blue,Vehicle Base 4 x 5,1,4211
+Blue,"Vehicle, Steering Column 1 x 2 with Black Steering Wheel",1,3829c01
+Dark Gray,"Train, Track Sleeper Plate 2 x 8 with Cable Grooves",5,4166
+Light Gray,Baseplate Road 32 x 32 7-Stud Straight with Road with White Sidelines Print,1,80547pb01
+Light Gray,Bracket 2 x 3 - 1 x 3 (Train Signal Stand),4,4169
+Light Gray,Brick 1 x 2,13,3004
+Light Gray,Brick 1 x 3,4,3622
+Light Gray,Brick 1 x 4,4,3010
+Light Gray,Brick 1 x 6,4,3009
+Light Gray,Brick 1 x 8,8,3008
+Light Gray,Hinge Plate 1 x 2 with 3 Fingers and Solid Studs,2,4275a
+Light Gray,Hinge Tile 1 x 2 1/2 with 2 Fingers on Top,2,4531
+Light Gray,Plate 1 x 1,2,3024
+Light Gray,Plate 1 x 10,8,4477
+Light Gray,Plate 1 x 2,7,3023
+Light Gray,Plate 1 x 3,12,3623
+Light Gray,Plate 1 x 4,4,3710
+Light Gray,Plate 1 x 8,20,3460
+Light Gray,Plate 2 x 10,4,3832
+Light Gray,Plate 2 x 16,4,4282
+Light Gray,Plate 2 x 4,2,3020
+Light Gray,Plate Special 1 x 2 with Ladder,3,4175
+Light Gray,Plate Special 1 x 8 with Door Rail,18,4510
+Light Gray,Slope 33º 3 x 1,2,4286
+Light Gray,Technic Brick 1 x 2 [1 Hole],4,3700
+Light Gray,Technic Brick 1 x 4 [3 Holes],4,3701
+Light Gray,Technic Brick 1 x 8 [7 Holes],4,3702
+Light Gray,Train Track Slotted Rail Straight,8,3228b
+Light Gray,"Train, Track 12V Conducting Rail Straight",2,3242
+Light Gray,Wheel 8mm D. x 6mm,4,4624
+Red,Brick 1 x 2,10,3004
+Red,Brick 1 x 2 with Black Grill Print,4,3004p06
+Red,Brick 2 x 2,3,3003
+Red,Brick 2 x 3,2,3002
+Red,Brick 2 x 4,2,3001
+Red,Cone 1 x 1 [No Top Groove],8,4589
+Red,Hinge Vehicle Roof 4 x 4,1,4213
+Red,Hinge Vehicle Roof Holder 1 x 4,1,4315
+Red,Panel 1 x 2 x 1 [Square Corners],6,4865a
+Red,Plate 1 x 1,1,3024
+Red,Plate 1 x 2,16,3023
+Red,Plate 1 x 3,1,3623
+Red,Plate 1 x 4,4,3710
+Red,Plate 2 x 10,3,3832
+Red,Plate 2 x 16,1,4282
+Red,Plate 2 x 3,1,3021
+Red,Plate 2 x 4,7,3020
+Red,Plate 2 x 6,1,3795
+Red,Plate 2 x 8,3,3034
+Red,Plate 4 x 4,1,3031
+Red,Plate 4 x 6,1,3032
+Red,Plate Special 1 x 1 with Clip Light [Thin Ring],4,4081a
+Red,Plate Special 1 x 2 with Ladder,1,4175
+Red,Slope 33º 3 x 2,6,3298
+Red,Slope Inverted 33º 3 x 2 [Connections between Studs],1,3747b
+Red,Slope Inverted 45º 2 x 2,1,3660
+Red,String Reel Winch 2 x 4 x 2 (Light Gray Drum),1,73037
+Red,Technic Brick 1 x 16 with Holes,1,3703
+Red,Technic Brick 1 x 2 [1 Hole],4,3700
+Red,Technic Brick 1 x 6 [5 Holes],1,3894
+Red,Tile 1 x 1 with Groove,2,3070b
+Red,Tile Round 2 x 2 - Lifting Ring,2,2376
+Trans-Clear,Windscreen 2 x 4 x 2,2,3823
+Trans-Clear,Windscreen 2 x 4 x 2 Inverted,1,4284
+Trans-Clear,Windscreen 2 x 4 x 2 Vertical,1,4594
+Trans-Red,Plate Round 1 x 1 Straight Side,2,4073
+Trans-Yellow,Plate 1 x 1,2,3024
+Unknown,"Jacket Red with Zipper - Red Arms - Black Legs, Red Hat",1,jred014
+Unknown,"Shirt with 6 Buttons - Blue, Blue Legs, Red Construction Helmet",1,but011
+White,Brick 1 x 2 with Black Grill Print,1,3004p06
+White,Brick 1 x 4,7,3010
+White,Brick 2 x 2,1,3003
+White,Brick Special 1 x 1 with Headlight,2,4070
+White,Door 1 x 3 x 1 Left,1,3822
+White,Door 1 x 3 x 1 Right,1,3821
+White,Hinge Vehicle Roof Holder 1 x 4 x 2,1,4214
+White,Panel 1 x 2 x 3 - Solid Studs,4,2362a
+White,Panel 1 x 4 x 3 - Solid Studs,4,4215a
+White,Plate 1 x 1,2,3024
+White,Plate 1 x 2,4,3023
+White,Plate 1 x 3,2,3623
+White,Plate 2 x 4,1,3020
+White,Tile 1 x 2 with Groove,2,3069b
+White,Wedge Plate 3 x 4 without Stud Notches,1,4859
+White,Window 1 x 2 x 3 Shutter,4,3856
+White,Window 1 x 4 x 3,2,3853
+Yellow,Brick 1 x 2,8,3004
+Yellow,Minifig Seat 2 x 2,1,4079
