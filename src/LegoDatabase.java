@@ -69,6 +69,9 @@ public class LegoDatabase {
 	public ArrayList<String[]> getParts() {
 		ResultSet s  = allPieces.showAllPieces();
 		ArrayList<String[]> temp = new ArrayList<String[]>();
+		if(s==null) {
+			return temp;
+		}
 		try {
 			while(s.next()) {
 				String[] tempArr = new String[2];
@@ -85,6 +88,9 @@ public class LegoDatabase {
 	public ArrayList<String[]> getSets() {
 		ResultSet s = allSets.getSets();
 		ArrayList<String[]> temp = new ArrayList<String[]>();
+		if(s==null) {
+			return temp;
+		}
 		try {
 			while(s.next()) {
 				String[] tempArr = new String[2];
@@ -112,6 +118,9 @@ public class LegoDatabase {
 	public ArrayList<String[]> getOwnedSets(String username) {
 		ResultSet s = ownedSets.getOwnedSets(username);
 		ArrayList<String[]> temp = new ArrayList<String[]>();
+		if(s==null) {
+			return temp;
+		}
 		try {
 			while(s.next()) {
 				String[] tempArr = new String[3];
@@ -129,6 +138,9 @@ public class LegoDatabase {
 	public ArrayList<String[]> getOwnedParts(String username) {
 		ResultSet s = ownedPieces.getOwnedPieces(username);
 		ArrayList<String[]> temp = new ArrayList<String[]>();
+		if(s==null) {
+			return temp;
+		}
 		try {
 			while(s.next()) {
 				String[] tempArr = new String[4];
@@ -154,6 +166,9 @@ public class LegoDatabase {
 	public ArrayList<String[]> getWishlistedSets(String username) {
 		ResultSet s = wishList.GetWishListedSets(username);
 		ArrayList<String[]> temp = new ArrayList<String[]>();
+		if(s==null) {
+			return temp;
+		}
 		try {
 			while(s.next()) {
 				String[] tempArr = new String[2];

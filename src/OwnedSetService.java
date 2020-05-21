@@ -15,7 +15,7 @@ public class OwnedSetService {
 	public int addSet(String setNum,String username) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.addSetToCollection(?,?)}");
+			stmt = c.prepareCall("{?=call addSetToCollection(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, username);
 			stmt.setString(3, setNum);
@@ -55,7 +55,7 @@ public class OwnedSetService {
 	public int removeSet(String user, String setNum) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.removeSetFromCollection(?,?)}");
+			stmt = c.prepareCall("{?=call removeSetFromCollection(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, user);
 			stmt.setString(3, setNum);

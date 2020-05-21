@@ -32,7 +32,7 @@ public class UserLogin{
 	public boolean login(String username, String password) {
 		try {
 			CallableStatement stmt = dbConnection.prepareCall("{? = call Login(@Username = ?)}");
-//			String query = "SELECT PasswordSalt,PasswordHash \nFROM brunera1.Users \nWHERE Username = ?";
+//			String query = "SELECT PasswordSalt,PasswordHash \nFROM Users \nWHERE Username = ?";
 //			PreparedStatement stmt = dbConnection.prepareStatement(query);
 			stmt.registerOutParameter(1,Types.INTEGER);
 			stmt.setString(2, username);
@@ -56,7 +56,7 @@ public class UserLogin{
 
 	public boolean register(String username, String password) {
 		try {
-			CallableStatement stmt = dbConnection.prepareCall("{? = call brunera1.Register(@Username=?,@PasswordSalt=?,@PasswordHash=?)}");
+			CallableStatement stmt = dbConnection.prepareCall("{? = call Register(@Username=?,@PasswordSalt=?,@PasswordHash=?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			byte[] salt = getNewSalt();
 			stmt.setString(2, username);

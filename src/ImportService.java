@@ -82,7 +82,7 @@ public class ImportService {
 		Double cost = 0.00;
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?= call brunera1.AddSet(?,?,?,?,?,?)}");
+			stmt = c.prepareCall("{?= call AddSet(?,?,?,?,?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setInt(2, setNum);
 			stmt.setString(3, setName);
@@ -129,7 +129,7 @@ public class ImportService {
 			addPart(partNum,partName);
 			addColor(color);
 			try {
-				stmt = c.prepareCall("{?=call brunera1.AddToSet(?,?,?,?)}");
+				stmt = c.prepareCall("{?=call AddToSet(?,?,?,?)}");
 				stmt.registerOutParameter(1, Types.INTEGER);
 				stmt.setString(2, partNum);
 				stmt.setInt(3, setNum);
@@ -156,7 +156,7 @@ public class ImportService {
 	private void addPart(String partNum, String partName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.NewPiece(?,?)}");
+			stmt = c.prepareCall("{?=call NewPiece(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, partNum);
 			stmt.setString(3, partName);
@@ -169,7 +169,7 @@ public class ImportService {
 	private void addColor(String colorName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call brunera1.addColor(?)}");
+			stmt = c.prepareCall("{call addColor(?)}");
 			stmt.setString(1,colorName);
 			stmt.execute();
 		} catch(SQLException e) {

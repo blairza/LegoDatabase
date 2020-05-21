@@ -18,7 +18,7 @@ public class AllPieceService {
 	public boolean addPiece(String partNum,String partName) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call brunera1.NewPiece(?,?)}");
+			stmt = c.prepareCall("{call NewPiece(?,?)}");
 			stmt.setString(1, partNum);
 			stmt.setString(2, partName);
 		}catch(SQLException e){

@@ -55,7 +55,7 @@ public class WishListService {
 	public int removeSet(String user, String setNumber) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.RemoveFromWishList(?,?)}");
+			stmt = c.prepareCall("{?=call RemoveFromWishList(?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, user);
 			stmt.setString(3, setNumber);

@@ -20,7 +20,7 @@ public class OwnedPieceService {
 	public int addPiece(String username, String color, String partNum, String quantity) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{?=call brunera1.AddPieceToCollection(?,?,?,?)}");
+			stmt = c.prepareCall("{?=call AddPieceToCollection(?,?,?,?)}");
 			stmt.registerOutParameter(1, Types.INTEGER);
 			stmt.setString(2, username);
 			stmt.setString(3, color);

@@ -18,7 +18,7 @@ public class AllSetService {
 	public boolean add(int setNum,String setName, int minAge, int maxAge, String theme, double cost) {
 		CallableStatement stmt = null;
 		try {
-			stmt = c.prepareCall("{call brunera1.AddSet(?,?,?,?,?,?)}");
+			stmt = c.prepareCall("{call AddSet(?,?,?,?,?,?)}");
 			stmt.setInt(1, setNum);
 			stmt.setString(2, setName);
 			stmt.setInt(3, minAge);
