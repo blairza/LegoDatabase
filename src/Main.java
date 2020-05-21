@@ -102,7 +102,7 @@ public class Main {
 	}
 
 	private static void oldConnect() {
-		LegoDatabase ld = new LegoDatabase("golem.csse.rose-hulman.edu", "Lego_Database");
+		LegoDatabase ld = new LegoDatabase("golem.csse.rose-hulman.edu", "Lego_Database_Demo");
 		String encodedPass = "cmtRTGpRMQ==";
 		byte[] decodedBytes = Base64.getDecoder().decode(encodedPass);
 		String pass = new String(decodedBytes);
